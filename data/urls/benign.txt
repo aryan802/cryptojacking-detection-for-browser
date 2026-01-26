@@ -1,0 +1,10 @@
+https://www.wikipedia.org
+https://www.mozilla.org
+https://www.python.org
+https://www.stackoverflow.com
+https://www.github.com
+https://www.microsoft.com
+https://www.apple.com
+https://www.reddit.com
+https://www.bbc.com
+https://www.nytimes.com

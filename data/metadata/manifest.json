@@ -1,0 +1,13 @@
+{
+  "collection_tool": "Selenium + Chrome DevTools",
+  "metrics": [
+    "HTML",
+    "JavaScript",
+    "WebAssembly",
+    "Network Logs",
+    "Runtime Metrics"
+  ],
+  "sampling_duration_seconds": 30,
+  "early_detection_windows": [5, 10, 30],
+  "ethics_note": "Only publicly accessible websites were crawled."
+}
