@@ -10,6 +10,12 @@ Design and evaluate a hybrid classical - quantum machine learning framework for 
 
 (c) demonstrates whether and how QML components improve detection, early-warning latency, and robustness compared to state-of-the-art classical baselines.
 
+## Authors
+
+1) Aryan Jain (aryan802)
+2) Mridul Yadav (mridul2493)
+
+under guidance of Dr. Adrija Bhattacharya
 
 ## Overview
 
@@ -100,9 +106,19 @@ WASM_present OR suspicious_runtime_behavior
 - Validation pipeline for false positive reduction
 - Final labeled dataset preparation in progress
 
+### January 27
+- 89 crypto samples, now fast crawling over 160 benign samples
+- Currently have 89 crypto and 177 benign with fast crawl
+- Now we have runtime metrics (time series), network logs, and early execution behaviour
+- Its perfect for early detection, anomaly detection, and qml(which prefers small samples)
+- Next steps for today will be
+     -  Dataset finalization & labelling
+     -  Feature extraction (from FAST data crawl)
+
+
 ## Requirements
 
-- Python 3.x
+- Python 3.12+
 - Chrome/Chromium browser
 - ChromeDriver
 - Chrome DevTools Protocol support
@@ -139,14 +155,6 @@ data/
     └── cryptojacking/
 ```
 
-## Next Steps
-
-- Machine learning model development and training
-- Feature extraction from collected metrics
-- Model evaluation and benchmarking
-- Integration into browser extension
-- Real-world validation and deployment
-
 ## Notes
 
 - False negatives are not acceptable in cryptojacking detection
@@ -163,5 +171,5 @@ data/
 
 ---
 
-**Status**: Active Development - Data collection and validation pipeline complete. Moving towards ML model development phase.
+**Status**: Active Development - Currently doing Data collection and validation pipeline, next will move towards classical baselines models
 
