@@ -5,7 +5,9 @@ PROBLEM STATEMENT
 Design and evaluate a hybrid classical - quantum machine learning framework for browser-based cryptojacking detection that:
 
 (a) combines static (URL / HTML / JS / Wasm) and dynamic (CPU, network, DNS, timing) signals
+
 (b) is resilient to WebAssembly obfuscation and code diversification 
+
 (c) demonstrates whether and how QML components improve detection, early-warning latency, and robustness compared to state-of-the-art classical baselines.
 
 
