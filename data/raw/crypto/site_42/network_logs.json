@@ -1,0 +1,162 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"navigationType\":\"differentDocument\",\"url\":\"http://ad-miner.com/\"}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416419030
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416419031
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://ad-miner.com/\",\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://ad-miner.com/\"},\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"timestamp\":78935.087266,\"type\":\"Document\",\"wallTime\":1769416419.031913}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416419032
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://ad-miner.com/\",\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://ad-miner.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://ad-miner.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://ad-miner.com/\"},\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"timestamp\":78935.089077,\"type\":\"Document\",\"wallTime\":1769416419.033737}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416419034
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://ad-miner.com/\",\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"http://ad-miner.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"secure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"https://ad-miner.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://ad-miner.com/\"},\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"timestamp\":78938.094449,\"type\":\"Document\",\"wallTime\":1769416422.039097}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416422039
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":78938.094917},\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"ad-miner.com\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416422547
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"http://ad-miner.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Connection\":\"keep-alive\",\"Content-Length\":\"47\",\"Content-Type\":\"text/html; charset=utf-8\",\"Date\":\"Mon, 26 Jan 2026 08:33:43 GMT\",\"Location\":\"http://www.ad-miner.com/\",\"Server\":\"namecheap-nginx\",\"X-Served-By\":\"Namecheap URL Forward\"},\"headersText\":\"HTTP/1.1 302 Found\\r\\nDate: Mon, 26 Jan 2026 08:33:43 GMT\\r\\nContent-Type: text/html; charset=utf-8\\r\\nContent-Length: 47\\r\\nConnection: keep-alive\\r\\nLocation: http://www.ad-miner.com/\\r\\nX-Served-By: Namecheap URL Forward\\r\\nServer: namecheap-nginx\\r\\n\\r\\n\",\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":302}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416423141
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://www.ad-miner.com/\",\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"redirectHasExtraInfo\":true,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":123,\"connectionReused\":false,\"encodedDataLength\":240,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Connection\":\"keep-alive\",\"Content-Length\":\"47\",\"Content-Type\":\"text/html; charset=utf-8\",\"Date\":\"Mon, 26 Jan 2026 08:33:43 GMT\",\"Location\":\"http://www.ad-miner.com/\",\"Server\":\"namecheap-nginx\",\"X-Served-By\":\"Namecheap URL Forward\"},\"mimeType\":\"text/html\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"192.64.119.16\",\"remotePort\":80,\"responseTime\":1.76941642314047e+12,\"securityState\":\"insecure\",\"status\":302,\"statusText\":\"Found\",\"timing\":{\"connectEnd\":507.856,\"connectStart\":0.484,\"dnsEnd\":0.484,\"dnsStart\":0.478,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":1101.021,\"receiveHeadersStart\":1100.919,\"requestTime\":78938.094917,\"sendEnd\":508.04,\"sendStart\":507.918,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://ad-miner.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://www.ad-miner.com/\"},\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"timestamp\":78939.196863,\"type\":\"Document\",\"wallTime\":1769416423.141511}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416423141
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.ad-miner.com/\",\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://www.ad-miner.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://www.ad-miner.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.ad-miner.com/\"},\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"timestamp\":78939.197674,\"type\":\"Document\",\"wallTime\":1769416423.142319}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416423142
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":78939.198145},\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"www.ad-miner.com\",\"Sec-Fetch-Dest\":\"document\",\"Sec-Fetch-Mode\":\"navigate\",\"Sec-Fetch-Site\":\"none\",\"Sec-Fetch-User\":\"?1\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416424695
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://ad-miner.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Type\":\"text/html\",\"Date\":\"Mon, 26 Jan 2026 08:33:45 GMT\",\"ETag\":\"W/\\\"69721ae6-5b1f\\\"\",\"Last-Modified\":\"Thu, 22 Jan 2026 12:41:10 GMT\",\"Server\":\"nginx\",\"Transfer-Encoding\":\"chunked\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx\\r\\nDate: Mon, 26 Jan 2026 08:33:45 GMT\\r\\nContent-Type: text/html\\r\\nLast-Modified: Thu, 22 Jan 2026 12:41:10 GMT\\r\\nTransfer-Encoding: chunked\\r\\nConnection: keep-alive\\r\\nETag: W/\\\"69721ae6-5b1f\\\"\\r\\nContent-Encoding: gzip\\r\\n\\r\\n\",\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425236
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"hasExtraInfo\":true,\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":142,\"connectionReused\":false,\"encodedDataLength\":243,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Type\":\"text/html\",\"Date\":\"Mon, 26 Jan 2026 08:33:45 GMT\",\"ETag\":\"W/\\\"69721ae6-5b1f\\\"\",\"Last-Modified\":\"Thu, 22 Jan 2026 12:41:10 GMT\",\"Server\":\"nginx\",\"Transfer-Encoding\":\"chunked\"},\"mimeType\":\"text/html\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"82.165.44.170\",\"remotePort\":443,\"responseTime\":1.769416425236316e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"E7\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"www.ad-miner.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Geomys 'Tuscolo2026h1'\",\"logId\":\"717E95F3C2388A6DB1E384493D31E15AA96208762D4200E0050CD067B5A661E2\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304602210088FA92E5621A5891F4D5D0B932064AF517B706AFF5FA67C23E8913B63E9A950C022100E9F1A1954AF4443F8F945B8526DF4F81EE4EBC9F4FC2745A842B19B02B963C22\",\"status\":\"Verified\",\"timestamp\":1.769079398208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CDA2ECF160FE36601C5F78106B82AFC2B088CCA58AA6239FF70950B540639D9002204944EACE95B3AEF36EB769495FB5958F8FFEFF1E5F028A8B5BC38688349055FB\",\"status\":\"Verified\",\"timestamp\":1.769079400092e+12}],\"subjectName\":\"www.ad-miner.com\",\"validFrom\":1769075887,\"validTo\":1776851886},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":1552.395,\"connectStart\":438.758,\"dnsEnd\":438.656,\"dnsStart\":0.713,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":2093.716,\"receiveHeadersStart\":2093.538,\"requestTime\":78939.198145,\"sendEnd\":1552.542,\"sendStart\":1552.489,\"sslEnd\":1552.387,\"sslStart\":989.308,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.ad-miner.com/\"},\"timestamp\":78941.296777,\"type\":\"Document\"}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425242
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"ad-miner.com\",\"gatedAPIFeatures\":[],\"id\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://www.ad-miner.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://www.ad-miner.com/\"},\"type\":\"Navigation\"}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425254
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425262
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":23327,\"encodedDataLength\":0,\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"timestamp\":78941.311096}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425273
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.ad-miner.com/\",\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":47,\"lineNumber\":7,\"type\":\"parser\",\"url\":\"https://www.ad-miner.com/\"},\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://www.ad-miner.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.ad-miner.com/assets/main.css\"},\"requestId\":\"14884.2\",\"timestamp\":78941.314793,\"type\":\"Stylesheet\",\"wallTime\":1769416425.259476}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425273
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":78941.315678},\"headers\":{\"Accept\":\"text/css,*/*;q=0.1\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"www.ad-miner.com\",\"Referer\":\"https://www.ad-miner.com/\",\"Sec-Fetch-Dest\":\"style\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"14884.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425273
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":7039,\"requestId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"timestamp\":78941.292515}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425309
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":78941.365043}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425310
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://ad-miner.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"8784\",\"Content-Type\":\"text/css\",\"Date\":\"Mon, 26 Jan 2026 08:33:45 GMT\",\"ETag\":\"\\\"6972179f-2250\\\"\",\"Last-Modified\":\"Thu, 22 Jan 2026 12:27:11 GMT\",\"Server\":\"nginx\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx\\r\\nDate: Mon, 26 Jan 2026 08:33:45 GMT\\r\\nContent-Type: text/css\\r\\nContent-Length: 8784\\r\\nLast-Modified: Thu, 22 Jan 2026 12:27:11 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"6972179f-2250\\\"\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"14884.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425794
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"hasExtraInfo\":true,\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"requestId\":\"14884.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":142,\"connectionReused\":true,\"encodedDataLength\":232,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"8784\",\"Content-Type\":\"text/css\",\"Date\":\"Mon, 26 Jan 2026 08:33:45 GMT\",\"ETag\":\"\\\"6972179f-2250\\\"\",\"Last-Modified\":\"Thu, 22 Jan 2026 12:27:11 GMT\",\"Server\":\"nginx\"},\"mimeType\":\"text/css\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"82.165.44.170\",\"remotePort\":443,\"responseTime\":1.769416425793649e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"E7\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"www.ad-miner.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Geomys 'Tuscolo2026h1'\",\"logId\":\"717E95F3C2388A6DB1E384493D31E15AA96208762D4200E0050CD067B5A661E2\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304602210088FA92E5621A5891F4D5D0B932064AF517B706AFF5FA67C23E8913B63E9A950C022100E9F1A1954AF4443F8F945B8526DF4F81EE4EBC9F4FC2745A842B19B02B963C22\",\"status\":\"Verified\",\"timestamp\":1.769079398208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CDA2ECF160FE36601C5F78106B82AFC2B088CCA58AA6239FF70950B540639D9002204944EACE95B3AEF36EB769495FB5958F8FFEFF1E5F028A8B5BC38688349055FB\",\"status\":\"Verified\",\"timestamp\":1.769079400092e+12}],\"subjectName\":\"www.ad-miner.com\",\"validFrom\":1769075887,\"validTo\":1776851886},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":533.47,\"receiveHeadersStart\":533.338,\"requestTime\":78941.315678,\"sendEnd\":0.484,\"sendStart\":0.38,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.ad-miner.com/assets/main.css\"},\"timestamp\":78941.849947,\"type\":\"Stylesheet\"}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425795
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":8784,\"encodedDataLength\":0,\"requestId\":\"14884.2\",\"timestamp\":78941.850009}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425795
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":8784,\"requestId\":\"14884.2\",\"timestamp\":78941.850408}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425795
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":9016,\"requestId\":\"14884.2\",\"timestamp\":78941.849491}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425795
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":78941.912321}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425858
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425859
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.ad-miner.com/\",\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://www.ad-miner.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.ad-miner.com/favicon.ico\"},\"requestId\":\"14884.34\",\"timestamp\":78941.913768,\"type\":\"Other\",\"wallTime\":1769416425.858438}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416425859
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":78941.91436},\"headers\":{\"Accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"www.ad-miner.com\",\"Referer\":\"https://www.ad-miner.com/\",\"Sec-Fetch-Dest\":\"image\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"14884.34\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416430861
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://ad-miner.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"1822\",\"Content-Type\":\"image/x-icon\",\"Date\":\"Mon, 26 Jan 2026 08:33:46 GMT\",\"ETag\":\"\\\"697219ab-71e\\\"\",\"Last-Modified\":\"Thu, 22 Jan 2026 12:35:55 GMT\",\"Server\":\"nginx\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx\\r\\nDate: Mon, 26 Jan 2026 08:33:46 GMT\\r\\nContent-Type: image/x-icon\\r\\nContent-Length: 1822\\r\\nLast-Modified: Thu, 22 Jan 2026 12:35:55 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"697219ab-71e\\\"\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"14884.34\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416430861
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\",\"hasExtraInfo\":true,\"loaderId\":\"B91DC4040226D5F8617F96B1C0D2FEE5\",\"requestId\":\"14884.34\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":142,\"connectionReused\":true,\"encodedDataLength\":235,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"1822\",\"Content-Type\":\"image/x-icon\",\"Date\":\"Mon, 26 Jan 2026 08:33:46 GMT\",\"ETag\":\"\\\"697219ab-71e\\\"\",\"Last-Modified\":\"Thu, 22 Jan 2026 12:35:55 GMT\",\"Server\":\"nginx\"},\"mimeType\":\"image/x-icon\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"82.165.44.170\",\"remotePort\":443,\"responseTime\":1.76941642638764e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"E7\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"www.ad-miner.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Geomys 'Tuscolo2026h1'\",\"logId\":\"717E95F3C2388A6DB1E384493D31E15AA96208762D4200E0050CD067B5A661E2\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304602210088FA92E5621A5891F4D5D0B932064AF517B706AFF5FA67C23E8913B63E9A950C022100E9F1A1954AF4443F8F945B8526DF4F81EE4EBC9F4FC2745A842B19B02B963C22\",\"status\":\"Verified\",\"timestamp\":1.769079398208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CDA2ECF160FE36601C5F78106B82AFC2B088CCA58AA6239FF70950B540639D9002204944EACE95B3AEF36EB769495FB5958F8FFEFF1E5F028A8B5BC38688349055FB\",\"status\":\"Verified\",\"timestamp\":1.769079400092e+12}],\"subjectName\":\"www.ad-miner.com\",\"validFrom\":1769075887,\"validTo\":1776851886},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":534.608,\"receiveHeadersStart\":528.646,\"requestTime\":78941.91436,\"sendEnd\":0.831,\"sendStart\":0.747,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.ad-miner.com/favicon.ico\"},\"timestamp\":78942.449727,\"type\":\"Other\"}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416430861
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1822,\"encodedDataLength\":1822,\"requestId\":\"14884.34\",\"timestamp\":78942.450647}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416430861
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":2057,\"requestId\":\"14884.34\",\"timestamp\":78942.45045}},\"webview\":\"FD090DBF9D7E42A0EC5BE83FFC6C0566\"}",
+    "timestamp": 1769416430861
+  }
+]

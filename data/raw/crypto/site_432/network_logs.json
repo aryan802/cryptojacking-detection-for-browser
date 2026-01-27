@@ -1,0 +1,112 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"0241346AB20D0FBD7A752E2BB92A62B6\",\"loaderId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"navigationType\":\"differentDocument\",\"url\":\"http://cdn.minescripts.info/\"}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428912478
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428912479
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://cdn.minescripts.info/\",\"frameId\":\"0241346AB20D0FBD7A752E2BB92A62B6\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://cdn.minescripts.info/\"},\"requestId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"timestamp\":91428.535446,\"type\":\"Document\",\"wallTime\":1769428912.480097}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428912482
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cdn.minescripts.info/\",\"frameId\":\"0241346AB20D0FBD7A752E2BB92A62B6\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://cdn.minescripts.info/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://cdn.minescripts.info/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cdn.minescripts.info/\"},\"requestId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"timestamp\":91428.537087,\"type\":\"Document\",\"wallTime\":1769428912.481743}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428912482
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":91428.537675},\"headers\":{\":authority\":\"cdn.minescripts.info\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428912635
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://minescripts.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-headers\":\"Origin, X-Requested-With, Content-Type, Accept\",\"access-control-allow-methods\":\"GET, POST, OPTIONS\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"no-store, no-cache, must-revalidate, max-age=0\\npost-check=0, pre-check=0\\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0\",\"cf-cache-status\":\"DYNAMIC\",\"cf-ray\":\"9c3fdbb27e08f8c6-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 12:01:53 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"pragma\":\"no-cache\",\"priority\":\"u=0,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=JzABVbMjcnofFle0PDMH7tNHZJFdcTUkun4th7N81JZ1I%2F2XnXE1h1%2F91WnTC6kMGOR4MHG7qR3fSSAJRHOTyu69bpOkq%2FuNtrR8agmebDQ1zKUJ\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"Accept-Encoding\\nAccept-Encoding\",\"x-powered-by\":\"PHP/8.3.26\"},\"requestId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913218
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"0241346AB20D0FBD7A752E2BB92A62B6\",\"hasExtraInfo\":true,\"loaderId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"requestId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonRace\",\"charset\":\"\",\"connectionId\":101,\"connectionReused\":false,\"encodedDataLength\":644,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-headers\":\"Origin, X-Requested-With, Content-Type, Accept\",\"access-control-allow-methods\":\"GET, POST, OPTIONS\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"no-store, no-cache, must-revalidate, max-age=0\\npost-check=0, pre-check=0\\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0\",\"cf-cache-status\":\"DYNAMIC\",\"cf-ray\":\"9c3fdbb27e08f8c6-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 12:01:53 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"pragma\":\"no-cache\",\"priority\":\"u=0,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=JzABVbMjcnofFle0PDMH7tNHZJFdcTUkun4th7N81JZ1I%2F2XnXE1h1%2F91WnTC6kMGOR4MHG7qR3fSSAJRHOTyu69bpOkq%2FuNtrR8agmebDQ1zKUJ\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"Accept-Encoding\\nAccept-Encoding\",\"x-powered-by\":\"PHP/8.3.26\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h3\",\"remoteIPAddress\":\"172.67.139.52\",\"remotePort\":443,\"responseTime\":1.769428913218229e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":true,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"minescripts.info\",\"*.minescripts.info\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502202E7E3C8CBB42F31B072B6643DABA2789D6B53F314FB682FE655137168E738AD2022100C45DA2431C1CF8155559BBFDCE8A7E5A628AD6C21C85C37A320A953235E464EF\",\"status\":\"Verified\",\"timestamp\":1.765772831818e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Elephant2026h1'\",\"logId\":\"D16EA9A568077E6635A03F37A5DDBC03A53C411214D48818F5E931B323CB9504\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022007329613D5970A9B4DD7BEF2C555331B796F1575E45CABD563789A5A766DEE1D02204AB3FDFF87A340685716F6F6D2F6C0E2DE5C9A1F7D81374078B9CC98201AB60E\",\"status\":\"Verified\",\"timestamp\":1.765772831989e+12}],\"subjectName\":\"minescripts.info\",\"validFrom\":1765769231,\"validTo\":1773548684},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":152.773,\"connectStart\":94.784,\"dnsEnd\":94.458,\"dnsStart\":0.954,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":736.066,\"receiveHeadersStart\":735.898,\"requestTime\":91428.537675,\"sendEnd\":152.941,\"sendStart\":152.853,\"sslEnd\":152.773,\"sslStart\":94.784,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cdn.minescripts.info/\"},\"timestamp\":91429.279291,\"type\":\"Document\"}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913224
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"minescripts.info\",\"gatedAPIFeatures\":[],\"id\":\"0241346AB20D0FBD7A752E2BB92A62B6\",\"loaderId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"mimeType\":\"application/javascript\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://cdn.minescripts.info\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://cdn.minescripts.info/\"},\"type\":\"Navigation\"}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913243
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913243
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":12850,\"encodedDataLength\":0,\"requestId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"timestamp\":91429.292566}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913244
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":5111,\"requestId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"timestamp\":91429.275511}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913244
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":91429.295303}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913298
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":91429.295606}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913298
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913298
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cdn.minescripts.info/\",\"frameId\":\"0241346AB20D0FBD7A752E2BB92A62B6\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cdn.minescripts.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cdn.minescripts.info/favicon.ico\"},\"requestId\":\"17572.2\",\"timestamp\":91429.354849,\"type\":\"Other\",\"wallTime\":1769428913.299519}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913299
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":91429.355376},\"headers\":{\":authority\":\"cdn.minescripts.info\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1, i\",\"referer\":\"https://cdn.minescripts.info/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"17572.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428913301
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://minescripts.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-headers\":\"Origin, X-Requested-With, Content-Type, Accept\",\"access-control-allow-methods\":\"GET, POST, OPTIONS\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"no-store, no-cache, must-revalidate, max-age=0\\npost-check=0, pre-check=0\\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0\",\"cf-cache-status\":\"BYPASS\",\"cf-ray\":\"9c3fdbb6afb1f8c6-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 12:01:54 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"pragma\":\"no-cache\",\"priority\":\"u=1,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=u0434iK7Tgbwa1iTmIFW7ckdorB%2BAheFEXm56UroK1CwsuTAr%2BkowkR5ghEwdL0Cmyl1W5KBPlLdu6m0B8FVnmDXx9p7UAHR3R5%2F0FiW1dhb7Vf8\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"Accept-Encoding\\nAccept-Encoding\",\"x-powered-by\":\"PHP/8.3.26\"},\"requestId\":\"17572.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428918306
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"0241346AB20D0FBD7A752E2BB92A62B6\",\"hasExtraInfo\":true,\"loaderId\":\"AB73DB34B196ACD2F29A8F92AED2E57C\",\"requestId\":\"17572.2\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonWithoutRace\",\"charset\":\"\",\"connectionId\":101,\"connectionReused\":true,\"encodedDataLength\":605,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-headers\":\"Origin, X-Requested-With, Content-Type, Accept\",\"access-control-allow-methods\":\"GET, POST, OPTIONS\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0\",\"cf-cache-status\":\"BYPASS\",\"cf-ray\":\"9c3fdbb6afb1f8c6-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 12:01:54 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"pragma\":\"no-cache\",\"priority\":\"u=1,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=u0434iK7Tgbwa1iTmIFW7ckdorB%2BAheFEXm56UroK1CwsuTAr%2BkowkR5ghEwdL0Cmyl1W5KBPlLdu6m0B8FVnmDXx9p7UAHR3R5%2F0FiW1dhb7Vf8\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"Accept-Encoding, Accept-Encoding\",\"x-powered-by\":\"PHP/8.3.26\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h3\",\"remoteIPAddress\":\"172.67.139.52\",\"remotePort\":443,\"responseTime\":1.769428913874755e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":true,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"minescripts.info\",\"*.minescripts.info\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502202E7E3C8CBB42F31B072B6643DABA2789D6B53F314FB682FE655137168E738AD2022100C45DA2431C1CF8155559BBFDCE8A7E5A628AD6C21C85C37A320A953235E464EF\",\"status\":\"Verified\",\"timestamp\":1.765772831818e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Elephant2026h1'\",\"logId\":\"D16EA9A568077E6635A03F37A5DDBC03A53C411214D48818F5E931B323CB9504\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022007329613D5970A9B4DD7BEF2C555331B796F1575E45CABD563789A5A766DEE1D02204AB3FDFF87A340685716F6F6D2F6C0E2DE5C9A1F7D81374078B9CC98201AB60E\",\"status\":\"Verified\",\"timestamp\":1.765772831989e+12}],\"subjectName\":\"minescripts.info\",\"validFrom\":1765769231,\"validTo\":1773548684},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":574.882,\"receiveHeadersStart\":574.711,\"requestTime\":91429.355376,\"sendEnd\":0.515,\"sendStart\":0.333,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cdn.minescripts.info/favicon.ico\"},\"timestamp\":91429.931407,\"type\":\"Other\"}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428918306
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4552,\"encodedDataLength\":0,\"requestId\":\"17572.2\",\"timestamp\":91429.93213}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428918306
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":8298,\"encodedDataLength\":2924,\"requestId\":\"17572.2\",\"timestamp\":91429.933153}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428918306
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":1543,\"requestId\":\"17572.2\",\"timestamp\":91429.933439}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428918307
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":5072,\"requestId\":\"17572.2\",\"timestamp\":91429.932938}},\"webview\":\"0241346AB20D0FBD7A752E2BB92A62B6\"}",
+    "timestamp": 1769428918307
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"1B684C633A2EEC3DE49B2949AAF6158B\",\"loaderId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"navigationType\":\"differentDocument\",\"url\":\"http://cfcs1.duckdns.org/\"}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429246806
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429246806
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://cfcs1.duckdns.org/\",\"frameId\":\"1B684C633A2EEC3DE49B2949AAF6158B\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://cfcs1.duckdns.org/\"},\"requestId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"timestamp\":91762.861436,\"type\":\"Document\",\"wallTime\":1769429246.806082}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429246807
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cfcs1.duckdns.org/\",\"frameId\":\"1B684C633A2EEC3DE49B2949AAF6158B\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://cfcs1.duckdns.org/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://cfcs1.duckdns.org/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cfcs1.duckdns.org/\"},\"requestId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"timestamp\":91762.863147,\"type\":\"Document\",\"wallTime\":1769429246.807811}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429246809
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://cfcs1.duckdns.org/\",\"frameId\":\"1B684C633A2EEC3DE49B2949AAF6158B\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"http://cfcs1.duckdns.org/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"secure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"https://cfcs1.duckdns.org/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://cfcs1.duckdns.org/\"},\"requestId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"timestamp\":91763.670069,\"type\":\"Document\",\"wallTime\":1769429247.614718}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247615
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":91763.670621},\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"cfcs1.duckdns.org\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247616
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"http://cfcs1.duckdns.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Type\":\"text/html\",\"Date\":\"Mon, 26 Jan 2026 12:07:28 GMT\",\"ETag\":\"W/\\\"63d617ad-264\\\"\",\"Last-Modified\":\"Sun, 29 Jan 2023 06:52:29 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\",\"Transfer-Encoding\":\"chunked\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.14.0 (Ubuntu)\\r\\nDate: Mon, 26 Jan 2026 12:07:28 GMT\\r\\nContent-Type: text/html\\r\\nLast-Modified: Sun, 29 Jan 2023 06:52:29 GMT\\r\\nTransfer-Encoding: chunked\\r\\nConnection: keep-alive\\r\\nETag: W/\\\"63d617ad-264\\\"\\r\\nContent-Encoding: gzip\\r\\n\\r\\n\",\"requestId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247783
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"1B684C633A2EEC3DE49B2949AAF6158B\",\"hasExtraInfo\":true,\"loaderId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"requestId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":104,\"connectionReused\":true,\"encodedDataLength\":258,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Type\":\"text/html\",\"Date\":\"Mon, 26 Jan 2026 12:07:28 GMT\",\"ETag\":\"W/\\\"63d617ad-264\\\"\",\"Last-Modified\":\"Sun, 29 Jan 2023 06:52:29 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\",\"Transfer-Encoding\":\"chunked\"},\"mimeType\":\"text/html\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"172.104.153.105\",\"remotePort\":80,\"responseTime\":1.769429247782619e+12,\"securityState\":\"insecure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":167.667,\"receiveHeadersStart\":167.363,\"requestTime\":91763.670621,\"sendEnd\":0.599,\"sendStart\":0.504,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://cfcs1.duckdns.org/\"},\"timestamp\":91763.838865,\"type\":\"Document\"}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247783
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"cfcs1.duckdns.org\",\"gatedAPIFeatures\":[],\"id\":\"1B684C633A2EEC3DE49B2949AAF6158B\",\"loaderId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"mimeType\":\"text/html\",\"secureContextType\":\"InsecureScheme\",\"securityOrigin\":\"http://cfcs1.duckdns.org\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"http://cfcs1.duckdns.org/\"},\"type\":\"Navigation\"}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247785
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247788
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":612,\"encodedDataLength\":0,\"requestId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"timestamp\":91763.841728}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247796
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":654,\"requestId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"timestamp\":91763.838597}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247797
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":91763.847076}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247803
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":91763.847619}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247803
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429247803
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://cfcs1.duckdns.org/\",\"frameId\":\"1B684C633A2EEC3DE49B2949AAF6158B\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"http://cfcs1.duckdns.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://cfcs1.duckdns.org/favicon.ico\"},\"requestId\":\"15800.2\",\"timestamp\":91763.861563,\"type\":\"Other\",\"wallTime\":1769429247.806244}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429252808
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":false,\"privateNetworkRequestPolicy\":\"BlockFromInsecureToMorePrivate\"},\"connectTiming\":{\"requestTime\":91763.862205},\"headers\":{\"Accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"cfcs1.duckdns.org\",\"Referer\":\"http://cfcs1.duckdns.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"15800.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429252808
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"http://cfcs1.duckdns.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Type\":\"text/html\",\"Date\":\"Mon, 26 Jan 2026 12:07:28 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\",\"Transfer-Encoding\":\"chunked\"},\"headersText\":\"HTTP/1.1 404 Not Found\\r\\nServer: nginx/1.14.0 (Ubuntu)\\r\\nDate: Mon, 26 Jan 2026 12:07:28 GMT\\r\\nContent-Type: text/html\\r\\nTransfer-Encoding: chunked\\r\\nConnection: keep-alive\\r\\nContent-Encoding: gzip\\r\\n\\r\\n\",\"requestId\":\"15800.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429252808
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"1B684C633A2EEC3DE49B2949AAF6158B\",\"hasExtraInfo\":true,\"loaderId\":\"C5E4998F4B624FB5EA7AAD884FC71C81\",\"requestId\":\"15800.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":104,\"connectionReused\":true,\"encodedDataLength\":195,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Type\":\"text/html\",\"Date\":\"Mon, 26 Jan 2026 12:07:28 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\",\"Transfer-Encoding\":\"chunked\"},\"mimeType\":\"text/html\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"172.104.153.105\",\"remotePort\":80,\"responseTime\":1.76942924797705e+12,\"securityState\":\"insecure\",\"status\":404,\"statusText\":\"Not Found\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":170.493,\"receiveHeadersStart\":170.21,\"requestTime\":91763.862205,\"sendEnd\":0.439,\"sendStart\":0.356,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://cfcs1.duckdns.org/favicon.ico\"},\"timestamp\":91764.033204,\"type\":\"Other\"}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429252808
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":580,\"encodedDataLength\":0,\"requestId\":\"15800.2\",\"timestamp\":91764.033324}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429252808
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":209,\"requestId\":\"15800.2\",\"timestamp\":91764.033479}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429252808
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":404,\"requestId\":\"15800.2\",\"timestamp\":91764.033042}},\"webview\":\"1B684C633A2EEC3DE49B2949AAF6158B\"}",
+    "timestamp": 1769429252808
+  }
+]

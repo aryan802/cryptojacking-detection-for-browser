@@ -1,0 +1,1022 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"navigationType\":\"differentDocument\",\"url\":\"http://cookiescript.info/\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431325709
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431325710
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://cookiescript.info/\"},\"requestId\":\"7C4082BD59596690440967CE7C4C123F\",\"timestamp\":93841.765394,\"type\":\"Document\",\"wallTime\":1769431325.710041}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431325714
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://cookiescript.info/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://cookiescript.info/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cookiescript.info/\"},\"requestId\":\"7C4082BD59596690440967CE7C4C123F\",\"timestamp\":93841.768223,\"type\":\"Document\",\"wallTime\":1769431325.712891}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431325714
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":93841.769059},\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"cookiescript.info\",\"Sec-Fetch-Dest\":\"document\",\"Sec-Fetch-Mode\":\"navigate\",\"Sec-Fetch-Site\":\"none\",\"Sec-Fetch-User\":\"?1\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"7C4082BD59596690440967CE7C4C123F\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326361
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Cache-Control\":\"max-age=0, private, must-revalidate\",\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Security-Policy\":\"script-src 'self' https: 'unsafe-inline'\",\"Content-Type\":\"text/html; charset=utf-8\",\"Date\":\"Mon, 26 Jan 2026 12:42:06 GMT\",\"ETag\":\"W/\\\"d3bd5a4f91e07373215b219ec31f4c58\\\"\",\"Referrer-Policy\":\"strict-origin-when-cross-origin\",\"Server\":\"nginx/1.14.0 (Ubuntu)\",\"Set-Cookie\":\"_cookiescript_info_session=RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D; path=/; secure; HttpOnly\",\"Strict-Transport-Security\":\"max-age=31536000; includeSubDomains\",\"Transfer-Encoding\":\"chunked\",\"X-Content-Type-Options\":\"nosniff\",\"X-Download-Options\":\"noopen\",\"X-Frame-Options\":\"SAMEORIGIN\",\"X-Permitted-Cross-Domain-Policies\":\"none\",\"X-Request-Id\":\"ed79b3d2-c290-42c4-9b22-31d567fe43df\",\"X-Runtime\":\"0.009570\",\"X-XSS-Protection\":\"1; mode=block\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.14.0 (Ubuntu)\\r\\nDate: Mon, 26 Jan 2026 12:42:06 GMT\\r\\nContent-Type: text/html; charset=utf-8\\r\\nTransfer-Encoding: chunked\\r\\nConnection: keep-alive\\r\\nX-Frame-Options: SAMEORIGIN\\r\\nX-XSS-Protection: 1; mode=block\\r\\nX-Content-Type-Options: nosniff\\r\\nX-Download-Options: noopen\\r\\nX-Permitted-Cross-Domain-Policies: none\\r\\nReferrer-Policy: strict-origin-when-cross-origin\\r\\nETag: W/\\\"d3bd5a4f91e07373215b219ec31f4c58\\\"\\r\\nCache-Control: max-age=0, private, must-revalidate\\r\\nContent-Security-Policy: script-src 'self' https: 'unsafe-inline'\\r\\nSet-Cookie: _cookiescript_info_session=RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D; path=/; secure; HttpOnly\\r\\nX-Request-Id: ed79b3d2-c290-42c4-9b22-31d567fe43df\\r\\nX-Runtime: 0.009570\\r\\nStrict-Transport-Security: max-age=31536000; includeSubDomains\\r\\nContent-Encoding: gzip\\r\\n\\r\\n\",\"requestId\":\"7C4082BD59596690440967CE7C4C123F\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326540
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"7C4082BD59596690440967CE7C4C123F\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":102,\"connectionReused\":false,\"encodedDataLength\":990,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Cache-Control\":\"max-age=0, private, must-revalidate\",\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Security-Policy\":\"script-src 'self' https: 'unsafe-inline'\",\"Content-Type\":\"text/html; charset=utf-8\",\"Date\":\"Mon, 26 Jan 2026 12:42:06 GMT\",\"ETag\":\"W/\\\"d3bd5a4f91e07373215b219ec31f4c58\\\"\",\"Referrer-Policy\":\"strict-origin-when-cross-origin\",\"Server\":\"nginx/1.14.0 (Ubuntu)\",\"Strict-Transport-Security\":\"max-age=31536000; includeSubDomains\",\"Transfer-Encoding\":\"chunked\",\"X-Content-Type-Options\":\"nosniff\",\"X-Download-Options\":\"noopen\",\"X-Frame-Options\":\"SAMEORIGIN\",\"X-Permitted-Cross-Domain-Policies\":\"none\",\"X-Request-Id\":\"ed79b3d2-c290-42c4-9b22-31d567fe43df\",\"X-Runtime\":\"0.009570\",\"X-XSS-Protection\":\"1; mode=block\"},\"mimeType\":\"text/html\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"209.97.140.241\",\"remotePort\":443,\"responseTime\":1.769431326539487e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"R13\",\"keyExchange\":\"ECDHE_RSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"cookiescript.info\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FB34E08BB0A9CB64340DB6D71A71E37D4D17534AEFCA0F6FCB1702649A4A9895022100E9EC01C353C46715ECB0C228408E240B608B01A5D5E69348924BEE857DE778BD\",\"status\":\"Verified\",\"timestamp\":1.768764043764e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Willow2026h1'\",\"logId\":\"E3238DF28DA288E0AAE0ACF0FA90C985F0B6BFF5D2A527B001FC1C4458C4B6E8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B6234111E230B9CAC054B3A64EC0B88799F8C66732130FD3250D4539EF8D283902204B7BF0742A2A17E668062CD8163D032EA998256148E3F2840EC2CAEA09F7338E\",\"status\":\"Verified\",\"timestamp\":1.768764044524e+12}],\"subjectName\":\"cookiescript.info\",\"validFrom\":1768760533,\"validTo\":1776536532},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":647.37,\"connectStart\":311.756,\"dnsEnd\":311.582,\"dnsStart\":9.784,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":826.208,\"receiveHeadersStart\":825.793,\"requestTime\":93841.769059,\"sendEnd\":647.529,\"sendStart\":647.47,\"sslEnd\":647.363,\"sslStart\":477.777,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cookiescript.info/\"},\"timestamp\":93842.600705,\"type\":\"Document\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326549
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"cookiescript.info\",\"gatedAPIFeatures\":[],\"id\":\"9B47D2EC8578D6E720D813A317894CF5\",\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://cookiescript.info\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://cookiescript.info/\"},\"type\":\"Navigation\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326563
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326563
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":7686,\"encodedDataLength\":0,\"requestId\":\"7C4082BD59596690440967CE7C4C123F\",\"timestamp\":93842.610035}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326568
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":117,\"lineNumber\":20,\"type\":\"parser\",\"url\":\"https://cookiescript.info/\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\"},\"requestId\":\"6968.2\",\"timestamp\":93842.610716,\"type\":\"Stylesheet\",\"wallTime\":1769431326.555415}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326568
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":137,\"lineNumber\":21,\"type\":\"parser\",\"url\":\"https://cookiescript.info/\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cookiescript.info/assets/application-14c5b1b9ba53847f5c225a0dc32e99de04a499cdbbfa9c2dbceeb85bc57a2840.css\"},\"requestId\":\"6968.3\",\"timestamp\":93842.611131,\"type\":\"Stylesheet\",\"wallTime\":1769431326.555787}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326568
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":26,\"lineNumber\":25,\"type\":\"parser\",\"url\":\"https://cookiescript.info/\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"https://cookiescript.info\",\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://code.jquery.com/jquery-3.3.1.min.js\"},\"requestId\":\"6968.4\",\"timestamp\":93842.611236,\"type\":\"Script\",\"wallTime\":1769431326.555894}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326568
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":61,\"lineNumber\":33,\"type\":\"parser\",\"url\":\"https://cookiescript.info/\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cookiescript.info/packs/application-e879d33bb10b25f75e50.js\"},\"requestId\":\"6968.5\",\"timestamp\":93842.611329,\"type\":\"Script\",\"wallTime\":1769431326.555975}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326568
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":107,\"lineNumber\":34,\"type\":\"parser\",\"url\":\"https://cookiescript.info/\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cookiescript.info/packs/application-28a5078bee6b09698e1267fa3ced1a1e.css\"},\"requestId\":\"6968.6\",\"timestamp\":93842.611385,\"type\":\"Stylesheet\",\"wallTime\":1769431326.55603}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326568
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":59,\"lineNumber\":35,\"type\":\"parser\",\"url\":\"https://cookiescript.info/\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cookiescript.info/packs/hello_vue-e2603f15987d57f55217.js\"},\"requestId\":\"6968.7\",\"timestamp\":93842.611435,\"type\":\"Script\",\"wallTime\":1769431326.55608}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326569
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":4350,\"requestId\":\"7C4082BD59596690440967CE7C4C123F\",\"timestamp\":93842.596053}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326569
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"cookiescript.info\",\"expires\":-1,\"httpOnly\":true,\"name\":\"_cookiescript_info_session\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":true,\"session\":true,\"size\":232,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93842.619354},\"headers\":{\"Accept\":\"text/css,*/*;q=0.1\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Cookie\":\"_cookiescript_info_session=RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\",\"Host\":\"cookiescript.info\",\"Referer\":\"https://cookiescript.info/\",\"Sec-Fetch-Dest\":\"style\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"6968.3\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326570
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93842.61702},\"headers\":{\":authority\":\"cdnjs.cloudflare.com\",\":method\":\"GET\",\":path\":\"/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\",\":scheme\":\"https\",\"accept\":\"text/css,*/*;q=0.1\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0\",\"referer\":\"https://cookiescript.info/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"style\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"6968.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326593
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"age\":\"399557\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"public, max-age=30672000\",\"cf-cache-status\":\"HIT\",\"cf-cdnjs-via\":\"cfworker/kv\",\"cf-ray\":\"9c4016a16e8eb2a9-MAA\",\"content-encoding\":\"br\",\"content-length\":\"5631\",\"content-type\":\"text/css; charset=utf-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:06 GMT\",\"etag\":\"\\\"5eb03e5f-7918\\\"\",\"expires\":\"Sat, 16 Jan 2027 12:42:06 GMT\",\"last-modified\":\"Mon, 04 May 2020 16:10:07 GMT\",\"nel\":\"{\\\"success_fraction\\\":0.01,\\\"report_to\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800}\",\"priority\":\"u=0,i=?0\",\"report-to\":\"{\\\"endpoints\\\":[{\\\"url\\\":\\\"https:\\\\/\\\\/a.nel.cloudflare.com\\\\/report\\\\/v4?s=owUEOpFBA4KhJ1kZ7ZohRw9t2qcCVBwV50ldGKYswIw18IxCburCjz1rWcginmEvKECA3cp8o3trqYaJEmLBXJMxO%2Bu2fVUPS19FgXCyPCa%2BsAjGVCVtPeAg7SGAVxzz1UWcbIQc\\\"}],\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=15780000\",\"timing-allow-origin\":\"*\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\"},\"requestId\":\"6968.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326612
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.2\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonRace\",\"charset\":\"utf-8\",\"connectionId\":169,\"connectionReused\":false,\"encodedDataLength\":652,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"age\":\"399557\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"public, max-age=30672000\",\"cf-cache-status\":\"HIT\",\"cf-cdnjs-via\":\"cfworker/kv\",\"cf-ray\":\"9c4016a16e8eb2a9-MAA\",\"content-encoding\":\"br\",\"content-length\":\"5631\",\"content-type\":\"text/css; charset=utf-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:06 GMT\",\"etag\":\"\\\"5eb03e5f-7918\\\"\",\"expires\":\"Sat, 16 Jan 2027 12:42:06 GMT\",\"last-modified\":\"Mon, 04 May 2020 16:10:07 GMT\",\"nel\":\"{\\\"success_fraction\\\":0.01,\\\"report_to\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800}\",\"priority\":\"u=0,i=?0\",\"report-to\":\"{\\\"endpoints\\\":[{\\\"url\\\":\\\"https:\\\\/\\\\/a.nel.cloudflare.com\\\\/report\\\\/v4?s=owUEOpFBA4KhJ1kZ7ZohRw9t2qcCVBwV50ldGKYswIw18IxCburCjz1rWcginmEvKECA3cp8o3trqYaJEmLBXJMxO%2Bu2fVUPS19FgXCyPCa%2BsAjGVCVtPeAg7SGAVxzz1UWcbIQc\\\"}],\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=15780000\",\"timing-allow-origin\":\"*\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\"},\"mimeType\":\"text/css\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.17.24.14\",\"remotePort\":443,\"responseTime\":1.769431326611965e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"cdnjs.cloudflare.com\",\"*.cdnjs.cloudflare.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100D6CE3BCB0F676CA425EDF57559016FC3EA1C7479074CF5F6A753021AAEC9016C022100D64FF6F677800F2D77DE1987F02655423E23E8077E4AC9665B2356D21291D5EC\",\"status\":\"Verified\",\"timestamp\":1.768346165919e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Tiger2026h1'\",\"logId\":\"16832DABF0A9250F0FF03AA545FFC8BFC823D0874BF6042927F8E71F3313F5FA\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502201070FC61C786DACE14CA205B16394AE3F4C999B1D70C299FD62E6A06C8259A2A022100921C839AB0E24C425195B63860967A27B41E03B9431AE8FEF728699DD955E567\",\"status\":\"Verified\",\"timestamp\":1.768346166061e+12}],\"subjectName\":\"cdnjs.cloudflare.com\",\"validFrom\":1768342565,\"validTo\":1776122155},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":31.381,\"connectStart\":18.53,\"dnsEnd\":18.158,\"dnsStart\":1.298,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":50.719,\"receiveHeadersStart\":50.29,\"requestTime\":93842.61702,\"sendEnd\":31.547,\"sendStart\":31.458,\"sslEnd\":31.381,\"sslStart\":18.53,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\"},\"timestamp\":93842.668881,\"type\":\"Stylesheet\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326614
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":14643,\"encodedDataLength\":0,\"requestId\":\"6968.2\",\"timestamp\":93842.668932}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326614
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16357,\"encodedDataLength\":5633,\"requestId\":\"6968.2\",\"timestamp\":93842.669483}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326614
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":6285,\"requestId\":\"6968.2\",\"timestamp\":93842.66931}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326615
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93842.620337},\"headers\":{\":authority\":\"code.jquery.com\",\":method\":\"GET\",\":path\":\"/jquery-3.3.1.min.js\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://cookiescript.info\",\"priority\":\"u=1\",\"referer\":\"https://cookiescript.info/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"6968.4\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326683
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"age\":\"1575111\",\"cache-control\":\"public, max-age=31536000, stale-while-revalidate=604800\",\"content-encoding\":\"gzip\",\"content-length\":\"30288\",\"content-type\":\"application/javascript; charset=utf-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:07 GMT\",\"etag\":\"W/\\\"28feccc0-1538f\\\"\",\"last-modified\":\"Fri, 18 Oct 1991 12:00:00 GMT\",\"server\":\"nginx\",\"vary\":\"Accept-Encoding\",\"via\":\"1.1 varnish, 1.1 varnish\",\"x-cache\":\"HIT, HIT\",\"x-cache-hits\":\"28896, 46189\",\"x-served-by\":\"cache-lga21955-LGA, cache-ccu830028-CCU\",\"x-timer\":\"S1769431327.073796,VS0,VE0\"},\"requestId\":\"6968.4\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326719
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.4\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":172,\"connectionReused\":false,\"encodedDataLength\":5861,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"age\":\"1575111\",\"cache-control\":\"public, max-age=31536000, stale-while-revalidate=604800\",\"content-encoding\":\"gzip\",\"content-length\":\"30288\",\"content-type\":\"application/javascript; charset=utf-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:07 GMT\",\"etag\":\"W/\\\"28feccc0-1538f\\\"\",\"last-modified\":\"Fri, 18 Oct 1991 12:00:00 GMT\",\"server\":\"nginx\",\"vary\":\"Accept-Encoding\",\"via\":\"1.1 varnish, 1.1 varnish\",\"x-cache\":\"HIT, HIT\",\"x-cache-hits\":\"28896, 46189\",\"x-served-by\":\"cache-lga21955-LGA, cache-ccu830028-CCU\",\"x-timer\":\"S1769431327.073796,VS0,VE0\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"151.101.66.137\",\"remotePort\":443,\"responseTime\":1.769431326718238e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Sectigo Public Server Authentication CA DV E36\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.jquery.com\",\"jquery.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30440220376BAB45B40E4CD6C0E84665258746A9A5BCCCCD0B8741FD62C2ECED18873EC90220753A36BFDB93DE035CFC042CE7277D68744E5C1092F3581CAF1B6A03C80E02B6\",\"status\":\"Verified\",\"timestamp\":1.749764949037e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Oak2026h1'\",\"logId\":\"1986D4C728AA6FFEBA036F782A4D0191AACE2D72310FAECE5D70412D254CC7D4\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022034977D4A59A431B2B6C4678B455A60FF9668FF703929B68D8B0D43F1A73E0EAA022100AE7AFD9B3818331CEAA4670EF234633D2C3454E3B17DA0AC1C73D8D1B53BB80A\",\"status\":\"Verified\",\"timestamp\":1.749764948982e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30450221009C9C531E4B9A3A03B013CDFF32B73284AC2C96FC37072ED72A559B96274F2CFA022029641CD49AAE1BE9E314DE61C8DABB6F5C34615991B39BE1D4D8B5F78AA12A87\",\"status\":\"Verified\",\"timestamp\":1.749764948916e+12}],\"subjectName\":\"*.jquery.com\",\"validFrom\":1749686400,\"validTo\":1782518399},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":118.093,\"connectStart\":51.231,\"dnsEnd\":51.118,\"dnsStart\":0.197,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":153.579,\"receiveHeadersStart\":153.235,\"requestTime\":93842.620337,\"sendEnd\":118.288,\"sendStart\":118.211,\"sslEnd\":118.087,\"sslStart\":82.574,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://code.jquery.com/jquery-3.3.1.min.js\"},\"timestamp\":93842.79488,\"type\":\"Script\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326740
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":14039,\"encodedDataLength\":0,\"requestId\":\"6968.4\",\"timestamp\":93842.794929}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326740
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":72888,\"encodedDataLength\":0,\"requestId\":\"6968.4\",\"timestamp\":93842.79493}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326740
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":24794,\"requestId\":\"6968.4\",\"timestamp\":93842.795079}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326740
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":30655,\"requestId\":\"6968.4\",\"timestamp\":93842.792401}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326740
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Cache-Control\":\"max-age=315360000\\npublic\",\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Length\":\"100\",\"Content-Type\":\"text/css\",\"Date\":\"Mon, 26 Jan 2026 12:42:07 GMT\",\"ETag\":\"\\\"5bd08fb3-64\\\"\",\"Expires\":\"Thu, 31 Dec 2037 23:55:55 GMT\",\"Last-Modified\":\"Wed, 24 Oct 2018 15:28:51 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.14.0 (Ubuntu)\\r\\nDate: Mon, 26 Jan 2026 12:42:07 GMT\\r\\nContent-Type: text/css\\r\\nContent-Length: 100\\r\\nLast-Modified: Wed, 24 Oct 2018 15:28:51 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"5bd08fb3-64\\\"\\r\\nContent-Encoding: gzip\\r\\nExpires: Thu, 31 Dec 2037 23:55:55 GMT\\r\\nCache-Control: max-age=315360000\\r\\nCache-Control: public\\r\\n\\r\\n\",\"requestId\":\"6968.3\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326747
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"cookiescript.info\",\"expires\":-1,\"httpOnly\":true,\"name\":\"_cookiescript_info_session\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":true,\"session\":true,\"size\":232,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93842.621592},\"headers\":{\"Accept\":\"text/css,*/*;q=0.1\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Cookie\":\"_cookiescript_info_session=RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\",\"Host\":\"cookiescript.info\",\"Referer\":\"https://cookiescript.info/\",\"Sec-Fetch-Dest\":\"style\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"6968.6\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326748
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.3\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":102,\"connectionReused\":true,\"encodedDataLength\":344,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Cache-Control\":\"max-age=315360000, public\",\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Length\":\"100\",\"Content-Type\":\"text/css\",\"Date\":\"Mon, 26 Jan 2026 12:42:07 GMT\",\"ETag\":\"\\\"5bd08fb3-64\\\"\",\"Expires\":\"Thu, 31 Dec 2037 23:55:55 GMT\",\"Last-Modified\":\"Wed, 24 Oct 2018 15:28:51 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"mimeType\":\"text/css\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"209.97.140.241\",\"remotePort\":443,\"responseTime\":1.76943132674445e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"R13\",\"keyExchange\":\"ECDHE_RSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"cookiescript.info\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FB34E08BB0A9CB64340DB6D71A71E37D4D17534AEFCA0F6FCB1702649A4A9895022100E9EC01C353C46715ECB0C228408E240B608B01A5D5E69348924BEE857DE778BD\",\"status\":\"Verified\",\"timestamp\":1.768764043764e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Willow2026h1'\",\"logId\":\"E3238DF28DA288E0AAE0ACF0FA90C985F0B6BFF5D2A527B001FC1C4458C4B6E8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B6234111E230B9CAC054B3A64EC0B88799F8C66732130FD3250D4539EF8D283902204B7BF0742A2A17E668062CD8163D032EA998256148E3F2840EC2CAEA09F7338E\",\"status\":\"Verified\",\"timestamp\":1.768764044524e+12}],\"subjectName\":\"cookiescript.info\",\"validFrom\":1768760533,\"validTo\":1776536532},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":183.358,\"receiveHeadersStart\":180.461,\"requestTime\":93842.619354,\"sendEnd\":0.729,\"sendStart\":0.43,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cookiescript.info/assets/application-14c5b1b9ba53847f5c225a0dc32e99de04a499cdbbfa9c2dbceeb85bc57a2840.css\"},\"timestamp\":93842.803673,\"type\":\"Stylesheet\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326748
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":93,\"encodedDataLength\":0,\"requestId\":\"6968.3\",\"timestamp\":93842.8037}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326748
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":100,\"requestId\":\"6968.3\",\"timestamp\":93842.803823}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326748
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":444,\"requestId\":\"6968.3\",\"timestamp\":93842.803084}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326748
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":64,\"functionName\":\"\",\"lineNumber\":30,\"scriptId\":\"8\",\"url\":\"https://cookiescript.info/\"},{\"columnNumber\":2,\"functionName\":\"\",\"lineNumber\":31,\"scriptId\":\"8\",\"url\":\"https://cookiescript.info/\"}]},\"type\":\"script\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},\"requestId\":\"6968.19\",\"timestamp\":93842.814584,\"type\":\"Script\",\"wallTime\":1769431326.759339}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326759
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"cookiescript.info\",\"expires\":-1,\"httpOnly\":true,\"name\":\"_cookiescript_info_session\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":true,\"session\":true,\"size\":232,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93842.621362},\"headers\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Cookie\":\"_cookiescript_info_session=RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\",\"Host\":\"cookiescript.info\",\"Referer\":\"https://cookiescript.info/\",\"Sec-Fetch-Dest\":\"script\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"6968.5\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326910
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"cookiescript.info\",\"expires\":-1,\"httpOnly\":true,\"name\":\"_cookiescript_info_session\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":true,\"session\":true,\"size\":232,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93842.621977},\"headers\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Cookie\":\"_cookiescript_info_session=RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\",\"Host\":\"cookiescript.info\",\"Referer\":\"https://cookiescript.info/\",\"Sec-Fetch-Dest\":\"script\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"6968.7\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431326931
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"1177\",\"Content-Type\":\"application/javascript\",\"Date\":\"Mon, 26 Jan 2026 12:42:07 GMT\",\"ETag\":\"\\\"5d5fc4b8-499\\\"\",\"Last-Modified\":\"Fri, 23 Aug 2019 10:49:28 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.14.0 (Ubuntu)\\r\\nDate: Mon, 26 Jan 2026 12:42:07 GMT\\r\\nContent-Type: application/javascript\\r\\nContent-Length: 1177\\r\\nLast-Modified: Fri, 23 Aug 2019 10:49:28 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"5d5fc4b8-499\\\"\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"6968.5\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327076
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.5\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":166,\"connectionReused\":false,\"encodedDataLength\":261,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"1177\",\"Content-Type\":\"application/javascript\",\"Date\":\"Mon, 26 Jan 2026 12:42:07 GMT\",\"ETag\":\"\\\"5d5fc4b8-499\\\"\",\"Last-Modified\":\"Fri, 23 Aug 2019 10:49:28 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"mimeType\":\"application/javascript\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"209.97.140.241\",\"remotePort\":443,\"responseTime\":1.769431327075188e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"R13\",\"keyExchange\":\"ECDHE_RSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"cookiescript.info\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FB34E08BB0A9CB64340DB6D71A71E37D4D17534AEFCA0F6FCB1702649A4A9895022100E9EC01C353C46715ECB0C228408E240B608B01A5D5E69348924BEE857DE778BD\",\"status\":\"Verified\",\"timestamp\":1.768764043764e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Willow2026h1'\",\"logId\":\"E3238DF28DA288E0AAE0ACF0FA90C985F0B6BFF5D2A527B001FC1C4458C4B6E8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B6234111E230B9CAC054B3A64EC0B88799F8C66732130FD3250D4539EF8D283902204B7BF0742A2A17E668062CD8163D032EA998256148E3F2840EC2CAEA09F7338E\",\"status\":\"Verified\",\"timestamp\":1.768764044524e+12}],\"subjectName\":\"cookiescript.info\",\"validFrom\":1768760533,\"validTo\":1776536532},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":344.232,\"connectStart\":1.749,\"dnsEnd\":1.749,\"dnsStart\":1.745,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":509.333,\"receiveHeadersStart\":509.191,\"requestTime\":93842.621362,\"sendEnd\":344.437,\"sendStart\":344.333,\"sslEnd\":344.14,\"sslStart\":177.299,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cookiescript.info/packs/application-e879d33bb10b25f75e50.js\"},\"timestamp\":93843.132212,\"type\":\"Script\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327077
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1177,\"encodedDataLength\":0,\"requestId\":\"6968.5\",\"timestamp\":93843.132256}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327077
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":1177,\"requestId\":\"6968.5\",\"timestamp\":93843.132322}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327077
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1438,\"requestId\":\"6968.5\",\"timestamp\":93843.131303}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327077
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"306748\",\"Content-Type\":\"text/css\",\"Date\":\"Mon, 26 Jan 2026 12:42:07 GMT\",\"ETag\":\"\\\"5d5fc4b8-4ae3c\\\"\",\"Last-Modified\":\"Fri, 23 Aug 2019 10:49:28 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.14.0 (Ubuntu)\\r\\nDate: Mon, 26 Jan 2026 12:42:07 GMT\\r\\nContent-Type: text/css\\r\\nContent-Length: 306748\\r\\nLast-Modified: Fri, 23 Aug 2019 10:49:28 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"5d5fc4b8-4ae3c\\\"\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"6968.6\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327089
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.6\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":102,\"connectionReused\":true,\"encodedDataLength\":251,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"306748\",\"Content-Type\":\"text/css\",\"Date\":\"Mon, 26 Jan 2026 12:42:07 GMT\",\"ETag\":\"\\\"5d5fc4b8-4ae3c\\\"\",\"Last-Modified\":\"Fri, 23 Aug 2019 10:49:28 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"mimeType\":\"text/css\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"209.97.140.241\",\"remotePort\":443,\"responseTime\":1.769431327088942e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"R13\",\"keyExchange\":\"ECDHE_RSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"cookiescript.info\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FB34E08BB0A9CB64340DB6D71A71E37D4D17534AEFCA0F6FCB1702649A4A9895022100E9EC01C353C46715ECB0C228408E240B608B01A5D5E69348924BEE857DE778BD\",\"status\":\"Verified\",\"timestamp\":1.768764043764e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Willow2026h1'\",\"logId\":\"E3238DF28DA288E0AAE0ACF0FA90C985F0B6BFF5D2A527B001FC1C4458C4B6E8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B6234111E230B9CAC054B3A64EC0B88799F8C66732130FD3250D4539EF8D283902204B7BF0742A2A17E668062CD8163D032EA998256148E3F2840EC2CAEA09F7338E\",\"status\":\"Verified\",\"timestamp\":1.768764044524e+12}],\"subjectName\":\"cookiescript.info\",\"validFrom\":1768760533,\"validTo\":1776536532},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":522.867,\"receiveHeadersStart\":522.715,\"requestTime\":93842.621592,\"sendEnd\":181.738,\"sendStart\":181.661,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cookiescript.info/packs/application-28a5078bee6b09698e1267fa3ced1a1e.css\"},\"timestamp\":93843.145136,\"type\":\"Stylesheet\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327090
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16133,\"encodedDataLength\":0,\"requestId\":\"6968.6\",\"timestamp\":93843.14517}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327090
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16133,\"requestId\":\"6968.6\",\"timestamp\":93843.318584}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327263
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"308795\",\"Content-Type\":\"application/javascript\",\"Date\":\"Mon, 26 Jan 2026 12:42:07 GMT\",\"ETag\":\"\\\"5d5fc4b8-4b63b\\\"\",\"Last-Modified\":\"Fri, 23 Aug 2019 10:49:28 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.14.0 (Ubuntu)\\r\\nDate: Mon, 26 Jan 2026 12:42:07 GMT\\r\\nContent-Type: application/javascript\\r\\nContent-Length: 308795\\r\\nLast-Modified: Fri, 23 Aug 2019 10:49:28 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"5d5fc4b8-4b63b\\\"\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"6968.7\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327274
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.477507}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327422
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.489317}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327434
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.536372}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327481
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.650317}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327595
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.662511}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327607
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.676146}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327621
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.718763}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327664
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.82292}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327768
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.831795}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327776
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.841626}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327786
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.855158}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327800
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.86787}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327812
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.880172}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327825
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.892631}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327837
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.950689}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327895
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":16384,\"requestId\":\"6968.6\",\"timestamp\":93843.994392}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327939
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":12087,\"encodedDataLength\":28471,\"requestId\":\"6968.6\",\"timestamp\":93844.011036}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327956
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":306999,\"requestId\":\"6968.6\",\"timestamp\":93844.010799}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431327960
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93844.011549},\"headers\":{\":authority\":\"www.googletagmanager.com\",\":method\":\"GET\",\":path\":\"/gtm.js?id=GTM-KKRTVQ9\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"referer\":\"https://cookiescript.info/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"6968.19\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328005
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-headers\":\"Cache-Control\",\"access-control-allow-origin\":\"*\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"private, max-age=900\",\"content-encoding\":\"zstd\",\"content-length\":\"122785\",\"content-type\":\"application/javascript; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"expires\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"last-modified\":\"Mon, 26 Jan 2026 12:00:00 GMT\",\"server\":\"Google Tag Manager\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains\",\"vary\":\"Accept-Encoding\",\"x-xss-protection\":\"0\"},\"requestId\":\"6968.19\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328053
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.19\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":191,\"connectionReused\":false,\"encodedDataLength\":1746,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-headers\":\"Cache-Control\",\"access-control-allow-origin\":\"*\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"private, max-age=900\",\"content-encoding\":\"zstd\",\"content-length\":\"122785\",\"content-type\":\"application/javascript; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"expires\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"last-modified\":\"Mon, 26 Jan 2026 12:00:00 GMT\",\"server\":\"Google Tag Manager\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains\",\"vary\":\"Accept-Encoding\",\"x-xss-protection\":\"0\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"142.251.223.232\",\"remotePort\":443,\"responseTime\":1.769431328052798e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.google-analytics.com\",\"region1.app-measurement.com\",\"app-measurement.com\",\"region1.att.app-measurement.com\",\"att.app-measurement.com\",\"region1.analytics.app-measurement.com\",\"analytics.app-measurement.com\",\"region1.app-analytics-services-att.com\",\"app-analytics-services-att.com\",\"region1.app-analytics-services.com\",\"app-analytics-services.com\",\"google-analytics.com\",\"region1.google-analytics.com\",\"ssl.google-analytics.com\",\"www.google-analytics.com\",\"region1.analytics.google.com\",\"googletagmanager.com\",\"www.googletagmanager.com\",\"urchin.com\",\"service.urchin.com\",\"fps.goog\",\"*.fps.goog\",\"googleoptimize.com\",\"www.googleoptimize.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100A1A3D05BACA270D1EB431C02E89F3DA58C1F4FF9660C5BC130D406695733D317022042E21316C4A4AF6E60355754905BF27979C757DCE1E092B290597DB4AC01AE65\",\"status\":\"Verified\",\"timestamp\":1.767041475361e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200EA9C8158D2628BFDA3B3CAA3D1B6BA1B6683805DC1D75CC4FF9C1FBCFD05446022100FAC9D278D7896B84763AFE651869CCA5FA7E4660C2C70FE2A775E407FA7E3D47\",\"status\":\"Verified\",\"timestamp\":1.767041475331e+12}],\"subjectName\":\"*.google-analytics.com\",\"validFrom\":1767037874,\"validTo\":1774295473},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":48.315,\"connectStart\":12.102,\"dnsEnd\":11.995,\"dnsStart\":0.614,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":96.859,\"receiveHeadersStart\":96.587,\"requestTime\":93844.011549,\"sendEnd\":48.493,\"sendStart\":48.431,\"sslEnd\":48.308,\"sslStart\":17.006,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},\"timestamp\":93844.283024,\"type\":\"Script\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328228
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":131072,\"encodedDataLength\":0,\"requestId\":\"6968.19\",\"timestamp\":93844.283069}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328228
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":131072,\"encodedDataLength\":0,\"requestId\":\"6968.19\",\"timestamp\":93844.283071}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328228
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":90835,\"encodedDataLength\":0,\"requestId\":\"6968.19\",\"timestamp\":93844.283072}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328228
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":121476,\"requestId\":\"6968.19\",\"timestamp\":93844.283195}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328228
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":123222,\"requestId\":\"6968.19\",\"timestamp\":93844.277336}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328228
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.7\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":154,\"connectionReused\":false,\"encodedDataLength\":265,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"308795\",\"Content-Type\":\"application/javascript\",\"Date\":\"Mon, 26 Jan 2026 12:42:07 GMT\",\"ETag\":\"\\\"5d5fc4b8-4b63b\\\"\",\"Last-Modified\":\"Fri, 23 Aug 2019 10:49:28 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"mimeType\":\"application/javascript\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"209.97.140.241\",\"remotePort\":443,\"responseTime\":1.769431327273139e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"R13\",\"keyExchange\":\"ECDHE_RSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"cookiescript.info\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FB34E08BB0A9CB64340DB6D71A71E37D4D17534AEFCA0F6FCB1702649A4A9895022100E9EC01C353C46715ECB0C228408E240B608B01A5D5E69348924BEE857DE778BD\",\"status\":\"Verified\",\"timestamp\":1.768764043764e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Willow2026h1'\",\"logId\":\"E3238DF28DA288E0AAE0ACF0FA90C985F0B6BFF5D2A527B001FC1C4458C4B6E8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B6234111E230B9CAC054B3A64EC0B88799F8C66732130FD3250D4539EF8D283902204B7BF0742A2A17E668062CD8163D032EA998256148E3F2840EC2CAEA09F7338E\",\"status\":\"Verified\",\"timestamp\":1.768764044524e+12}],\"subjectName\":\"cookiescript.info\",\"validFrom\":1768760533,\"validTo\":1776536532},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":364.723,\"connectStart\":0.211,\"dnsEnd\":0.211,\"dnsStart\":0.206,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":706.664,\"receiveHeadersStart\":706.527,\"requestTime\":93842.621977,\"sendEnd\":364.938,\"sendStart\":364.824,\"sslEnd\":364.68,\"sslStart\":180.39,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cookiescript.info/packs/hello_vue-e2603f15987d57f55217.js\"},\"timestamp\":93844.300729,\"type\":\"Script\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328245
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3831,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300764}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":12288,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300767}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300768}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.30077}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.30077}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300781}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300782}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300787}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300788}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.30079}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300791}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300793}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300794}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300795}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300797}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300798}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300799}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300804}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300805}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":14148,\"encodedDataLength\":0,\"requestId\":\"6968.7\",\"timestamp\":93844.300806}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":308795,\"requestId\":\"6968.7\",\"timestamp\":93844.300857}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":309060,\"requestId\":\"6968.7\",\"timestamp\":93844.293591}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"parser\",\"url\":\"https://cookiescript.info/assets/application-14c5b1b9ba53847f5c225a0dc32e99de04a499cdbbfa9c2dbceeb85bc57a2840.css\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"https://cookiescript.info\",\"Referer\":\"https://cookiescript.info/assets/application-14c5b1b9ba53847f5c225a0dc32e99de04a499cdbbfa9c2dbceeb85bc57a2840.css\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cookiescript.info/assets/VarelaRound-Regular.ttf\"},\"requestId\":\"6968.34\",\"timestamp\":93844.317024,\"type\":\"Font\",\"wallTime\":1769431328.26168}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328297
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"cookiescript.info\",\"expires\":-1,\"httpOnly\":true,\"name\":\"_cookiescript_info_session\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":true,\"session\":true,\"size\":232,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93844.352496},\"headers\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Cookie\":\"_cookiescript_info_session=RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\",\"Host\":\"cookiescript.info\",\"Origin\":\"https://cookiescript.info\",\"Referer\":\"https://cookiescript.info/assets/application-14c5b1b9ba53847f5c225a0dc32e99de04a499cdbbfa9c2dbceeb85bc57a2840.css\",\"Sec-Fetch-Dest\":\"font\",\"Sec-Fetch-Mode\":\"cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"6968.34\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328298
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":482,\"functionName\":\"Oc\",\"lineNumber\":190,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":224,\"functionName\":\"UR\",\"lineNumber\":756,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":259,\"functionName\":\"e\",\"lineNumber\":790,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":15,\"functionName\":\"l\",\"lineNumber\":797,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":388,\"functionName\":\"eg\",\"lineNumber\":263,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":229,\"functionName\":\"e\",\"lineNumber\":592,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":124,\"functionName\":\"\",\"lineNumber\":176,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":413,\"functionName\":\"\",\"lineNumber\":593,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":153,\"functionName\":\"\",\"lineNumber\":593,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":873,\"functionName\":\"Tz\",\"lineNumber\":593,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":108,\"functionName\":\"Xz\",\"lineNumber\":598,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":307,\"functionName\":\"lB\",\"lineNumber\":621,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":304,\"functionName\":\"b.push\",\"lineNumber\":626,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":10,\"functionName\":\"\",\"lineNumber\":2,\"scriptId\":\"12\",\"url\":\"\"},{\"columnNumber\":458,\"functionName\":\"\",\"lineNumber\":2,\"scriptId\":\"12\",\"url\":\"\"},{\"columnNumber\":428,\"functionName\":\"\",\"lineNumber\":734,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":30,\"functionName\":\"jQ\",\"lineNumber\":736,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":62,\"functionName\":\"\",\"lineNumber\":736,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"}]},\"type\":\"script\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.google-analytics.com/analytics.js\"},\"requestId\":\"6968.35\",\"timestamp\":93844.362789,\"type\":\"Script\",\"wallTime\":1769431328.308919}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328311
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":482,\"functionName\":\"Oc\",\"lineNumber\":190,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":618,\"functionName\":\"nQ\",\"lineNumber\":736,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":199,\"functionName\":\"oQ\",\"lineNumber\":737,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":186,\"functionName\":\"\",\"lineNumber\":281,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":465,\"functionName\":\"k.apply\",\"lineNumber\":208,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":208,\"functionName\":\"$a\",\"lineNumber\":170,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":526,\"functionName\":\"Za\",\"lineNumber\":169,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":472,\"functionName\":\"\",\"lineNumber\":232,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":465,\"functionName\":\"k.apply\",\"lineNumber\":208,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":208,\"functionName\":\"$a\",\"lineNumber\":170,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":116,\"functionName\":\"k.Mp\",\"lineNumber\":172,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":959,\"functionName\":\"ff\",\"lineNumber\":243,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":314,\"functionName\":\"\",\"lineNumber\":646,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":393,\"functionName\":\"eg\",\"lineNumber\":263,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":229,\"functionName\":\"e\",\"lineNumber\":592,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":124,\"functionName\":\"\",\"lineNumber\":176,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":413,\"functionName\":\"\",\"lineNumber\":593,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":153,\"functionName\":\"\",\"lineNumber\":593,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":873,\"functionName\":\"Tz\",\"lineNumber\":593,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":108,\"functionName\":\"Xz\",\"lineNumber\":598,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":307,\"functionName\":\"lB\",\"lineNumber\":621,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":304,\"functionName\":\"b.push\",\"lineNumber\":626,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":10,\"functionName\":\"\",\"lineNumber\":2,\"scriptId\":\"12\",\"url\":\"\"},{\"columnNumber\":458,\"functionName\":\"\",\"lineNumber\":2,\"scriptId\":\"12\",\"url\":\"\"},{\"columnNumber\":428,\"functionName\":\"\",\"lineNumber\":734,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":30,\"functionName\":\"jQ\",\"lineNumber\":736,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"},{\"columnNumber\":62,\"functionName\":\"\",\"lineNumber\":736,\"scriptId\":\"11\",\"url\":\"https://www.googletagmanager.com/gtm.js?id=GTM-KKRTVQ9\"}]},\"type\":\"script\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://static.hotjar.com/c/hotjar-1060007.js?sv=7\"},\"requestId\":\"6968.36\",\"timestamp\":93844.365405,\"type\":\"Script\",\"wallTime\":1769431328.310476}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328311
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":93844.372421}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328318
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"parser\",\"url\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"https://cookiescript.info\",\"Referer\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0\"},\"requestId\":\"6968.31\",\"timestamp\":93844.372774,\"type\":\"Font\",\"wallTime\":1769431328.317436}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328318
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93844.386537},\"headers\":{\":authority\":\"cdnjs.cloudflare.com\",\":method\":\"GET\",\":path\":\"/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://cookiescript.info\",\"priority\":\"u=0\",\"referer\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"font\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"6968.31\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328334
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"age\":\"991684\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"public, max-age=30672000\",\"cf-cache-status\":\"HIT\",\"cf-cdnjs-via\":\"cfworker/kv\",\"cf-ray\":\"9c4016ac4d3a9bc1-MAA\",\"content-length\":\"77160\",\"content-type\":\"application/octet-stream; charset=utf-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"etag\":\"\\\"5eb03e5f-12d68\\\"\",\"expires\":\"Sat, 16 Jan 2027 12:42:08 GMT\",\"last-modified\":\"Mon, 04 May 2020 16:10:07 GMT\",\"nel\":\"{\\\"success_fraction\\\":0.01,\\\"report_to\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800}\",\"priority\":\"u=0,i=?0\",\"report-to\":\"{\\\"endpoints\\\":[{\\\"url\\\":\\\"https:\\\\/\\\\/a.nel.cloudflare.com\\\\/report\\\\/v4?s=PstVqzGkhCoqdRfYl8IWh8feaDqtMyCCuTn7vEUcShrFgO8UCQt4hmFL10OkCAEWC7dc%2BSpJFKgsaNnTmrO62uLx8qwzMTWCeF4vBiadVQCbDCU0p%2FThzIhlVyDTlX%2FAqGWKsM%2Bn\\\"}],\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=15780000\",\"timing-allow-origin\":\"*\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\"},\"requestId\":\"6968.31\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328350
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93844.364694},\"headers\":{\":authority\":\"www.google-analytics.com\",\":method\":\"GET\",\":path\":\"/analytics.js\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"referer\":\"https://cookiescript.info/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"6968.35\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328375
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"age\":\"3182\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"public, max-age=7200\",\"content-encoding\":\"gzip\",\"content-length\":\"20737\",\"content-security-policy-report-only\":\"script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:225:0\",\"content-type\":\"text/javascript\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=ascnsrsgac:225:0\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 11:49:06 GMT\",\"expires\":\"Mon, 26 Jan 2026 13:49:06 GMT\",\"last-modified\":\"Tue, 15 Jul 2025 00:44:26 GMT\",\"report-to\":\"{\\\"group\\\":\\\"ascnsrsgac:225:0\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:225:0\\\"}],}\",\"server\":\"Golfe2\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\"},\"requestId\":\"6968.35\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328387
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.35\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":229,\"connectionReused\":false,\"encodedDataLength\":589,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"age\":\"3182\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"public, max-age=7200\",\"content-encoding\":\"gzip\",\"content-length\":\"20737\",\"content-security-policy-report-only\":\"script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:225:0\",\"content-type\":\"text/javascript\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=ascnsrsgac:225:0\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 11:49:06 GMT\",\"expires\":\"Mon, 26 Jan 2026 13:49:06 GMT\",\"last-modified\":\"Tue, 15 Jul 2025 00:44:26 GMT\",\"report-to\":\"{\\\"group\\\":\\\"ascnsrsgac:225:0\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:225:0\\\"}],}\",\"server\":\"Golfe2\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\"},\"mimeType\":\"text/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"142.251.43.46\",\"remotePort\":443,\"responseTime\":1.76943132838716e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.google-analytics.com\",\"region1.app-measurement.com\",\"app-measurement.com\",\"region1.att.app-measurement.com\",\"att.app-measurement.com\",\"region1.analytics.app-measurement.com\",\"analytics.app-measurement.com\",\"region1.app-analytics-services-att.com\",\"app-analytics-services-att.com\",\"region1.app-analytics-services.com\",\"app-analytics-services.com\",\"google-analytics.com\",\"region1.google-analytics.com\",\"ssl.google-analytics.com\",\"www.google-analytics.com\",\"region1.analytics.google.com\",\"googletagmanager.com\",\"www.googletagmanager.com\",\"urchin.com\",\"service.urchin.com\",\"fps.goog\",\"*.fps.goog\",\"googleoptimize.com\",\"www.googleoptimize.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100A1A3D05BACA270D1EB431C02E89F3DA58C1F4FF9660C5BC130D406695733D317022042E21316C4A4AF6E60355754905BF27979C757DCE1E092B290597DB4AC01AE65\",\"status\":\"Verified\",\"timestamp\":1.767041475361e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200EA9C8158D2628BFDA3B3CAA3D1B6BA1B6683805DC1D75CC4FF9C1FBCFD05446022100FAC9D278D7896B84763AFE651869CCA5FA7E4660C2C70FE2A775E407FA7E3D47\",\"status\":\"Verified\",\"timestamp\":1.767041475331e+12}],\"subjectName\":\"*.google-analytics.com\",\"validFrom\":1767037874,\"validTo\":1774295473},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":65.48,\"connectStart\":13.038,\"dnsEnd\":12.74,\"dnsStart\":0.268,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":78.004,\"receiveHeadersStart\":77.81,\"requestTime\":93844.364694,\"sendEnd\":65.757,\"sendStart\":65.691,\"sslEnd\":65.475,\"sslStart\":24.102,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.google-analytics.com/analytics.js\"},\"timestamp\":93844.461424,\"type\":\"Script\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":26923,\"encodedDataLength\":0,\"requestId\":\"6968.35\",\"timestamp\":93844.461465}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":18146,\"encodedDataLength\":0,\"requestId\":\"6968.35\",\"timestamp\":93844.461467}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":7241,\"encodedDataLength\":0,\"requestId\":\"6968.35\",\"timestamp\":93844.461468}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":20755,\"requestId\":\"6968.35\",\"timestamp\":93844.461527}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":21344,\"requestId\":\"6968.35\",\"timestamp\":93844.460448}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":11,\"functionName\":\"wd\",\"lineNumber\":45,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":764,\"functionName\":\"pe\",\"lineNumber\":43,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":265,\"functionName\":\"Sa\",\"lineNumber\":49,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":608,\"functionName\":\"Ha.D\",\"lineNumber\":46,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":270,\"functionName\":\"pc.send\",\"lineNumber\":86,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":449,\"functionName\":\"X.b.\\u003Ccomputed>\",\"lineNumber\":67,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":360,\"functionName\":\"Z.v\",\"lineNumber\":101,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":177,\"functionName\":\"Z.D\",\"lineNumber\":100,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":287,\"functionName\":\"N.init\",\"lineNumber\":104,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":266,\"functionName\":\"rc\",\"lineNumber\":94,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":298,\"functionName\":\"z\",\"lineNumber\":94,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":337,\"functionName\":\"\",\"lineNumber\":104,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":389,\"functionName\":\"\",\"lineNumber\":104,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"}]},\"type\":\"script\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"hasPostData\":true,\"headers\":{\"Content-Type\":\"text/plain\",\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":false,\"method\":\"POST\",\"mixedContentType\":\"none\",\"postDataEntries\":[{\"bytes\":\"\"}],\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=1697382907&t=pageview&_s=1&dl=https%3A%2F%2Fcookiescript.info%2F&ul=en-us&dt=Get%20your%20GDPR%20compliant%20Cookie%20Script%20today!&sr=800x600&vp=747x432&_u=YEBAAEABAAAAACAAI~&jid=1662941895&gjid=769022240&cid=840578203.1769431328&tid=UA-127567400-1&_gid=315352215.1769431328&_r=1&_slc=1&gtm=45He61m0n81KKRTVQ9za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495938~115938465~115938468~116682875~116988315~117041588~117042506&z=1518726243\"},\"requestId\":\"6968.40\",\"timestamp\":93844.46883,\"type\":\"XHR\",\"wallTime\":1769431328.416565}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328417
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93844.472297},\"headers\":{\":authority\":\"www.google-analytics.com\",\":method\":\"POST\",\":path\":\"/j/collect?v=1&_v=j102&aip=1&a=1697382907&t=pageview&_s=1&dl=https%3A%2F%2Fcookiescript.info%2F&ul=en-us&dt=Get%20your%20GDPR%20compliant%20Cookie%20Script%20today!&sr=800x600&vp=747x432&_u=YEBAAEABAAAAACAAI~&jid=1662941895&gjid=769022240&cid=840578203.1769431328&tid=UA-127567400-1&_gid=315352215.1769431328&_r=1&_slc=1&gtm=45He61m0n81KKRTVQ9za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495938~115938465~115938468~116682875~116988315~117041588~117042506&z=1518726243\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"content-length\":\"0\",\"content-type\":\"text/plain\",\"origin\":\"https://cookiescript.info\",\"priority\":\"u=1, i\",\"referer\":\"https://cookiescript.info/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"empty\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"6968.40\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328418
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93844.366214},\"headers\":{\":authority\":\"static.hotjar.com\",\":method\":\"GET\",\":path\":\"/c/hotjar-1060007.js?sv=7\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"referer\":\"https://cookiescript.info/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"6968.36\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328447
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.31\",\"response\":{\"alternateProtocolUsage\":\"alternativeJobWonRace\",\"charset\":\"utf-8\",\"connectionId\":239,\"connectionReused\":false,\"encodedDataLength\":667,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"age\":\"991684\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"public, max-age=30672000\",\"cf-cache-status\":\"HIT\",\"cf-cdnjs-via\":\"cfworker/kv\",\"cf-ray\":\"9c4016ac4d3a9bc1-MAA\",\"content-length\":\"77160\",\"content-type\":\"application/octet-stream; charset=utf-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"etag\":\"\\\"5eb03e5f-12d68\\\"\",\"expires\":\"Sat, 16 Jan 2027 12:42:08 GMT\",\"last-modified\":\"Mon, 04 May 2020 16:10:07 GMT\",\"nel\":\"{\\\"success_fraction\\\":0.01,\\\"report_to\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800}\",\"priority\":\"u=0,i=?0\",\"report-to\":\"{\\\"endpoints\\\":[{\\\"url\\\":\\\"https:\\\\/\\\\/a.nel.cloudflare.com\\\\/report\\\\/v4?s=PstVqzGkhCoqdRfYl8IWh8feaDqtMyCCuTn7vEUcShrFgO8UCQt4hmFL10OkCAEWC7dc%2BSpJFKgsaNnTmrO62uLx8qwzMTWCeF4vBiadVQCbDCU0p%2FThzIhlVyDTlX%2FAqGWKsM%2Bn\\\"}],\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=15780000\",\"timing-allow-origin\":\"*\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\"},\"mimeType\":\"application/octet-stream\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.17.24.14\",\"remotePort\":443,\"responseTime\":1.769431328349412e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"cdnjs.cloudflare.com\",\"*.cdnjs.cloudflare.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100D6CE3BCB0F676CA425EDF57559016FC3EA1C7479074CF5F6A753021AAEC9016C022100D64FF6F677800F2D77DE1987F02655423E23E8077E4AC9665B2356D21291D5EC\",\"status\":\"Verified\",\"timestamp\":1.768346165919e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Tiger2026h1'\",\"logId\":\"16832DABF0A9250F0FF03AA545FFC8BFC823D0874BF6042927F8E71F3313F5FA\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502201070FC61C786DACE14CA205B16394AE3F4C999B1D70C299FD62E6A06C8259A2A022100921C839AB0E24C425195B63860967A27B41E03B9431AE8FEF728699DD955E567\",\"status\":\"Verified\",\"timestamp\":1.768346166061e+12}],\"subjectName\":\"cdnjs.cloudflare.com\",\"validFrom\":1768342565,\"validTo\":1776122155},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":9.734,\"connectStart\":1.024,\"dnsEnd\":0.477,\"dnsStart\":0.458,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":18.466,\"receiveHeadersStart\":18.22,\"requestTime\":93844.386537,\"sendEnd\":2.195,\"sendStart\":2.028,\"sslEnd\":9.734,\"sslStart\":1.024,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0\"},\"timestamp\":93844.505643,\"type\":\"Font\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":510,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505673}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505675}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505675}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":7056,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505676}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1143,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505676}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1173,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505677}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1173,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505678}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1173,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505679}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1169,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505679}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505681}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505681}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2343,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505682}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505682}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2342,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505683}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2345,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505684}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2345,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505684}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505685}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2345,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505688}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505689}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1169,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.50569}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.50569}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505691}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2345,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505691}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505692}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505693}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":5861,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505694}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505694}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505695}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2345,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505695}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505696}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4687,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505698}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505699}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2342,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.5057}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.5057}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505701}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2345,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505702}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505702}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1169,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505703}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":8674,\"encodedDataLength\":0,\"requestId\":\"6968.31\",\"timestamp\":93844.505703}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":77273,\"requestId\":\"6968.31\",\"timestamp\":93844.505896}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":77940,\"requestId\":\"6968.31\",\"timestamp\":93844.501781}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328451
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://cookiescript.info\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"no-cache, no-store, must-revalidate\",\"content-length\":\"15\",\"content-security-policy-report-only\":\"script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:211:0\",\"content-type\":\"text/plain\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=ascnsrsgac:211:0\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"expires\":\"Fri, 01 Jan 1990 00:00:00 GMT\",\"last-modified\":\"Sun, 17 May 1998 03:00:00 GMT\",\"pragma\":\"no-cache\",\"report-to\":\"{\\\"group\\\":\\\"ascnsrsgac:211:0\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:211:0\\\"}],}\",\"server\":\"Golfe2\",\"x-content-type-options\":\"nosniff\"},\"requestId\":\"6968.40\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.40\",\"response\":{\"alternateProtocolUsage\":\"mainJobWonRace\",\"charset\":\"\",\"connectionId\":229,\"connectionReused\":true,\"encodedDataLength\":432,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://cookiescript.info\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"no-cache, no-store, must-revalidate\",\"content-length\":\"15\",\"content-security-policy-report-only\":\"script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:211:0\",\"content-type\":\"text/plain\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=ascnsrsgac:211:0\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"expires\":\"Fri, 01 Jan 1990 00:00:00 GMT\",\"last-modified\":\"Sun, 17 May 1998 03:00:00 GMT\",\"pragma\":\"no-cache\",\"report-to\":\"{\\\"group\\\":\\\"ascnsrsgac:211:0\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:211:0\\\"}],}\",\"server\":\"Golfe2\",\"x-content-type-options\":\"nosniff\"},\"mimeType\":\"text/plain\",\"protocol\":\"h2\",\"remoteIPAddress\":\"142.251.43.46\",\"remotePort\":443,\"responseTime\":1.769431328463945e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.google-analytics.com\",\"region1.app-measurement.com\",\"app-measurement.com\",\"region1.att.app-measurement.com\",\"att.app-measurement.com\",\"region1.analytics.app-measurement.com\",\"analytics.app-measurement.com\",\"region1.app-analytics-services-att.com\",\"app-analytics-services-att.com\",\"region1.app-analytics-services.com\",\"app-analytics-services.com\",\"google-analytics.com\",\"region1.google-analytics.com\",\"ssl.google-analytics.com\",\"www.google-analytics.com\",\"region1.analytics.google.com\",\"googletagmanager.com\",\"www.googletagmanager.com\",\"urchin.com\",\"service.urchin.com\",\"fps.goog\",\"*.fps.goog\",\"googleoptimize.com\",\"www.googleoptimize.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100A1A3D05BACA270D1EB431C02E89F3DA58C1F4FF9660C5BC130D406695733D317022042E21316C4A4AF6E60355754905BF27979C757DCE1E092B290597DB4AC01AE65\",\"status\":\"Verified\",\"timestamp\":1.767041475361e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200EA9C8158D2628BFDA3B3CAA3D1B6BA1B6683805DC1D75CC4FF9C1FBCFD05446022100FAC9D278D7896B84763AFE651869CCA5FA7E4660C2C70FE2A775E407FA7E3D47\",\"status\":\"Verified\",\"timestamp\":1.767041475331e+12}],\"subjectName\":\"*.google-analytics.com\",\"validFrom\":1767037874,\"validTo\":1774295473},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":47.099,\"receiveHeadersStart\":46.984,\"requestTime\":93844.472297,\"sendEnd\":1.263,\"sendStart\":1.156,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=1697382907&t=pageview&_s=1&dl=https%3A%2F%2Fcookiescript.info%2F&ul=en-us&dt=Get%20your%20GDPR%20compliant%20Cookie%20Script%20today!&sr=800x600&vp=747x432&_u=YEBAAEABAAAAACAAI~&jid=1662941895&gjid=769022240&cid=840578203.1769431328&tid=UA-127567400-1&_gid=315352215.1769431328&_r=1&_slc=1&gtm=45He61m0n81KKRTVQ9za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495938~115938465~115938468~116682875~116988315~117041588~117042506&z=1518726243\"},\"timestamp\":93844.520074,\"type\":\"XHR\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328465
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":15,\"encodedDataLength\":33,\"requestId\":\"6968.40\",\"timestamp\":93844.520926}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328466
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":54,\"functionName\":\"Id\",\"lineNumber\":33,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":185,\"functionName\":\"\",\"lineNumber\":84,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":206,\"functionName\":\"oc\",\"lineNumber\":46,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":262,\"functionName\":\"Ea\",\"lineNumber\":45,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"},{\"columnNumber\":458,\"functionName\":\"g.onreadystatechange\",\"lineNumber\":44,\"scriptId\":\"16\",\"url\":\"https://www.google-analytics.com/analytics.js\"}]},\"type\":\"script\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},\"requestId\":\"6968.41\",\"timestamp\":93844.522243,\"type\":\"Script\",\"wallTime\":1769431328.467059}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328467
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":465,\"requestId\":\"6968.40\",\"timestamp\":93844.520612}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328467
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93844.522756},\"headers\":{\":authority\":\"www.googletagmanager.com\",\":method\":\"GET\",\":path\":\"/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"referer\":\"https://cookiescript.info/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"6968.41\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328468
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Cache-Control\":\"max-age=315360000\\npublic\",\"Connection\":\"keep-alive\",\"Content-Length\":\"135132\",\"Content-Type\":\"application/octet-stream\",\"Date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"ETag\":\"\\\"5bc5a813-20fdc\\\"\",\"Expires\":\"Thu, 31 Dec 2037 23:55:55 GMT\",\"Last-Modified\":\"Tue, 16 Oct 2018 08:57:55 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.14.0 (Ubuntu)\\r\\nDate: Mon, 26 Jan 2026 12:42:08 GMT\\r\\nContent-Type: application/octet-stream\\r\\nContent-Length: 135132\\r\\nLast-Modified: Tue, 16 Oct 2018 08:57:55 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"5bc5a813-20fdc\\\"\\r\\nExpires: Thu, 31 Dec 2037 23:55:55 GMT\\r\\nCache-Control: max-age=315360000\\r\\nCache-Control: public\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"6968.34\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328485
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.34\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":154,\"connectionReused\":true,\"encodedDataLength\":364,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Cache-Control\":\"max-age=315360000, public\",\"Connection\":\"keep-alive\",\"Content-Length\":\"135132\",\"Content-Type\":\"application/octet-stream\",\"Date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"ETag\":\"\\\"5bc5a813-20fdc\\\"\",\"Expires\":\"Thu, 31 Dec 2037 23:55:55 GMT\",\"Last-Modified\":\"Tue, 16 Oct 2018 08:57:55 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"mimeType\":\"application/octet-stream\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"209.97.140.241\",\"remotePort\":443,\"responseTime\":1.769431328485011e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"R13\",\"keyExchange\":\"ECDHE_RSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"cookiescript.info\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FB34E08BB0A9CB64340DB6D71A71E37D4D17534AEFCA0F6FCB1702649A4A9895022100E9EC01C353C46715ECB0C228408E240B608B01A5D5E69348924BEE857DE778BD\",\"status\":\"Verified\",\"timestamp\":1.768764043764e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Willow2026h1'\",\"logId\":\"E3238DF28DA288E0AAE0ACF0FA90C985F0B6BFF5D2A527B001FC1C4458C4B6E8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B6234111E230B9CAC054B3A64EC0B88799F8C66732130FD3250D4539EF8D283902204B7BF0742A2A17E668062CD8163D032EA998256148E3F2840EC2CAEA09F7338E\",\"status\":\"Verified\",\"timestamp\":1.768764044524e+12}],\"subjectName\":\"cookiescript.info\",\"validFrom\":1768760533,\"validTo\":1776536532},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":188.197,\"receiveHeadersStart\":187.881,\"requestTime\":93844.352496,\"sendEnd\":0.715,\"sendStart\":0.594,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cookiescript.info/assets/VarelaRound-Regular.ttf\"},\"timestamp\":93844.625691,\"type\":\"Font\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16020,\"encodedDataLength\":0,\"requestId\":\"6968.34\",\"timestamp\":93844.625726}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.34\",\"timestamp\":93844.625727}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.34\",\"timestamp\":93844.625728}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.34\",\"timestamp\":93844.62573}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.34\",\"timestamp\":93844.625731}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.34\",\"timestamp\":93844.625732}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.34\",\"timestamp\":93844.625735}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16384,\"encodedDataLength\":0,\"requestId\":\"6968.34\",\"timestamp\":93844.625737}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4424,\"encodedDataLength\":0,\"requestId\":\"6968.34\",\"timestamp\":93844.625739}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":135132,\"requestId\":\"6968.34\",\"timestamp\":93844.625995}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":135496,\"requestId\":\"6968.34\",\"timestamp\":93844.624289}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328571
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-headers\":\"Cache-Control\",\"access-control-allow-origin\":\"*\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"private, max-age=900\",\"content-encoding\":\"zstd\",\"content-length\":\"137669\",\"content-type\":\"application/javascript; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"expires\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"server\":\"Google Tag Manager\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains\",\"vary\":\"Accept-Encoding\",\"x-xss-protection\":\"0\"},\"requestId\":\"6968.41\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328583
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=60\",\"content-encoding\":\"br\",\"content-type\":\"application/javascript; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"etag\":\"W/72155eb889a4f0933f30b46e96a15f78\",\"strict-transport-security\":\"max-age=2592000; includeSubDomains\",\"vary\":\"Accept-Encoding\",\"via\":\"1.1 547cde31b4190e0bed1b8ac7a943f83e.cloudfront.net (CloudFront)\",\"x-amz-cf-id\":\"P1dTNXzLdAGuBklfQAa0BIhWU97zJ9JyGG0I4xzcRjoLUpb8OpoGeg==\",\"x-amz-cf-pop\":\"MAA51-P1\",\"x-cache\":\"Miss from cloudfront\",\"x-cache-hit\":\"1\",\"x-content-type-options\":\"nosniff\"},\"requestId\":\"6968.36\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328644
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.36\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":243,\"connectionReused\":false,\"encodedDataLength\":6356,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=60\",\"content-encoding\":\"br\",\"content-type\":\"application/javascript; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"etag\":\"W/72155eb889a4f0933f30b46e96a15f78\",\"strict-transport-security\":\"max-age=2592000; includeSubDomains\",\"vary\":\"Accept-Encoding\",\"via\":\"1.1 547cde31b4190e0bed1b8ac7a943f83e.cloudfront.net (CloudFront)\",\"x-amz-cf-id\":\"P1dTNXzLdAGuBklfQAa0BIhWU97zJ9JyGG0I4xzcRjoLUpb8OpoGeg==\",\"x-amz-cf-pop\":\"MAA51-P1\",\"x-cache\":\"Miss from cloudfront\",\"x-cache-hit\":\"1\",\"x-content-type-options\":\"nosniff\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"18.67.161.59\",\"remotePort\":443,\"responseTime\":1.769431328643555e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Amazon RSA 2048 M02\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.hotjar.com\",\"*.hj.heapanalytics.com\",\"*.hj.contentsquare.net\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100D9BD9B445E87105C8B8D3D65B8B810845C722EF900B1428509A6A0E622365B8D02204A112162333479EB589F636B856889EAFB30E95EE32585D0D968483771537198\",\"status\":\"Verified\",\"timestamp\":1.745296139498e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100D828A6ED9106AC3AB9B87AC932EC266C1676C48CBD7C3BE0FCE7FACA41FD6A7B022040446C684617D185BBD99A31BB83970D4B07A664B27FED0431705C3D8C905DBA\",\"status\":\"Verified\",\"timestamp\":1.745296139562e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100AE64C9ECE309B2C3F83B24EE9E5B7FE101E283E9217171BBE996159B5EEBAE65022100FCAD86860A3B8ADB0E999699723846E7F408DC441AAA934326D623809F841BF6\",\"status\":\"Verified\",\"timestamp\":1.745296139943e+12}],\"subjectName\":\"*.hotjar.com\",\"validFrom\":1745280000,\"validTo\":1779494399},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":136.485,\"connectStart\":103.535,\"dnsEnd\":103.371,\"dnsStart\":0.207,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":332.91,\"receiveHeadersStart\":332.687,\"requestTime\":93844.366214,\"sendEnd\":136.698,\"sendStart\":136.608,\"sslEnd\":136.478,\"sslStart\":113.151,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://static.hotjar.com/c/hotjar-1060007.js?sv=7\"},\"timestamp\":93844.701067,\"type\":\"Script\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328647
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":15456,\"encodedDataLength\":0,\"requestId\":\"6968.36\",\"timestamp\":93844.701106}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328648
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":6365,\"requestId\":\"6968.36\",\"timestamp\":93844.699629}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328648
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.41\",\"response\":{\"alternateProtocolUsage\":\"mainJobWonRace\",\"charset\":\"utf-8\",\"connectionId\":191,\"connectionReused\":true,\"encodedDataLength\":5615,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-headers\":\"Cache-Control\",\"access-control-allow-origin\":\"*\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"private, max-age=900\",\"content-encoding\":\"zstd\",\"content-length\":\"137669\",\"content-type\":\"application/javascript; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"expires\":\"Mon, 26 Jan 2026 12:42:08 GMT\",\"server\":\"Google Tag Manager\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains\",\"vary\":\"Accept-Encoding\",\"x-xss-protection\":\"0\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"142.251.223.232\",\"remotePort\":443,\"responseTime\":1.769431328582382e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.google-analytics.com\",\"region1.app-measurement.com\",\"app-measurement.com\",\"region1.att.app-measurement.com\",\"att.app-measurement.com\",\"region1.analytics.app-measurement.com\",\"analytics.app-measurement.com\",\"region1.app-analytics-services-att.com\",\"app-analytics-services-att.com\",\"region1.app-analytics-services.com\",\"app-analytics-services.com\",\"google-analytics.com\",\"region1.google-analytics.com\",\"ssl.google-analytics.com\",\"www.google-analytics.com\",\"region1.analytics.google.com\",\"googletagmanager.com\",\"www.googletagmanager.com\",\"urchin.com\",\"service.urchin.com\",\"fps.goog\",\"*.fps.goog\",\"googleoptimize.com\",\"www.googleoptimize.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100A1A3D05BACA270D1EB431C02E89F3DA58C1F4FF9660C5BC130D406695733D317022042E21316C4A4AF6E60355754905BF27979C757DCE1E092B290597DB4AC01AE65\",\"status\":\"Verified\",\"timestamp\":1.767041475361e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200EA9C8158D2628BFDA3B3CAA3D1B6BA1B6683805DC1D75CC4FF9C1FBCFD05446022100FAC9D278D7896B84763AFE651869CCA5FA7E4660C2C70FE2A775E407FA7E3D47\",\"status\":\"Verified\",\"timestamp\":1.767041475331e+12}],\"subjectName\":\"*.google-analytics.com\",\"validFrom\":1767037874,\"validTo\":1774295473},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":115.267,\"receiveHeadersStart\":114.97,\"requestTime\":93844.522756,\"sendEnd\":1.081,\"sendStart\":1.01,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},\"timestamp\":93844.753466,\"type\":\"Script\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328698
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":131072,\"encodedDataLength\":0,\"requestId\":\"6968.41\",\"timestamp\":93844.753507}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328698
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":131072,\"encodedDataLength\":0,\"requestId\":\"6968.41\",\"timestamp\":93844.753509}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328698
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":128423,\"encodedDataLength\":0,\"requestId\":\"6968.41\",\"timestamp\":93844.75351}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328698
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":132199,\"requestId\":\"6968.41\",\"timestamp\":93844.753653}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328698
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":137814,\"requestId\":\"6968.41\",\"timestamp\":93844.747296}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328698
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":390,\"functionName\":\"cd\",\"lineNumber\":185,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":1217,\"functionName\":\"Dl\",\"lineNumber\":348,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":107,\"functionName\":\"pO\",\"lineNumber\":780,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":387,\"functionName\":\"sO\",\"lineNumber\":780,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":415,\"functionName\":\"k.Rb\",\"lineNumber\":786,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":500,\"functionName\":\"k.add\",\"lineNumber\":788,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":304,\"functionName\":\"k.ln\",\"lineNumber\":805,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":226,\"functionName\":\"k.Or\",\"lineNumber\":805,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":131,\"functionName\":\"\",\"lineNumber\":803,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":192,\"functionName\":\"Xl\",\"lineNumber\":359,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":157,\"functionName\":\"Xn\",\"lineNumber\":379,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":115,\"functionName\":\"\",\"lineNumber\":803,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":400,\"functionName\":\"c\",\"lineNumber\":733,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"},{\"columnNumber\":146,\"functionName\":\"\",\"lineNumber\":734,\"scriptId\":\"17\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-W39W3KY0QW&cx=c&_slc=1\"}]},\"type\":\"script\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":false,\"method\":\"POST\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.google-analytics.com/g/collect?v=2&tid=G-W39W3KY0QW&gtm=45je61m0v9125999941za20g&_p=1769431326759&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=en-us&sr=800x600&cid=840578203.1769431328&ir=1&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.97%7CGoogle%2520Chrome%3B144.0.7559.97&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAI&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115616986~115938465~115938468~116682875~117041588&dl=https%3A%2F%2Fcookiescript.info%2F&dt=Get%20your%20GDPR%20compliant%20Cookie%20Script%20today!&sid=1769431328&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&tfd=3011\"},\"requestId\":\"6968.42\",\"timestamp\":93844.776394,\"type\":\"Fetch\",\"wallTime\":1769431328.721459}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328722
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93844.777342},\"headers\":{\":authority\":\"www.google-analytics.com\",\":method\":\"POST\",\":path\":\"/g/collect?v=2&tid=G-W39W3KY0QW&gtm=45je61m0v9125999941za20g&_p=1769431326759&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=en-us&sr=800x600&cid=840578203.1769431328&ir=1&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.97%7CGoogle%2520Chrome%3B144.0.7559.97&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAI&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115616986~115938465~115938468~116682875~117041588&dl=https%3A%2F%2Fcookiescript.info%2F&dt=Get%20your%20GDPR%20compliant%20Cookie%20Script%20today!&sid=1769431328&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&tfd=3011\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"content-length\":\"0\",\"origin\":\"https://cookiescript.info\",\"priority\":\"u=1, i\",\"referer\":\"https://cookiescript.info/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"empty\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"6968.42\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328723
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":93844.77756}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328723
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431328723
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cookiescript.info/\",\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cookiescript.info/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cookiescript.info/assets/cookie-icon-40x40-e6a0517a4d1931b4f4fc958c1b00da2b289e8119ca6a8df04217b7dcb1a100c1.png\"},\"requestId\":\"6968.43\",\"timestamp\":93844.779707,\"type\":\"Other\",\"wallTime\":1769431328.724369}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431333727
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"cookiescript.info\",\"expires\":-1,\"httpOnly\":true,\"name\":\"_cookiescript_info_session\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":true,\"session\":true,\"size\":232,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".cookiescript.info\",\"expires\":1800967328,\"httpOnly\":false,\"name\":\"cookie_consent_performance\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":false,\"session\":false,\"size\":27,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"1\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".cookiescript.info\",\"expires\":1800967328,\"httpOnly\":false,\"name\":\"cookie_consent_targeting\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":false,\"session\":false,\"size\":25,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"0\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".cookiescript.info\",\"expires\":1803991328.409913,\"httpOnly\":false,\"name\":\"_ga\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":false,\"session\":false,\"size\":29,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"GA1.2.840578203.1769431328\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".cookiescript.info\",\"expires\":1769517728,\"httpOnly\":false,\"name\":\"_gid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":false,\"session\":false,\"size\":30,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"GA1.2.315352215.1769431328\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".cookiescript.info\",\"expires\":1769431388,\"httpOnly\":false,\"name\":\"_gat_UA-127567400-1\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":false,\"session\":false,\"size\":20,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"1\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".cookiescript.info\",\"expires\":1803991328.718893,\"httpOnly\":false,\"name\":\"_ga_W39W3KY0QW\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":false,\"session\":false,\"size\":59,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"GS2.2.s1769431328$o1$g0$t1769431328$j60$l0$h0\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93844.780088},\"headers\":{\"Accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Cookie\":\"_cookiescript_info_session=RjIQGfZsl7A2qR4lXD5kFyHyz6ey6yDUUB4nCqFD2XG49PrmBaKz870IepdNH7zrXYQ1DkoUCl%2FrCg%2FXm%2BepfU1K5NysFFXgpdmhYUFMUcU%2Br7icV2Z7goT19andLmzte9I7Ncad30ujszBMzGE%3D--oCmpFxzAQeOxUTJr--J5yTDPyumdWjkmoSn5e74g%3D%3D; cookie_consent_performance=1; cookie_consent_targeting=0; _ga=GA1.2.840578203.1769431328; _gid=GA1.2.315352215.1769431328; _gat_UA-127567400-1=1; _ga_W39W3KY0QW=GS2.2.s1769431328$o1$g0$t1769431328$j60$l0$h0\",\"Host\":\"cookiescript.info\",\"Referer\":\"https://cookiescript.info/\",\"Sec-Fetch-Dest\":\"image\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"6968.43\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431333727
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://cookiescript.info\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"no-cache, no-store, must-revalidate\",\"content-length\":\"0\",\"content-security-policy-report-only\":\"script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:112:0\",\"content-type\":\"text/plain\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=ascnsrsggc:112:0\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:09 GMT\",\"expires\":\"Fri, 01 Jan 1990 00:00:00 GMT\",\"pragma\":\"no-cache\",\"report-to\":\"{\\\"group\\\":\\\"ascnsrsggc:112:0\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:112:0\\\"}],}\",\"server\":\"Golfe2\"},\"requestId\":\"6968.42\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":204}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431333727
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.42\",\"response\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":252,\"connectionReused\":false,\"encodedDataLength\":20,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://cookiescript.info\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"no-cache, no-store, must-revalidate\",\"content-length\":\"0\",\"content-security-policy-report-only\":\"script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:112:0\",\"content-type\":\"text/plain\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=ascnsrsggc:112:0\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:42:09 GMT\",\"expires\":\"Fri, 01 Jan 1990 00:00:00 GMT\",\"pragma\":\"no-cache\",\"report-to\":\"{\\\"group\\\":\\\"ascnsrsggc:112:0\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:112:0\\\"}],}\",\"server\":\"Golfe2\"},\"mimeType\":\"text/plain\",\"protocol\":\"h3\",\"remoteIPAddress\":\"142.251.43.46\",\"remotePort\":443,\"responseTime\":1.76943132876604e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"*.google-analytics.com\",\"region1.app-measurement.com\",\"app-measurement.com\",\"region1.att.app-measurement.com\",\"att.app-measurement.com\",\"region1.analytics.app-measurement.com\",\"analytics.app-measurement.com\",\"region1.app-analytics-services-att.com\",\"app-analytics-services-att.com\",\"region1.app-analytics-services.com\",\"app-analytics-services.com\",\"google-analytics.com\",\"region1.google-analytics.com\",\"ssl.google-analytics.com\",\"www.google-analytics.com\",\"region1.analytics.google.com\",\"googletagmanager.com\",\"www.googletagmanager.com\",\"urchin.com\",\"service.urchin.com\",\"fps.goog\",\"*.fps.goog\",\"googleoptimize.com\",\"www.googleoptimize.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100A1A3D05BACA270D1EB431C02E89F3DA58C1F4FF9660C5BC130D406695733D317022042E21316C4A4AF6E60355754905BF27979C757DCE1E092B290597DB4AC01AE65\",\"status\":\"Verified\",\"timestamp\":1.767041475361e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200EA9C8158D2628BFDA3B3CAA3D1B6BA1B6683805DC1D75CC4FF9C1FBCFD05446022100FAC9D278D7896B84763AFE651869CCA5FA7E4660C2C70FE2A775E407FA7E3D47\",\"status\":\"Verified\",\"timestamp\":1.767041475331e+12}],\"subjectName\":\"*.google-analytics.com\",\"validFrom\":1767037874,\"validTo\":1774295473},\"securityState\":\"secure\",\"status\":204,\"statusText\":\"\",\"timing\":{\"connectEnd\":0,\"connectStart\":0,\"dnsEnd\":0,\"dnsStart\":0,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":44.106,\"receiveHeadersStart\":44.047,\"requestTime\":93844.777342,\"sendEnd\":0.481,\"sendStart\":0.199,\"sslEnd\":0,\"sslStart\":0,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.google-analytics.com/g/collect?v=2&tid=G-W39W3KY0QW&gtm=45je61m0v9125999941za20g&_p=1769431326759&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=en-us&sr=800x600&cid=840578203.1769431328&ir=1&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.97%7CGoogle%2520Chrome%3B144.0.7559.97&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAI&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115616986~115938465~115938468~116682875~117041588&dl=https%3A%2F%2Fcookiescript.info%2F&dt=Get%20your%20GDPR%20compliant%20Cookie%20Script%20today!&sid=1769431328&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&tfd=3011\"},\"timestamp\":93844.822485,\"type\":\"Fetch\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431333728
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFailed\",\"params\":{\"canceled\":true,\"errorText\":\"net::ERR_ABORTED\",\"requestId\":\"6968.42\",\"timestamp\":93844.822822,\"type\":\"Fetch\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431333728
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://cookiescript.info\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Cache-Control\":\"max-age=315360000\\npublic\",\"Connection\":\"keep-alive\",\"Content-Length\":\"10486\",\"Content-Type\":\"image/png\",\"Date\":\"Mon, 26 Jan 2026 12:42:09 GMT\",\"ETag\":\"\\\"5bc5a813-28f6\\\"\",\"Expires\":\"Thu, 31 Dec 2037 23:55:55 GMT\",\"Last-Modified\":\"Tue, 16 Oct 2018 08:57:55 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.14.0 (Ubuntu)\\r\\nDate: Mon, 26 Jan 2026 12:42:09 GMT\\r\\nContent-Type: image/png\\r\\nContent-Length: 10486\\r\\nLast-Modified: Tue, 16 Oct 2018 08:57:55 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"5bc5a813-28f6\\\"\\r\\nExpires: Thu, 31 Dec 2037 23:55:55 GMT\\r\\nCache-Control: max-age=315360000\\r\\nCache-Control: public\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"6968.43\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431333728
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"9B47D2EC8578D6E720D813A317894CF5\",\"hasExtraInfo\":true,\"loaderId\":\"7C4082BD59596690440967CE7C4C123F\",\"requestId\":\"6968.43\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":154,\"connectionReused\":true,\"encodedDataLength\":347,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Cache-Control\":\"max-age=315360000, public\",\"Connection\":\"keep-alive\",\"Content-Length\":\"10486\",\"Content-Type\":\"image/png\",\"Date\":\"Mon, 26 Jan 2026 12:42:09 GMT\",\"ETag\":\"\\\"5bc5a813-28f6\\\"\",\"Expires\":\"Thu, 31 Dec 2037 23:55:55 GMT\",\"Last-Modified\":\"Tue, 16 Oct 2018 08:57:55 GMT\",\"Server\":\"nginx/1.14.0 (Ubuntu)\"},\"mimeType\":\"image/png\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"209.97.140.241\",\"remotePort\":443,\"responseTime\":1.769431328901276e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"R13\",\"keyExchange\":\"ECDHE_RSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"cookiescript.info\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FB34E08BB0A9CB64340DB6D71A71E37D4D17534AEFCA0F6FCB1702649A4A9895022100E9EC01C353C46715ECB0C228408E240B608B01A5D5E69348924BEE857DE778BD\",\"status\":\"Verified\",\"timestamp\":1.768764043764e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Willow2026h1'\",\"logId\":\"E3238DF28DA288E0AAE0ACF0FA90C985F0B6BFF5D2A527B001FC1C4458C4B6E8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B6234111E230B9CAC054B3A64EC0B88799F8C66732130FD3250D4539EF8D283902204B7BF0742A2A17E668062CD8163D032EA998256148E3F2840EC2CAEA09F7338E\",\"status\":\"Verified\",\"timestamp\":1.768764044524e+12}],\"subjectName\":\"cookiescript.info\",\"validFrom\":1768760533,\"validTo\":1776536532},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":176.701,\"receiveHeadersStart\":176.553,\"requestTime\":93844.780088,\"sendEnd\":0.883,\"sendStart\":0.754,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cookiescript.info/assets/cookie-icon-40x40-e6a0517a4d1931b4f4fc958c1b00da2b289e8119ca6a8df04217b7dcb1a100c1.png\"},\"timestamp\":93844.957497,\"type\":\"Other\"}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431333728
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3749,\"encodedDataLength\":0,\"requestId\":\"6968.43\",\"timestamp\":93844.95755}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431333728
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":6737,\"encodedDataLength\":10486,\"requestId\":\"6968.43\",\"timestamp\":93844.957929}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431333728
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":10833,\"requestId\":\"6968.43\",\"timestamp\":93844.957376}},\"webview\":\"9B47D2EC8578D6E720D813A317894CF5\"}",
+    "timestamp": 1769431333728
+  }
+]

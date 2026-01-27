@@ -1,0 +1,102 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"1702273035F97538F75226BC702F6FAE\",\"loaderId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"navigationType\":\"differentDocument\",\"url\":\"http://cryptown.netlify.com/\"}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158404
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"1702273035F97538F75226BC702F6FAE\"}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158405
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://cryptown.netlify.com/\",\"frameId\":\"1702273035F97538F75226BC702F6FAE\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://cryptown.netlify.com/\"},\"requestId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"timestamp\":94674.461446,\"type\":\"Document\",\"wallTime\":1769432158.406092}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cryptown.netlify.com/\",\"frameId\":\"1702273035F97538F75226BC702F6FAE\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Cross-Origin-Resource-Policy\":\"Cross-Origin\",\"Location\":\"https://cryptown.netlify.com/\",\"Non-Authoritative-Reason\":\"HSTS\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"responseTime\":1.769432158407536e+12,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Internal Redirect\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":0.063,\"receiveHeadersStart\":0.063,\"requestTime\":94674.462838,\"sendEnd\":0.063,\"sendStart\":0.063,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://cryptown.netlify.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cryptown.netlify.com/\"},\"requestId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"timestamp\":94674.463636,\"type\":\"Document\",\"wallTime\":1769432158.408298}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158408
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":94674.463997},\"headers\":{\":authority\":\"cryptown.netlify.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158607
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://netlify.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"content-length\":\"3164\",\"content-type\":\"text/html\",\"date\":\"Mon, 26 Jan 2026 12:55:59 GMT\",\"server\":\"Netlify\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"x-nf-request-id\":\"01KFX604RS61QHTSYVCE2NC6KR\"},\"requestId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158647
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"1702273035F97538F75226BC702F6FAE\",\"hasExtraInfo\":true,\"loaderId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"requestId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":111,\"connectionReused\":false,\"encodedDataLength\":3302,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"content-length\":\"3164\",\"content-type\":\"text/html\",\"date\":\"Mon, 26 Jan 2026 12:55:59 GMT\",\"server\":\"Netlify\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"x-nf-request-id\":\"01KFX604RS61QHTSYVCE2NC6KR\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"52.74.6.109\",\"remotePort\":443,\"responseTime\":1.769432158647077e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"DigiCert Global G2 TLS RSA SHA256 2020 CA1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.netlify.com\",\"netlify.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100954CD4D94F4567A0CBB76301C9E6CB46B57978F3B3D0201EC7B840273A2CEAFD022038F4614FB422F81B18B24AC775979B8800EE66EDD6B28050D716EDA485613116\",\"status\":\"Verified\",\"timestamp\":1.753113737859e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100D0E5A99D1F169B15C48D24E23BF5F128C2EBBB50BAA9854B8A5B99FA0442A4B6022100F62AFAF27AD7AEF1FEA396F1EDDDAD0EBCAE71E33D7B4E211C26E5DBA4573C5E\",\"status\":\"Verified\",\"timestamp\":1.753113737904e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100EA6F7E8BFEA48E0481E8138B5A3BF2E6390FE93A1A5D6564EF94299335D016C802207DB397903F86A02FFA74855756BEA957DFA790289322D9B450313DEAF62644CA\",\"status\":\"Verified\",\"timestamp\":1.753113737918e+12}],\"subjectName\":\"*.netlify.com\",\"validFrom\":1753056000,\"validTo\":1787356799},\"securityState\":\"secure\",\"status\":404,\"statusText\":\"\",\"timing\":{\"connectEnd\":197.75,\"connectStart\":118.981,\"dnsEnd\":118.883,\"dnsStart\":0.827,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":238.66,\"receiveHeadersStart\":238.421,\"requestTime\":94674.463997,\"sendEnd\":197.959,\"sendStart\":197.818,\"sslEnd\":197.746,\"sslStart\":157.496,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cryptown.netlify.com/\"},\"timestamp\":94674.707622,\"type\":\"Document\"}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158658
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"netlify.com\",\"gatedAPIFeatures\":[],\"id\":\"1702273035F97538F75226BC702F6FAE\",\"loaderId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://cryptown.netlify.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://cryptown.netlify.com/\"},\"type\":\"Navigation\"}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158672
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158672
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3164,\"encodedDataLength\":0,\"requestId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"timestamp\":94674.72048}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158677
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":3302,\"requestId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"timestamp\":94674.703225}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158677
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":94674.726561}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158682
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":94674.755403}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158704
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"1702273035F97538F75226BC702F6FAE\"}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432158704
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cryptown.netlify.com/\",\"frameId\":\"1702273035F97538F75226BC702F6FAE\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cryptown.netlify.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cryptown.netlify.com/favicon.ico\"},\"requestId\":\"17232.2\",\"timestamp\":94674.761572,\"type\":\"Other\",\"wallTime\":1769432158.706259}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432163709
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":94674.762549},\"headers\":{\":authority\":\"cryptown.netlify.com\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1, i\",\"referer\":\"https://cryptown.netlify.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"17232.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432163709
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://netlify.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"cache-control\":\"private, max-age=0\",\"content-length\":\"50\",\"content-type\":\"text/plain; charset=utf-8\",\"date\":\"Mon, 26 Jan 2026 12:55:59 GMT\",\"server\":\"Netlify\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"x-nf-request-id\":\"01KFX604VZ4KZDBQ4436N6ZJSA\"},\"requestId\":\"17232.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432163709
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"1702273035F97538F75226BC702F6FAE\",\"hasExtraInfo\":true,\"loaderId\":\"30A54D7A32EA9548F25122C4CCB12FFB\",\"requestId\":\"17232.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":111,\"connectionReused\":true,\"encodedDataLength\":77,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"cache-control\":\"private, max-age=0\",\"content-length\":\"50\",\"content-type\":\"text/plain; charset=utf-8\",\"date\":\"Mon, 26 Jan 2026 12:55:59 GMT\",\"server\":\"Netlify\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"x-nf-request-id\":\"01KFX604VZ4KZDBQ4436N6ZJSA\"},\"mimeType\":\"text/plain\",\"protocol\":\"h2\",\"remoteIPAddress\":\"52.74.6.109\",\"remotePort\":443,\"responseTime\":1.769432158745266e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"DigiCert Global G2 TLS RSA SHA256 2020 CA1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.netlify.com\",\"netlify.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100954CD4D94F4567A0CBB76301C9E6CB46B57978F3B3D0201EC7B840273A2CEAFD022038F4614FB422F81B18B24AC775979B8800EE66EDD6B28050D716EDA485613116\",\"status\":\"Verified\",\"timestamp\":1.753113737859e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100D0E5A99D1F169B15C48D24E23BF5F128C2EBBB50BAA9854B8A5B99FA0442A4B6022100F62AFAF27AD7AEF1FEA396F1EDDDAD0EBCAE71E33D7B4E211C26E5DBA4573C5E\",\"status\":\"Verified\",\"timestamp\":1.753113737904e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100EA6F7E8BFEA48E0481E8138B5A3BF2E6390FE93A1A5D6564EF94299335D016C802207DB397903F86A02FFA74855756BEA957DFA790289322D9B450313DEAF62644CA\",\"status\":\"Verified\",\"timestamp\":1.753113737918e+12}],\"subjectName\":\"*.netlify.com\",\"validFrom\":1753056000,\"validTo\":1787356799},\"securityState\":\"secure\",\"status\":404,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":38.361,\"receiveHeadersStart\":38.066,\"requestTime\":94674.762549,\"sendEnd\":0.845,\"sendStart\":0.667,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cryptown.netlify.com/favicon.ico\"},\"timestamp\":94674.801945,\"type\":\"Other\"}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432163710
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":50,\"encodedDataLength\":0,\"requestId\":\"17232.2\",\"timestamp\":94674.802097}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432163710
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":136,\"requestId\":\"17232.2\",\"timestamp\":94674.801545}},\"webview\":\"1702273035F97538F75226BC702F6FAE\"}",
+    "timestamp": 1769432163710
+  }
+]

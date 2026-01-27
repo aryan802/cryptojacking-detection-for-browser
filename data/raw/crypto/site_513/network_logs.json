@@ -1,0 +1,127 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"80C93EA8CCB84DEA9F19D11CAE183316\",\"loaderId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"navigationType\":\"differentDocument\",\"url\":\"http://coin-hive-proxy-ybydcnjgkl.now.sh/\"}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567199
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://coin-hive-proxy-ybydcnjgkl.now.sh/\",\"frameId\":\"80C93EA8CCB84DEA9F19D11CAE183316\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://coin-hive-proxy-ybydcnjgkl.now.sh/\"},\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"timestamp\":93083.256337,\"type\":\"Document\",\"wallTime\":1769430567.200984}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567203
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://coin-hive-proxy-ybydcnjgkl.now.sh/\",\"frameId\":\"80C93EA8CCB84DEA9F19D11CAE183316\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Cross-Origin-Resource-Policy\":\"Cross-Origin\",\"Location\":\"https://coin-hive-proxy-ybydcnjgkl.now.sh/\",\"Non-Authoritative-Reason\":\"HSTS\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"responseTime\":1.7694305672027e+12,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Internal Redirect\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":0.062,\"receiveHeadersStart\":0.062,\"requestTime\":93083.258004,\"sendEnd\":0.062,\"sendStart\":0.062,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://coin-hive-proxy-ybydcnjgkl.now.sh/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://coin-hive-proxy-ybydcnjgkl.now.sh/\"},\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"timestamp\":93083.258839,\"type\":\"Document\",\"wallTime\":1769430567.203503}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567203
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":93083.25921},\"headers\":{\":authority\":\"coin-hive-proxy-ybydcnjgkl.now.sh\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567308
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/\",\"frameId\":\"80C93EA8CCB84DEA9F19D11CAE183316\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"redirectHasExtraInfo\":true,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":111,\"connectionReused\":false,\"encodedDataLength\":562,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-headers\":\"*\",\"access-control-allow-methods\":\"*\",\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"Location\",\"cache-control\":\"public, max-age=0, must-revalidate\",\"content-type\":\"text/html\",\"date\":\"Mon, 26 Jan 2026 12:29:27 GMT\",\"location\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/\",\"refresh\":\"0;url=https://coin-hive-proxy-ybydcnjgkl.vercel.app/\",\"server\":\"Vercel\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains; preload\",\"x-vercel-id\":\"bom1::b5xcl-1769430567694-7b02ed5964fa\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"216.198.79.3\",\"remotePort\":443,\"responseTime\":1.769430567340567e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WR1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.now.sh\",\"now.sh\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100EF774337EC804D021D9E9EAB392384B2073DBB1E640B9F70D2CD2759748DED9F0221008A0553FE61E57524C9F007E224F3D4FBFBE1F3857A6B011111C6EB75B568C999\",\"status\":\"Verified\",\"timestamp\":1.766963024507e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022056DC41A37EC8495B03AF1C28BF23855E23000CCF2483E1A67C2F0550E7DFC82A022063AA356A457D5AB2CE9C1D37AFF1DB5EB70E135491AA7257A98D6D69F7B0BB50\",\"status\":\"Verified\",\"timestamp\":1.766963024493e+12}],\"subjectName\":\"*.now.sh\",\"validFrom\":1766959424,\"validTo\":1774735423},\"securityState\":\"secure\",\"status\":308,\"statusText\":\"\",\"timing\":{\"connectEnd\":104.029,\"connectStart\":31.361,\"dnsEnd\":31.298,\"dnsStart\":0.341,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":136.917,\"receiveHeadersStart\":132.625,\"requestTime\":93083.25921,\"sendEnd\":104.251,\"sendStart\":104.136,\"sslEnd\":104.02,\"sslStart\":37.787,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://coin-hive-proxy-ybydcnjgkl.now.sh/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/\"},\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"timestamp\":93083.397916,\"type\":\"Document\",\"wallTime\":1769430567.342633}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567344
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedEarlyHints\",\"params\":{\"headers\":{\"server\":\"Vercel\",\"x-vercel-id\":\"wX0gPQtMcgJrLUGs14sFrscCf0FrDiCw\"},\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\"}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567344
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://coin-hive-proxy-ybydcnjgkl.now.sh\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-headers\":\"*\",\"access-control-allow-methods\":\"*\",\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"Location\",\"cache-control\":\"public, max-age=0, must-revalidate\",\"content-type\":\"text/html\",\"date\":\"Mon, 26 Jan 2026 12:29:27 GMT\",\"location\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/\",\"refresh\":\"0;url=https://coin-hive-proxy-ybydcnjgkl.vercel.app/\",\"server\":\"Vercel\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains; preload\",\"x-vercel-id\":\"bom1::b5xcl-1769430567694-7b02ed5964fa\"},\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":308}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567344
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":93083.398371},\"headers\":{\":authority\":\"coin-hive-proxy-ybydcnjgkl.vercel.app\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567445
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedEarlyHints\",\"params\":{\"headers\":{\"server\":\"Vercel\",\"x-vercel-id\":\"dQFg47OYHClam8f67cdAYbD53eXwG3J3\"},\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\"}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567477
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"cache-control\":\"public, max-age=0, must-revalidate\",\"content-encoding\":\"br\",\"content-type\":\"text/html; charset=utf-8\",\"date\":\"Mon, 26 Jan 2026 12:29:27 GMT\",\"server\":\"Vercel\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains; preload\",\"x-vercel-error\":\"DEPLOYMENT_NOT_FOUND\",\"x-vercel-id\":\"bom1::5qgfr-1769430567831-a302ac6c7010\"},\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567481
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"80C93EA8CCB84DEA9F19D11CAE183316\",\"hasExtraInfo\":true,\"loaderId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":135,\"connectionReused\":false,\"encodedDataLength\":1854,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"cache-control\":\"public, max-age=0, must-revalidate\",\"content-encoding\":\"br\",\"content-type\":\"text/html; charset=utf-8\",\"date\":\"Mon, 26 Jan 2026 12:29:27 GMT\",\"server\":\"Vercel\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains; preload\",\"x-vercel-error\":\"DEPLOYMENT_NOT_FOUND\",\"x-vercel-id\":\"bom1::5qgfr-1769430567831-a302ac6c7010\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"64.29.17.195\",\"remotePort\":443,\"responseTime\":1.769430567479183e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WR1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.vercel.app\",\"vercel.app\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B3F203B5371B067E77049364FACB5E38B2E526BE841D3F8743DA40D73851A09D022052C86422B3E4EF4FA086B80703C80751F0723B53A1EA0475748DAABCF6CAD9B1\",\"status\":\"Verified\",\"timestamp\":1.766774642021e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502201F2285693434C99505681CA039105091637FDC3415EF2121674BBE25AD2006DE022100F5ABD9B97FDE3A23CD9F5E868C2B8865D3D3B1F5F8560F78AC7C7BF31B35D137\",\"status\":\"Verified\",\"timestamp\":1.766774642058e+12}],\"subjectName\":\"*.vercel.app\",\"validFrom\":1766771041,\"validTo\":1774547040},\"securityState\":\"secure\",\"status\":404,\"statusText\":\"\",\"timing\":{\"connectEnd\":102.137,\"connectStart\":35.259,\"dnsEnd\":35.081,\"dnsStart\":1.293,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":137.084,\"receiveHeadersStart\":130.005,\"requestTime\":93083.398371,\"sendEnd\":102.355,\"sendStart\":102.251,\"sslEnd\":102.131,\"sslStart\":44.032,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/\"},\"timestamp\":93083.536334,\"type\":\"Document\"}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567481
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"coin-hive-proxy-ybydcnjgkl.vercel.app\",\"gatedAPIFeatures\":[],\"id\":\"80C93EA8CCB84DEA9F19D11CAE183316\",\"loaderId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/\"},\"type\":\"Navigation\"}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567485
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567489
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3783,\"encodedDataLength\":0,\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"timestamp\":93083.541967}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567500
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1854,\"requestId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"timestamp\":93083.536058}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567500
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":93083.548763}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567501
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":93083.549947}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567510
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430567511
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/\",\"frameId\":\"80C93EA8CCB84DEA9F19D11CAE183316\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/favicon.ico\"},\"requestId\":\"12400.2\",\"timestamp\":93083.567977,\"type\":\"Other\",\"wallTime\":1769430567.512713}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430572514
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93083.568733},\"headers\":{\":authority\":\"coin-hive-proxy-ybydcnjgkl.vercel.app\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1, i\",\"referer\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"12400.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430572514
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"cache-control\":\"public, max-age=0, must-revalidate\",\"content-length\":\"107\",\"content-type\":\"text/plain; charset=utf-8\",\"date\":\"Mon, 26 Jan 2026 12:29:27 GMT\",\"server\":\"Vercel\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains; preload\",\"x-vercel-error\":\"DEPLOYMENT_NOT_FOUND\",\"x-vercel-id\":\"bom1::t2jzp-1769430567900-7df755ac0610\"},\"requestId\":\"12400.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430572514
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"80C93EA8CCB84DEA9F19D11CAE183316\",\"hasExtraInfo\":true,\"loaderId\":\"7CFDA4D79509DBDDA70EFD47EC3F7CB0\",\"requestId\":\"12400.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":135,\"connectionReused\":true,\"encodedDataLength\":195,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"cache-control\":\"public, max-age=0, must-revalidate\",\"content-length\":\"107\",\"content-type\":\"text/plain; charset=utf-8\",\"date\":\"Mon, 26 Jan 2026 12:29:27 GMT\",\"server\":\"Vercel\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains; preload\",\"x-vercel-error\":\"DEPLOYMENT_NOT_FOUND\",\"x-vercel-id\":\"bom1::t2jzp-1769430567900-7df755ac0610\"},\"mimeType\":\"text/plain\",\"protocol\":\"h2\",\"remoteIPAddress\":\"64.29.17.195\",\"remotePort\":443,\"responseTime\":1.769430567605988e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WR1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.vercel.app\",\"vercel.app\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B3F203B5371B067E77049364FACB5E38B2E526BE841D3F8743DA40D73851A09D022052C86422B3E4EF4FA086B80703C80751F0723B53A1EA0475748DAABCF6CAD9B1\",\"status\":\"Verified\",\"timestamp\":1.766774642021e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502201F2285693434C99505681CA039105091637FDC3415EF2121674BBE25AD2006DE022100F5ABD9B97FDE3A23CD9F5E868C2B8865D3D3B1F5F8560F78AC7C7BF31B35D137\",\"status\":\"Verified\",\"timestamp\":1.766774642058e+12}],\"subjectName\":\"*.vercel.app\",\"validFrom\":1766771041,\"validTo\":1774547040},\"securityState\":\"secure\",\"status\":404,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":92.816,\"receiveHeadersStart\":92.605,\"requestTime\":93083.568733,\"sendEnd\":0.618,\"sendStart\":0.46,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://coin-hive-proxy-ybydcnjgkl.vercel.app/favicon.ico\"},\"timestamp\":93083.66236,\"type\":\"Other\"}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430572514
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":107,\"encodedDataLength\":0,\"requestId\":\"12400.2\",\"timestamp\":93083.662495}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430572514
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":195,\"requestId\":\"12400.2\",\"timestamp\":93083.661904}},\"webview\":\"80C93EA8CCB84DEA9F19D11CAE183316\"}",
+    "timestamp": 1769430572514
+  }
+]

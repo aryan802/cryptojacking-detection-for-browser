@@ -7,8 +7,8 @@ from selenium.webdriver.chrome.options import Options
 # -----------------------------
 # Configuration
 # -----------------------------
-OUTPUT_DIR = "../data/raw"
-
+DATASET_TYPE = "crypto"  # or "benign"
+OUTPUT_DIR = f"../data/raw/{DATASET_TYPE}"
 CRAWL_MODE = "FAST"   # FAST or DEEP
 
 if CRAWL_MODE == "FAST":
@@ -53,6 +53,10 @@ def load_urls_from_file(filepath):
             for line in f
             if line.strip() and not line.startswith("#")
         ]
+def normalize_url(url):
+    if not url.startswith(("http://", "https://")):
+        return "http://" + url
+    return url
 
 # -----------------------------
 # Runtime metrics collector
@@ -77,7 +81,7 @@ def collect_runtime_metrics(driver, duration, interval):
 # -----------------------------
 def crawl_site(url, site_id):
     print(f"[+] Crawling: {url}")
-
+    site_id = site_id + 299   # temp arangement ****** ******
     site_dir = os.path.join(OUTPUT_DIR, f"site_{site_id}")
     os.makedirs(site_dir, exist_ok=True)
 
@@ -85,8 +89,14 @@ def crawl_site(url, site_id):
     driver = webdriver.Chrome(options=get_chrome_options())
 
     try:
-        driver.get(url)
-        time.sleep(WAIT_TIME)
+        try:
+            driver.get(normalize_url(url))
+            time.sleep(WAIT_TIME)
+        except Exception as e:
+            print(f"[!] Failed to load {url}: {e}")
+            driver.quit()
+            return
+
 
         # Save HTML only in DEEP mode
         if CRAWL_MODE == "DEEP":
@@ -117,7 +127,7 @@ def crawl_site(url, site_id):
 # Entry point
 # -----------------------------
 if __name__ == "__main__":
-    benign_urls = load_urls_from_file("../data/urls/benign.txt")
+    benign_urls = load_urls_from_file("../data/urls/crypto_external_web_2.txt")
 
     for idx, url in enumerate(benign_urls):
         crawl_site(url, idx)

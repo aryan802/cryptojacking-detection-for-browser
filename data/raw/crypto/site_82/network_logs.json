@@ -1,0 +1,82 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"2A2F86185ED804F67B4BAEAD36AD03AE\",\"loaderId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"navigationType\":\"differentDocument\",\"url\":\"http://ajplugins.com/\"}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417268221
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417268222
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://ajplugins.com/\",\"frameId\":\"2A2F86185ED804F67B4BAEAD36AD03AE\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://ajplugins.com/\"},\"requestId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"timestamp\":79784.278229,\"type\":\"Document\",\"wallTime\":1769417268.222877}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417268223
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://ajplugins.com/\",\"frameId\":\"2A2F86185ED804F67B4BAEAD36AD03AE\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://ajplugins.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://ajplugins.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://ajplugins.com/\"},\"requestId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"timestamp\":79784.280297,\"type\":\"Document\",\"wallTime\":1769417268.224955}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417268226
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":79784.281009},\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"ajplugins.com\",\"Sec-Fetch-Dest\":\"document\",\"Sec-Fetch-Mode\":\"navigate\",\"Sec-Fetch-Site\":\"none\",\"Sec-Fetch-User\":\"?1\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417268816
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://ajplugins.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Connection\":\"close\",\"Date\":\"Mon, 26 Jan 2026 08:47:49 GMT\",\"Server\":\"nginx\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx\\r\\nDate: Mon, 26 Jan 2026 08:47:49 GMT\\r\\nConnection: close\\r\\n\\r\\n\",\"requestId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417269061
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2A2F86185ED804F67B4BAEAD36AD03AE\",\"hasExtraInfo\":true,\"loaderId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"requestId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":103,\"connectionReused\":false,\"encodedDataLength\":90,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Connection\":\"close\",\"Date\":\"Mon, 26 Jan 2026 08:47:49 GMT\",\"Server\":\"nginx\"},\"mimeType\":\"text/plain\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"34.41.139.193\",\"remotePort\":443,\"responseTime\":1.769417269060707e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"ZeroSSL RSA Domain Secure Site CA\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.ajplugins.com\",\"ajplugins.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304602210093506ACAC0369E9444A474294DD3E00CDC3C07F98EABE9AC4D5C13F21C04FEB302210096CF7AC77BB29996403EE252E591E5800A8425EA558CBB1CAA03CD3E108222A0\",\"status\":\"Verified\",\"timestamp\":1.766413779479e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Elephant2026h1'\",\"logId\":\"D16EA9A568077E6635A03F37A5DDBC03A53C411214D48818F5E931B323CB9504\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100E502E3F8F1845A11090DA03DC70B0BE66401795FFE14C6DE28548DF8D0FF63DF022100CEF082087CE95FE427ACE820568E98EA7A86AEDF7B76D828D6B34ABE4127816B\",\"status\":\"Verified\",\"timestamp\":1.766413779675e+12}],\"subjectName\":\"*.ajplugins.com\",\"validFrom\":1766361600,\"validTo\":1774223999},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":589.841,\"connectStart\":92.944,\"dnsEnd\":92.824,\"dnsStart\":1.722,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":835.165,\"receiveHeadersStart\":835.063,\"requestTime\":79784.281009,\"sendEnd\":589.958,\"sendStart\":589.91,\"sslEnd\":589.836,\"sslStart\":335.815,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://ajplugins.com/\"},\"timestamp\":79785.12173,\"type\":\"Document\"}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417269069
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"ajplugins.com\",\"gatedAPIFeatures\":[],\"id\":\"2A2F86185ED804F67B4BAEAD36AD03AE\",\"loaderId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"mimeType\":\"text/plain\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://ajplugins.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://ajplugins.com/\"},\"type\":\"Navigation\"}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417269113
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417269113
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":90,\"requestId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"timestamp\":79785.116583}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417269113
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":79785.162123}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417269113
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":79785.162768}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417269113
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417269117
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://ajplugins.com/\",\"frameId\":\"2A2F86185ED804F67B4BAEAD36AD03AE\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"A2B1DF834CC25D57DE09B475E60819CA\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://ajplugins.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://ajplugins.com/favicon.ico\"},\"requestId\":\"22508.2\",\"timestamp\":79785.165225,\"type\":\"Other\",\"wallTime\":1769417269.109909}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417269117
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":79785.166001},\"headers\":{\"Accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"ajplugins.com\",\"Referer\":\"https://ajplugins.com/\",\"Sec-Fetch-Dest\":\"image\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"22508.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417274121
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFailed\",\"params\":{\"canceled\":false,\"errorText\":\"net::ERR_EMPTY_RESPONSE\",\"requestId\":\"22508.2\",\"timestamp\":79785.93736,\"type\":\"Other\"}},\"webview\":\"2A2F86185ED804F67B4BAEAD36AD03AE\"}",
+    "timestamp": 1769417274121
+  }
+]

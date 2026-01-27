@@ -1,0 +1,92 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"72091AB882D7684A73A80A1144266238\",\"loaderId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"navigationType\":\"differentDocument\",\"url\":\"http://cdn.cloudcoins.co/\"}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428834485
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"72091AB882D7684A73A80A1144266238\"}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428834485
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://cdn.cloudcoins.co/\",\"frameId\":\"72091AB882D7684A73A80A1144266238\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://cdn.cloudcoins.co/\"},\"requestId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"timestamp\":91350.541161,\"type\":\"Document\",\"wallTime\":1769428834.485805}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428834486
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cdn.cloudcoins.co/\",\"frameId\":\"72091AB882D7684A73A80A1144266238\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://cdn.cloudcoins.co/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://cdn.cloudcoins.co/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cdn.cloudcoins.co/\"},\"requestId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"timestamp\":91350.54285,\"type\":\"Document\",\"wallTime\":1769428834.487503}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428834488
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":91350.543416},\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"cdn.cloudcoins.co\",\"Sec-Fetch-Dest\":\"document\",\"Sec-Fetch-Mode\":\"navigate\",\"Sec-Fetch-Site\":\"none\",\"Sec-Fetch-User\":\"?1\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428835138
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://cloudcoins.co\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Connection\":\"close\",\"Date\":\"Mon, 26 Jan 2026 12:00:35 GMT\",\"Server\":\"nginx\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx\\r\\nDate: Mon, 26 Jan 2026 12:00:35 GMT\\r\\nConnection: close\\r\\n\\r\\n\",\"requestId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428835382
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"72091AB882D7684A73A80A1144266238\",\"hasExtraInfo\":true,\"loaderId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"requestId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":102,\"connectionReused\":false,\"encodedDataLength\":90,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Connection\":\"close\",\"Date\":\"Mon, 26 Jan 2026 12:00:35 GMT\",\"Server\":\"nginx\"},\"mimeType\":\"text/plain\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"34.41.139.193\",\"remotePort\":443,\"responseTime\":1.769428835380888e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"ZeroSSL RSA Domain Secure Site CA\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.cloudcoins.co\",\"cloudcoins.co\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022043A2181CD9D0E7E286BA207C0B768E706375A5C8C3476604BA06F27E0924B36B022055177ECAE35DE31F6CC724739A3434EA0FECBB4B7AE0A4DB49C88C7507922F78\",\"status\":\"Verified\",\"timestamp\":1.766746731686e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Elephant2026h1'\",\"logId\":\"D16EA9A568077E6635A03F37A5DDBC03A53C411214D48818F5E931B323CB9504\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022005C802385391AFB4E30DFD5D9431370CB2C466FA5F9ACC1641337F6BFB37AE8D02203E555482D352BF65FC06D35A89BDA639B9BB6583C544D2D2D2F6CB7CA15A7ABC\",\"status\":\"Verified\",\"timestamp\":1.766746731876e+12}],\"subjectName\":\"*.cloudcoins.co\",\"validFrom\":1766707200,\"validTo\":1774569599},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":649.545,\"connectStart\":157.695,\"dnsEnd\":157.575,\"dnsStart\":0.831,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":893.456,\"receiveHeadersStart\":892.837,\"requestTime\":91350.543416,\"sendEnd\":649.684,\"sendStart\":649.631,\"sslEnd\":649.539,\"sslStart\":398.579,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cdn.cloudcoins.co/\"},\"timestamp\":91351.443628,\"type\":\"Document\"}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428835388
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"cloudcoins.co\",\"gatedAPIFeatures\":[],\"id\":\"72091AB882D7684A73A80A1144266238\",\"loaderId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"mimeType\":\"text/plain\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://cdn.cloudcoins.co\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://cdn.cloudcoins.co/\"},\"type\":\"Navigation\"}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428835395
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428835397
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":90,\"requestId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"timestamp\":91351.437776}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428835405
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":91351.456052}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428835405
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":91351.456582}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428835405
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"72091AB882D7684A73A80A1144266238\"}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428835406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://cdn.cloudcoins.co/\",\"frameId\":\"72091AB882D7684A73A80A1144266238\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://cdn.cloudcoins.co/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://cdn.cloudcoins.co/favicon.ico\"},\"requestId\":\"6828.2\",\"timestamp\":91351.46288,\"type\":\"Other\",\"wallTime\":1769428835.407569}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428840410
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":91351.463477},\"headers\":{\"Accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"cdn.cloudcoins.co\",\"Referer\":\"https://cdn.cloudcoins.co/\",\"Sec-Fetch-Dest\":\"image\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"6828.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428840411
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://cloudcoins.co\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Connection\":\"close\",\"Date\":\"Mon, 26 Jan 2026 12:00:36 GMT\",\"Server\":\"nginx\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx\\r\\nDate: Mon, 26 Jan 2026 12:00:36 GMT\\r\\nConnection: close\\r\\n\\r\\n\",\"requestId\":\"6828.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428840411
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"72091AB882D7684A73A80A1144266238\",\"hasExtraInfo\":true,\"loaderId\":\"EFD3872EDE920A4158408D0118F9EBA8\",\"requestId\":\"6828.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":118,\"connectionReused\":false,\"encodedDataLength\":90,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Connection\":\"close\",\"Date\":\"Mon, 26 Jan 2026 12:00:36 GMT\",\"Server\":\"nginx\"},\"mimeType\":\"text/plain\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"34.41.139.193\",\"remotePort\":443,\"responseTime\":1.76942883615661e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"ZeroSSL RSA Domain Secure Site CA\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.cloudcoins.co\",\"cloudcoins.co\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022043A2181CD9D0E7E286BA207C0B768E706375A5C8C3476604BA06F27E0924B36B022055177ECAE35DE31F6CC724739A3434EA0FECBB4B7AE0A4DB49C88C7507922F78\",\"status\":\"Verified\",\"timestamp\":1.766746731686e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Elephant2026h1'\",\"logId\":\"D16EA9A568077E6635A03F37A5DDBC03A53C411214D48818F5E931B323CB9504\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022005C802385391AFB4E30DFD5D9431370CB2C466FA5F9ACC1641337F6BFB37AE8D02203E555482D352BF65FC06D35A89BDA639B9BB6583C544D2D2D2F6CB7CA15A7ABC\",\"status\":\"Verified\",\"timestamp\":1.766746731876e+12}],\"subjectName\":\"*.cloudcoins.co\",\"validFrom\":1766707200,\"validTo\":1774569599},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":500.93,\"connectStart\":0.5,\"dnsEnd\":0.5,\"dnsStart\":0.496,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":748.972,\"receiveHeadersStart\":748.498,\"requestTime\":91351.463477,\"sendEnd\":501.096,\"sendStart\":501.016,\"sslEnd\":500.921,\"sslStart\":245.192,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cdn.cloudcoins.co/favicon.ico\"},\"timestamp\":91352.214035,\"type\":\"Other\"}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428840411
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":90,\"requestId\":\"6828.2\",\"timestamp\":91352.213173}},\"webview\":\"72091AB882D7684A73A80A1144266238\"}",
+    "timestamp": 1769428840411
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"loaderId\":\"A2077CCFD277EDE5CE2379622124E147\",\"navigationType\":\"differentDocument\",\"url\":\"https://www.reddit.com/\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382411
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382415
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.reddit.com/\",\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"A2077CCFD277EDE5CE2379622124E147\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.reddit.com/\"},\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.467849,\"type\":\"Document\",\"wallTime\":1769406382.4125}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382415
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":68898.468694},\"headers\":{\":authority\":\"www.reddit.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382586
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"hasExtraInfo\":true,\"loaderId\":\"A2077CCFD277EDE5CE2379622124E147\",\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":97,\"connectionReused\":false,\"encodedDataLength\":735,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"cache-control\":\"private, no-store\",\"content-length\":\"166949\",\"content-type\":\"text/html\",\"date\":\"Mon, 26 Jan 2026 05:46:22 GMT\",\"nel\":\"{\\\"report_to\\\": \\\"w3-reporting-nel\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": false, \\\"success_fraction\\\": 1.0, \\\"failure_fraction\\\": 1.0}\",\"report-to\":\"{\\\"group\\\": \\\"w3-reporting-nel\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true,  \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting-nel.reddit.com/reports\\\" }]}, {\\\"group\\\": \\\"w3-reporting\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true, \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting.reddit.com/reports\\\" }]}, {\\\"group\\\": \\\"w3-reporting-csp\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true, \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting-csp.reddit.com/reports\\\" }]}\",\"retry-after\":\"0\",\"server\":\"snooserv\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains\",\"via\":\"1.1 varnish\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\",\"x-xss-protection\":\"1; mode=block\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"151.101.193.140\",\"remotePort\":443,\"responseTime\":1.76940638264011e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"DigiCert Global G2 TLS RSA SHA256 2020 CA1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.reddit.com\",\"reddit.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100D41D9700E00E8250A9F13DC326E5B75A51C30A02B2CD559874451DBADF63ABC4022100EA11470BBDB77C91C6107C611F5E9420EDBEDFA8A36223B88FBFA9B707F57E00\",\"status\":\"Verified\",\"timestamp\":1.763942446607e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30440220707843B10C1612295309F8D4547DAE9772ED85E79499276B6DFF707E737C5B3F022020EE9217D57E5E40570D96B4F13B7463035E7F7E4CAEC9CA26D83DE79B7E8DE3\",\"status\":\"Verified\",\"timestamp\":1.763942446591e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100CA5D2E5A2099F7DCB45473E7DDF655379F23A875838B7A7C04D277C9563A6DA7022100D5875B0AA3DB05881A3D8F3E263E7DF88838C8D4205A32E2C83E1D551DCD5FDC\",\"status\":\"Verified\",\"timestamp\":1.763942446621e+12}],\"subjectName\":\"*.reddit.com\",\"validFrom\":1763942400,\"validTo\":1779494399},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":172.098,\"connectStart\":58.047,\"dnsEnd\":57.426,\"dnsStart\":0,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":227.016,\"receiveHeadersStart\":226.747,\"requestTime\":68898.468694,\"sendEnd\":172.468,\"sendStart\":172.27,\"sslEnd\":172.089,\"sslStart\":121.694,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.reddit.com/\"},\"timestamp\":68898.696919,\"type\":\"Document\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382642
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://reddit.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"cache-control\":\"private, no-store\",\"content-length\":\"166949\",\"content-type\":\"text/html\",\"date\":\"Mon, 26 Jan 2026 05:46:22 GMT\",\"nel\":\"{\\\"report_to\\\": \\\"w3-reporting-nel\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": false, \\\"success_fraction\\\": 1.0, \\\"failure_fraction\\\": 1.0}\",\"report-to\":\"{\\\"group\\\": \\\"w3-reporting-nel\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true,  \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting-nel.reddit.com/reports\\\" }]}, {\\\"group\\\": \\\"w3-reporting\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true, \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting.reddit.com/reports\\\" }]}, {\\\"group\\\": \\\"w3-reporting-csp\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true, \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting-csp.reddit.com/reports\\\" }]}\",\"retry-after\":\"0\",\"server\":\"snooserv\",\"set-cookie\":\"edgebucket=d6nD1lXhi6Wtmk0Sit; Domain=reddit.com; Max-Age=63071999; Path=/;  secure\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains\",\"via\":\"1.1 varnish\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\",\"x-xss-protection\":\"1; mode=block\"},\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382643
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"reddit.com\",\"gatedAPIFeatures\":[],\"id\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"loaderId\":\"A2077CCFD277EDE5CE2379622124E147\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://www.reddit.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://www.reddit.com/\"},\"type\":\"Navigation\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382644
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382647
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":5647,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.700723}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382660
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.reddit.com/\",\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":60,\"lineNumber\":7,\"type\":\"parser\",\"url\":\"https://www.reddit.com/\"},\"loaderId\":\"A2077CCFD277EDE5CE2379622124E147\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://www.reddit.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.google.com/recaptcha/api.js\"},\"requestId\":\"18256.2\",\"timestamp\":68898.701252,\"type\":\"Script\",\"wallTime\":1769406382.645943}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382660
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16959,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.727268}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382674
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2828,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.731694}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382680
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":11303,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.746141}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382697
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2828,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.76147}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382724
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2828,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.776104}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382727
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":9871,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.79373}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382743
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":9880,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.801887}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382747
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":21756,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.833}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382778
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":68898.702774},\"headers\":{\":authority\":\"www.google.com\",\":method\":\"GET\",\":path\":\"/recaptcha/api.js\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1\",\"referer\":\"https://www.reddit.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"x-browser-channel\":\"stable\",\"x-browser-copyright\":\"Copyright 2026 Google LLC. All Rights reserved.\",\"x-browser-validation\":\"d8JhDaoX8b/ShTRrHDjGiWOeFok=\",\"x-browser-year\":\"2026\",\"x-client-data\":\"CI7+ygE=\"},\"requestId\":\"18256.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382790
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16375,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.86816}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382813
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16375,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.884522}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382829
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":14422,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.894668}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382839
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16375,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.913276}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382858
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://reddit.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"private, max-age=300\",\"content-encoding\":\"gzip\",\"content-type\":\"text/javascript; charset=utf-8\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\"\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 05:46:23 GMT\",\"expires\":\"Mon, 26 Jan 2026 05:46:23 GMT\",\"report-to\":\"{\\\"group\\\":\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\\\"}]}\",\"server\":\"ESF\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\",\"x-xss-protection\":\"0\"},\"requestId\":\"18256.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382861
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"hasExtraInfo\":true,\"loaderId\":\"A2077CCFD277EDE5CE2379622124E147\",\"requestId\":\"18256.2\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonRace\",\"charset\":\"utf-8\",\"connectionId\":115,\"connectionReused\":false,\"encodedDataLength\":21,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"private, max-age=300\",\"content-encoding\":\"gzip\",\"content-type\":\"text/javascript; charset=utf-8\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\"\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 05:46:23 GMT\",\"expires\":\"Mon, 26 Jan 2026 05:46:23 GMT\",\"report-to\":\"{\\\"group\\\":\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\\\"}]}\",\"server\":\"ESF\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\",\"x-xss-protection\":\"0\"},\"mimeType\":\"text/javascript\",\"protocol\":\"h3\",\"remoteIPAddress\":\"142.251.221.100\",\"remotePort\":443,\"responseTime\":1.769406382860832e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"*.google.com\",\"*.appengine.google.com\",\"*.bdn.dev\",\"*.origin-test.bdn.dev\",\"*.cloud.google.com\",\"*.crowdsource.google.com\",\"*.datacompute.google.com\",\"*.google.ca\",\"*.google.cl\",\"*.google.co.in\",\"*.google.co.jp\",\"*.google.co.uk\",\"*.google.com.ar\",\"*.google.com.au\",\"*.google.com.br\",\"*.google.com.co\",\"*.google.com.mx\",\"*.google.com.tr\",\"*.google.com.vn\",\"*.google.de\",\"*.google.es\",\"*.google.fr\",\"*.google.hu\",\"*.google.it\",\"*.google.nl\",\"*.google.pl\",\"*.google.pt\",\"*.googleapis.cn\",\"*.googlevideo.com\",\"*.gstatic.cn\",\"*.gstatic-cn.com\",\"googlecnapps.cn\",\"*.googlecnapps.cn\",\"googleapps-cn.com\",\"*.googleapps-cn.com\",\"gkecnapps.cn\",\"*.gkecnapps.cn\",\"googledownloads.cn\",\"*.googledownloads.cn\",\"recaptcha.net.cn\",\"*.recaptcha.net.cn\",\"recaptcha-cn.net\",\"*.recaptcha-cn.net\",\"widevine.cn\",\"*.widevine.cn\",\"ampproject.org.cn\",\"*.ampproject.org.cn\",\"ampproject.net.cn\",\"*.ampproject.net.cn\",\"google-analytics-cn.com\",\"*.google-analytics-cn.com\",\"googleadservices-cn.com\",\"*.googleadservices-cn.com\",\"googlevads-cn.com\",\"*.googlevads-cn.com\",\"googleapis-cn.com\",\"*.googleapis-cn.com\",\"googleoptimize-cn.com\",\"*.googleoptimize-cn.com\",\"doubleclick-cn.net\",\"*.doubleclick-cn.net\",\"*.fls.doubleclick-cn.net\",\"*.g.doubleclick-cn.net\",\"doubleclick.cn\",\"*.doubleclick.cn\",\"*.fls.doubleclick.cn\",\"*.g.doubleclick.cn\",\"dartsearch-cn.net\",\"*.dartsearch-cn.net\",\"googletraveladservices-cn.com\",\"*.googletraveladservices-cn.com\",\"googletagservices-cn.com\",\"*.googletagservices-cn.com\",\"googletagmanager-cn.com\",\"*.googletagmanager-cn.com\",\"googlesyndication-cn.com\",\"*.googlesyndication-cn.com\",\"*.safeframe.googlesyndication-cn.com\",\"app-measurement-cn.com\",\"*.app-measurement-cn.com\",\"gvt1-cn.com\",\"*.gvt1-cn.com\",\"gvt2-cn.com\",\"*.gvt2-cn.com\",\"2mdn-cn.net\",\"*.2mdn-cn.net\",\"googleflights-cn.net\",\"*.googleflights-cn.net\",\"admob-cn.com\",\"*.admob-cn.com\",\"*.gemini.cloud.google.com\",\"googlesandbox-cn.com\",\"*.googlesandbox-cn.com\",\"*.safenup.googlesandbox-cn.com\",\"*.gstatic.com\",\"*.metric.gstatic.com\",\"*.gvt1.com\",\"*.gcpcdn.gvt1.com\",\"*.gvt2.com\",\"*.gcp.gvt2.com\",\"*.url.google.com\",\"*.youtube-nocookie.com\",\"*.ytimg.com\",\"ai.android\",\"android.com\",\"*.android.com\",\"*.flash.android.com\",\"g.cn\",\"*.g.cn\",\"g.co\",\"*.g.co\",\"goo.gl\",\"www.goo.gl\",\"google-analytics.com\",\"*.google-analytics.com\",\"google.com\",\"googlecommerce.com\",\"*.googlecommerce.com\",\"ggpht.cn\",\"*.ggpht.cn\",\"urchin.com\",\"*.urchin.com\",\"youtu.be\",\"youtube.com\",\"*.youtube.com\",\"music.youtube.com\",\"*.music.youtube.com\",\"youtubeeducation.com\",\"*.youtubeeducation.com\",\"youtubekids.com\",\"*.youtubekids.com\",\"yt.be\",\"*.yt.be\",\"android.clients.google.com\",\"*.android.google.cn\",\"*.chrome.google.cn\",\"*.developers.google.cn\",\"*.aistudio.google.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100E3307ADF2D294B56B19DC4FA3CD8CB7B5D2C182D7104975E8ADC731A0CC4EF9202200DC8C500F96FD0E9F3FFE4662466EEF6B9686D43661710BFB52459C3DF1CD012\",\"status\":\"Verified\",\"timestamp\":1.767041472657e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022057FF97E3C498C1FF1C8AD3EF22E1977843B973812455A1073EF5722DC9A01C920220050A597E602F8051A17C9FA7F7EC40F55DD76A19D67A7963E5BFA76971EFC71B\",\"status\":\"Verified\",\"timestamp\":1.767041472693e+12}],\"subjectName\":\"*.google.com\",\"validFrom\":1767037870,\"validTo\":1774295469},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":141.515,\"connectStart\":44.974,\"dnsEnd\":44.486,\"dnsStart\":0.399,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":213.586,\"receiveHeadersStart\":213.403,\"requestTime\":68898.702774,\"sendEnd\":141.956,\"sendStart\":141.756,\"sslEnd\":141.515,\"sslStart\":44.974,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.google.com/recaptcha/api.js\"},\"timestamp\":68898.920251,\"type\":\"Script\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382865
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1282,\"encodedDataLength\":0,\"requestId\":\"18256.2\",\"timestamp\":68898.920319}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382865
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":307,\"encodedDataLength\":0,\"requestId\":\"18256.2\",\"timestamp\":68898.920321}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382865
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":1004,\"requestId\":\"18256.2\",\"timestamp\":68898.920424}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382865
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1025,\"requestId\":\"18256.2\",\"timestamp\":68898.919478}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382865
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.reddit.com/\",\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":1564,\"functionName\":\"\",\"lineNumber\":0,\"scriptId\":\"7\",\"url\":\"https://www.google.com/recaptcha/api.js\"},{\"columnNumber\":1586,\"functionName\":\"\",\"lineNumber\":0,\"scriptId\":\"7\",\"url\":\"https://www.google.com/recaptcha/api.js\"}]},\"type\":\"script\"},\"loaderId\":\"A2077CCFD277EDE5CE2379622124E147\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"https://www.reddit.com\",\"Referer\":\"https://www.reddit.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},\"requestId\":\"18256.4\",\"timestamp\":68898.921875,\"type\":\"Script\",\"wallTime\":1769406382.8667}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382867
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":19502,\"encodedDataLength\":0,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.939879}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382885
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":167828,\"requestId\":\"A2077CCFD277EDE5CE2379622124E147\",\"timestamp\":68898.923216}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382886
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":68898.943338}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382889
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":68898.922626},\"headers\":{\":authority\":\"www.gstatic.com\",\":method\":\"GET\",\":path\":\"/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://www.reddit.com\",\"referer\":\"https://www.reddit.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"x-browser-channel\":\"stable\",\"x-browser-copyright\":\"Copyright 2026 Google LLC. All Rights reserved.\",\"x-browser-validation\":\"d8JhDaoX8b/ShTRrHDjGiWOeFok=\",\"x-browser-year\":\"2026\",\"x-client-data\":\"CI7+ygE=\"},\"requestId\":\"18256.4\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382946
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://reddit.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"age\":\"53462\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"public, max-age=31536000\",\"content-encoding\":\"gzip\",\"content-length\":\"364933\",\"content-security-policy-report-only\":\"require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs\",\"content-type\":\"text/javascript\",\"cross-origin-opener-policy\":\"same-origin-allow-popups; report-to=\\\"recaptcha-scs\\\"\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Sun, 25 Jan 2026 14:55:21 GMT\",\"expires\":\"Mon, 25 Jan 2027 14:55:21 GMT\",\"last-modified\":\"Mon, 12 Jan 2026 01:00:14 GMT\",\"report-to\":\"{\\\"group\\\":\\\"recaptcha-scs\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/recaptcha-scs\\\"}]}\",\"server\":\"sffe\",\"timing-allow-origin\":\"*\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"0\"},\"requestId\":\"18256.4\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406382961
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"hasExtraInfo\":true,\"loaderId\":\"A2077CCFD277EDE5CE2379622124E147\",\"requestId\":\"18256.4\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":142,\"connectionReused\":false,\"encodedDataLength\":558,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"age\":\"53462\",\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"public, max-age=31536000\",\"content-encoding\":\"gzip\",\"content-length\":\"364933\",\"content-security-policy-report-only\":\"require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha-scs\",\"content-type\":\"text/javascript\",\"cross-origin-opener-policy\":\"same-origin-allow-popups; report-to=\\\"recaptcha-scs\\\"\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Sun, 25 Jan 2026 14:55:21 GMT\",\"expires\":\"Mon, 25 Jan 2027 14:55:21 GMT\",\"last-modified\":\"Mon, 12 Jan 2026 01:00:14 GMT\",\"report-to\":\"{\\\"group\\\":\\\"recaptcha-scs\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/recaptcha-scs\\\"}]}\",\"server\":\"sffe\",\"timing-allow-origin\":\"*\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"0\"},\"mimeType\":\"text/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"142.250.205.3\",\"remotePort\":443,\"responseTime\":1.769406382961281e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.gstatic.com\",\"gstatic.com\",\"*.metric.gstatic.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502205827997917D42CD061AEED2DC270A52167C9E7F5C2027AE4D5E96EA29816C6C302210090F3064886D1195D4CC56DC3431A583C3B874288E78346BE369A254F4CA95A04\",\"status\":\"Verified\",\"timestamp\":1.767041550787e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502206B056D1D54569E08420251B898D345DCDDEA6C5460647C7E51F359A840A4B518022100AC6F9F2850436B23941953B6A6A83B71E9A0B1E68D196C78C418605CF82A4A5F\",\"status\":\"Verified\",\"timestamp\":1.767041550756e+12}],\"subjectName\":\"*.gstatic.com\",\"validFrom\":1767037949,\"validTo\":1774295548},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":78.697,\"connectStart\":11.573,\"dnsEnd\":11.467,\"dnsStart\":0.95,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":94.205,\"receiveHeadersStart\":93.992,\"requestTime\":68898.922626,\"sendEnd\":79.015,\"sendStart\":78.902,\"sslEnd\":78.688,\"sslStart\":24.974,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},\"timestamp\":68899.335859,\"type\":\"Script\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":10737,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335907}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":74038,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335908}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3034,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.33591}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":13448,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335911}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":13174,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335912}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":78892,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335914}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2947,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335915}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":5859,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335916}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":50306,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335921}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4151,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335922}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":64662,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335923}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":12782,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335925}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":14107,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335926}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":74843,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335927}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":61293,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335928}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":84300,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335929}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":67479,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.33593}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3945,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335932}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":44604,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335933}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":61370,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335934}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":58466,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335935}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3756,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335937}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":48067,\"encodedDataLength\":0,\"requestId\":\"18256.4\",\"timestamp\":68899.335938}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":365140,\"requestId\":\"18256.4\",\"timestamp\":68899.338125}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":365698,\"requestId\":\"18256.4\",\"timestamp\":68899.328136}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383341
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameAttached\",\"params\":{\"frameId\":\"8CFB3F2CD1F4DE85A45F1F496318DB34\",\"parentFrameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"stack\":{\"callFrames\":[{\"columnNumber\":301,\"functionName\":\"\",\"lineNumber\":449,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":472,\"functionName\":\"mt.render\",\"lineNumber\":1602,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":319,\"functionName\":\"\",\"lineNumber\":202,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":35,\"functionName\":\"\",\"lineNumber\":526,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":453,\"functionName\":\"\",\"lineNumber\":317,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":166,\"functionName\":\"Bf\",\"lineNumber\":1145,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":249,\"functionName\":\"\",\"lineNumber\":153,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":294,\"functionName\":\"\",\"lineNumber\":66,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":262,\"functionName\":\"\",\"lineNumber\":66,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":231,\"functionName\":\"\",\"lineNumber\":754,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":303,\"functionName\":\"Kx.\\u003Ccomputed>.\\u003Ccomputed>.\\u003Ccomputed>.Kx.\\u003Ccomputed>.\\u003Ccomputed>.\\u003Ccomputed>\",\"lineNumber\":468,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":218,\"functionName\":\"\",\"lineNumber\":469,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":427,\"functionName\":\"\",\"lineNumber\":558,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":169,\"functionName\":\"\",\"lineNumber\":469,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":48,\"functionName\":\"\",\"lineNumber\":1627,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":286,\"functionName\":\"\",\"lineNumber\":1654,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"}]}}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383343
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameRequestedNavigation\",\"params\":{\"disposition\":\"currentTab\",\"frameId\":\"8CFB3F2CD1F4DE85A45F1F496318DB34\",\"reason\":\"initialFrameNavigation\",\"url\":\"https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&co=aHR0cHM6Ly93d3cucmVkZGl0LmNvbTo0NDM.&hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&size=normal&sa=edge&anchor-ms=20000&execute-ms=30000&cb=cegsanqa5bf\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383344
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"8CFB3F2CD1F4DE85A45F1F496318DB34\",\"loaderId\":\"4F9F162E7677CF44D480B9FCE3C1DEAD\",\"navigationType\":\"differentDocument\",\"url\":\"https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&co=aHR0cHM6Ly93d3cucmVkZGl0LmNvbTo0NDM.&hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&size=normal&sa=edge&anchor-ms=20000&execute-ms=30000&cb=cegsanqa5bf\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"8CFB3F2CD1F4DE85A45F1F496318DB34\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&co=aHR0cHM6Ly93d3cucmVkZGl0LmNvbTo0NDM.&hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&size=normal&sa=edge&anchor-ms=20000&execute-ms=30000&cb=cegsanqa5bf\",\"frameId\":\"8CFB3F2CD1F4DE85A45F1F496318DB34\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":301,\"functionName\":\"\",\"lineNumber\":449,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":472,\"functionName\":\"mt.render\",\"lineNumber\":1602,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":319,\"functionName\":\"\",\"lineNumber\":202,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":35,\"functionName\":\"\",\"lineNumber\":526,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":453,\"functionName\":\"\",\"lineNumber\":317,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":166,\"functionName\":\"Bf\",\"lineNumber\":1145,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":249,\"functionName\":\"\",\"lineNumber\":153,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":294,\"functionName\":\"\",\"lineNumber\":66,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":262,\"functionName\":\"\",\"lineNumber\":66,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":231,\"functionName\":\"\",\"lineNumber\":754,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":303,\"functionName\":\"Kx.\\u003Ccomputed>.\\u003Ccomputed>.\\u003Ccomputed>.Kx.\\u003Ccomputed>.\\u003Ccomputed>.\\u003Ccomputed>\",\"lineNumber\":468,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":218,\"functionName\":\"\",\"lineNumber\":469,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":427,\"functionName\":\"\",\"lineNumber\":558,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":169,\"functionName\":\"\",\"lineNumber\":469,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":48,\"functionName\":\"\",\"lineNumber\":1627,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":286,\"functionName\":\"\",\"lineNumber\":1654,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"}]},\"type\":\"script\"},\"loaderId\":\"4F9F162E7677CF44D480B9FCE3C1DEAD\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://www.reddit.com/\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&co=aHR0cHM6Ly93d3cucmVkZGl0LmNvbTo0NDM.&hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&size=normal&sa=edge&anchor-ms=20000&execute-ms=30000&cb=cegsanqa5bf\"},\"requestId\":\"4F9F162E7677CF44D480B9FCE3C1DEAD\",\"timestamp\":68899.401864,\"type\":\"Document\",\"wallTime\":1769406383.346559}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":68899.403124},\"headers\":{\":authority\":\"www.google.com\",\":method\":\"GET\",\":path\":\"/recaptcha/api2/anchor?ar=1&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&co=aHR0cHM6Ly93d3cucmVkZGl0LmNvbTo0NDM.&hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&size=normal&sa=edge&anchor-ms=20000&execute-ms=30000&cb=cegsanqa5bf\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"referer\":\"https://www.reddit.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"iframe\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"x-browser-channel\":\"stable\",\"x-browser-copyright\":\"Copyright 2026 Google LLC. All Rights reserved.\",\"x-browser-validation\":\"gFVpeQzJ+eiXQzBPcTZtsw+zN/0=\",\"x-browser-year\":\"2026\",\"x-client-data\":\"CI7+ygE=\"},\"requestId\":\"4F9F162E7677CF44D480B9FCE3C1DEAD\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383384
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://reddit.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"no-cache, no-store, max-age=0, must-revalidate\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"script-src 'report-sample' 'nonce-9yt00J6Go8lRZrwmvGx8-Q' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/recaptcha/1\",\"content-type\":\"text/html; charset=utf-8\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\"\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 05:46:23 GMT\",\"expires\":\"Mon, 01 Jan 1990 00:00:00 GMT\",\"pragma\":\"no-cache\",\"report-to\":\"{\\\"group\\\":\\\"recaptcha\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/recaptcha\\\"}]}\\n{\\\"group\\\":\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\\\"}]}\",\"server\":\"ESF\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"0\"},\"requestId\":\"4F9F162E7677CF44D480B9FCE3C1DEAD\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383519
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"8CFB3F2CD1F4DE85A45F1F496318DB34\",\"hasExtraInfo\":true,\"loaderId\":\"4F9F162E7677CF44D480B9FCE3C1DEAD\",\"requestId\":\"4F9F162E7677CF44D480B9FCE3C1DEAD\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonRace\",\"charset\":\"utf-8\",\"connectionId\":169,\"connectionReused\":false,\"encodedDataLength\":24,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"no-cache, no-store, max-age=0, must-revalidate\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"script-src 'report-sample' 'nonce-9yt00J6Go8lRZrwmvGx8-Q' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/recaptcha/1\",\"content-type\":\"text/html; charset=utf-8\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\"\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 05:46:23 GMT\",\"expires\":\"Mon, 01 Jan 1990 00:00:00 GMT\",\"pragma\":\"no-cache\",\"report-to\":\"{\\\"group\\\":\\\"recaptcha\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/recaptcha\\\"}]}\\n{\\\"group\\\":\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\\\"}]}\",\"server\":\"ESF\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"0\"},\"mimeType\":\"text/html\",\"protocol\":\"h3\",\"remoteIPAddress\":\"142.251.221.100\",\"remotePort\":443,\"responseTime\":1.769406383518736e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"*.google.com\",\"*.appengine.google.com\",\"*.bdn.dev\",\"*.origin-test.bdn.dev\",\"*.cloud.google.com\",\"*.crowdsource.google.com\",\"*.datacompute.google.com\",\"*.google.ca\",\"*.google.cl\",\"*.google.co.in\",\"*.google.co.jp\",\"*.google.co.uk\",\"*.google.com.ar\",\"*.google.com.au\",\"*.google.com.br\",\"*.google.com.co\",\"*.google.com.mx\",\"*.google.com.tr\",\"*.google.com.vn\",\"*.google.de\",\"*.google.es\",\"*.google.fr\",\"*.google.hu\",\"*.google.it\",\"*.google.nl\",\"*.google.pl\",\"*.google.pt\",\"*.googleapis.cn\",\"*.googlevideo.com\",\"*.gstatic.cn\",\"*.gstatic-cn.com\",\"googlecnapps.cn\",\"*.googlecnapps.cn\",\"googleapps-cn.com\",\"*.googleapps-cn.com\",\"gkecnapps.cn\",\"*.gkecnapps.cn\",\"googledownloads.cn\",\"*.googledownloads.cn\",\"recaptcha.net.cn\",\"*.recaptcha.net.cn\",\"recaptcha-cn.net\",\"*.recaptcha-cn.net\",\"widevine.cn\",\"*.widevine.cn\",\"ampproject.org.cn\",\"*.ampproject.org.cn\",\"ampproject.net.cn\",\"*.ampproject.net.cn\",\"google-analytics-cn.com\",\"*.google-analytics-cn.com\",\"googleadservices-cn.com\",\"*.googleadservices-cn.com\",\"googlevads-cn.com\",\"*.googlevads-cn.com\",\"googleapis-cn.com\",\"*.googleapis-cn.com\",\"googleoptimize-cn.com\",\"*.googleoptimize-cn.com\",\"doubleclick-cn.net\",\"*.doubleclick-cn.net\",\"*.fls.doubleclick-cn.net\",\"*.g.doubleclick-cn.net\",\"doubleclick.cn\",\"*.doubleclick.cn\",\"*.fls.doubleclick.cn\",\"*.g.doubleclick.cn\",\"dartsearch-cn.net\",\"*.dartsearch-cn.net\",\"googletraveladservices-cn.com\",\"*.googletraveladservices-cn.com\",\"googletagservices-cn.com\",\"*.googletagservices-cn.com\",\"googletagmanager-cn.com\",\"*.googletagmanager-cn.com\",\"googlesyndication-cn.com\",\"*.googlesyndication-cn.com\",\"*.safeframe.googlesyndication-cn.com\",\"app-measurement-cn.com\",\"*.app-measurement-cn.com\",\"gvt1-cn.com\",\"*.gvt1-cn.com\",\"gvt2-cn.com\",\"*.gvt2-cn.com\",\"2mdn-cn.net\",\"*.2mdn-cn.net\",\"googleflights-cn.net\",\"*.googleflights-cn.net\",\"admob-cn.com\",\"*.admob-cn.com\",\"*.gemini.cloud.google.com\",\"googlesandbox-cn.com\",\"*.googlesandbox-cn.com\",\"*.safenup.googlesandbox-cn.com\",\"*.gstatic.com\",\"*.metric.gstatic.com\",\"*.gvt1.com\",\"*.gcpcdn.gvt1.com\",\"*.gvt2.com\",\"*.gcp.gvt2.com\",\"*.url.google.com\",\"*.youtube-nocookie.com\",\"*.ytimg.com\",\"ai.android\",\"android.com\",\"*.android.com\",\"*.flash.android.com\",\"g.cn\",\"*.g.cn\",\"g.co\",\"*.g.co\",\"goo.gl\",\"www.goo.gl\",\"google-analytics.com\",\"*.google-analytics.com\",\"google.com\",\"googlecommerce.com\",\"*.googlecommerce.com\",\"ggpht.cn\",\"*.ggpht.cn\",\"urchin.com\",\"*.urchin.com\",\"youtu.be\",\"youtube.com\",\"*.youtube.com\",\"music.youtube.com\",\"*.music.youtube.com\",\"youtubeeducation.com\",\"*.youtubeeducation.com\",\"youtubekids.com\",\"*.youtubekids.com\",\"yt.be\",\"*.yt.be\",\"android.clients.google.com\",\"*.android.google.cn\",\"*.chrome.google.cn\",\"*.developers.google.cn\",\"*.aistudio.google.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100E3307ADF2D294B56B19DC4FA3CD8CB7B5D2C182D7104975E8ADC731A0CC4EF9202200DC8C500F96FD0E9F3FFE4662466EEF6B9686D43661710BFB52459C3DF1CD012\",\"status\":\"Verified\",\"timestamp\":1.767041472657e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022057FF97E3C498C1FF1C8AD3EF22E1977843B973812455A1073EF5722DC9A01C920220050A597E602F8051A17C9FA7F7EC40F55DD76A19D67A7963E5BFA76971EFC71B\",\"status\":\"Verified\",\"timestamp\":1.767041472693e+12}],\"subjectName\":\"*.google.com\",\"validFrom\":1767037870,\"validTo\":1774295469},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":35.692,\"connectStart\":0,\"dnsEnd\":0,\"dnsStart\":0,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":171.128,\"receiveHeadersStart\":170.951,\"requestTime\":68899.403124,\"sendEnd\":36.273,\"sendStart\":36.142,\"sslEnd\":35.692,\"sslStart\":0,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&co=aHR0cHM6Ly93d3cucmVkZGl0LmNvbTo0NDM.&hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&size=normal&sa=edge&anchor-ms=20000&execute-ms=30000&cb=cegsanqa5bf\"},\"timestamp\":68899.575256,\"type\":\"Document\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383520
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameDetached\",\"params\":{\"frameId\":\"8CFB3F2CD1F4DE85A45F1F496318DB34\",\"reason\":\"swap\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406383524
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406384443
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameAttached\",\"params\":{\"frameId\":\"B4AB5F1C7E5262A4ADCEB5E83B00C2E5\",\"parentFrameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"stack\":{\"callFrames\":[{\"columnNumber\":236,\"functionName\":\"\",\"lineNumber\":431,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":282,\"functionName\":\"\",\"lineNumber\":703,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":257,\"functionName\":\"\",\"lineNumber\":413,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":2,\"functionName\":\"\",\"lineNumber\":518,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":401,\"functionName\":\"next\",\"lineNumber\":466,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":145,\"functionName\":\"\",\"lineNumber\":803,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":38,\"functionName\":\"\",\"lineNumber\":803,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":383,\"functionName\":\"\",\"lineNumber\":217,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":201,\"functionName\":\"\",\"lineNumber\":413,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":333,\"functionName\":\"\",\"lineNumber\":708,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":2,\"functionName\":\"\",\"lineNumber\":518,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":401,\"functionName\":\"next\",\"lineNumber\":466,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":145,\"functionName\":\"\",\"lineNumber\":803,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":38,\"functionName\":\"\",\"lineNumber\":803,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":383,\"functionName\":\"\",\"lineNumber\":217,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":238,\"functionName\":\"\",\"lineNumber\":708,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":179,\"functionName\":\"\",\"lineNumber\":761,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":211,\"functionName\":\"Mn\",\"lineNumber\":1065,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":304,\"functionName\":\"M\",\"lineNumber\":540,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"}]}}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406384443
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameRequestedNavigation\",\"params\":{\"disposition\":\"currentTab\",\"frameId\":\"B4AB5F1C7E5262A4ADCEB5E83B00C2E5\",\"reason\":\"initialFrameNavigation\",\"url\":\"about:blank\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406384444
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\",\"explanations\":[]},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"\",\"gatedAPIFeatures\":[],\"id\":\"B4AB5F1C7E5262A4ADCEB5E83B00C2E5\",\"loaderId\":\"E934773B537D77DA482D265B767EC3F1\",\"mimeType\":\"text/html\",\"name\":\"\",\"parentId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"://\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"about:blank\"},\"type\":\"Navigation\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406384444
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"B4AB5F1C7E5262A4ADCEB5E83B00C2E5\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406384444
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"B4AB5F1C7E5262A4ADCEB5E83B00C2E5\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406384446
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":68900.581427}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406384526
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406384527
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.reddit.com/\",\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"A2077CCFD277EDE5CE2379622124E147\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://www.reddit.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.redditstatic.com/shreddit/assets/favicon/64x64.png\"},\"requestId\":\"18256.8\",\"timestamp\":68900.583607,\"type\":\"Other\",\"wallTime\":1769406384.528283}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":68900.58401},\"headers\":{\":authority\":\"www.redditstatic.com\",\":method\":\"GET\",\":path\":\"/shreddit/assets/favicon/64x64.png\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1, i\",\"referer\":\"https://www.reddit.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"18256.8\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://reddit.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"alt-svc\":\"h3=\\\":443\\\";ma=2592000;persist=1,h3-29=\\\":443\\\";ma=2592000;persist=1,h3-27=\\\":443\\\";ma=2592000;persist=1\",\"cache-control\":\"max-age=2147483648, immutable\",\"content-length\":\"3886\",\"content-type\":\"image/png\",\"date\":\"Mon, 26 Jan 2026 05:46:24 GMT\",\"etag\":\"\\\"a365db2536d6caa3de40200d6e59bac5\\\"\",\"last-modified\":\"Tue, 19 Nov 2024 10:47:39 GMT\",\"nel\":\"{\\\"report_to\\\": \\\"w3-reporting-nel\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": false, \\\"success_fraction\\\": 0.02, \\\"failure_fraction\\\": 0.02}\",\"report-to\":\"{\\\"group\\\": \\\"w3-reporting-nel\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true,  \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting-nel.reddit.com/reports\\\" }]}, {\\\"group\\\": \\\"w3-reporting\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true, \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting.reddit.com/reports\\\" }]}, {\\\"group\\\": \\\"w3-reporting-csp\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true, \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting-csp.reddit.com/reports\\\" }]}\",\"server\":\"snooserv\",\"timing-allow-origin\":\"https://www.reddit.com, https://reddit.com\",\"vary\":\"Origin, Access-Control-Request-Headers, Access-Control-Request-Method\",\"via\":\"1.1 varnish, 1.1 varnish\",\"x-amz-server-side-encryption\":\"AES256\"},\"requestId\":\"18256.8\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"hasExtraInfo\":true,\"loaderId\":\"A2077CCFD277EDE5CE2379622124E147\",\"requestId\":\"18256.8\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":257,\"connectionReused\":false,\"encodedDataLength\":2228,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"alt-svc\":\"h3=\\\":443\\\";ma=2592000;persist=1,h3-29=\\\":443\\\";ma=2592000;persist=1,h3-27=\\\":443\\\";ma=2592000;persist=1\",\"cache-control\":\"max-age=2147483648, immutable\",\"content-length\":\"3886\",\"content-type\":\"image/png\",\"date\":\"Mon, 26 Jan 2026 05:46:24 GMT\",\"etag\":\"\\\"a365db2536d6caa3de40200d6e59bac5\\\"\",\"last-modified\":\"Tue, 19 Nov 2024 10:47:39 GMT\",\"nel\":\"{\\\"report_to\\\": \\\"w3-reporting-nel\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": false, \\\"success_fraction\\\": 0.02, \\\"failure_fraction\\\": 0.02}\",\"report-to\":\"{\\\"group\\\": \\\"w3-reporting-nel\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true,  \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting-nel.reddit.com/reports\\\" }]}, {\\\"group\\\": \\\"w3-reporting\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true, \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting.reddit.com/reports\\\" }]}, {\\\"group\\\": \\\"w3-reporting-csp\\\", \\\"max_age\\\": 14400, \\\"include_subdomains\\\": true, \\\"endpoints\\\": [{ \\\"url\\\": \\\"https://w3-reporting-csp.reddit.com/reports\\\" }]}\",\"server\":\"snooserv\",\"timing-allow-origin\":\"https://www.reddit.com, https://reddit.com\",\"vary\":\"Origin, Access-Control-Request-Headers, Access-Control-Request-Method\",\"via\":\"1.1 varnish, 1.1 varnish\",\"x-amz-server-side-encryption\":\"AES256\"},\"mimeType\":\"image/png\",\"protocol\":\"h2\",\"remoteIPAddress\":\"151.101.65.140\",\"remotePort\":443,\"responseTime\":1.769406384664587e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"DigiCert Global G2 TLS RSA SHA256 2020 CA1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"www.redditstatic.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502203E691CC816AA05FD3368061C0AC0FCDD6897E53B46A3B29D8935C4B308D161A7022100ECFC70ADF24B0B39CED4D792E85BE373235829B1ECC8CAFE0921B5DB178E2715\",\"status\":\"Verified\",\"timestamp\":1.763738608355e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100EF3421562C5A8C8C9B7374509E3C16243B50AE49E595FE544E3D2689142BF9B602202EE4AD4806E62C53336CFF3A7F18E25E0796D5397CA5E80194D6DE06BB0B50A5\",\"status\":\"Verified\",\"timestamp\":1.763738608308e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B5D5F92900A2D3CA0E98434C9620EB1C8F17873DEB417EFAAD75027A9FFE8D19022018C558F24B82F4417329FC68F1E5A049E9D5305A7168AD75E9E0E93E807BE10E\",\"status\":\"Verified\",\"timestamp\":1.763738608367e+12}],\"subjectName\":\"www.redditstatic.com\",\"validFrom\":1763683200,\"validTo\":1779235199},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":96.132,\"connectStart\":14.683,\"dnsEnd\":14.507,\"dnsStart\":0.706,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":136.277,\"receiveHeadersStart\":135.915,\"requestTime\":68900.58401,\"sendEnd\":96.46,\"sendStart\":96.341,\"sslEnd\":96.126,\"sslStart\":51.017,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.redditstatic.com/shreddit/assets/favicon/64x64.png\"},\"timestamp\":68900.733654,\"type\":\"Other\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3886,\"encodedDataLength\":0,\"requestId\":\"18256.8\",\"timestamp\":68900.733709}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":2517,\"requestId\":\"18256.8\",\"timestamp\":68900.734188}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":4745,\"requestId\":\"18256.8\",\"timestamp\":68900.721553}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameAttached\",\"params\":{\"frameId\":\"960EA5DD9F5B4F16A0F94C0850FB7CDC\",\"parentFrameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"stack\":{\"callFrames\":[{\"columnNumber\":40,\"functionName\":\"\",\"lineNumber\":747,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":237,\"functionName\":\"\",\"lineNumber\":306,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":494,\"functionName\":\"w.dV\",\"lineNumber\":1626,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":392,\"functionName\":\"e1.Il.e1.v2\",\"lineNumber\":1243,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":425,\"functionName\":\"e1.Ve\",\"lineNumber\":1245,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":408,\"functionName\":\"\",\"lineNumber\":114,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":443,\"functionName\":\"w.ar\",\"lineNumber\":1626,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":61,\"functionName\":\"a.H\",\"lineNumber\":709,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":33,\"functionName\":\"\",\"lineNumber\":709,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":2,\"functionName\":\"\",\"lineNumber\":518,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":401,\"functionName\":\"next\",\"lineNumber\":466,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":514,\"functionName\":\"d\",\"lineNumber\":802,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"}]}}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameRequestedNavigation\",\"params\":{\"disposition\":\"currentTab\",\"frameId\":\"960EA5DD9F5B4F16A0F94C0850FB7CDC\",\"reason\":\"initialFrameNavigation\",\"url\":\"https://www.google.com/recaptcha/api2/bframe?hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&bft=0dAFcWeA7jP2f9SkKKQXic46lbeN0oMDGXOU9jpTOu8OSNgz1K-I6W3C9gfruLcOgcdgBZl5bpdOscEtkSDV2XT4ISmQXSSE0WNg\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"960EA5DD9F5B4F16A0F94C0850FB7CDC\",\"loaderId\":\"EBF858706333E5C0C798A731CEC051BF\",\"navigationType\":\"differentDocument\",\"url\":\"https://www.google.com/recaptcha/api2/bframe?hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&bft=0dAFcWeA7jP2f9SkKKQXic46lbeN0oMDGXOU9jpTOu8OSNgz1K-I6W3C9gfruLcOgcdgBZl5bpdOscEtkSDV2XT4ISmQXSSE0WNg\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"960EA5DD9F5B4F16A0F94C0850FB7CDC\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.google.com/recaptcha/api2/bframe?hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&bft=0dAFcWeA7jP2f9SkKKQXic46lbeN0oMDGXOU9jpTOu8OSNgz1K-I6W3C9gfruLcOgcdgBZl5bpdOscEtkSDV2XT4ISmQXSSE0WNg\",\"frameId\":\"960EA5DD9F5B4F16A0F94C0850FB7CDC\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":40,\"functionName\":\"\",\"lineNumber\":747,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":237,\"functionName\":\"\",\"lineNumber\":306,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":494,\"functionName\":\"w.dV\",\"lineNumber\":1626,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":392,\"functionName\":\"e1.Il.e1.v2\",\"lineNumber\":1243,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":425,\"functionName\":\"e1.Ve\",\"lineNumber\":1245,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":408,\"functionName\":\"\",\"lineNumber\":114,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":443,\"functionName\":\"w.ar\",\"lineNumber\":1626,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":61,\"functionName\":\"a.H\",\"lineNumber\":709,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":33,\"functionName\":\"\",\"lineNumber\":709,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":2,\"functionName\":\"\",\"lineNumber\":518,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":401,\"functionName\":\"next\",\"lineNumber\":466,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":514,\"functionName\":\"d\",\"lineNumber\":802,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"}]},\"type\":\"script\"},\"loaderId\":\"EBF858706333E5C0C798A731CEC051BF\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://www.reddit.com/\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.google.com/recaptcha/api2/bframe?hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&bft=0dAFcWeA7jP2f9SkKKQXic46lbeN0oMDGXOU9jpTOu8OSNgz1K-I6W3C9gfruLcOgcdgBZl5bpdOscEtkSDV2XT4ISmQXSSE0WNg\"},\"requestId\":\"EBF858706333E5C0C798A731CEC051BF\",\"timestamp\":68900.747504,\"type\":\"Document\",\"wallTime\":1769406384.692176}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":68900.748142},\"headers\":{\":authority\":\"www.google.com\",\":method\":\"GET\",\":path\":\"/recaptcha/api2/bframe?hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&bft=0dAFcWeA7jP2f9SkKKQXic46lbeN0oMDGXOU9jpTOu8OSNgz1K-I6W3C9gfruLcOgcdgBZl5bpdOscEtkSDV2XT4ISmQXSSE0WNg\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"referer\":\"https://www.reddit.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"iframe\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"x-browser-channel\":\"stable\",\"x-browser-copyright\":\"Copyright 2026 Google LLC. All Rights reserved.\",\"x-browser-validation\":\"gFVpeQzJ+eiXQzBPcTZtsw+zN/0=\",\"x-browser-year\":\"2026\",\"x-client-data\":\"CI7+ygE=\"},\"requestId\":\"EBF858706333E5C0C798A731CEC051BF\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameAttached\",\"params\":{\"frameId\":\"7FBEB37666941717840C5878883BF27D\",\"parentFrameId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"stack\":{\"callFrames\":[{\"columnNumber\":60,\"functionName\":\"\",\"lineNumber\":798,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":41,\"functionName\":\"w.J$\",\"lineNumber\":1614,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":493,\"functionName\":\"\",\"lineNumber\":460,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":148,\"functionName\":\"w.FG\",\"lineNumber\":1613,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":52,\"functionName\":\"\",\"lineNumber\":402,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":167,\"functionName\":\"i7\",\"lineNumber\":1028,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":151,\"functionName\":\"\",\"lineNumber\":355,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"},{\"columnNumber\":455,\"functionName\":\"w.nB\",\"lineNumber\":1613,\"scriptId\":\"9\",\"url\":\"https://www.gstatic.com/recaptcha/releases/PoyoqOPhxBO7pBk68S4YbpHZ/recaptcha__en.js\"}]}}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameRequestedNavigation\",\"params\":{\"disposition\":\"currentTab\",\"frameId\":\"7FBEB37666941717840C5878883BF27D\",\"reason\":\"initialFrameNavigation\",\"url\":\"about:blank\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\",\"explanations\":[]},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"\",\"gatedAPIFeatures\":[],\"id\":\"7FBEB37666941717840C5878883BF27D\",\"loaderId\":\"5D28DEFFA8570D9E9F4A4EA8D1748FC8\",\"mimeType\":\"text/html\",\"name\":\"\",\"parentId\":\"B6816E1F09EAABFC109DBCA080FC29E4\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"://\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"about:blank\"},\"type\":\"Navigation\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"7FBEB37666941717840C5878883BF27D\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"7FBEB37666941717840C5878883BF27D\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameSubtreeWillBeDetached\",\"params\":{\"frameId\":\"7FBEB37666941717840C5878883BF27D\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameDetached\",\"params\":{\"frameId\":\"7FBEB37666941717840C5878883BF27D\",\"reason\":\"remove\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://reddit.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"no-cache, no-store, max-age=0, must-revalidate\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"script-src 'report-sample' 'nonce-xZ-bzNco84sWM0vnYnOzrw' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/recaptcha/1\",\"content-type\":\"text/html; charset=utf-8\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\"\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 05:46:25 GMT\",\"expires\":\"Mon, 01 Jan 1990 00:00:00 GMT\",\"pragma\":\"no-cache\",\"report-to\":\"{\\\"group\\\":\\\"recaptcha\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/recaptcha\\\"}]}\\n{\\\"group\\\":\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\\\"}]}\",\"server\":\"ESF\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"0\"},\"requestId\":\"EBF858706333E5C0C798A731CEC051BF\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"960EA5DD9F5B4F16A0F94C0850FB7CDC\",\"hasExtraInfo\":true,\"loaderId\":\"EBF858706333E5C0C798A731CEC051BF\",\"requestId\":\"EBF858706333E5C0C798A731CEC051BF\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonWithoutRace\",\"charset\":\"utf-8\",\"connectionId\":169,\"connectionReused\":true,\"encodedDataLength\":24,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"cache-control\":\"no-cache, no-store, max-age=0, must-revalidate\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"script-src 'report-sample' 'nonce-xZ-bzNco84sWM0vnYnOzrw' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/recaptcha/1\",\"content-type\":\"text/html; charset=utf-8\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy-report-only\":\"same-origin; report-to=\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\"\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 05:46:25 GMT\",\"expires\":\"Mon, 01 Jan 1990 00:00:00 GMT\",\"pragma\":\"no-cache\",\"report-to\":\"{\\\"group\\\":\\\"recaptcha\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/recaptcha\\\"}]}\\n{\\\"group\\\":\\\"coop_38fac9d5b82543fc4729580d18ff2d3d\\\",\\\"max_age\\\":2592000,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d\\\"}]}\",\"server\":\"ESF\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"0\"},\"mimeType\":\"text/html\",\"protocol\":\"h3\",\"remoteIPAddress\":\"142.251.221.100\",\"remotePort\":443,\"responseTime\":1.76940638474503e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"*.google.com\",\"*.appengine.google.com\",\"*.bdn.dev\",\"*.origin-test.bdn.dev\",\"*.cloud.google.com\",\"*.crowdsource.google.com\",\"*.datacompute.google.com\",\"*.google.ca\",\"*.google.cl\",\"*.google.co.in\",\"*.google.co.jp\",\"*.google.co.uk\",\"*.google.com.ar\",\"*.google.com.au\",\"*.google.com.br\",\"*.google.com.co\",\"*.google.com.mx\",\"*.google.com.tr\",\"*.google.com.vn\",\"*.google.de\",\"*.google.es\",\"*.google.fr\",\"*.google.hu\",\"*.google.it\",\"*.google.nl\",\"*.google.pl\",\"*.google.pt\",\"*.googleapis.cn\",\"*.googlevideo.com\",\"*.gstatic.cn\",\"*.gstatic-cn.com\",\"googlecnapps.cn\",\"*.googlecnapps.cn\",\"googleapps-cn.com\",\"*.googleapps-cn.com\",\"gkecnapps.cn\",\"*.gkecnapps.cn\",\"googledownloads.cn\",\"*.googledownloads.cn\",\"recaptcha.net.cn\",\"*.recaptcha.net.cn\",\"recaptcha-cn.net\",\"*.recaptcha-cn.net\",\"widevine.cn\",\"*.widevine.cn\",\"ampproject.org.cn\",\"*.ampproject.org.cn\",\"ampproject.net.cn\",\"*.ampproject.net.cn\",\"google-analytics-cn.com\",\"*.google-analytics-cn.com\",\"googleadservices-cn.com\",\"*.googleadservices-cn.com\",\"googlevads-cn.com\",\"*.googlevads-cn.com\",\"googleapis-cn.com\",\"*.googleapis-cn.com\",\"googleoptimize-cn.com\",\"*.googleoptimize-cn.com\",\"doubleclick-cn.net\",\"*.doubleclick-cn.net\",\"*.fls.doubleclick-cn.net\",\"*.g.doubleclick-cn.net\",\"doubleclick.cn\",\"*.doubleclick.cn\",\"*.fls.doubleclick.cn\",\"*.g.doubleclick.cn\",\"dartsearch-cn.net\",\"*.dartsearch-cn.net\",\"googletraveladservices-cn.com\",\"*.googletraveladservices-cn.com\",\"googletagservices-cn.com\",\"*.googletagservices-cn.com\",\"googletagmanager-cn.com\",\"*.googletagmanager-cn.com\",\"googlesyndication-cn.com\",\"*.googlesyndication-cn.com\",\"*.safeframe.googlesyndication-cn.com\",\"app-measurement-cn.com\",\"*.app-measurement-cn.com\",\"gvt1-cn.com\",\"*.gvt1-cn.com\",\"gvt2-cn.com\",\"*.gvt2-cn.com\",\"2mdn-cn.net\",\"*.2mdn-cn.net\",\"googleflights-cn.net\",\"*.googleflights-cn.net\",\"admob-cn.com\",\"*.admob-cn.com\",\"*.gemini.cloud.google.com\",\"googlesandbox-cn.com\",\"*.googlesandbox-cn.com\",\"*.safenup.googlesandbox-cn.com\",\"*.gstatic.com\",\"*.metric.gstatic.com\",\"*.gvt1.com\",\"*.gcpcdn.gvt1.com\",\"*.gvt2.com\",\"*.gcp.gvt2.com\",\"*.url.google.com\",\"*.youtube-nocookie.com\",\"*.ytimg.com\",\"ai.android\",\"android.com\",\"*.android.com\",\"*.flash.android.com\",\"g.cn\",\"*.g.cn\",\"g.co\",\"*.g.co\",\"goo.gl\",\"www.goo.gl\",\"google-analytics.com\",\"*.google-analytics.com\",\"google.com\",\"googlecommerce.com\",\"*.googlecommerce.com\",\"ggpht.cn\",\"*.ggpht.cn\",\"urchin.com\",\"*.urchin.com\",\"youtu.be\",\"youtube.com\",\"*.youtube.com\",\"music.youtube.com\",\"*.music.youtube.com\",\"youtubeeducation.com\",\"*.youtubeeducation.com\",\"youtubekids.com\",\"*.youtubekids.com\",\"yt.be\",\"*.yt.be\",\"android.clients.google.com\",\"*.android.google.cn\",\"*.chrome.google.cn\",\"*.developers.google.cn\",\"*.aistudio.google.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100E3307ADF2D294B56B19DC4FA3CD8CB7B5D2C182D7104975E8ADC731A0CC4EF9202200DC8C500F96FD0E9F3FFE4662466EEF6B9686D43661710BFB52459C3DF1CD012\",\"status\":\"Verified\",\"timestamp\":1.767041472657e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022057FF97E3C498C1FF1C8AD3EF22E1977843B973812455A1073EF5722DC9A01C920220050A597E602F8051A17C9FA7F7EC40F55DD76A19D67A7963E5BFA76971EFC71B\",\"status\":\"Verified\",\"timestamp\":1.767041472693e+12}],\"subjectName\":\"*.google.com\",\"validFrom\":1767037870,\"validTo\":1774295469},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":52.377,\"receiveHeadersStart\":52.217,\"requestTime\":68900.748142,\"sendEnd\":1.02,\"sendStart\":0.78,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.google.com/recaptcha/api2/bframe?hl=en&v=PoyoqOPhxBO7pBk68S4YbpHZ&k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&bft=0dAFcWeA7jP2f9SkKKQXic46lbeN0oMDGXOU9jpTOu8OSNgz1K-I6W3C9gfruLcOgcdgBZl5bpdOscEtkSDV2XT4ISmQXSSE0WNg\"},\"timestamp\":68900.801399,\"type\":\"Document\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389530
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameDetached\",\"params\":{\"frameId\":\"960EA5DD9F5B4F16A0F94C0850FB7CDC\",\"reason\":\"swap\"}},\"webview\":\"B6816E1F09EAABFC109DBCA080FC29E4\"}",
+    "timestamp": 1769406389531
+  }
+]

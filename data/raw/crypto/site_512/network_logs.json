@@ -1,0 +1,107 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"7086387FDC9EAA263144217F8992B25F\",\"loaderId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"navigationType\":\"differentDocument\",\"url\":\"http://coin-have.com/\"}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430548688
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"7086387FDC9EAA263144217F8992B25F\"}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430548688
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://coin-have.com/\",\"frameId\":\"7086387FDC9EAA263144217F8992B25F\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://coin-have.com/\"},\"requestId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"timestamp\":93064.744878,\"type\":\"Document\",\"wallTime\":1769430548.689523}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430548696
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://coin-have.com/\",\"frameId\":\"7086387FDC9EAA263144217F8992B25F\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://coin-have.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://coin-have.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://coin-have.com/\"},\"requestId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"timestamp\":93064.74741,\"type\":\"Document\",\"wallTime\":1769430548.692064}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430548696
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":93064.748},\"headers\":{\":authority\":\"coin-have.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430548785
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://coin-have.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-cache-status\":\"DYNAMIC\",\"cf-ray\":\"9c4003a47e30df08-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 12:29:09 GMT\",\"etag\":\"W/\\\"695251b5-71a\\\"\",\"last-modified\":\"Mon, 29 Dec 2025 10:02:29 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=0,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=29vSlprUuX5eV5JpbciamSUzAENY3wpBif3CSvjWsc%2BM6PTUyWY1lnESUHjSvwZDPwp%2F53NsIOBG9xbvwBRMmNKXIpkPVg7p5ihTEqA%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfCacheStatus;desc=\\\"DYNAMIC\\\"\\ncfEdge;dur=12,cfOrigin;dur=360\\ncfExtPri\",\"vary\":\"Accept-Encoding\"},\"requestId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430549216
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"7086387FDC9EAA263144217F8992B25F\",\"hasExtraInfo\":true,\"loaderId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"requestId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonRace\",\"charset\":\"\",\"connectionId\":101,\"connectionReused\":false,\"encodedDataLength\":538,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-cache-status\":\"DYNAMIC\",\"cf-ray\":\"9c4003a47e30df08-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 12:29:09 GMT\",\"etag\":\"W/\\\"695251b5-71a\\\"\",\"last-modified\":\"Mon, 29 Dec 2025 10:02:29 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=0,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=29vSlprUuX5eV5JpbciamSUzAENY3wpBif3CSvjWsc%2BM6PTUyWY1lnESUHjSvwZDPwp%2F53NsIOBG9xbvwBRMmNKXIpkPVg7p5ihTEqA%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfCacheStatus;desc=\\\"DYNAMIC\\\"\\ncfEdge;dur=12,cfOrigin;dur=360\\ncfExtPri\",\"vary\":\"Accept-Encoding\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.21.79.87\",\"remotePort\":443,\"responseTime\":1.769430549214273e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":true,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"coin-have.com\",\"*.coin-have.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100E6A23FC8B8368FD84D63558028E3A0C63587CA60135E725780AD8489BD35B2A80220637E7D509248E7ED7E8B2A0E6D8BBD1CF74F26CF9C2B789819DB304931F3DC11\",\"status\":\"Verified\",\"timestamp\":1.766496018112e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402205F9D0A13E80D6AFE5601F29391C0E2DB1AD1F8494E3A8F4E718EFACE5D1197D702201326203C83DCCA787178434D6C5FDC71DF683EB324013A9C9CACF2EAEA7E4F67\",\"status\":\"Verified\",\"timestamp\":1.766496018079e+12}],\"subjectName\":\"coin-have.com\",\"validFrom\":1766492417,\"validTo\":1774271885},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":91.881,\"connectStart\":33.972,\"dnsEnd\":33.586,\"dnsStart\":4.146,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":522.284,\"receiveHeadersStart\":521.566,\"requestTime\":93064.748,\"sendEnd\":92.052,\"sendStart\":91.962,\"sslEnd\":91.881,\"sslStart\":33.972,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://coin-have.com/\"},\"timestamp\":93065.276273,\"type\":\"Document\"}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430549221
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"coin-have.com\",\"gatedAPIFeatures\":[],\"id\":\"7086387FDC9EAA263144217F8992B25F\",\"loaderId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"mimeType\":\"application/javascript\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://coin-have.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://coin-have.com/\"},\"type\":\"Navigation\"}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430549229
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430549232
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1818,\"encodedDataLength\":0,\"requestId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"timestamp\":93065.289345}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430549241
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1492,\"requestId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"timestamp\":93065.271185}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430549241
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":93065.29208}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430549251
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":93065.292391}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430549251
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"7086387FDC9EAA263144217F8992B25F\"}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430549251
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://coin-have.com/\",\"frameId\":\"7086387FDC9EAA263144217F8992B25F\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://coin-have.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://coin-have.com/favicon.ico\"},\"requestId\":\"12404.2\",\"timestamp\":93065.31009,\"type\":\"Other\",\"wallTime\":1769430549.254784}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430554257
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93065.310887},\"headers\":{\":authority\":\"coin-have.com\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1, i\",\"referer\":\"https://coin-have.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"12404.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430554257
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://coin-have.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-cache-status\":\"DYNAMIC\",\"cf-ray\":\"9c4003a76fe3df08-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 12:29:09 GMT\",\"etag\":\"W/\\\"695251b5-71a\\\"\",\"last-modified\":\"Mon, 29 Dec 2025 10:02:29 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=1,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=fUMcH3TqpSmctov%2Bqyypw94R5v6ZU%2BPAlSOyXUMa%2BGgnHqA1ouJyLayEAy2G88u4mLM%2BE920seVX8yCTvBlfrr%2Fqt64%2FWTA2%2FCb0Y7w%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"Accept-Encoding\"},\"requestId\":\"12404.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430554257
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"7086387FDC9EAA263144217F8992B25F\",\"hasExtraInfo\":true,\"loaderId\":\"6C988BFC48E72847ED4047D57C80E69A\",\"requestId\":\"12404.2\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonWithoutRace\",\"charset\":\"\",\"connectionId\":101,\"connectionReused\":true,\"encodedDataLength\":437,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-cache-status\":\"DYNAMIC\",\"cf-ray\":\"9c4003a76fe3df08-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 12:29:09 GMT\",\"etag\":\"W/\\\"695251b5-71a\\\"\",\"last-modified\":\"Mon, 29 Dec 2025 10:02:29 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=1,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=fUMcH3TqpSmctov%2Bqyypw94R5v6ZU%2BPAlSOyXUMa%2BGgnHqA1ouJyLayEAy2G88u4mLM%2BE920seVX8yCTvBlfrr%2Fqt64%2FWTA2%2FCb0Y7w%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"Accept-Encoding\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.21.79.87\",\"remotePort\":443,\"responseTime\":1.769430549488653e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":true,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"coin-have.com\",\"*.coin-have.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100E6A23FC8B8368FD84D63558028E3A0C63587CA60135E725780AD8489BD35B2A80220637E7D509248E7ED7E8B2A0E6D8BBD1CF74F26CF9C2B789819DB304931F3DC11\",\"status\":\"Verified\",\"timestamp\":1.766496018112e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402205F9D0A13E80D6AFE5601F29391C0E2DB1AD1F8494E3A8F4E718EFACE5D1197D702201326203C83DCCA787178434D6C5FDC71DF683EB324013A9C9CACF2EAEA7E4F67\",\"status\":\"Verified\",\"timestamp\":1.766496018079e+12}],\"subjectName\":\"coin-have.com\",\"validFrom\":1766492417,\"validTo\":1774271885},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":233.34,\"receiveHeadersStart\":233.115,\"requestTime\":93065.310887,\"sendEnd\":0.811,\"sendStart\":0.402,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://coin-have.com/favicon.ico\"},\"timestamp\":93065.54533,\"type\":\"Other\"}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430554258
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1818,\"encodedDataLength\":0,\"requestId\":\"12404.2\",\"timestamp\":93065.545376}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430554258
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":954,\"requestId\":\"12404.2\",\"timestamp\":93065.545506}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430554258
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1391,\"requestId\":\"12404.2\",\"timestamp\":93065.544797}},\"webview\":\"7086387FDC9EAA263144217F8992B25F\"}",
+    "timestamp": 1769430554258
+  }
+]

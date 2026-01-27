@@ -1,0 +1,107 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"D623FEA8495AA5B8B16B0080D6648B0C\",\"loaderId\":\"C14EE1043A1886154840C41222234155\",\"navigationType\":\"differentDocument\",\"url\":\"http://api.xmrpool.net/\"}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418813875
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418813876
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://api.xmrpool.net/\",\"frameId\":\"D623FEA8495AA5B8B16B0080D6648B0C\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"C14EE1043A1886154840C41222234155\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://api.xmrpool.net/\"},\"requestId\":\"C14EE1043A1886154840C41222234155\",\"timestamp\":81329.931781,\"type\":\"Document\",\"wallTime\":1769418813.876436}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418813877
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://api.xmrpool.net/\",\"frameId\":\"D623FEA8495AA5B8B16B0080D6648B0C\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"C14EE1043A1886154840C41222234155\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://api.xmrpool.net/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://api.xmrpool.net/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://api.xmrpool.net/\"},\"requestId\":\"C14EE1043A1886154840C41222234155\",\"timestamp\":81329.934639,\"type\":\"Document\",\"wallTime\":1769418813.879301}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418813880
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://api.xmrpool.net/\",\"frameId\":\"D623FEA8495AA5B8B16B0080D6648B0C\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"C14EE1043A1886154840C41222234155\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"http://api.xmrpool.net/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"secure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"https://api.xmrpool.net/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://api.xmrpool.net/\"},\"requestId\":\"C14EE1043A1886154840C41222234155\",\"timestamp\":81332.946004,\"type\":\"Document\",\"wallTime\":1769418816.890651}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418816891
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":81332.946574},\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"api.xmrpool.net\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"C14EE1043A1886154840C41222234155\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856527
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"http://xmrpool.net\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Content-Length\":\"18\",\"Content-Type\":\"text/plain\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nContent-Type: text/plain\\r\\nContent-Length: 18\\r\\n\\r\\n\",\"requestId\":\"C14EE1043A1886154840C41222234155\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856855
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"D623FEA8495AA5B8B16B0080D6648B0C\",\"hasExtraInfo\":true,\"loaderId\":\"C14EE1043A1886154840C41222234155\",\"requestId\":\"C14EE1043A1886154840C41222234155\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":282,\"connectionReused\":false,\"encodedDataLength\":61,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Content-Length\":\"18\",\"Content-Type\":\"text/plain\"},\"mimeType\":\"text/plain\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"141.94.96.195\",\"remotePort\":80,\"responseTime\":1.769418856854401e+12,\"securityState\":\"insecure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":39635.868,\"connectStart\":0,\"dnsEnd\":0,\"dnsStart\":0,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":39963.408,\"receiveHeadersStart\":39963.192,\"requestTime\":81332.946574,\"sendEnd\":39636.077,\"sendStart\":39635.954,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://api.xmrpool.net/\"},\"timestamp\":81372.911093,\"type\":\"Document\"}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856855
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"xmrpool.net\",\"gatedAPIFeatures\":[],\"id\":\"D623FEA8495AA5B8B16B0080D6648B0C\",\"loaderId\":\"C14EE1043A1886154840C41222234155\",\"mimeType\":\"text/plain\",\"secureContextType\":\"InsecureScheme\",\"securityOrigin\":\"http://api.xmrpool.net\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"http://api.xmrpool.net/\"},\"type\":\"Navigation\"}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856858
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856860
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":18,\"encodedDataLength\":0,\"requestId\":\"C14EE1043A1886154840C41222234155\",\"timestamp\":81372.917625}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856871
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":79,\"requestId\":\"C14EE1043A1886154840C41222234155\",\"timestamp\":81372.910672}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856872
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":81372.920399}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856876
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":81372.920707}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856876
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856876
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://api.xmrpool.net/\",\"frameId\":\"D623FEA8495AA5B8B16B0080D6648B0C\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"C14EE1043A1886154840C41222234155\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"http://api.xmrpool.net/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://api.xmrpool.net/favicon.ico\"},\"requestId\":\"17820.2\",\"timestamp\":81372.929849,\"type\":\"Other\",\"wallTime\":1769418856.874526}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856876
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":false,\"privateNetworkRequestPolicy\":\"BlockFromInsecureToMorePrivate\"},\"connectTiming\":{\"requestTime\":81372.930652},\"headers\":{\"Accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"api.xmrpool.net\",\"Referer\":\"http://api.xmrpool.net/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"17820.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418856877
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"http://xmrpool.net\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Content-Length\":\"18\",\"Content-Type\":\"text/plain\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nContent-Type: text/plain\\r\\nContent-Length: 18\\r\\n\\r\\n\",\"requestId\":\"17820.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418861879
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"D623FEA8495AA5B8B16B0080D6648B0C\",\"hasExtraInfo\":true,\"loaderId\":\"C14EE1043A1886154840C41222234155\",\"requestId\":\"17820.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":283,\"connectionReused\":true,\"encodedDataLength\":61,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Content-Length\":\"18\",\"Content-Type\":\"text/plain\"},\"mimeType\":\"text/plain\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"141.94.96.195\",\"remotePort\":80,\"responseTime\":1.769418857196561e+12,\"securityState\":\"insecure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":321.683,\"receiveHeadersStart\":321.274,\"requestTime\":81372.930652,\"sendEnd\":1.447,\"sendStart\":1.331,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://api.xmrpool.net/favicon.ico\"},\"timestamp\":81373.2532,\"type\":\"Other\"}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418861879
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":18,\"encodedDataLength\":0,\"requestId\":\"17820.2\",\"timestamp\":81373.253246}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418861879
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":79,\"requestId\":\"17820.2\",\"timestamp\":81373.252741}},\"webview\":\"D623FEA8495AA5B8B16B0080D6648B0C\"}",
+    "timestamp": 1769418861879
+  }
+]

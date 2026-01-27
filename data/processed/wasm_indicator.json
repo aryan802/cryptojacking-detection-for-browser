@@ -1,0 +1,42 @@
+[
+  {
+    "site_id": "site_0",
+    "wasm_present": false
+  },
+  {
+    "site_id": "site_1",
+    "wasm_present": false
+  },
+  {
+    "site_id": "site_2",
+    "wasm_present": false
+  },
+  {
+    "site_id": "site_3",
+    "wasm_present": false
+  },
+  {
+    "site_id": "site_4",
+    "wasm_present": false
+  },
+  {
+    "site_id": "site_5",
+    "wasm_present": false
+  },
+  {
+    "site_id": "site_6",
+    "wasm_present": false
+  },
+  {
+    "site_id": "site_7",
+    "wasm_present": false
+  },
+  {
+    "site_id": "site_8",
+    "wasm_present": false
+  },
+  {
+    "site_id": "site_9",
+    "wasm_present": false
+  }
+]

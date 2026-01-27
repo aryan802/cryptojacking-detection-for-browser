@@ -1,0 +1,72 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\",\"loaderId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"navigationType\":\"differentDocument\",\"url\":\"http://crywebber.github.io/\"}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195202
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195203
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://crywebber.github.io/\",\"frameId\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://crywebber.github.io/\"},\"requestId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"timestamp\":94711.259084,\"type\":\"Document\",\"wallTime\":1769432195.20373}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195205
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://crywebber.github.io/\",\"frameId\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://crywebber.github.io/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://crywebber.github.io/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://crywebber.github.io/\"},\"requestId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"timestamp\":94711.260799,\"type\":\"Document\",\"wallTime\":1769432195.205456}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":94711.261442},\"headers\":{\":authority\":\"crywebber.github.io\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195299
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://crywebber.github.io\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"age\":\"0\",\"content-encoding\":\"gzip\",\"content-length\":\"5142\",\"content-security-policy\":\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\",\"content-type\":\"text/html; charset=utf-8\",\"date\":\"Mon, 26 Jan 2026 12:56:35 GMT\",\"etag\":\"W/\\\"6971b8cb-239b\\\"\",\"server\":\"GitHub.com\",\"vary\":\"Accept-Encoding\",\"via\":\"1.1 varnish\",\"x-cache\":\"MISS\",\"x-cache-hits\":\"0\",\"x-fastly-request-id\":\"4520f26e3991b86f2d5cd323ff35737f024b3e30\",\"x-github-request-id\":\"CF31:1FE4BC:210EA:252D5:69776481\",\"x-served-by\":\"cache-ccu830057-CCU\",\"x-timer\":\"S1769432196.688820,VS0,VE256\"},\"requestId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195661
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\",\"hasExtraInfo\":true,\"loaderId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"requestId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":103,\"connectionReused\":false,\"encodedDataLength\":5524,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"age\":\"0\",\"content-encoding\":\"gzip\",\"content-length\":\"5142\",\"content-security-policy\":\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\",\"content-type\":\"text/html; charset=utf-8\",\"date\":\"Mon, 26 Jan 2026 12:56:35 GMT\",\"etag\":\"W/\\\"6971b8cb-239b\\\"\",\"server\":\"GitHub.com\",\"vary\":\"Accept-Encoding\",\"via\":\"1.1 varnish\",\"x-cache\":\"MISS\",\"x-cache-hits\":\"0\",\"x-fastly-request-id\":\"4520f26e3991b86f2d5cd323ff35737f024b3e30\",\"x-github-request-id\":\"CF31:1FE4BC:210EA:252D5:69776481\",\"x-served-by\":\"cache-ccu830057-CCU\",\"x-timer\":\"S1769432196.688820,VS0,VE256\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"185.199.109.153\",\"remotePort\":443,\"responseTime\":1.76943219566116e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Sectigo RSA Domain Validation Secure Server CA\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.github.io\",\"*.github.com\",\"*.githubusercontent.com\",\"github.com\",\"github.io\",\"githubusercontent.com\",\"www.github.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100F98220B00A9BD9CA9056517824FD844485421F7457741EC38C83DCE8287968AE022078EA52857B1793247DC210726767ED9E5447C9D8B4F03638BBD873798215C2EE\",\"status\":\"Verified\",\"timestamp\":1.741305982069e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Oak2026h1'\",\"logId\":\"1986D4C728AA6FFEBA036F782A4D0191AACE2D72310FAECE5D70412D254CC7D4\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30460221008EBC806D7947B178FFBF87FB0965C9CC3517494BAF0399111F776887858F5107022100BE9E88C2AA10A7FD9BA96E7239D0ED53DC548A050BBF2CE677DDF029CCB25685\",\"status\":\"Verified\",\"timestamp\":1.741305981966e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402204BDF0BD43D96F27CD5DED210D11E14256C70C5BEC8FD34FA7BD972D2703442C002205A65EECFD6035426CF5566F19B62868345B9B3BF02289A54669E0D08B39C7142\",\"status\":\"Verified\",\"timestamp\":1.741305982007e+12}],\"subjectName\":\"*.github.io\",\"validFrom\":1741305600,\"validTo\":1772927999},\"securityState\":\"secure\",\"status\":404,\"statusText\":\"\",\"timing\":{\"connectEnd\":92.963,\"connectStart\":26.645,\"dnsEnd\":26.544,\"dnsStart\":1.838,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":455.215,\"receiveHeadersStart\":455.064,\"requestTime\":94711.261442,\"sendEnd\":93.162,\"sendStart\":93.05,\"sslEnd\":92.955,\"sslStart\":56.746,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://crywebber.github.io/\"},\"timestamp\":94711.72127,\"type\":\"Document\"}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195666
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"crywebber.github.io\",\"gatedAPIFeatures\":[],\"id\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\",\"loaderId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://crywebber.github.io\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://crywebber.github.io/\"},\"type\":\"Navigation\"}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195682
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195682
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":9115,\"encodedDataLength\":0,\"requestId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"timestamp\":94711.730769}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195688
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":5524,\"requestId\":\"864E86C810E1E5FAB4D535DAC4493720\",\"timestamp\":94711.717101}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195688
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":94711.739073}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195688
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":94711.740534}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195701
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}},\"webview\":\"52EBC400BF86DC9CC1E212B8C6A4B0E8\"}",
+    "timestamp": 1769432195702
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"72B55F5F4698B41101BE1AF289E51984\",\"loaderId\":\"1854F0E676E066C14B7FD84B645A447A\",\"navigationType\":\"differentDocument\",\"url\":\"http://api.moneroocean.stream/\"}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418730958
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"72B55F5F4698B41101BE1AF289E51984\"}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418730962
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://api.moneroocean.stream/\",\"frameId\":\"72B55F5F4698B41101BE1AF289E51984\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"1854F0E676E066C14B7FD84B645A447A\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://api.moneroocean.stream/\"},\"requestId\":\"1854F0E676E066C14B7FD84B645A447A\",\"timestamp\":81247.015673,\"type\":\"Document\",\"wallTime\":1769418730.960321}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418730962
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://api.moneroocean.stream/\",\"frameId\":\"72B55F5F4698B41101BE1AF289E51984\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"1854F0E676E066C14B7FD84B645A447A\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://api.moneroocean.stream/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://api.moneroocean.stream/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://api.moneroocean.stream/\"},\"requestId\":\"1854F0E676E066C14B7FD84B645A447A\",\"timestamp\":81247.017416,\"type\":\"Document\",\"wallTime\":1769418730.962073}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418730963
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":81247.018129},\"headers\":{\":authority\":\"api.moneroocean.stream\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"1854F0E676E066C14B7FD84B645A447A\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418731237
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://moneroocean.stream\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-origin\":\"*\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-cache-status\":\"DYNAMIC\",\"cf-ray\":\"9c3ee3209b0ef882-SIN\",\"content-encoding\":\"zstd\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"text/html; charset=utf-8\",\"date\":\"Mon, 26 Jan 2026 09:12:12 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=0,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=zVHV1DdoTuWf%2Bfa4hO5az%2BDJlsfGIhpOswS%2BJCY%2F447e3LwzITVMFpK6sINcZwWKq%2FkExyS7RVf1PUCRREtsFANhX6Hn%2FZXRYjpk3VAzvr7LeS0s\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=15552000; preload\",\"vary\":\"accept-encoding\",\"x-content-type-options\":\"nosniff\",\"x-powered-by\":\"Express\"},\"requestId\":\"1854F0E676E066C14B7FD84B645A447A\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418732016
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"72B55F5F4698B41101BE1AF289E51984\",\"hasExtraInfo\":true,\"loaderId\":\"1854F0E676E066C14B7FD84B645A447A\",\"requestId\":\"1854F0E676E066C14B7FD84B645A447A\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonRace\",\"charset\":\"utf-8\",\"connectionId\":99,\"connectionReused\":false,\"encodedDataLength\":489,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-origin\":\"*\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-cache-status\":\"DYNAMIC\",\"cf-ray\":\"9c3ee3209b0ef882-SIN\",\"content-encoding\":\"zstd\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"text/html; charset=utf-8\",\"date\":\"Mon, 26 Jan 2026 09:12:12 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=0,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=zVHV1DdoTuWf%2Bfa4hO5az%2BDJlsfGIhpOswS%2BJCY%2F447e3LwzITVMFpK6sINcZwWKq%2FkExyS7RVf1PUCRREtsFANhX6Hn%2FZXRYjpk3VAzvr7LeS0s\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=15552000; preload\",\"vary\":\"accept-encoding\",\"x-content-type-options\":\"nosniff\",\"x-powered-by\":\"Express\"},\"mimeType\":\"text/html\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.21.39.74\",\"remotePort\":443,\"responseTime\":1.769418732014584e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":true,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"moneroocean.stream\",\"*.moneroocean.stream\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30450220373667FE4D4BE328C540E61ADBD0391C59E69816AAA97F34701D16D11BDE31B9022100F5AB31FA238AF77AD46409A82C303C79E567D84CC54E965674CB712C4BAE97DE\",\"status\":\"Verified\",\"timestamp\":1.764957379784e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Elephant2026h1'\",\"logId\":\"D16EA9A568077E6635A03F37A5DDBC03A53C411214D48818F5E931B323CB9504\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100B907106D95E1B19D756C65113A354E877AA27C142AA6988837C734DDD29130F9022017D8850726F7790A1581622986EBBBB8C15D9882213676A5760A9AB04AB8B0FB\",\"status\":\"Verified\",\"timestamp\":1.764957380029e+12}],\"subjectName\":\"moneroocean.stream\",\"validFrom\":1764953779,\"validTo\":1772733239},\"securityState\":\"secure\",\"status\":404,\"statusText\":\"\",\"timing\":{\"connectEnd\":273.637,\"connectStart\":132.428,\"dnsEnd\":132.145,\"dnsStart\":1.091,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":1052.83,\"receiveHeadersStart\":1051.792,\"requestTime\":81247.018129,\"sendEnd\":273.87,\"sendStart\":273.749,\"sslEnd\":273.637,\"sslStart\":132.428,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://api.moneroocean.stream/\"},\"timestamp\":81248.07577,\"type\":\"Document\"}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418732020
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"moneroocean.stream\",\"gatedAPIFeatures\":[],\"id\":\"72B55F5F4698B41101BE1AF289E51984\",\"loaderId\":\"1854F0E676E066C14B7FD84B645A447A\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://api.moneroocean.stream\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://api.moneroocean.stream/\"},\"type\":\"Navigation\"}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418732032
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418732032
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":139,\"encodedDataLength\":0,\"requestId\":\"1854F0E676E066C14B7FD84B645A447A\",\"timestamp\":81248.084892}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418732049
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":614,\"requestId\":\"1854F0E676E066C14B7FD84B645A447A\",\"timestamp\":81248.071267}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418732049
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":81248.090652}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418732053
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":81248.091303}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418732053
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"72B55F5F4698B41101BE1AF289E51984\"}},\"webview\":\"72B55F5F4698B41101BE1AF289E51984\"}",
+    "timestamp": 1769418732053
+  }
+]

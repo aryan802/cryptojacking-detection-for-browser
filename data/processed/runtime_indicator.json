@@ -1,0 +1,62 @@
+[
+  {
+    "site_id": "site_0",
+    "heap_growth": 1984,
+    "cpu_load": 0.080526,
+    "suspicious_runtime": false
+  },
+  {
+    "site_id": "site_1",
+    "heap_growth": 21860,
+    "cpu_load": 0.050887,
+    "suspicious_runtime": false
+  },
+  {
+    "site_id": "site_2",
+    "heap_growth": -128108,
+    "cpu_load": 0.182511,
+    "suspicious_runtime": false
+  },
+  {
+    "site_id": "site_3",
+    "heap_growth": 21359660,
+    "cpu_load": 0.560776,
+    "suspicious_runtime": true
+  },
+  {
+    "site_id": "site_4",
+    "heap_growth": 111960,
+    "cpu_load": 1.385994,
+    "suspicious_runtime": true
+  },
+  {
+    "site_id": "site_5",
+    "heap_growth": 1221212,
+    "cpu_load": 0.62691,
+    "suspicious_runtime": false
+  },
+  {
+    "site_id": "site_6",
+    "heap_growth": 1032,
+    "cpu_load": 0.035214999999999996,
+    "suspicious_runtime": false
+  },
+  {
+    "site_id": "site_7",
+    "heap_growth": -1255864,
+    "cpu_load": 0.23324899999999998,
+    "suspicious_runtime": false
+  },
+  {
+    "site_id": "site_8",
+    "heap_growth": 1533208,
+    "cpu_load": 0.788706,
+    "suspicious_runtime": false
+  },
+  {
+    "site_id": "site_9",
+    "heap_growth": 1788108,
+    "cpu_load": 0.525744,
+    "suspicious_runtime": false
+  }
+]

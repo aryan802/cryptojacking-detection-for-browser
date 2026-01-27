@@ -1,0 +1,92 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"CE431777EE2B487561F757D30D45A8A4\",\"loaderId\":\"8BAD0902A8381D378AD1357EB182254B\",\"navigationType\":\"differentDocument\",\"url\":\"http://afminer.com/\"}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416767924
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"CE431777EE2B487561F757D30D45A8A4\"}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416767925
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://afminer.com/\",\"frameId\":\"CE431777EE2B487561F757D30D45A8A4\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"8BAD0902A8381D378AD1357EB182254B\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://afminer.com/\"},\"requestId\":\"8BAD0902A8381D378AD1357EB182254B\",\"timestamp\":79283.981388,\"type\":\"Document\",\"wallTime\":1769416767.926035}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416767926
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://afminer.com/\",\"frameId\":\"CE431777EE2B487561F757D30D45A8A4\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"8BAD0902A8381D378AD1357EB182254B\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://afminer.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://afminer.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://afminer.com/\"},\"requestId\":\"8BAD0902A8381D378AD1357EB182254B\",\"timestamp\":79283.984055,\"type\":\"Document\",\"wallTime\":1769416767.928714}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416767929
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":79283.984815},\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"afminer.com\",\"Sec-Fetch-Dest\":\"document\",\"Sec-Fetch-Mode\":\"navigate\",\"Sec-Fetch-Site\":\"none\",\"Sec-Fetch-User\":\"?1\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"8BAD0902A8381D378AD1357EB182254B\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416769003
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://afminer.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Connection\":\"close\",\"Date\":\"Mon, 26 Jan 2026 08:39:29 GMT\",\"Server\":\"nginx\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx\\r\\nDate: Mon, 26 Jan 2026 08:39:29 GMT\\r\\nConnection: close\\r\\n\\r\\n\",\"requestId\":\"8BAD0902A8381D378AD1357EB182254B\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416769351
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"CE431777EE2B487561F757D30D45A8A4\",\"hasExtraInfo\":true,\"loaderId\":\"8BAD0902A8381D378AD1357EB182254B\",\"requestId\":\"8BAD0902A8381D378AD1357EB182254B\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":100,\"connectionReused\":false,\"encodedDataLength\":90,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Connection\":\"close\",\"Date\":\"Mon, 26 Jan 2026 08:39:29 GMT\",\"Server\":\"nginx\"},\"mimeType\":\"text/plain\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"34.41.139.193\",\"remotePort\":443,\"responseTime\":1.769416769350952e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"ZeroSSL RSA Domain Secure Site CA\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.afminer.com\",\"afminer.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022063974082BDFB6969CC81E8BC6E93ADC54FB17EBD769B492D72356221AD17F57B022022811BAC0F0163360CAF84B717BCE9E004E6A81B1F131C52F5E404DDB7EC85DE\",\"status\":\"Verified\",\"timestamp\":1.766524798648e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Elephant2026h1'\",\"logId\":\"D16EA9A568077E6635A03F37A5DDBC03A53C411214D48818F5E931B323CB9504\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200147524C654FFA32EA3741FF53AD6FD734AD06023351DE137AD737E270AEA67B0221008C78B44169FB0FB50CD180125584802B8714A7F69C5267BE445B5D205682680B\",\"status\":\"Verified\",\"timestamp\":1.766524798853e+12}],\"subjectName\":\"*.afminer.com\",\"validFrom\":1766448000,\"validTo\":1774310399},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":1073.523,\"connectStart\":233.021,\"dnsEnd\":232.946,\"dnsStart\":0.553,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":1421.741,\"receiveHeadersStart\":1421.502,\"requestTime\":79283.984815,\"sendEnd\":1073.65,\"sendStart\":1073.602,\"sslEnd\":1073.516,\"sslStart\":614.703,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://afminer.com/\"},\"timestamp\":79285.411974,\"type\":\"Document\"}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416769358
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"afminer.com\",\"gatedAPIFeatures\":[],\"id\":\"CE431777EE2B487561F757D30D45A8A4\",\"loaderId\":\"8BAD0902A8381D378AD1357EB182254B\",\"mimeType\":\"text/plain\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://afminer.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://afminer.com/\"},\"type\":\"Navigation\"}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416769367
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416769370
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":90,\"requestId\":\"8BAD0902A8381D378AD1357EB182254B\",\"timestamp\":79285.407771}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416769379
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":79285.428785}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416769379
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":79285.429314}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416769379
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"CE431777EE2B487561F757D30D45A8A4\"}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416769379
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://afminer.com/\",\"frameId\":\"CE431777EE2B487561F757D30D45A8A4\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"8BAD0902A8381D378AD1357EB182254B\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://afminer.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://afminer.com/favicon.ico\"},\"requestId\":\"18396.2\",\"timestamp\":79285.437394,\"type\":\"Other\",\"wallTime\":1769416769.382086}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416774384
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":79285.438051},\"headers\":{\"Accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"afminer.com\",\"Referer\":\"https://afminer.com/\",\"Sec-Fetch-Dest\":\"image\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"18396.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416774384
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://afminer.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Connection\":\"close\",\"Date\":\"Mon, 26 Jan 2026 08:39:29 GMT\",\"Server\":\"nginx\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx\\r\\nDate: Mon, 26 Jan 2026 08:39:29 GMT\\r\\nConnection: close\\r\\n\\r\\n\",\"requestId\":\"18396.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416774384
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"CE431777EE2B487561F757D30D45A8A4\",\"hasExtraInfo\":true,\"loaderId\":\"8BAD0902A8381D378AD1357EB182254B\",\"requestId\":\"18396.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":108,\"connectionReused\":true,\"encodedDataLength\":90,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Connection\":\"close\",\"Date\":\"Mon, 26 Jan 2026 08:39:29 GMT\",\"Server\":\"nginx\"},\"mimeType\":\"text/plain\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"34.41.139.193\",\"remotePort\":443,\"responseTime\":1.769416769729201e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"ZeroSSL RSA Domain Secure Site CA\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.afminer.com\",\"afminer.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022063974082BDFB6969CC81E8BC6E93ADC54FB17EBD769B492D72356221AD17F57B022022811BAC0F0163360CAF84B717BCE9E004E6A81B1F131C52F5E404DDB7EC85DE\",\"status\":\"Verified\",\"timestamp\":1.766524798648e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Elephant2026h1'\",\"logId\":\"D16EA9A568077E6635A03F37A5DDBC03A53C411214D48818F5E931B323CB9504\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200147524C654FFA32EA3741FF53AD6FD734AD06023351DE137AD737E270AEA67B0221008C78B44169FB0FB50CD180125584802B8714A7F69C5267BE445B5D205682680B\",\"status\":\"Verified\",\"timestamp\":1.766524798853e+12}],\"subjectName\":\"*.afminer.com\",\"validFrom\":1766448000,\"validTo\":1774310399},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":346.63,\"receiveHeadersStart\":346.515,\"requestTime\":79285.438051,\"sendEnd\":3.185,\"sendStart\":3.09,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://afminer.com/favicon.ico\"},\"timestamp\":79285.785924,\"type\":\"Other\"}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416774384
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":90,\"requestId\":\"18396.2\",\"timestamp\":79285.785401}},\"webview\":\"CE431777EE2B487561F757D30D45A8A4\"}",
+    "timestamp": 1769416774384
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"navigationType\":\"differentDocument\",\"url\":\"http://coingive.com/\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430728830
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430728830
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://coingive.com/\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://coingive.com/\"},\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"timestamp\":93244.886664,\"type\":\"Document\",\"wallTime\":1769430728.83131}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430728831
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://coingive.com/\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://coingive.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://coingive.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://coingive.com/\"},\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"timestamp\":93244.88837,\"type\":\"Document\",\"wallTime\":1769430728.833024}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430728833
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":93244.88907},\"headers\":{\":authority\":\"coingive.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430729693
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://coingive.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"content-length\":\"0\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"location\":\"https://www.atom.com/name/coingive.com\"},\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":301}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430729942
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.atom.com/name/coingive.com\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"redirectHasExtraInfo\":true,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":103,\"connectionReused\":false,\"encodedDataLength\":89,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"content-length\":\"0\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"location\":\"https://www.atom.com/name/coingive.com\"},\"mimeType\":\"\",\"protocol\":\"h2\",\"remoteIPAddress\":\"44.208.83.180\",\"remotePort\":443,\"responseTime\":1.769430729941244e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"E8\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.coingive.com\",\"coingive.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502201A8343DAD1F208AEE0DE7F70866F5EC64FC0D62AC914D0868BF6D6A17D2F6F43022100CF4A8154032293E9AEF43E51D9637C8181E7811E36148B8C4FE215776BD4CE05\",\"status\":\"Verified\",\"timestamp\":1.764754410759e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100824D1FFAE684F119FD15657D239DF123F471BA8A1462EED247FC43FA652BF9340220618ED78671EA078FC8E04C02871334C85EC4EACEF58F3F7C63523A2E86B58B0E\",\"status\":\"Verified\",\"timestamp\":1.764754410823e+12}],\"subjectName\":\"coingive.com\",\"validFrom\":1764750900,\"validTo\":1772526899},\"securityState\":\"secure\",\"status\":301,\"statusText\":\"\",\"timing\":{\"connectEnd\":858.707,\"connectStart\":349.416,\"dnsEnd\":349.24,\"dnsStart\":2.28,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":1107.951,\"receiveHeadersStart\":1107.52,\"requestTime\":93244.88907,\"sendEnd\":858.93,\"sendStart\":858.808,\"sslEnd\":858.699,\"sslStart\":599.318,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://coingive.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.atom.com/name/coingive.com\"},\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"timestamp\":93245.998449,\"type\":\"Document\",\"wallTime\":1769430729.943153}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430729943
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":93245.998974},\"headers\":{\":authority\":\"www.atom.com\",\":method\":\"GET\",\":path\":\"/name/coingive.com\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430729992
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://atom.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-mitigated\":\"challenge\",\"cf-ray\":\"9c400810ad777e93-MAA\",\"content-encoding\":\"br\",\"content-type\":\"text/html; charset=UTF-8\",\"critical-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy\":\"same-origin\",\"cross-origin-resource-policy\":\"same-origin\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"expires\":\"Thu, 01 Jan 1970 00:00:01 GMT\",\"origin-agent-cluster\":\"?1\",\"permissions-policy\":\"accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\",\"priority\":\"u=0,i\",\"referrer-policy\":\"same-origin\",\"server\":\"cloudflare\",\"server-timing\":\"chlray;desc=\\\"9c400810ad777e93\\\"\\ncfExtPri\",\"speculation-rules\":\"\\\"/cdn-cgi/speculation\\\"\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\"},\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":403}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730028
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://coingive.com/\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":62,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://coingive.com/\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"secure\",\"status\":307,\"statusText\":\"Internal Redirect\",\"url\":\"https://www.atom.com/name/coingive.com\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://coingive.com/\"},\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"timestamp\":93246.084624,\"type\":\"Document\",\"wallTime\":1769430730.02927}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730029
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.atom.com/name/coingive.com\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":true,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"content-length\":\"0\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"location\":\"https://www.atom.com/name/coingive.com\"},\"mimeType\":\"\",\"protocol\":\"h2\",\"remoteIPAddress\":\"44.208.83.180\",\"remotePort\":443,\"responseTime\":1.769430729941244e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"unknown\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"E8\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.coingive.com\",\"coingive.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[],\"subjectName\":\"coingive.com\",\"validFrom\":1764750900,\"validTo\":1772526899},\"securityState\":\"secure\",\"status\":301,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":0.678,\"receiveHeadersStart\":0.65,\"requestTime\":93246.084847,\"sendEnd\":0.076,\"sendStart\":0.076,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://coingive.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.atom.com/name/coingive.com\"},\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"timestamp\":93246.085924,\"type\":\"Document\",\"wallTime\":1769430730.030573}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730030
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasExtraInfo\":false,\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonWithoutRace\",\"charset\":\"utf-8\",\"connectionId\":127,\"connectionReused\":true,\"encodedDataLength\":1173,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-mitigated\":\"challenge\",\"cf-ray\":\"9c400810ed797e93-MAA\",\"content-encoding\":\"br\",\"content-type\":\"text/html; charset=UTF-8\",\"critical-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy\":\"same-origin\",\"cross-origin-resource-policy\":\"same-origin\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"expires\":\"Thu, 01 Jan 1970 00:00:01 GMT\",\"origin-agent-cluster\":\"?1\",\"permissions-policy\":\"accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\",\"priority\":\"u=0,i\",\"referrer-policy\":\"same-origin\",\"server\":\"cloudflare\",\"server-timing\":\"chlray;desc=\\\"9c400810ed797e93\\\"\\ncfExtPri\",\"speculation-rules\":\"\\\"/cdn-cgi/speculation\\\"\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\"},\"mimeType\":\"text/html\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.20.26.89\",\"remotePort\":443,\"responseTime\":1.769430730059698e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"atom.com\",\"*.atom.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502202853308E3CB68FB4F5BDCE7DA320B3998D9609E98405EFF5EFFC24FC4B4FC3C6022100AED4D3E743271C71835313E806884B7784E8F19B07282834CD85931B7E1DD89F\",\"status\":\"Verified\",\"timestamp\":1.768070155171e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100C519F0A14E8D559E9F8ED546582431F3A32C2CB88A00FDD8E683DDC49641E3F602206ACCF996758F77546FB890669B0D1F8061357E10973AD95221535F513776A569\",\"status\":\"Verified\",\"timestamp\":1.768070155185e+12}],\"subjectName\":\"atom.com\",\"validFrom\":1768066554,\"validTo\":1775846143},\"securityState\":\"secure\",\"status\":403,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":28.942,\"receiveHeadersStart\":28.885,\"requestTime\":93246.086157,\"sendEnd\":0.293,\"sendStart\":0.224,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.atom.com/name/coingive.com\"},\"timestamp\":93246.120106,\"type\":\"Document\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730068
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"Isolated\",\"domainAndRegistry\":\"atom.com\",\"gatedAPIFeatures\":[\"SharedArrayBuffers\",\"SharedArrayBuffersTransferAllowed\"],\"id\":\"1C654773409791376112C543CBFCEE34\",\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://www.atom.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://www.atom.com/name/coingive.com\"},\"type\":\"Navigation\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730074
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730079
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.atom.com/name/coingive.com\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"https://www.atom.com\",\"Referer\":\"https://www.atom.com/name/coingive.com\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\"},\"initialPriority\":\"VeryLow\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"same-origin\",\"url\":\"https://www.atom.com/cdn-cgi/speculation\"},\"requestId\":\"3228.2\",\"timestamp\":93246.130908,\"type\":\"Other\",\"wallTime\":1769430730.075592}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730086
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":6817,\"encodedDataLength\":0,\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"timestamp\":93246.131425}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730086
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.navigatedWithinDocument\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"navigationType\":\"historyApi\",\"url\":\"https://www.atom.com/name/coingive.com?__cf_chl_rt_tk=n.oRfGMOoAOZIk6oMC.P2qHC2J8T8JgBLb3qoVbs76g-1769430730-1.0.1.1-d1ndCFpUggs9bdYfWM.Zrw0k3EFtKit9neWj8vIriRk\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730092
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.atom.com/name/coingive.com?__cf_chl_rt_tk=n.oRfGMOoAOZIk6oMC.P2qHC2J8T8JgBLb3qoVbs76g-1769430730-1.0.1.1-d1ndCFpUggs9bdYfWM.Zrw0k3EFtKit9neWj8vIriRk\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":6774,\"functionName\":\"\",\"lineNumber\":0,\"scriptId\":\"6\",\"url\":\"https://www.atom.com/name/coingive.com\"},{\"columnNumber\":6790,\"functionName\":\"\",\"lineNumber\":0,\"scriptId\":\"6\",\"url\":\"https://www.atom.com/name/coingive.com\"}]},\"type\":\"script\"},\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://www.atom.com/name/coingive.com?__cf_chl_rt_tk=n.oRfGMOoAOZIk6oMC.P2qHC2J8T8JgBLb3qoVbs76g-1769430730-1.0.1.1-d1ndCFpUggs9bdYfWM.Zrw0k3EFtKit9neWj8vIriRk\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"same-origin\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},\"requestId\":\"3228.3\",\"timestamp\":93246.138426,\"type\":\"Script\",\"wallTime\":1769430730.083228}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730092
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":5452,\"requestId\":\"31179F13D55252A614A89BA593AE1435\",\"timestamp\":93246.118089}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730092
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":93246.139317}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730092
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93246.132001},\"headers\":{\":authority\":\"www.atom.com\",\":method\":\"GET\",\":path\":\"/cdn-cgi/speculation\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://www.atom.com\",\"priority\":\"u=4, i\",\"referer\":\"https://www.atom.com/name/coingive.com\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\",\"sec-fetch-dest\":\"speculationrules\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"3228.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730093
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93246.139044},\"headers\":{\":authority\":\"www.atom.com\",\":method\":\"GET\",\":path\":\"/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"referer\":\"https://www.atom.com/name/coingive.com?__cf_chl_rt_tk=n.oRfGMOoAOZIk6oMC.P2qHC2J8T8JgBLb3qoVbs76g-1769430730-1.0.1.1-d1ndCFpUggs9bdYfWM.Zrw0k3EFtKit9neWj8vIriRk\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"3228.3\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730093
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://atom.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-origin\":\"https://www.atom.com\",\"cf-ray\":\"9c4008112d817e93-MAA\",\"content-length\":\"128\",\"content-type\":\"application/speculationrules+json\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"server\":\"cloudflare\",\"speculation-rules\":\"\\\"/cdn-cgi/speculation\\\"\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"vary\":\"Origin, accept-encoding\",\"x-content-type-options\":\"nosniff\"},\"requestId\":\"3228.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730093
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasExtraInfo\":true,\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"requestId\":\"3228.2\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonWithoutRace\",\"charset\":\"\",\"connectionId\":127,\"connectionReused\":true,\"encodedDataLength\":202,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-origin\":\"https://www.atom.com\",\"cf-ray\":\"9c4008112d817e93-MAA\",\"content-length\":\"128\",\"content-type\":\"application/speculationrules+json\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"server\":\"cloudflare\",\"speculation-rules\":\"\\\"/cdn-cgi/speculation\\\"\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"vary\":\"Origin, accept-encoding\",\"x-content-type-options\":\"nosniff\"},\"mimeType\":\"application/speculationrules+json\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.20.26.89\",\"remotePort\":443,\"responseTime\":1.769430730085271e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"atom.com\",\"*.atom.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502202853308E3CB68FB4F5BDCE7DA320B3998D9609E98405EFF5EFFC24FC4B4FC3C6022100AED4D3E743271C71835313E806884B7784E8F19B07282834CD85931B7E1DD89F\",\"status\":\"Verified\",\"timestamp\":1.768070155171e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100C519F0A14E8D559E9F8ED546582431F3A32C2CB88A00FDD8E683DDC49641E3F602206ACCF996758F77546FB890669B0D1F8061357E10973AD95221535F513776A569\",\"status\":\"Verified\",\"timestamp\":1.768070155185e+12}],\"subjectName\":\"atom.com\",\"validFrom\":1768066554,\"validTo\":1775846143},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":8.822,\"receiveHeadersStart\":8.617,\"requestTime\":93246.132001,\"sendEnd\":1.075,\"sendStart\":0.515,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.atom.com/cdn-cgi/speculation\"},\"timestamp\":93246.142998,\"type\":\"Other\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730097
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":128,\"encodedDataLength\":0,\"requestId\":\"3228.2\",\"timestamp\":93246.143053}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730097
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":130,\"requestId\":\"3228.2\",\"timestamp\":93246.143196}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730097
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":332,\"requestId\":\"3228.2\",\"timestamp\":93246.141218}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730097
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://atom.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-ray\":\"9c4008113d827e93-MAA\",\"content-encoding\":\"br\",\"content-type\":\"application/javascript; charset=UTF-8\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"priority\":\"u=3,i=?0\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"speculation-rules\":\"\\\"/cdn-cgi/speculation\\\"\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"x-content-type-options\":\"nosniff\"},\"requestId\":\"3228.3\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730102
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasExtraInfo\":true,\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"requestId\":\"3228.3\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonWithoutRace\",\"charset\":\"utf-8\",\"connectionId\":127,\"connectionReused\":true,\"encodedDataLength\":276,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-ray\":\"9c4008113d827e93-MAA\",\"content-encoding\":\"br\",\"content-type\":\"application/javascript; charset=UTF-8\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"priority\":\"u=3,i=?0\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"speculation-rules\":\"\\\"/cdn-cgi/speculation\\\"\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"x-content-type-options\":\"nosniff\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.20.26.89\",\"remotePort\":443,\"responseTime\":1.769430730102423e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"atom.com\",\"*.atom.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502202853308E3CB68FB4F5BDCE7DA320B3998D9609E98405EFF5EFFC24FC4B4FC3C6022100AED4D3E743271C71835313E806884B7784E8F19B07282834CD85931B7E1DD89F\",\"status\":\"Verified\",\"timestamp\":1.768070155171e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100C519F0A14E8D559E9F8ED546582431F3A32C2CB88A00FDD8E683DDC49641E3F602206ACCF996758F77546FB890669B0D1F8061357E10973AD95221535F513776A569\",\"status\":\"Verified\",\"timestamp\":1.768070155185e+12}],\"subjectName\":\"atom.com\",\"validFrom\":1768066554,\"validTo\":1775846143},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":18.79,\"receiveHeadersStart\":18.725,\"requestTime\":93246.139044,\"sendEnd\":0.769,\"sendStart\":0.378,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},\"timestamp\":93246.198398,\"type\":\"Script\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730143
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":7532,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198438}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730143
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":5803,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198439}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730143
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2812,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198439}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730143
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2636,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.19844}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730143
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3092,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.19844}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730143
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3185,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198441}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730143
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":5254,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198445}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730143
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":5606,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198446}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730143
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3395,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198447}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3580,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198448}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3236,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198448}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3111,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198449}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3470,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198449}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3666,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.19845}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":5059,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.19845}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1746,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198451}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1751,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198452}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3442,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198452}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1839,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198453}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":8348,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198453}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3326,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198454}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2950,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198455}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2987,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198455}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3035,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198458}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":6417,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198458}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2213,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198461}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2756,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198465}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4070,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198465}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":7978,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198466}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4034,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198467}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2546,\"encodedDataLength\":0,\"requestId\":\"3228.3\",\"timestamp\":93246.198467}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":47234,\"requestId\":\"3228.3\",\"timestamp\":93246.198551}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":47510,\"requestId\":\"3228.3\",\"timestamp\":93246.197549}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730144
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.navigatedWithinDocument\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"navigationType\":\"historyApi\",\"url\":\"https://www.atom.com/name/coingive.com\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730148
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"blob:https://www.atom.com/dc3411f8-f9b2-4843-bbc3-81a307449dbb\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\",\"url\":\"https://www.atom.com/name/coingive.com\"},\"loaderId\":\"\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept\":\"*/*\"},\"initialPriority\":\"VeryLow\",\"method\":\"GET\",\"referrerPolicy\":\"same-origin\",\"url\":\"blob:https://www.atom.com/dc3411f8-f9b2-4843-bbc3-81a307449dbb\"},\"requestId\":\"F8206CE8E5530D8EF23DB3AA99D7FB50\",\"timestamp\":93246.206772,\"type\":\"Script\",\"wallTime\":1769430730.151414}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730152
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730157
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.atom.com/name/coingive.com\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":59632,\"functionName\":\"uW\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":88360,\"functionName\":\"uz\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":105098,\"functionName\":\"nsOCs\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":106451,\"functionName\":\"ul\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"}]},\"type\":\"script\"},\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"https://www.atom.com\",\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"same-origin\",\"url\":\"https://challenges.cloudflare.com/turnstile/v0/b/d251aa49a8a3/api.js?onload=cAdz2&render=explicit\"},\"requestId\":\"3228.4\",\"timestamp\":93246.207118,\"type\":\"Script\",\"wallTime\":1769430730.152377}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730157
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameAttached\",\"params\":{\"frameId\":\"3B40596C74D46AA7E2C0BBFE5090C6EB\",\"parentFrameId\":\"1C654773409791376112C543CBFCEE34\",\"stack\":{\"callFrames\":[{\"columnNumber\":107727,\"functionName\":\"sw\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":98676,\"functionName\":\"sT\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":107704,\"functionName\":\"sw\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":98676,\"functionName\":\"sT\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":88558,\"functionName\":\"uz\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":105098,\"functionName\":\"nsOCs\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":106451,\"functionName\":\"ul\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"}]}}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730157
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameRequestedNavigation\",\"params\":{\"disposition\":\"currentTab\",\"frameId\":\"3B40596C74D46AA7E2C0BBFE5090C6EB\",\"reason\":\"initialFrameNavigation\",\"url\":\"about:blank\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730158
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\",\"explanations\":[]},\"crossOriginIsolatedContextType\":\"Isolated\",\"domainAndRegistry\":\"\",\"gatedAPIFeatures\":[\"SharedArrayBuffers\",\"SharedArrayBuffersTransferAllowed\"],\"id\":\"3B40596C74D46AA7E2C0BBFE5090C6EB\",\"loaderId\":\"0A233B38B68E2EA8EC64EAC95B675C0A\",\"mimeType\":\"text/html\",\"name\":\"\",\"parentId\":\"1C654773409791376112C543CBFCEE34\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"://\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"about:blank\"},\"type\":\"Navigation\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730158
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"3B40596C74D46AA7E2C0BBFE5090C6EB\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730158
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"3B40596C74D46AA7E2C0BBFE5090C6EB\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730159
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameSubtreeWillBeDetached\",\"params\":{\"frameId\":\"3B40596C74D46AA7E2C0BBFE5090C6EB\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730160
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameDetached\",\"params\":{\"frameId\":\"3B40596C74D46AA7E2C0BBFE5090C6EB\",\"reason\":\"remove\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730165
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93246.208102},\"headers\":{\":authority\":\"challenges.cloudflare.com\",\":method\":\"GET\",\":path\":\"/turnstile/v0/b/d251aa49a8a3/api.js?onload=cAdz2&render=explicit\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://www.atom.com\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"3228.4\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730167
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://atom.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-origin\":\"*\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=31536000, stale-if-error=10800, stale-while-revalidate=31536000, public\",\"cf-ray\":\"9c400811cdb4cbcd-MAA\",\"content-encoding\":\"br\",\"content-type\":\"application/javascript; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"last-modified\":\"Wed, 14 Jan 2026 16:37:41 GMT\",\"priority\":\"u=3,i=?0\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"set-cookie\":\"_cfuvid=XKtQMJofIHCdupCrcrqZ27vyzdIhnozPPHatPVqJkpI-1769430730530-0.0.1.1-604800000; path=/; domain=.challenges.cloudflare.com; HttpOnly; Secure; SameSite=None\",\"timing-allow-origin\":\"https://www.atom.com\",\"vary\":\"Accept-Encoding\"},\"requestId\":\"3228.4\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730183
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasExtraInfo\":true,\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"requestId\":\"3228.4\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonRace\",\"charset\":\"utf-8\",\"connectionId\":163,\"connectionReused\":false,\"encodedDataLength\":453,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-origin\":\"*\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=31536000, stale-if-error=10800, stale-while-revalidate=31536000, public\",\"cf-ray\":\"9c400811cdb4cbcd-MAA\",\"content-encoding\":\"br\",\"content-type\":\"application/javascript; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"last-modified\":\"Wed, 14 Jan 2026 16:37:41 GMT\",\"priority\":\"u=3,i=?0\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"timing-allow-origin\":\"https://www.atom.com\",\"vary\":\"Accept-Encoding\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.18.95.41\",\"remotePort\":443,\"responseTime\":1.769430730182463e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"challenges.cloudflare.com\",\"*.challenges.cloudflare.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30440220160FA8D73E3DC888F82BA755F8DF170234A738C2AE7805980B205406830E4FD802206242F46AD2347D73452716597E62A588837370296B1FBD03E000E34B2D295577\",\"status\":\"Verified\",\"timestamp\":1.766347979157e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30450220541ED9B63EF91F8C679E1B9A288783EFCAC414AB497AF771DBA2FCCA1EDEC8FD02210082994D10EC1C054FB8B46BAF81059C7B4F087809EC1BBFED1F696F67B927033F\",\"status\":\"Verified\",\"timestamp\":1.766347979146e+12}],\"subjectName\":\"challenges.cloudflare.com\",\"validFrom\":1766344378,\"validTo\":1774123974},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":14.624,\"connectStart\":2.692,\"dnsEnd\":2.391,\"dnsStart\":0.276,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":30.056,\"receiveHeadersStart\":29.711,\"requestTime\":93246.208102,\"sendEnd\":14.768,\"sendStart\":14.686,\"sslEnd\":14.624,\"sslStart\":2.692,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://challenges.cloudflare.com/turnstile/v0/b/d251aa49a8a3/api.js?onload=cAdz2&render=explicit\"},\"timestamp\":93246.254804,\"type\":\"Script\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2368,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.254835}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":5763,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.254836}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3188,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.254836}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":10734,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.254837}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3436,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.254838}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3763,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.254839}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2355,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.254839}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1562,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.25484}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3262,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.25484}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":8152,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.254841}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4573,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.254849}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1297,\"encodedDataLength\":0,\"requestId\":\"3228.4\",\"timestamp\":93246.25485}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":16831,\"requestId\":\"3228.4\",\"timestamp\":93246.2549}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":17284,\"requestId\":\"3228.4\",\"timestamp\":93246.25397}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730200
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":93246.256658}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730201
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameScheduledNavigation\",\"params\":{\"delay\":360,\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"reason\":\"metaTagRefresh\",\"url\":\"https://www.atom.com/name/coingive.com\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730201
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730202
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.atom.com/name/coingive.com\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://www.atom.com/name/coingive.com\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"same-origin\",\"url\":\"https://www.atom.com/favicon.ico\"},\"requestId\":\"3228.6\",\"timestamp\":93246.258283,\"type\":\"Other\",\"wallTime\":1769430730.202957}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430730203
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93246.258615},\"headers\":{\":authority\":\"www.atom.com\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1, i\",\"referer\":\"https://www.atom.com/name/coingive.com\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"3228.6\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735205
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://atom.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"age\":\"12849506\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=315360000\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c400811fd8a7e93-MAA\",\"content-encoding\":\"br\",\"content-type\":\"image/x-icon\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"etag\":\"W/\\\"661feea6-3c2e\\\"\",\"expires\":\"Thu, 31 Dec 2037 23:55:55 GMT\",\"last-modified\":\"Wed, 17 Apr 2024 15:45:42 GMT\",\"priority\":\"u=1,i\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"speculation-rules\":\"\\\"/cdn-cgi/speculation\\\"\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"vary\":\"accept-encoding\",\"x-content-type-options\":\"nosniff\"},\"requestId\":\"3228.6\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735205
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasExtraInfo\":true,\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"requestId\":\"3228.6\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonWithoutRace\",\"charset\":\"\",\"connectionId\":127,\"connectionReused\":true,\"encodedDataLength\":305,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"age\":\"12849506\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=315360000\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c400811fd8a7e93-MAA\",\"content-encoding\":\"br\",\"content-type\":\"image/x-icon\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"etag\":\"W/\\\"661feea6-3c2e\\\"\",\"expires\":\"Thu, 31 Dec 2037 23:55:55 GMT\",\"last-modified\":\"Wed, 17 Apr 2024 15:45:42 GMT\",\"priority\":\"u=1,i\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"speculation-rules\":\"\\\"/cdn-cgi/speculation\\\"\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"vary\":\"accept-encoding\",\"x-content-type-options\":\"nosniff\"},\"mimeType\":\"image/x-icon\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.20.26.89\",\"remotePort\":443,\"responseTime\":1.769430730221768e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"atom.com\",\"*.atom.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502202853308E3CB68FB4F5BDCE7DA320B3998D9609E98405EFF5EFFC24FC4B4FC3C6022100AED4D3E743271C71835313E806884B7784E8F19B07282834CD85931B7E1DD89F\",\"status\":\"Verified\",\"timestamp\":1.768070155171e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100C519F0A14E8D559E9F8ED546582431F3A32C2CB88A00FDD8E683DDC49641E3F602206ACCF996758F77546FB890669B0D1F8061357E10973AD95221535F513776A569\",\"status\":\"Verified\",\"timestamp\":1.768070155185e+12}],\"subjectName\":\"atom.com\",\"validFrom\":1768066554,\"validTo\":1775846143},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":18.797,\"receiveHeadersStart\":18.499,\"requestTime\":93246.258615,\"sendEnd\":0.504,\"sendStart\":0.333,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.atom.com/favicon.ico\"},\"timestamp\":93246.277917,\"type\":\"Other\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735205
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4710,\"encodedDataLength\":0,\"requestId\":\"3228.6\",\"timestamp\":93246.277957}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735205
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":6738,\"encodedDataLength\":2048,\"requestId\":\"3228.6\",\"timestamp\":93246.2781}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735205
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3958,\"encodedDataLength\":2352,\"requestId\":\"3228.6\",\"timestamp\":93246.278983}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735205
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":1089,\"requestId\":\"3228.6\",\"timestamp\":93246.28}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735205
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":5796,\"requestId\":\"3228.6\",\"timestamp\":93246.27961}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735205
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.atom.com/name/coingive.com\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":93887,\"functionName\":\"WN\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"}]},\"type\":\"script\"},\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"redirectHasExtraInfo\":false,\"request\":{\"hasPostData\":true,\"headers\":{\"Content-Type\":\"text/plain;charset=UTF-8\",\"Referer\":\"https://www.atom.com/name/coingive.com\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"cf-chl\":\"lT6rjIVyvlgRVnPPLiY1xCigRqgsYyxcxEby2nGpEy4-1769430730-1.2.1.1-7iWPgKvfqcO7HFHMNSk1Q2hqwmyX8h_sOa0mPqZzqx12yL4x.1hGzTre57RwBg9L\",\"cf-chl-ra\":\"0\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"POST\",\"mixedContentType\":\"none\",\"postData\":\"iapjIg1MlfcMnnGTugsKKA1EvhHbJ$HwETXhzeCZ6kE6e6J5oBd8j28a9+NMa6QOGR-fAnCltSUBQ982wrCcZi5hxx5MWQ9Qth$GAIOhaGPI2RNWf9OpPBaAFV8fZ+OMry0qLEcq2TdmpRGs8pWrI$nnQbsdfeDJ2rrUn7qh6BbKM$FsaH0ptC$ZqTOb4ibbFZ+u$mFuaZJ1hEVai266GrH0djCSGJVZGejDtleQSsu2zbIcIhckajNGz3vlRkX7elECRxssGiIpOP2Fkus2kACstf$qQ8XkIlM4QV33Rfo9EsHCGK6-BZIP2Kvuz-TZUbHH8DEMK5rpoA5C+a0eaBwazUEed$y9$lg19tQHIpa33wsxqiFUhskN5wfJc22TA22p-Dv4Glq5XGcbp21Mrb+7dFiC+-Vn6EQ-pCNSgt09sRkP3aF6WzXOlFB2n5zfkH0-2hKawZCIwdCChwZ5XOP5-qS$IRFKoQb82nIgrp-Z9xN39a9prRNqrZAuEfVz8ewfXeo653tqCppKxPRnUomUP5VC$RR4SQhsmMj4zCHhgQQxqT5EgdQk0JPrHsG-F+oFkddy6aSZcBBySGVijzqcPmIAmNKyWGk3I964n0KFBrZtrsDTSSLmBqZA3qrDBJy-1+l+rAfElrbjU-DfuDE5rIsm7RsAItqz66mKxe6RA55pXKwWnXg-drdTfAFgsp1QVrs9hUgCV6kOykW-OncIGlvQ$MoadAvN8pFyuEokNqPjH+40jH0$pWmhTy5Glc0Jy7$2TrP-15cI0So2teZ7j2Fu0yTkcaNctsEV3GfwKPJLyTpxHRr$5x6vDoPFA+3Qt$D$102PFUiFucBG$koAqefhbnfiitftmv2-V09Sh+qFJvL97ktorlRQqwkuzKKiZRTZ+2ouILeN8ir3wBIwat3JnFvfLJiLX8ad4R0C$9cL$8jfMxALqNrgJtGuET$BPrexTJC+Eunr8rsCgTqv7A4MWSA65PW+2PmbZmUdhPghjUd5EuWh3gKKP8$FLwM2So1LS0Ordb9KVolasbCiGiu5Nbbu2bkLwQqzb87I7FMamblEocwC$$nVRVxIPW3xUCtGhzUyDxdypINTKlVUxTPRK1GrgoIxzrX61MLOMtH-eVc8JKELvV3d+Wh9RmREVLSB+GEn8KmW8KTT7$+doNWBIjptTKaI7MdS8xV5Hp0Skk6BQRy6HtIEm4Ttj6jFL1kmQufeZ6J34vwu+hCZU23xfs9aA4jMuWlsgr0LDEIX4-ECDVGcnokaS4yySqavMmODPB0UV+AGfz+3EekHqQdWSt6aaiJcae27waS4sFsJQ1fSVZ$rR9nL8Tb+yx7cSp6l2znTtx+o7Zt29CsGC3pycMIP2GXoL30848M5qoXGhRxqh9aUL12823ZPguQMrgERQ1UB-iLq1ZKOEkQ5fH2aFt+mJezAc3gXCMOpUeexzsVMmS7EDhxoWj$pEU$kq$0IFdqqKoKjbQR556qES74tAUhKcZr9zDrMPj6S6y+r9Sw6MgQPwGIjxSTilBz-i5oWDiqn3kKD7Wz691NJXLagn+2gD0bGdkoikJMLeFzaN72xvx561aznBQD6mRC3ogKon6i1hjDJRjS3vZg5MJ9DI9HvqpKc-Bmqd$A+mUxcUG22mCEbCpjcKVvuwTy$oMggFMO9pKoOOq5zJjCWT3EFgUF2GvcNduoNPGkEw0-2pZebH-sbV9Bw4W9e+ff9mAus$8$Xf3vACnWjWRIMe957oZomRVAZEg78Ikk7AhFJoGImPtQd$qbbwFvgovJIEI+1Sxr-Zij17c0t7+-N7Avja8yWFqjjEqf71P3wexUOFv6GdKn9azPKfHZDjCWHJAAXa-ANELA3cqVTmgwJAmOk4LVs2VwdBZhBPMx-0QGf5QcGBncj6Af4LGeaa2BTZT4WtW9kqy1-uu+RKgEE$J1BZr2tOXtst3gTua9$MgN+RzkBsrM5gBg8yZxES$u-7D0p653iJc1PWq60TvIskF1Mb8PlZgE1bxlvLbjy0qP+ZxRnWG5l5NIehNj$RzgzND$DbA+yViJ4B76xhgV1-r6H7rhmwSrNnDie4OFLdWlNiVQby7torG7FH7FF3KSfD+$4g9oMjLLAAe4yL0z3DgXM16xWQoXf9$8ScFjXWH8Ul8vMQyI0Z$05h43MFInXEtt1dT8ryAUPBFfMaXze5LwMerWHyClWM$3+q9fZsKgbzhFD0pOpHiUMg+gzeqQMfWuEA9iajSyJm51lnF5vpWlDcI+by-Fm2UEFi2uZ\",\"postDataEntries\":[{\"bytes\":\"aWFwaklnMU1sZmNNbm5HVHVnc0tLQTFFdmhIYkokSHdFVFhoemVDWjZrRTZlNko1b0JkOGoyOGE5K05NYTZRT0dSLWZBbkNsdFNVQlE5ODJ3ckNjWmk1aHh4NU1XUTlRdGgkR0FJT2hhR1BJMlJOV2Y5T3BQQmFBRlY4ZlorT01yeTBxTEVjcTJUZG1wUkdzOHBXckkkbm5RYnNkZmVESjJyclVuN3FoNkJiS00kRnNhSDBwdEMkWnFUT2I0aWJiRlordSRtRnVhWkoxaEVWYWkyNjZHckgwZGpDU0dKVlpHZWpEdGxlUVNzdTJ6YkljSWhja2FqTkd6M3ZsUmtYN2VsRUNSeHNzR2lJcE9QMkZrdXMya0FDc3RmJHFROFhrSWxNNFFWMzNSZm85RXNIQ0dLNi1CWklQMkt2dXotVFpVYkhIOERFTUs1cnBvQTVDK2EwZWFCd2F6VUVlZCR5OSRsZzE5dFFISXBhMzN3c3hxaUZVaHNrTjV3ZkpjMjJUQTIycC1EdjRHbHE1WEdjYnAyMU1yYis3ZEZpQystVm42RVEtcENOU2d0MDlzUmtQM2FGNld6WE9sRkIybjV6ZmtIMC0yaEthd1pDSXdkQ0Nod1o1WE9QNS1xUyRJUkZLb1FiODJuSWdycC1aOXhOMzlhOXByUk5xclpBdUVmVno4ZXdmWGVvNjUzdHFDcHBLeFBSblVvbVVQNVZDJFJSNFNRaHNtTWo0ekNIaGdRUXhxVDVFZ2RRazBKUHJIc0ctRitvRmtkZHk2YVNaY0JCeVNHVmlqenFjUG1JQW1OS3lXR2szSTk2NG4wS0ZCclp0cnNEVFNTTG1CcVpBM3FyREJKeS0xK2wrckFmRWxyYmpVLURmdURFNXJJc203UnNBSXRxejY2bUt4ZTZSQTU1cFhLd1duWGctZHJkVGZBRmdzcDFRVnJzOWhVZ0NWNmtPeWtXLU9uY0lHbHZRJE1vYWRBdk44cEZ5dUVva05xUGpIKzQwakgwJHBXbWhUeTVHbGMwSnk3JDJUclAtMTVjSTBTbzJ0ZVo3ajJGdTB5VGtjYU5jdHNFVjNHZndLUEpMeVRweEhSciQ1eDZ2RG9QRkErM1F0JEQkMTAyUEZVaUZ1Y0JHJGtvQXFlZmhibmZpaXRmdG12Mi1WMDlTaCtxRkp2TDk3a3RvcmxSUXF3a3V6S0tpWlJUWisyb3VJTGVOOGlyM3dCSXdhdDNKbkZ2ZkxKaUxYOGFkNFIwQyQ5Y0wkOGpmTXhBTHFOcmdKdEd1RVQkQlByZXhUSkMrRXVucjhyc0NnVHF2N0E0TVdTQTY1UFcrMlBtYlptVWRoUGdoalVkNUV1V2gzZ0tLUDgkRkx3TTJTbzFMUzBPcmRiOUtWb2xhc2JDaUdpdTVOYmJ1MmJrTHdRcXpiODdJN0ZNYW1ibEVvY3dDJCRuVlJWeElQVzN4VUN0R2h6VXlEeGR5cElOVEtsVlV4VFBSSzFHcmdvSXh6clg2MU1MT010SC1lVmM4SktFTHZWM2QrV2g5Um1SRVZMU0IrR0VuOEttVzhLVFQ3JCtkb05XQklqcHRUS2FJN01kUzh4VjVIcDBTa2s2QlFSeTZIdElFbTRUdGo2akZMMWttUXVmZVo2SjM0dnd1K2hDWlUyM3hmczlhQTRqTXVXbHNncjBMREVJWDQtRUNEVkdjbm9rYVM0eXlTcWF2TW1PRFBCMFVWK0FHZnorM0Vla0hxUWRXU3Q2YWFpSmNhZTI3d2FTNHNGc0pRMWZTVlokclI5bkw4VGIreXg3Y1NwNmwyem5UdHgrbzdadDI5Q3NHQzNweWNNSVAyR1hvTDMwODQ4TTVxb1hHaFJ4cWg5YVVMMTI4MjNaUGd1UU1yZ0VSUTFVQi1pTHExWktPRWtRNWZIMmFGdCttSmV6QWMzZ1hDTU9wVWVleHpzVk1tUzdFRGh4b1dqJHBFVSRrcSQwSUZkcXFLb0tqYlFSNTU2cUVTNzR0QVVoS2Nacjl6RHJNUGo2UzZ5K3I5U3c2TWdRUHdHSWp4U1RpbEJ6LWk1b1dEaXFuM2tLRDdXejY5MU5KWExhZ24rMmdEMGJHZGtvaWtKTUxlRnphTjcyeHZ4NTYxYXpuQlFENm1SQzNvZ0tvbjZpMWhqREpSalMzdlpnNU1KOURJOUh2cXBLYy1CbXFkJEErbVV4Y1VHMjJtQ0ViQ3BqY0tWdnV3VHkkb01nZ0ZNTzlwS29PT3E1ekpqQ1dUM0VGZ1VGMkd2Y05kdW9OUEdrRXcwLTJwWmViSC1zYlY5Qnc0VzllK2ZmOW1BdXMkOCRYZjN2QUNuV2pXUklNZTk1N29ab21SVkFaRWc3OElrazdBaEZKb0dJbVB0UWQkcWJid0Z2Z292SklFSSsxU3hyLVppajE3YzB0NystTjdBdmphOHlXRnFqakVxZjcxUDN3ZXhVT0Z2NkdkS245YXpQS2ZIWkRqQ1dISkFBWGEtQU5FTEEzY3FWVG1nd0pBbU9rNExWczJWd2RCWmhCUE14LTBRR2Y1UWNHQm5jajZBZjRMR2VhYTJCVFpUNFd0VzlrcXkxLXV1K1JLZ0VFJEoxQlpyMnRPWHRzdDNnVHVhOSRNZ04rUnprQnNyTTVnQmc4eVp4RVMkdS03RDBwNjUzaUpjMVBXcTYwVHZJc2tGMU1iOFBsWmdFMWJ4bHZMYmp5MHFQK1p4Um5XRzVsNU5JZWhOaiRSemd6TkQkRGJBK3lWaUo0Qjc2eGhnVjEtcjZIN3JobXdTck5uRGllNE9GTGRXbE5pVlFieTd0b3JHN0ZIN0ZGM0tTZkQrJDRnOW9NakxMQUFlNHlMMHozRGdYTTE2eFdRb1hmOSQ4U2NGalhXSDhVbDh2TVF5STBaJDA1aDQzTUZJblhFdHQxZFQ4cnlBVVBCRmZNYVh6ZTVMd01lcldIeUNsV00kMytxOWZac0tnYnpoRkQwcE9wSGlVTWcrZ3plcVFNZld1RUE5aWFqU3lKbTUxbG5GNXZwV2xEY0krYnktRm0yVUVGaTJ1Wg==\"}],\"referrerPolicy\":\"same-origin\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/flow/ov1/6161154:1769426816:c1kMnS7PvywCV5iJwVC8C5v_RMdGU1k2Z-piP6KbuEg/9c400810ed797e93/lT6rjIVyvlgRVnPPLiY1xCigRqgsYyxcxEby2nGpEy4-1769430730-1.2.1.1-7iWPgKvfqcO7HFHMNSk1Q2hqwmyX8h_sOa0mPqZzqx12yL4x.1hGzTre57RwBg9L\"},\"requestId\":\"3228.7\",\"timestamp\":93246.334258,\"type\":\"XHR\",\"wallTime\":1769430730.279053}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93246.334755},\"headers\":{\":authority\":\"www.atom.com\",\":method\":\"POST\",\":path\":\"/cdn-cgi/challenge-platform/h/b/flow/ov1/6161154:1769426816:c1kMnS7PvywCV5iJwVC8C5v_RMdGU1k2Z-piP6KbuEg/9c400810ed797e93/lT6rjIVyvlgRVnPPLiY1xCigRqgsYyxcxEby2nGpEy4-1769430730-1.2.1.1-7iWPgKvfqcO7HFHMNSk1Q2hqwmyX8h_sOa0mPqZzqx12yL4x.1hGzTre57RwBg9L\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cf-chl\":\"lT6rjIVyvlgRVnPPLiY1xCigRqgsYyxcxEby2nGpEy4-1769430730-1.2.1.1-7iWPgKvfqcO7HFHMNSk1Q2hqwmyX8h_sOa0mPqZzqx12yL4x.1hGzTre57RwBg9L\",\"cf-chl-ra\":\"0\",\"content-length\":\"2284\",\"content-type\":\"text/plain;charset=UTF-8\",\"origin\":\"https://www.atom.com\",\"priority\":\"u=1, i\",\"referer\":\"https://www.atom.com/name/coingive.com\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\",\"sec-fetch-dest\":\"empty\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"3228.7\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://atom.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-chl-gen\":\"Bjm7A2lAi7wxmXpwoomsgToY3ZhNNLFsivvFyGn6SvI=$zdEM+mxskzn3Eqb6e2BZag==\",\"cf-ray\":\"9c4008127d8c7e93-MAA\",\"content-encoding\":\"br\",\"content-type\":\"text/plain; charset=UTF-8\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"priority\":\"u=1,i\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"timing-allow-origin\":\"https://www.atom.com\",\"x-content-type-options\":\"nosniff\"},\"requestId\":\"3228.7\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasExtraInfo\":true,\"loaderId\":\"31179F13D55252A614A89BA593AE1435\",\"requestId\":\"3228.7\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonWithoutRace\",\"charset\":\"utf-8\",\"connectionId\":127,\"connectionReused\":true,\"encodedDataLength\":259,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-chl-gen\":\"Bjm7A2lAi7wxmXpwoomsgToY3ZhNNLFsivvFyGn6SvI=$zdEM+mxskzn3Eqb6e2BZag==\",\"cf-ray\":\"9c4008127d8c7e93-MAA\",\"content-encoding\":\"br\",\"content-type\":\"text/plain; charset=UTF-8\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"priority\":\"u=1,i\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"timing-allow-origin\":\"https://www.atom.com\",\"x-content-type-options\":\"nosniff\"},\"mimeType\":\"text/plain\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.20.26.89\",\"remotePort\":443,\"responseTime\":1.769430730340339e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"atom.com\",\"*.atom.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502202853308E3CB68FB4F5BDCE7DA320B3998D9609E98405EFF5EFFC24FC4B4FC3C6022100AED4D3E743271C71835313E806884B7784E8F19B07282834CD85931B7E1DD89F\",\"status\":\"Verified\",\"timestamp\":1.768070155171e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100C519F0A14E8D559E9F8ED546582431F3A32C2CB88A00FDD8E683DDC49641E3F602206ACCF996758F77546FB890669B0D1F8061357E10973AD95221535F513776A569\",\"status\":\"Verified\",\"timestamp\":1.768070155185e+12}],\"subjectName\":\"atom.com\",\"validFrom\":1768066554,\"validTo\":1775846143},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":61.018,\"receiveHeadersStart\":60.925,\"requestTime\":93246.334755,\"sendEnd\":0.519,\"sendStart\":0.267,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/flow/ov1/6161154:1769426816:c1kMnS7PvywCV5iJwVC8C5v_RMdGU1k2Z-piP6KbuEg/9c400810ed797e93/lT6rjIVyvlgRVnPPLiY1xCigRqgsYyxcxEby2nGpEy4-1769430730-1.2.1.1-7iWPgKvfqcO7HFHMNSk1Q2hqwmyX8h_sOa0mPqZzqx12yL4x.1hGzTre57RwBg9L\"},\"timestamp\":93246.396842,\"type\":\"XHR\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4677,\"encodedDataLength\":0,\"requestId\":\"3228.7\",\"timestamp\":93246.396921}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1565,\"encodedDataLength\":0,\"requestId\":\"3228.7\",\"timestamp\":93246.397221}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1564,\"encodedDataLength\":5877,\"requestId\":\"3228.7\",\"timestamp\":93246.398137}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1564,\"encodedDataLength\":1176,\"requestId\":\"3228.7\",\"timestamp\":93246.398703}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1509,\"encodedDataLength\":1133,\"requestId\":\"3228.7\",\"timestamp\":93246.400041}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1560,\"encodedDataLength\":1176,\"requestId\":\"3228.7\",\"timestamp\":93246.400672}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1565,\"encodedDataLength\":1176,\"requestId\":\"3228.7\",\"timestamp\":93246.401657}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1566,\"encodedDataLength\":1176,\"requestId\":\"3228.7\",\"timestamp\":93246.402254}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1571,\"encodedDataLength\":1176,\"requestId\":\"3228.7\",\"timestamp\":93246.403761}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":375,\"encodedDataLength\":288,\"requestId\":\"3228.7\",\"timestamp\":93246.404111}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"blob:https://www.atom.com/39445c8b-334c-4c58-8558-c494bc68d15f\",\"frameId\":\"1C654773409791376112C543CBFCEE34\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\",\"url\":\"https://www.atom.com/name/coingive.com\"},\"loaderId\":\"\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept\":\"*/*\"},\"initialPriority\":\"VeryLow\",\"method\":\"GET\",\"referrerPolicy\":\"same-origin\",\"url\":\"blob:https://www.atom.com/39445c8b-334c-4c58-8558-c494bc68d15f\"},\"requestId\":\"C28A37BB093B9E3EB92A90D5209F62DD\",\"timestamp\":93246.416159,\"type\":\"Script\",\"wallTime\":1769430730.360802}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameAttached\",\"params\":{\"frameId\":\"833133BF0D802CB701E19EA2302E611E\",\"parentFrameId\":\"1C654773409791376112C543CBFCEE34\",\"stack\":{\"callFrames\":[{\"columnNumber\":34490,\"functionName\":\"C\",\"lineNumber\":0,\"scriptId\":\"11\",\"url\":\"https://challenges.cloudflare.com/turnstile/v0/b/d251aa49a8a3/api.js?onload=cAdz2&render=explicit\"},{\"columnNumber\":107727,\"functionName\":\"sw\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":98676,\"functionName\":\"sT\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":107727,\"functionName\":\"sw\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":98676,\"functionName\":\"sT\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":107704,\"functionName\":\"sw\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":98676,\"functionName\":\"sT\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":107704,\"functionName\":\"sw\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":98676,\"functionName\":\"sT\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":93814,\"functionName\":\"WN.J.\\u003Ccomputed>\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"}]}}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameRequestedNavigation\",\"params\":{\"disposition\":\"currentTab\",\"frameId\":\"833133BF0D802CB701E19EA2302E611E\",\"reason\":\"initialFrameNavigation\",\"url\":\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/d7uj7/0x4AAAAAAADnPIDROrmt1Wwj/dark/fbE/new/normal?lang=auto\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"833133BF0D802CB701E19EA2302E611E\",\"loaderId\":\"D438B2F90123997E5B9373478FD755A3\",\"navigationType\":\"differentDocument\",\"url\":\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/d7uj7/0x4AAAAAAADnPIDROrmt1Wwj/dark/fbE/new/normal?lang=auto\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"833133BF0D802CB701E19EA2302E611E\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735206
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/d7uj7/0x4AAAAAAADnPIDROrmt1Wwj/dark/fbE/new/normal?lang=auto\",\"frameId\":\"833133BF0D802CB701E19EA2302E611E\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":34490,\"functionName\":\"C\",\"lineNumber\":0,\"scriptId\":\"11\",\"url\":\"https://challenges.cloudflare.com/turnstile/v0/b/d251aa49a8a3/api.js?onload=cAdz2&render=explicit\"},{\"columnNumber\":107727,\"functionName\":\"sw\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":98676,\"functionName\":\"sT\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":107727,\"functionName\":\"sw\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":98676,\"functionName\":\"sT\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":107704,\"functionName\":\"sw\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":98676,\"functionName\":\"sT\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":107704,\"functionName\":\"sw\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":98676,\"functionName\":\"sT\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"},{\"columnNumber\":93814,\"functionName\":\"WN.J.\\u003Ccomputed>\",\"lineNumber\":0,\"scriptId\":\"8\",\"url\":\"https://www.atom.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c400810ed797e93\"}]},\"type\":\"script\"},\"loaderId\":\"D438B2F90123997E5B9373478FD755A3\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"same-origin\",\"url\":\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/d7uj7/0x4AAAAAAADnPIDROrmt1Wwj/dark/fbE/new/normal?lang=auto\"},\"requestId\":\"D438B2F90123997E5B9373478FD755A3\",\"timestamp\":93246.424204,\"type\":\"Document\",\"wallTime\":1769430730.368888}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735207
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":13437,\"requestId\":\"3228.7\",\"timestamp\":93246.403989}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735207
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":93246.425644},\"headers\":{\":authority\":\"challenges.cloudflare.com\",\":method\":\"GET\",\":path\":\"/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/d7uj7/0x4AAAAAAADnPIDROrmt1Wwj/dark/fbE/new/normal?lang=auto\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"iframe\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"D438B2F90123997E5B9373478FD755A3\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735207
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://atom.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-ray\":\"9c4008131f41060c-MAA\",\"content-encoding\":\"br\",\"content-security-policy\":\"default-src 'none'; script-src 'nonce-ONA6D5qzTLZIyWpS' 'unsafe-eval'; script-src-attr 'none'; worker-src blob:; style-src 'unsafe-inline'; img-src 'self'; connect-src 'self'; frame-src 'self' blob:; child-src 'self' blob:; form-action 'none'; base-uri 'self'; sandbox allow-same-origin allow-scripts allow-popups allow-forms\",\"content-type\":\"text/html; charset=UTF-8\",\"critical-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy\":\"same-origin\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"document-policy\":\"js-profiling\",\"origin-agent-cluster\":\"?1\",\"permissions-policy\":\"accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\",\"priority\":\"u=0,i\",\"referrer-policy\":\"same-origin\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\"},\"requestId\":\"D438B2F90123997E5B9373478FD755A3\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735207
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"833133BF0D802CB701E19EA2302E611E\",\"hasExtraInfo\":true,\"loaderId\":\"D438B2F90123997E5B9373478FD755A3\",\"requestId\":\"D438B2F90123997E5B9373478FD755A3\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonRace\",\"charset\":\"utf-8\",\"connectionId\":189,\"connectionReused\":false,\"encodedDataLength\":1265,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-ray\":\"9c4008131f41060c-MAA\",\"content-encoding\":\"br\",\"content-security-policy\":\"default-src 'none'; script-src 'nonce-ONA6D5qzTLZIyWpS' 'unsafe-eval'; script-src-attr 'none'; worker-src blob:; style-src 'unsafe-inline'; img-src 'self'; connect-src 'self'; frame-src 'self' blob:; child-src 'self' blob:; form-action 'none'; base-uri 'self'; sandbox allow-same-origin allow-scripts allow-popups allow-forms\",\"content-type\":\"text/html; charset=UTF-8\",\"critical-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy\":\"same-origin\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 12:32:10 GMT\",\"document-policy\":\"js-profiling\",\"origin-agent-cluster\":\"?1\",\"permissions-policy\":\"accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\",\"priority\":\"u=0,i\",\"referrer-policy\":\"same-origin\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\"},\"mimeType\":\"text/html\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.18.94.41\",\"remotePort\":443,\"responseTime\":1.769430730406432e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"challenges.cloudflare.com\",\"*.challenges.cloudflare.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30440220160FA8D73E3DC888F82BA755F8DF170234A738C2AE7805980B205406830E4FD802206242F46AD2347D73452716597E62A588837370296B1FBD03E000E34B2D295577\",\"status\":\"Verified\",\"timestamp\":1.766347979157e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30450220541ED9B63EF91F8C679E1B9A288783EFCAC414AB497AF771DBA2FCCA1EDEC8FD02210082994D10EC1C054FB8B46BAF81059C7B4F087809EC1BBFED1F696F67B927033F\",\"status\":\"Verified\",\"timestamp\":1.766347979146e+12}],\"subjectName\":\"challenges.cloudflare.com\",\"validFrom\":1766344378,\"validTo\":1774123974},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":10.242,\"connectStart\":0,\"dnsEnd\":0,\"dnsStart\":0,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":36.19,\"receiveHeadersStart\":36.118,\"requestTime\":93246.425644,\"sendEnd\":10.51,\"sendStart\":10.401,\"sslEnd\":10.242,\"sslStart\":0,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/d7uj7/0x4AAAAAAADnPIDROrmt1Wwj/dark/fbE/new/normal?lang=auto\"},\"timestamp\":93246.464746,\"type\":\"Document\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735207
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameDetached\",\"params\":{\"frameId\":\"833133BF0D802CB701E19EA2302E611E\",\"reason\":\"swap\"}},\"webview\":\"1C654773409791376112C543CBFCEE34\"}",
+    "timestamp": 1769430735207
+  }
+]

@@ -1,0 +1,872 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"navigationType\":\"differentDocument\",\"url\":\"http://browsermine.com/\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427170167
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427170167
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://browsermine.com/\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://browsermine.com/\"},\"requestId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"timestamp\":89686.222384,\"type\":\"Document\",\"wallTime\":1769427170.167031}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427170168
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://browsermine.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://browsermine.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://browsermine.com/\"},\"requestId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"timestamp\":89686.224073,\"type\":\"Document\",\"wallTime\":1769427170.168729}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427170171
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":89686.224733},\"headers\":{\":authority\":\"browsermine.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427170378
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-cache-status\":\"DYNAMIC\",\"cf-ray\":\"9c3fb1294af681f2-SIN\",\"content-encoding\":\"zstd\",\"content-type\":\"text/html\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=fkGTgypPrJBDJTgTMRepopdvgHltsEbqg7Z2xwd644SLVZS8rJdsm9CX6aNcCzjsJNzF8k%2BAT5CGR1vkRu6j%2BtwP%2B812BnRcQDhROe8znw%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfCacheStatus;desc=\\\"DYNAMIC\\\"\\ncfEdge;dur=10,cfOrigin;dur=565\",\"vary\":\"accept-encoding\"},\"requestId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427170998
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":103,\"connectionReused\":false,\"encodedDataLength\":3254,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-cache-status\":\"DYNAMIC\",\"cf-ray\":\"9c3fb1294af681f2-SIN\",\"content-encoding\":\"zstd\",\"content-type\":\"text/html\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=fkGTgypPrJBDJTgTMRepopdvgHltsEbqg7Z2xwd644SLVZS8rJdsm9CX6aNcCzjsJNzF8k%2BAT5CGR1vkRu6j%2BtwP%2B812BnRcQDhROe8znw%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfCacheStatus;desc=\\\"DYNAMIC\\\"\\ncfEdge;dur=10,cfOrigin;dur=565\",\"vary\":\"accept-encoding\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"104.21.44.248\",\"remotePort\":443,\"responseTime\":1.769427170996915e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"ECDHE_ECDSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"browsermine.com\",\"*.browsermine.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B004A5DCE195D72ADB14045037170287E3333790009999F70E1E517865C497A8022100D96D9F852D6EDC24884FAC0DC2C0467866B6366814635ECA85EF4A6D4EF27A74\",\"status\":\"Verified\",\"timestamp\":1.76935544272e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CBA08B939447BB14A265238D67060C8D8B4BA1AC82393EACE30F6127722DC12F022040A78418A69C1E9B8BDB3679C78EFBD892DD956DC21EC41CD2D92E905E469671\",\"status\":\"Verified\",\"timestamp\":1.76935544275e+12}],\"subjectName\":\"browsermine.com\",\"validFrom\":1769351842,\"validTo\":1777131352},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":208.054,\"connectStart\":120.992,\"dnsEnd\":120.886,\"dnsStart\":9.974,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":828.176,\"receiveHeadersStart\":827.471,\"requestTime\":89686.224733,\"sendEnd\":208.262,\"sendStart\":208.143,\"sslEnd\":208.033,\"sslStart\":160.062,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://browsermine.com/\"},\"timestamp\":89687.058871,\"type\":\"Document\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171004
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"browsermine.com\",\"gatedAPIFeatures\":[],\"id\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://browsermine.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://browsermine.com/\"},\"type\":\"Navigation\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171012
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171017
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":6943,\"encodedDataLength\":0,\"requestId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"timestamp\":89687.067938}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":385,\"lineNumber\":0,\"type\":\"parser\",\"url\":\"https://browsermine.com/\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"no-referrer\",\"url\":\"https://browsermine.com/css/style.css\"},\"requestId\":\"16848.2\",\"timestamp\":89687.06862,\"type\":\"Stylesheet\",\"wallTime\":1769427171.013339}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":5097,\"lineNumber\":0,\"type\":\"parser\",\"url\":\"https://browsermine.com/\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Medium\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"no-referrer\",\"url\":\"https://browsermine.com/js/app.js\"},\"requestId\":\"16848.22\",\"timestamp\":89687.069502,\"type\":\"Script\",\"wallTime\":1769427171.014159}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":5207,\"lineNumber\":0,\"type\":\"parser\",\"url\":\"https://browsermine.com/\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"no-referrer\",\"url\":\"https://browsermine.com/js/bg.js\"},\"requestId\":\"16848.23\",\"timestamp\":89687.069608,\"type\":\"Script\",\"wallTime\":1769427171.014261}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":6227,\"lineNumber\":0,\"type\":\"parser\",\"url\":\"https://browsermine.com/\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"https://browsermine.com\",\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"no-referrer\",\"url\":\"https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015\"},\"requestId\":\"16848.24\",\"timestamp\":89687.069673,\"type\":\"Script\",\"wallTime\":1769427171.014323}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":3254,\"requestId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"timestamp\":89687.054466}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.069688},\"headers\":{\":authority\":\"browsermine.com\",\":method\":\"GET\",\":path\":\"/css/style.css\",\":scheme\":\"https\",\"accept\":\"text/css,*/*;q=0.1\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"style\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171023
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.069927},\"headers\":{\":authority\":\"browsermine.com\",\":method\":\"GET\",\":path\":\"/js/app.js\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=2\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.22\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171023
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.076116},\"headers\":{\":authority\":\"browsermine.com\",\":method\":\"GET\",\":path\":\"/js/bg.js\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.23\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171025
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.076633},\"headers\":{\":authority\":\"static.cloudflareinsights.com\",\":method\":\"GET\",\":path\":\"/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://browsermine.com\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.24\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171044
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-origin\":\"*\",\"cache-control\":\"public, max-age=86400\",\"cf-ray\":\"9c3fb12d3b587e7e-MAA\",\"content-encoding\":\"gzip\",\"content-type\":\"text/javascript;charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"2024.6.1\\\"\",\"last-modified\":\"Thu, 22 Jan 2026 17:06:04 GMT\",\"server\":\"cloudflare\",\"vary\":\"Accept-Encoding\"},\"requestId\":\"16848.24\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171069
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"age\":\"329465\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12d4df181f2-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"text/css\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"69288da1-a54\\\"\",\"expires\":\"Thu, 29 Jan 2026 16:01:45 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=PT8qKWAWZv2G%2FvcUfUKiokiXxy4Du25OPUNCryAR%2FgJ%2BERy6vVO%2BqmcvQ%2BPS27NXzlZb04mazbh66IzHAD0wZTLlHARBScoBQBzrYM2UVw%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"vary\":\"accept-encoding\"},\"requestId\":\"16848.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171074
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.24\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":149,\"connectionReused\":false,\"encodedDataLength\":223,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-origin\":\"*\",\"cache-control\":\"public, max-age=86400\",\"cf-ray\":\"9c3fb12d3b587e7e-MAA\",\"content-encoding\":\"gzip\",\"content-type\":\"text/javascript;charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"2024.6.1\\\"\",\"last-modified\":\"Thu, 22 Jan 2026 17:06:04 GMT\",\"server\":\"cloudflare\",\"vary\":\"Accept-Encoding\"},\"mimeType\":\"text/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"104.16.80.73\",\"remotePort\":443,\"responseTime\":1.769427171068704e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"cloudflareinsights.com\",\"*.cloudflareinsights.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402206602BB9F674DE2914D9ABCA02777F3BEB45930C1C389798F854132E4920ED4FC02202CC722F48864EEF111D4BE689B1E22085219989A4B1684C4B2635657D748A997\",\"status\":\"Verified\",\"timestamp\":1.766230588414e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100E29B6D83CC26A5F1003B030BC561E4CEE360B6E24357D4DE4EB64EF6857DE49F022100DF7FAA6295F3FFCCBD5F84CC3B3ADEC06A939326A9250BBCBF04DDE51BCBB400\",\"status\":\"Verified\",\"timestamp\":1.766230588428e+12}],\"subjectName\":\"cloudflareinsights.com\",\"validFrom\":1766226987,\"validTo\":1774006567},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":22.006,\"connectStart\":2.624,\"dnsEnd\":2.458,\"dnsStart\":0.221,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":47.535,\"receiveHeadersStart\":47.424,\"requestTime\":89687.076633,\"sendEnd\":22.327,\"sendStart\":22.175,\"sslEnd\":21.999,\"sslStart\":10.262,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015\"},\"timestamp\":89687.129276,\"type\":\"Script\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171074
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":6589,\"encodedDataLength\":0,\"requestId\":\"16848.24\",\"timestamp\":89687.129332}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171074
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":13359,\"encodedDataLength\":0,\"requestId\":\"16848.24\",\"timestamp\":89687.129334}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171074
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":6895,\"requestId\":\"16848.24\",\"timestamp\":89687.129481}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171074
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":7118,\"requestId\":\"16848.24\",\"timestamp\":89687.128241}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171074
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.2\",\"response\":{\"alternateProtocolUsage\":\"mainJobWonRace\",\"charset\":\"\",\"connectionId\":103,\"connectionReused\":true,\"encodedDataLength\":300,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"age\":\"329465\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12d4df181f2-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"text/css\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"69288da1-a54\\\"\",\"expires\":\"Thu, 29 Jan 2026 16:01:45 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=PT8qKWAWZv2G%2FvcUfUKiokiXxy4Du25OPUNCryAR%2FgJ%2BERy6vVO%2BqmcvQ%2BPS27NXzlZb04mazbh66IzHAD0wZTLlHARBScoBQBzrYM2UVw%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"vary\":\"accept-encoding\"},\"mimeType\":\"text/css\",\"protocol\":\"h2\",\"remoteIPAddress\":\"104.21.44.248\",\"remotePort\":443,\"responseTime\":1.769427171073116e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"ECDHE_ECDSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"browsermine.com\",\"*.browsermine.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B004A5DCE195D72ADB14045037170287E3333790009999F70E1E517865C497A8022100D96D9F852D6EDC24884FAC0DC2C0467866B6366814635ECA85EF4A6D4EF27A74\",\"status\":\"Verified\",\"timestamp\":1.76935544272e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CBA08B939447BB14A265238D67060C8D8B4BA1AC82393EACE30F6127722DC12F022040A78418A69C1E9B8BDB3679C78EFBD892DD956DC21EC41CD2D92E905E469671\",\"status\":\"Verified\",\"timestamp\":1.76935544275e+12}],\"subjectName\":\"browsermine.com\",\"validFrom\":1769351842,\"validTo\":1777131352},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":59.57,\"receiveHeadersStart\":58.773,\"requestTime\":89687.069688,\"sendEnd\":1.746,\"sendStart\":1.575,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://browsermine.com/css/style.css\"},\"timestamp\":89687.129806,\"type\":\"Stylesheet\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171074
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2644,\"encodedDataLength\":926,\"requestId\":\"16848.2\",\"timestamp\":89687.131253}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171076
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1226,\"requestId\":\"16848.2\",\"timestamp\":89687.130733}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171076
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"age\":\"416736\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12d4df481f2-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"69288da1-82e\\\"\",\"expires\":\"Wed, 28 Jan 2026 15:47:14 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=o82DUusxcf%2BqVGpRYp33Sbi8Fz5PFYGyB4pIiwjrf4dSnVCGobbcHxyuuQKuAX5Ajrirh0thNRCew6UWQGtse7Ebjdrinh7QQDoiQ1YEDQ%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"vary\":\"accept-encoding\"},\"requestId\":\"16848.22\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171076
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"age\":\"369831\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12d5df981f2-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"69288da1-d18\\\"\",\"expires\":\"Thu, 29 Jan 2026 04:48:59 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=BMPSLDZ0viunFVSvHSWA%2F8P7EDHyb07p6X7WaoZavvDkW5RoKeJ8gobLH18HMvT5SSP7iUn4L4CUSsufgAu6Bi1FGCvaJoVUK4t1FI878A%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"vary\":\"accept-encoding\"},\"requestId\":\"16848.23\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171077
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"parser\",\"url\":\"https://browsermine.com/css/style.css\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"https://browsermine.com\",\"Referer\":\"https://browsermine.com/css/style.css\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://browsermine.com/fonts/roboto-condensed-v19-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2\"},\"requestId\":\"16848.46\",\"timestamp\":89687.133236,\"type\":\"Font\",\"wallTime\":1769427171.077907}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171088
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.22\",\"response\":{\"alternateProtocolUsage\":\"mainJobWonRace\",\"charset\":\"\",\"connectionId\":103,\"connectionReused\":true,\"encodedDataLength\":940,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"age\":\"416736\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12d4df481f2-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"69288da1-82e\\\"\",\"expires\":\"Wed, 28 Jan 2026 15:47:14 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=o82DUusxcf%2BqVGpRYp33Sbi8Fz5PFYGyB4pIiwjrf4dSnVCGobbcHxyuuQKuAX5Ajrirh0thNRCew6UWQGtse7Ebjdrinh7QQDoiQ1YEDQ%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"vary\":\"accept-encoding\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"104.21.44.248\",\"remotePort\":443,\"responseTime\":1.769427171075615e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"ECDHE_ECDSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"browsermine.com\",\"*.browsermine.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B004A5DCE195D72ADB14045037170287E3333790009999F70E1E517865C497A8022100D96D9F852D6EDC24884FAC0DC2C0467866B6366814635ECA85EF4A6D4EF27A74\",\"status\":\"Verified\",\"timestamp\":1.76935544272e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CBA08B939447BB14A265238D67060C8D8B4BA1AC82393EACE30F6127722DC12F022040A78418A69C1E9B8BDB3679C78EFBD892DD956DC21EC41CD2D92E905E469671\",\"status\":\"Verified\",\"timestamp\":1.76935544275e+12}],\"subjectName\":\"browsermine.com\",\"validFrom\":1769351842,\"validTo\":1777131352},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":61.782,\"receiveHeadersStart\":61.032,\"requestTime\":89687.069927,\"sendEnd\":1.544,\"sendStart\":1.482,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://browsermine.com/js/app.js\"},\"timestamp\":89687.143526,\"type\":\"Script\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171089
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2094,\"encodedDataLength\":0,\"requestId\":\"16848.22\",\"timestamp\":89687.143583}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171089
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":940,\"requestId\":\"16848.22\",\"timestamp\":89687.132199}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171089
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.1436},\"headers\":{\":authority\":\"browsermine.com\",\":method\":\"GET\",\":path\":\"/fonts/roboto-condensed-v19-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://browsermine.com\",\"priority\":\"u=0\",\"referer\":\"https://browsermine.com/css/style.css\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"font\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.46\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171089
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.23\",\"response\":{\"alternateProtocolUsage\":\"mainJobWonRace\",\"charset\":\"\",\"connectionId\":103,\"connectionReused\":true,\"encodedDataLength\":1573,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"age\":\"369831\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12d5df981f2-SIN\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"69288da1-d18\\\"\",\"expires\":\"Thu, 29 Jan 2026 04:48:59 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=BMPSLDZ0viunFVSvHSWA%2F8P7EDHyb07p6X7WaoZavvDkW5RoKeJ8gobLH18HMvT5SSP7iUn4L4CUSsufgAu6Bi1FGCvaJoVUK4t1FI878A%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"vary\":\"accept-encoding\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"104.21.44.248\",\"remotePort\":443,\"responseTime\":1.769427171075759e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"ECDHE_ECDSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"browsermine.com\",\"*.browsermine.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B004A5DCE195D72ADB14045037170287E3333790009999F70E1E517865C497A8022100D96D9F852D6EDC24884FAC0DC2C0467866B6366814635ECA85EF4A6D4EF27A74\",\"status\":\"Verified\",\"timestamp\":1.76935544272e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CBA08B939447BB14A265238D67060C8D8B4BA1AC82393EACE30F6127722DC12F022040A78418A69C1E9B8BDB3679C78EFBD892DD956DC21EC41CD2D92E905E469671\",\"status\":\"Verified\",\"timestamp\":1.76935544275e+12}],\"subjectName\":\"browsermine.com\",\"validFrom\":1769351842,\"validTo\":1777131352},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":55.827,\"receiveHeadersStart\":55.001,\"requestTime\":89687.076116,\"sendEnd\":1.841,\"sendStart\":1.664,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://browsermine.com/js/bg.js\"},\"timestamp\":89687.144805,\"type\":\"Script\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171089
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3352,\"encodedDataLength\":0,\"requestId\":\"16848.23\",\"timestamp\":89687.144836}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171089
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1573,\"requestId\":\"16848.23\",\"timestamp\":89687.132362}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171089
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.navigatedWithinDocument\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"navigationType\":\"historyApi\",\"url\":\"https://browsermine.com/?lang=en\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171093
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/?lang=en\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":5484,\"functionName\":\"\",\"lineNumber\":0,\"scriptId\":\"11\",\"url\":\"https://browsermine.com/?lang=en\"},{\"columnNumber\":5502,\"functionName\":\"\",\"lineNumber\":0,\"scriptId\":\"11\",\"url\":\"https://browsermine.com/?lang=en\"}]},\"type\":\"script\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"no-referrer\",\"url\":\"https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js\"},\"requestId\":\"16848.51\",\"timestamp\":89687.146903,\"type\":\"Script\",\"wallTime\":1769427171.091628}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171093
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/?lang=en\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"parser\",\"url\":\"https://browsermine.com/css/style.css\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"https://browsermine.com\",\"Referer\":\"https://browsermine.com/css/style.css\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://browsermine.com/fonts/roboto-condensed-v19-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2\"},\"requestId\":\"16848.48\",\"timestamp\":89687.148025,\"type\":\"Font\",\"wallTime\":1769427171.092691}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171105
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.159691},\"headers\":{\":authority\":\"browsermine.com\",\":method\":\"GET\",\":path\":\"/fonts/roboto-condensed-v19-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://browsermine.com\",\"priority\":\"u=0\",\"referer\":\"https://browsermine.com/css/style.css\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"font\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.48\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171106
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":89687.16564}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171110
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"age\":\"369714\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12dbf63fd22-SIN\",\"content-length\":\"51016\",\"content-type\":\"font/woff2\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"\\\"69288da1-c748\\\"\",\"expires\":\"Thu, 29 Jan 2026 04:50:56 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=0,i=?0\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=etHycbTO8ujcD438x31pGsYrLxGDxro3F6jJp%2F8ArdiH%2FyzVHuh6T5FXZdRpatQa6df8qn7%2Bd6eTuWM%2FD4zU0s11TQOqahbg4j3G4b7L%2BA%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"accept-encoding\"},\"requestId\":\"16848.46\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171139
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.147305},\"headers\":{\":authority\":\"cdn.jsdelivr.net\",\":method\":\"GET\",\":path\":\"/npm/yandex-metrica-watch/tag.js\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.51\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171173
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"age\":\"416734\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12ddf6afd22-SIN\",\"content-length\":\"50804\",\"content-type\":\"font/woff2\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"\\\"69288da1-c674\\\"\",\"expires\":\"Wed, 28 Jan 2026 15:47:16 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=0,i=?0\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=G0du5LhS8e3lmIHtiG3mnSx%2Fq%2FYRRMpJm4hFaHowDujFCK3GcuyUaIAfOX53KlJjSNLGnmHI2WuQN2hpPhJu08az2atDVOgvmMnC9Kipaw%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"accept-encoding\"},\"requestId\":\"16848.48\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171176
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"*\",\"age\":\"40546\",\"alt-svc\":\"h3=\\\":443\\\";ma=86400,h3-29=\\\":443\\\";ma=86400,h3-27=\\\":443\\\";ma=86400\",\"cache-control\":\"public, max-age=604800, s-maxage=43200\",\"content-encoding\":\"br\",\"content-length\":\"101778\",\"content-type\":\"application/javascript; charset=utf-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"3fe6b-B45OS4IdRNBELSboVQ7vid2Dh5Q\\\"\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"timing-allow-origin\":\"*\",\"vary\":\"Accept-Encoding\",\"x-cache\":\"HIT, HIT\",\"x-content-type-options\":\"nosniff\",\"x-jsd-version\":\"1.423.0\",\"x-jsd-version-type\":\"version\",\"x-served-by\":\"cache-fra-eddf8230126-FRA, cache-ccu830055-CCU\"},\"requestId\":\"16848.51\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171204
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.51\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":181,\"connectionReused\":false,\"encodedDataLength\":457,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"*\",\"age\":\"40546\",\"alt-svc\":\"h3=\\\":443\\\";ma=86400,h3-29=\\\":443\\\";ma=86400,h3-27=\\\":443\\\";ma=86400\",\"cache-control\":\"public, max-age=604800, s-maxage=43200\",\"content-encoding\":\"br\",\"content-length\":\"101778\",\"content-type\":\"application/javascript; charset=utf-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"3fe6b-B45OS4IdRNBELSboVQ7vid2Dh5Q\\\"\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"timing-allow-origin\":\"*\",\"vary\":\"Accept-Encoding\",\"x-cache\":\"HIT, HIT\",\"x-content-type-options\":\"nosniff\",\"x-jsd-version\":\"1.423.0\",\"x-jsd-version-type\":\"version\",\"x-served-by\":\"cache-fra-eddf8230126-FRA, cache-ccu830055-CCU\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"151.101.1.229\",\"remotePort\":443,\"responseTime\":1.769427171203769e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"GlobalSign Atlas R3 DV TLS CA 2025 Q2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"jsdelivr.net\",\"*.jsdelivr.net\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502207FABC98B7B43573A813BA5A06A8B2119DD2313AEB8CB7B0EECCAA62D497B45C8022100FBE30726352BA5E4D7E83B8B446ED6FDB283AA266188001741FAAA752B965F0A\",\"status\":\"Verified\",\"timestamp\":1.748879033198e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h2' log\",\"logId\":\"D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100F1D13C1F80D9D57FB33927F2A72E1C3C615B97A7AF07703FCAF4D29845DE8FF30220146BC6BD0E7307665473184F99806C65AFEE0C0A5AD9D322701FF51E16EA63BF\",\"status\":\"Verified\",\"timestamp\":1.74887903323e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502202A8C07D6E3D62AEA899659843F925AA5D115F7184B916A7CCB6D28333C89612A022100A9FD85C7677A177681F1E313F1F856C8D350B1DD4C8AC54E03BB1E3C58980BD7\",\"status\":\"Verified\",\"timestamp\":1.7488790334e+12}],\"subjectName\":\"jsdelivr.net\",\"validFrom\":1748879032,\"validTo\":1783179831},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":80.703,\"connectStart\":13.671,\"dnsEnd\":12.771,\"dnsStart\":0.274,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":112.034,\"receiveHeadersStart\":111.808,\"requestTime\":89687.147305,\"sendEnd\":80.871,\"sendStart\":80.81,\"sslEnd\":80.698,\"sslStart\":44.412,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js\"},\"timestamp\":89687.367509,\"type\":\"Script\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171312
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":39449,\"encodedDataLength\":0,\"requestId\":\"16848.51\",\"timestamp\":89687.367545}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171312
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":39815,\"encodedDataLength\":0,\"requestId\":\"16848.51\",\"timestamp\":89687.367546}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171312
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":43317,\"encodedDataLength\":0,\"requestId\":\"16848.51\",\"timestamp\":89687.367547}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171312
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":43847,\"encodedDataLength\":0,\"requestId\":\"16848.51\",\"timestamp\":89687.367548}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171312
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":40974,\"encodedDataLength\":0,\"requestId\":\"16848.51\",\"timestamp\":89687.367548}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171312
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":45446,\"encodedDataLength\":0,\"requestId\":\"16848.51\",\"timestamp\":89687.367549}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171312
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":8891,\"encodedDataLength\":0,\"requestId\":\"16848.51\",\"timestamp\":89687.36755}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171312
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":101841,\"requestId\":\"16848.51\",\"timestamp\":89687.367632}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171312
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":102298,\"requestId\":\"16848.51\",\"timestamp\":89687.364853}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171312
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/?lang=en\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":101,\"functionName\":\"Dh\",\"lineNumber\":102,\"scriptId\":\"12\",\"url\":\"https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js\"},{\"columnNumber\":423,\"functionName\":\"Ue\",\"lineNumber\":56,\"scriptId\":\"12\",\"url\":\"https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js\"},{\"columnNumber\":286,\"functionName\":\"\",\"lineNumber\":57,\"scriptId\":\"12\",\"url\":\"https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js\"},{\"columnNumber\":235,\"functionName\":\"\",\"lineNumber\":61,\"scriptId\":\"12\",\"url\":\"https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js\"}]},\"type\":\"script\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"no-referrer\",\"url\":\"https://mc.yandex.ru/watch/3?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&page-ref=&charset=utf-8&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A2%3Adp%3A0%3Als%3A1114354726537%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A228443298%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Ast%3A1769427171&t=gdpr(14)clc(0-0-0)rqnt(1)hc(1)aw(1)rcm(1)cdl(na)eco(65536)ti(1)\"},\"requestId\":\"16848.53\",\"timestamp\":89687.401764,\"type\":\"Fetch\",\"wallTime\":1769427171.34646}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.46\",\"response\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":128,\"connectionReused\":false,\"encodedDataLength\":514,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"age\":\"369714\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12dbf63fd22-SIN\",\"content-length\":\"51016\",\"content-type\":\"font/woff2\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"\\\"69288da1-c748\\\"\",\"expires\":\"Thu, 29 Jan 2026 04:50:56 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=0,i=?0\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=etHycbTO8ujcD438x31pGsYrLxGDxro3F6jJp%2F8ArdiH%2FyzVHuh6T5FXZdRpatQa6df8qn7%2Bd6eTuWM%2FD4zU0s11TQOqahbg4j3G4b7L%2BA%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"accept-encoding\"},\"mimeType\":\"font/woff2\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.21.44.248\",\"remotePort\":443,\"responseTime\":1.769427171138617e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"browsermine.com\",\"*.browsermine.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B004A5DCE195D72ADB14045037170287E3333790009999F70E1E517865C497A8022100D96D9F852D6EDC24884FAC0DC2C0467866B6366814635ECA85EF4A6D4EF27A74\",\"status\":\"Verified\",\"timestamp\":1.76935544272e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CBA08B939447BB14A265238D67060C8D8B4BA1AC82393EACE30F6127722DC12F022040A78418A69C1E9B8BDB3679C78EFBD892DD956DC21EC41CD2D92E905E469671\",\"status\":\"Verified\",\"timestamp\":1.76935544275e+12}],\"subjectName\":\"browsermine.com\",\"validFrom\":1769351842,\"validTo\":1777131352},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":0,\"connectStart\":0,\"dnsEnd\":0,\"dnsStart\":0,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":50.625,\"receiveHeadersStart\":50.352,\"requestTime\":89687.1436,\"sendEnd\":0.966,\"sendStart\":0.781,\"sslEnd\":0,\"sslStart\":0,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://browsermine.com/fonts/roboto-condensed-v19-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2\"},\"timestamp\":89687.402156,\"type\":\"Font\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1839,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402182}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402183}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1170,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402183}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402184}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402185}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402186}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1173,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.40219}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1165,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402191}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402191}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402192}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402193}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1173,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402193}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402194}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402195}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402195}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402198}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402198}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402199}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.4022}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.4022}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402201}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402201}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402202}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402203}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402204}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402204}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402205}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402205}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402206}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402207}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402207}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402208}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1168,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402208}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402209}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402209}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.40221}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.40221}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2348,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402211}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4582,\"encodedDataLength\":0,\"requestId\":\"16848.46\",\"timestamp\":89687.402212}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":51039,\"requestId\":\"16848.46\",\"timestamp\":89687.402445}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":51553,\"requestId\":\"16848.46\",\"timestamp\":89687.395722}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171348
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/?lang=en\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":101,\"functionName\":\"Dh\",\"lineNumber\":102,\"scriptId\":\"12\",\"url\":\"https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js\"},{\"columnNumber\":423,\"functionName\":\"Ue\",\"lineNumber\":56,\"scriptId\":\"12\",\"url\":\"https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js\"},{\"columnNumber\":286,\"functionName\":\"\",\"lineNumber\":57,\"scriptId\":\"12\",\"url\":\"https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js\"},{\"columnNumber\":235,\"functionName\":\"\",\"lineNumber\":61,\"scriptId\":\"12\",\"url\":\"https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js\"}]},\"type\":\"script\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"no-referrer\",\"url\":\"https://mc.yandex.ru/watch/46054206?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&charset=utf-8&uah=chu%0A%22Not(A%3ABrand%22%3Bv%3D%228%22%2C%22Chromium%22%3Bv%3D%22144%22%2C%22Google%20Chrome%22%3Bv%3D%22144%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A144.0.7559.97%0Achl%0A%22Not(A%3ABrand%22%3Bv%3D%228.0.0.0%22%2C%22Chromium%22%3Bv%3D%22144.0.7559.97%22%2C%22Google%20Chrome%22%3Bv%3D%22144.0.7559.97%22%0Achm%0A%3F0%0Achp%0AWindows%0Achv%0A19.0.0&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1024377724909%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A828613546%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Arqnl%3A1%3Ast%3A1769427171%3At%3ABrowserMine.com&t=gdpr(14)clc(0-0-0)rqnt(1)hc(1)aw(1)rcm(1)cdl(na)eco(83952128)ti(1)\"},\"requestId\":\"16848.55\",\"timestamp\":89687.410422,\"type\":\"Fetch\",\"wallTime\":1769427171.355096}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171355
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.48\",\"response\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":128,\"connectionReused\":true,\"encodedDataLength\":474,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"age\":\"416734\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12ddf6afd22-SIN\",\"content-length\":\"50804\",\"content-type\":\"font/woff2\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"\\\"69288da1-c674\\\"\",\"expires\":\"Wed, 28 Jan 2026 15:47:16 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=0,i=?0\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=G0du5LhS8e3lmIHtiG3mnSx%2Fq%2FYRRMpJm4hFaHowDujFCK3GcuyUaIAfOX53KlJjSNLGnmHI2WuQN2hpPhJu08az2atDVOgvmMnC9Kipaw%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"accept-encoding\"},\"mimeType\":\"font/woff2\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.21.44.248\",\"remotePort\":443,\"responseTime\":1.769427171175601e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"browsermine.com\",\"*.browsermine.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B004A5DCE195D72ADB14045037170287E3333790009999F70E1E517865C497A8022100D96D9F852D6EDC24884FAC0DC2C0467866B6366814635ECA85EF4A6D4EF27A74\",\"status\":\"Verified\",\"timestamp\":1.76935544272e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CBA08B939447BB14A265238D67060C8D8B4BA1AC82393EACE30F6127722DC12F022040A78418A69C1E9B8BDB3679C78EFBD892DD956DC21EC41CD2D92E905E469671\",\"status\":\"Verified\",\"timestamp\":1.76935544275e+12}],\"subjectName\":\"browsermine.com\",\"validFrom\":1769351842,\"validTo\":1777131352},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":71.465,\"receiveHeadersStart\":71.261,\"requestTime\":89687.159691,\"sendEnd\":1.117,\"sendStart\":0.65,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://browsermine.com/fonts/roboto-condensed-v19-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2\"},\"timestamp\":89687.415632,\"type\":\"Font\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":703,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415661}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415662}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415663}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415663}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415664}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1173,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415671}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415672}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1173,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415672}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415673}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415674}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1173,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415675}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415676}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415676}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1176,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415678}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415678}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415679}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":363,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.41568}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415681}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415682}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415683}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415683}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415684}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415685}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415686}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415686}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415687}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415688}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1171,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415688}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415689}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.41569}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415691}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415691}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3776,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415692}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1366,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415693}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2345,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415694}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2348,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415695}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415696}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1174,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415696}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2327,\"encodedDataLength\":0,\"requestId\":\"16848.48\",\"timestamp\":89687.415697}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":50827,\"requestId\":\"16848.48\",\"timestamp\":89687.41586}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":51301,\"requestId\":\"16848.48\",\"timestamp\":89687.413054}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":89687.415968}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171362
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171363
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/?lang=en\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":9089,\"functionName\":\"t.sendObjectBeacon\",\"lineNumber\":0,\"scriptId\":\"7\",\"url\":\"https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015\"},{\"columnNumber\":4134,\"functionName\":\"P\",\"lineNumber\":0,\"scriptId\":\"7\",\"url\":\"https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015\"},{\"columnNumber\":5054,\"functionName\":\"R\",\"lineNumber\":0,\"scriptId\":\"7\",\"url\":\"https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015\"}]},\"type\":\"script\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"hasPostData\":true,\"headers\":{\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"content-type\":\"application/json\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"POST\",\"mixedContentType\":\"none\",\"postData\":\"{\\\"memory\\\":{\\\"totalJSHeapSize\\\":5536114,\\\"usedJSHeapSize\\\":2157906,\\\"jsHeapSizeLimit\\\":2248146944},\\\"resources\\\":[],\\\"referrer\\\":\\\"\\\",\\\"eventType\\\":1,\\\"firstPaint\\\":928,\\\"firstContentfulPaint\\\":928,\\\"startTime\\\":1769427170166.1,\\\"versions\\\":{\\\"fl\\\":\\\"2024.11.0\\\",\\\"js\\\":\\\"2024.6.1\\\",\\\"timings\\\":2},\\\"pageloadId\\\":\\\"edbf22a0-52c1-4527-af2d-98e43a00259f\\\",\\\"location\\\":\\\"https://browsermine.com/\\\",\\\"nt\\\":\\\"navigate\\\",\\\"timingsV2\\\":{\\\"unloadEventStart\\\":0,\\\"unloadEventEnd\\\":0,\\\"domInteractive\\\":937.7000000029802,\\\"domContentLoadedEventStart\\\":944,\\\"domContentLoadedEventEnd\\\":944.1000000089407,\\\"domComplete\\\":1194.300000011921,\\\"loadEventStart\\\":1194.300000011921,\\\"loadEventEnd\\\":1194.300000011921,\\\"type\\\":\\\"navigate\\\",\\\"redirectCount\\\":0,\\\"criticalCHRestart\\\":0,\\\"activationStart\\\":0,\\\"initiatorType\\\":\\\"navigation\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"deliveryType\\\":\\\"\\\",\\\"workerStart\\\":0,\\\"redirectStart\\\":0,\\\"redirectEnd\\\":0,\\\"fetchStart\\\":2,\\\"domainLookupStart\\\":13.100000008940697,\\\"domainLookupEnd\\\":124.1000000089407,\\\"connectStart\\\":124.1000000089407,\\\"connectEnd\\\":211.20000000298023,\\\"secureConnectionStart\\\":163.20000000298023,\\\"requestStart\\\":211.30000001192093,\\\"responseStart\\\":830.6000000089407,\\\"responseEnd\\\":832.9000000059605,\\\"transferSize\\\":3063,\\\"encodedBodySize\\\":2763,\\\"decodedBodySize\\\":6943,\\\"responseStatus\\\":200,\\\"finalResponseHeadersStart\\\":830.6000000089407,\\\"firstInterimResponseStart\\\":0,\\\"workerRouterEvaluationStart\\\":0,\\\"workerCacheLookupStart\\\":0,\\\"workerMatchedSourceType\\\":\\\"\\\",\\\"workerFinalSourceType\\\":\\\"\\\",\\\"renderBlockingStatus\\\":\\\"non-blocking\\\",\\\"contentEncoding\\\":\\\"zstd\\\",\\\"name\\\":\\\"https://browsermine.com/\\\",\\\"entryType\\\":\\\"navigation\\\",\\\"startTime\\\":0,\\\"duration\\\":1194.300000011921},\\\"dt\\\":\\\"\\\",\\\"siteToken\\\":\\\"078e92fc153f4b6ba0861ae496e895be\\\",\\\"st\\\":2}\",\"postDataEntries\":[{\"bytes\":\"eyJtZW1vcnkiOnsidG90YWxKU0hlYXBTaXplIjo1NTM2MTE0LCJ1c2VkSlNIZWFwU2l6ZSI6MjE1NzkwNiwianNIZWFwU2l6ZUxpbWl0IjoyMjQ4MTQ2OTQ0fSwicmVzb3VyY2VzIjpbXSwicmVmZXJyZXIiOiIiLCJldmVudFR5cGUiOjEsImZpcnN0UGFpbnQiOjkyOCwiZmlyc3RDb250ZW50ZnVsUGFpbnQiOjkyOCwic3RhcnRUaW1lIjoxNzY5NDI3MTcwMTY2LjEsInZlcnNpb25zIjp7ImZsIjoiMjAyNC4xMS4wIiwianMiOiIyMDI0LjYuMSIsInRpbWluZ3MiOjJ9LCJwYWdlbG9hZElkIjoiZWRiZjIyYTAtNTJjMS00NTI3LWFmMmQtOThlNDNhMDAyNTlmIiwibG9jYXRpb24iOiJodHRwczovL2Jyb3dzZXJtaW5lLmNvbS8iLCJudCI6Im5hdmlnYXRlIiwidGltaW5nc1YyIjp7InVubG9hZEV2ZW50U3RhcnQiOjAsInVubG9hZEV2ZW50RW5kIjowLCJkb21JbnRlcmFjdGl2ZSI6OTM3LjcwMDAwMDAwMjk4MDIsImRvbUNvbnRlbnRMb2FkZWRFdmVudFN0YXJ0Ijo5NDQsImRvbUNvbnRlbnRMb2FkZWRFdmVudEVuZCI6OTQ0LjEwMDAwMDAwODk0MDcsImRvbUNvbXBsZXRlIjoxMTk0LjMwMDAwMDAxMTkyMSwibG9hZEV2ZW50U3RhcnQiOjExOTQuMzAwMDAwMDExOTIxLCJsb2FkRXZlbnRFbmQiOjExOTQuMzAwMDAwMDExOTIxLCJ0eXBlIjoibmF2aWdhdGUiLCJyZWRpcmVjdENvdW50IjowLCJjcml0aWNhbENIUmVzdGFydCI6MCwiYWN0aXZhdGlvblN0YXJ0IjowLCJpbml0aWF0b3JUeXBlIjoibmF2aWdhdGlvbiIsIm5leHRIb3BQcm90b2NvbCI6ImgyIiwiZGVsaXZlcnlUeXBlIjoiIiwid29ya2VyU3RhcnQiOjAsInJlZGlyZWN0U3RhcnQiOjAsInJlZGlyZWN0RW5kIjowLCJmZXRjaFN0YXJ0IjoyLCJkb21haW5Mb29rdXBTdGFydCI6MTMuMTAwMDAwMDA4OTQwNjk3LCJkb21haW5Mb29rdXBFbmQiOjEyNC4xMDAwMDAwMDg5NDA3LCJjb25uZWN0U3RhcnQiOjEyNC4xMDAwMDAwMDg5NDA3LCJjb25uZWN0RW5kIjoyMTEuMjAwMDAwMDAyOTgwMjMsInNlY3VyZUNvbm5lY3Rpb25TdGFydCI6MTYzLjIwMDAwMDAwMjk4MDIzLCJyZXF1ZXN0U3RhcnQiOjIxMS4zMDAwMDAwMTE5MjA5MywicmVzcG9uc2VTdGFydCI6ODMwLjYwMDAwMDAwODk0MDcsInJlc3BvbnNlRW5kIjo4MzIuOTAwMDAwMDA1OTYwNSwidHJhbnNmZXJTaXplIjozMDYzLCJlbmNvZGVkQm9keVNpemUiOjI3NjMsImRlY29kZWRCb2R5U2l6ZSI6Njk0MywicmVzcG9uc2VTdGF0dXMiOjIwMCwiZmluYWxSZXNwb25zZUhlYWRlcnNTdGFydCI6ODMwLjYwMDAwMDAwODk0MDcsImZpcnN0SW50ZXJpbVJlc3BvbnNlU3RhcnQiOjAsIndvcmtlclJvdXRlckV2YWx1YXRpb25TdGFydCI6MCwid29ya2VyQ2FjaGVMb29rdXBTdGFydCI6MCwid29ya2VyTWF0Y2hlZFNvdXJjZVR5cGUiOiIiLCJ3b3JrZXJGaW5hbFNvdXJjZVR5cGUiOiIiLCJyZW5kZXJCbG9ja2luZ1N0YXR1cyI6Im5vbi1ibG9ja2luZyIsImNvbnRlbnRFbmNvZGluZyI6InpzdGQiLCJuYW1lIjoiaHR0cHM6Ly9icm93c2VybWluZS5jb20vIiwiZW50cnlUeXBlIjoibmF2aWdhdGlvbiIsInN0YXJ0VGltZSI6MCwiZHVyYXRpb24iOjExOTQuMzAwMDAwMDExOTIxfSwiZHQiOiIiLCJzaXRlVG9rZW4iOiIwNzhlOTJmYzE1M2Y0YjZiYTA4NjFhZTQ5NmU4OTViZSIsInN0IjoyfQ==\"}],\"referrerPolicy\":\"no-referrer\",\"url\":\"https://browsermine.com/cdn-cgi/rum?\"},\"requestId\":\"16848.56\",\"timestamp\":89687.419322,\"type\":\"XHR\",\"wallTime\":1769427171.36417}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171365
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\".browsermine.com\",\"expires\":1800963171,\"httpOnly\":false,\"name\":\"_ym_uid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":26,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"1769427171530374319\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".browsermine.com\",\"expires\":1800963171,\"httpOnly\":false,\"name\":\"_ym_d\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":15,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"1769427171\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.419867},\"headers\":{\":authority\":\"browsermine.com\",\":method\":\"POST\",\":path\":\"/cdn-cgi/rum?\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"content-length\":\"1639\",\"content-type\":\"application/json\",\"cookie\":\"_ym_uid=1769427171530374319; _ym_d=1769427171\",\"origin\":\"https://browsermine.com\",\"priority\":\"u=1, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"empty\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.56\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171365
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/?lang=en\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"no-referrer\",\"url\":\"https://browsermine.com/favicon.ico\"},\"requestId\":\"16848.57\",\"timestamp\":89687.420349,\"type\":\"Other\",\"wallTime\":1769427171.36501}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427171365
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\".browsermine.com\",\"expires\":1800963171,\"httpOnly\":false,\"name\":\"_ym_uid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":26,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"1769427171530374319\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".browsermine.com\",\"expires\":1800963171,\"httpOnly\":false,\"name\":\"_ym_d\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":15,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"1769427171\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.420722},\"headers\":{\":authority\":\"browsermine.com\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"_ym_uid=1769427171530374319; _ym_d=1769427171\",\"priority\":\"u=1, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.57\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-methods\":\"POST,OPTIONS\",\"access-control-allow-origin\":\"https://browsermine.com\",\"access-control-max-age\":\"86400\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-ray\":\"9c3fb12f7fddfd22-SIN\",\"content-type\":\"text/plain\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=1,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=ZbAJjogyXpkpf871BBX8OQjfk7s6GGiFkGLb62Ie1%2BvhoTMUW8tXwOM69TuiH267RiqXIIrd8A8vsvwtpnmmwLyxiWragqbw7yJjAdmFqw%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"Origin, accept-encoding\"},\"requestId\":\"16848.56\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":204}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.56\",\"response\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":128,\"connectionReused\":true,\"encodedDataLength\":442,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-credentials\":\"true\",\"access-control-allow-methods\":\"POST,OPTIONS\",\"access-control-allow-origin\":\"https://browsermine.com\",\"access-control-max-age\":\"86400\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-ray\":\"9c3fb12f7fddfd22-SIN\",\"content-type\":\"text/plain\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=1,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=ZbAJjogyXpkpf871BBX8OQjfk7s6GGiFkGLb62Ie1%2BvhoTMUW8tXwOM69TuiH267RiqXIIrd8A8vsvwtpnmmwLyxiWragqbw7yJjAdmFqw%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"Origin, accept-encoding\"},\"mimeType\":\"text/plain\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.21.44.248\",\"remotePort\":443,\"responseTime\":1.769427171405585e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"browsermine.com\",\"*.browsermine.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B004A5DCE195D72ADB14045037170287E3333790009999F70E1E517865C497A8022100D96D9F852D6EDC24884FAC0DC2C0467866B6366814635ECA85EF4A6D4EF27A74\",\"status\":\"Verified\",\"timestamp\":1.76935544272e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CBA08B939447BB14A265238D67060C8D8B4BA1AC82393EACE30F6127722DC12F022040A78418A69C1E9B8BDB3679C78EFBD892DD956DC21EC41CD2D92E905E469671\",\"status\":\"Verified\",\"timestamp\":1.76935544275e+12}],\"subjectName\":\"browsermine.com\",\"validFrom\":1769351842,\"validTo\":1777131352},\"securityState\":\"secure\",\"status\":204,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":41.208,\"receiveHeadersStart\":41.064,\"requestTime\":89687.419867,\"sendEnd\":0.584,\"sendStart\":0.31,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://browsermine.com/cdn-cgi/rum?\"},\"timestamp\":89687.46178,\"type\":\"XHR\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":442,\"requestId\":\"16848.56\",\"timestamp\":89687.461337}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"age\":\"261084\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12f7fdefd22-SIN\",\"content-encoding\":\"zstd\",\"content-type\":\"image/x-icon\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"69288da1-86be\\\"\",\"expires\":\"Fri, 30 Jan 2026 11:01:26 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=1,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=dtd0AxMrKiHZxKACBHpjtWGNOEyCj0lI%2FE2IvdqJbg48HcYbO5ERp0h3IkN4DMGMvaHoKWm3DRoA1%2B0EPq4tsCQRcb5ZPvoPjj454LDc6w%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"accept-encoding\"},\"requestId\":\"16848.57\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.57\",\"response\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":128,\"connectionReused\":true,\"encodedDataLength\":471,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"age\":\"261084\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=604800\",\"cf-cache-status\":\"HIT\",\"cf-ray\":\"9c3fb12f7fdefd22-SIN\",\"content-encoding\":\"zstd\",\"content-type\":\"image/x-icon\",\"date\":\"Mon, 26 Jan 2026 11:32:51 GMT\",\"etag\":\"W/\\\"69288da1-86be\\\"\",\"expires\":\"Fri, 30 Jan 2026 11:01:26 GMT\",\"last-modified\":\"Thu, 27 Nov 2025 17:42:57 GMT\",\"nel\":\"{\\\"report_to\\\":\\\"cf-nel\\\",\\\"success_fraction\\\":0.0,\\\"max_age\\\":604800}\",\"priority\":\"u=1,i\",\"report-to\":\"{\\\"group\\\":\\\"cf-nel\\\",\\\"max_age\\\":604800,\\\"endpoints\\\":[{\\\"url\\\":\\\"https://a.nel.cloudflare.com/report/v4?s=dtd0AxMrKiHZxKACBHpjtWGNOEyCj0lI%2FE2IvdqJbg48HcYbO5ERp0h3IkN4DMGMvaHoKWm3DRoA1%2B0EPq4tsCQRcb5ZPvoPjj454LDc6w%3D%3D\\\"}]}\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"vary\":\"accept-encoding\"},\"mimeType\":\"image/x-icon\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.21.44.248\",\"remotePort\":443,\"responseTime\":1.769427171412625e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"browsermine.com\",\"*.browsermine.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B004A5DCE195D72ADB14045037170287E3333790009999F70E1E517865C497A8022100D96D9F852D6EDC24884FAC0DC2C0467866B6366814635ECA85EF4A6D4EF27A74\",\"status\":\"Verified\",\"timestamp\":1.76935544272e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100CBA08B939447BB14A265238D67060C8D8B4BA1AC82393EACE30F6127722DC12F022040A78418A69C1E9B8BDB3679C78EFBD892DD956DC21EC41CD2D92E905E469671\",\"status\":\"Verified\",\"timestamp\":1.76935544275e+12}],\"subjectName\":\"browsermine.com\",\"validFrom\":1769351842,\"validTo\":1777131352},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":47.565,\"receiveHeadersStart\":47.25,\"requestTime\":89687.420722,\"sendEnd\":0.595,\"sendStart\":0.4,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://browsermine.com/favicon.ico\"},\"timestamp\":89687.468912,\"type\":\"Other\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":34494,\"encodedDataLength\":4212,\"requestId\":\"16848.57\",\"timestamp\":89687.472192}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":4683,\"requestId\":\"16848.57\",\"timestamp\":89687.471889}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.402209},\"headers\":{\":authority\":\"mc.yandex.ru\",\":method\":\"GET\",\":path\":\"/watch/3?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&page-ref=&charset=utf-8&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A2%3Adp%3A0%3Als%3A1114354726537%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A228443298%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Ast%3A1769427171&t=gdpr(14)clc(0-0-0)rqnt(1)hc(1)aw(1)rcm(1)cdl(na)eco(65536)ti(1)\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://browsermine.com\",\"priority\":\"u=1, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"empty\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.53\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89687.410804},\"headers\":{\":authority\":\"mc.yandex.ru\",\":method\":\"GET\",\":path\":\"/watch/46054206?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&charset=utf-8&uah=chu%0A%22Not(A%3ABrand%22%3Bv%3D%228%22%2C%22Chromium%22%3Bv%3D%22144%22%2C%22Google%20Chrome%22%3Bv%3D%22144%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A144.0.7559.97%0Achl%0A%22Not(A%3ABrand%22%3Bv%3D%228.0.0.0%22%2C%22Chromium%22%3Bv%3D%22144.0.7559.97%22%2C%22Google%20Chrome%22%3Bv%3D%22144.0.7559.97%22%0Achm%0A%3F0%0Achp%0AWindows%0Achv%0A19.0.0&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1024377724909%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A828613546%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Arqnl%3A1%3Ast%3A1769427171%3At%3ABrowserMine.com&t=gdpr(14)clc(0-0-0)rqnt(1)hc(1)aw(1)rcm(1)cdl(na)eco(83952128)ti(1)\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://browsermine.com\",\"priority\":\"u=1, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"empty\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.55\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://browsermine.com\",\"cache-control\":\"private, no-cache, no-store, must-revalidate, max-age=0\",\"expires\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"last-modified\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"location\":\"/watch/3/1?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&page-ref&charset=utf-8&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A2%3Adp%3A0%3Als%3A1114354726537%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A228443298%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Ast%3A1769427171&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29hc%281%29aw%281%29rcm%281%29cdl%28na%29eco%2865536%29ti%281%29&redirnss=1\",\"pragma\":\"no-cache\",\"set-cookie\":\"yabs-sid=1838780141769427172; Path=/; SameSite=None; Secure\\ni=hKIPt+Ey/UkgAo2C04JICpaZ0mnALUBFw27mi7QW/DsYyjN34YkqWkj5GksoIsnCJ29F407d+KY8sGmYWq3RMioJ65U=; Expires=Thu, 24-Jan-2036 11:32:52 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly; SameSite=None\\nyandexuid=4791669101769427172; Expires=Thu, 24-Jan-2036 11:32:52 GMT; Domain=.yandex.ru; Path=/; Secure; SameSite=None\\nyuidss=4791669101769427172; Expires=Thu, 24-Jan-2036 11:32:52 GMT; Domain=.yandex.ru; Path=/; SameSite=None; Secure\\nymex=2084787172.yrts.1769427172#2084787172.yrtsi.1769427172; Expires=Tue, 26-Jan-2027 11:32:52 GMT; Domain=.yandex.ru; Path=/; SameSite=None; Secure\\nbh=EkAiTm90KEE6QnJhbmQiO3Y9IjgiLCAiQ2hyb21pdW0iO3Y9IjE0NCIsICJHb29nbGUgQ2hyb21lIjt2PSIxNDQiKgI/MDoJIldpbmRvd3MiYOSh3csGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYP6YPMhwg=; Path=/; Domain=.yandex.ru; Expires=Tue, 02 Mar 2027 11:32:52 GMT; SameSite=None; Secure\\nbh=EkAiTm90KEE6QnJhbmQiO3Y9IjgiLCAiQ2hyb21pdW0iO3Y9IjE0NCIsICJHb29nbGUgQ2hyb21lIjt2PSIxNDQiKgI/MDoJIldpbmRvd3MiYOSh3csGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYP6YPMhwg=; Path=/; Domain=.yandex.ru; Expires=Tue, 02 Mar 2027 11:32:52 GMT; SameSite=None; Secure\",\"strict-transport-security\":\"max-age=31536000\",\"x-xss-protection\":\"1; mode=block\"},\"requestId\":\"16848.53\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":302}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/?lang=en\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":true,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":205,\"connectionReused\":false,\"encodedDataLength\":1685,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://browsermine.com\",\"cache-control\":\"private, no-cache, no-store, must-revalidate, max-age=0\",\"expires\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"last-modified\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"location\":\"/watch/3/1?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&page-ref&charset=utf-8&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A2%3Adp%3A0%3Als%3A1114354726537%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A228443298%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Ast%3A1769427171&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29hc%281%29aw%281%29rcm%281%29cdl%28na%29eco%2865536%29ti%281%29&redirnss=1\",\"pragma\":\"no-cache\",\"strict-transport-security\":\"max-age=31536000\",\"x-xss-protection\":\"1; mode=block\"},\"mimeType\":\"\",\"protocol\":\"h2\",\"remoteIPAddress\":\"87.250.251.119\",\"remotePort\":443,\"responseTime\":1.769427172009449e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"GlobalSign ECC OV SSL CA 2018\",\"keyExchange\":\"ECDHE_ECDSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"mc.yandex.ru\",\"informer.yandex.ru\",\"mc.yandex.com\",\"mc.yandex.by\",\"mc.yandex.com.tr\",\"mc.yandex.kz\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30450220042539AF12BCC30703CF0C9FE27DCEFF6609E18CEE97D594FC6F6B5EA30E6412022100FDDE3936EE8AC27794F84CBB30C9C9DD2FE2E9FD338F2A6B8FCC4BE399B2C981\",\"status\":\"Verified\",\"timestamp\":1.768338910964e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100D78005CA8F982BB6799D11AA7FD1E44582015FB4596868E070B8A3E646961A0B0220518266E7A498D2CFEDC204CE0FD95DF21877418E6F2703EE958424898D8507BE\",\"status\":\"Verified\",\"timestamp\":1.768338910559e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022072D1974F24683933B85B89FCF366CD6CC35B0FCD40E2698087921AB4CDE9F36D022100A3011F34CDE133FA7A75AB52410C22EF5B4E6C3568232CEAFD0EC77ABB31CF63\",\"status\":\"Verified\",\"timestamp\":1.768338911029e+12}],\"subjectName\":\"mc.yandex.ru\",\"validFrom\":1768338907,\"validTo\":1782421199},\"securityState\":\"secure\",\"status\":302,\"statusText\":\"\",\"timing\":{\"connectEnd\":444.867,\"connectStart\":10.507,\"dnsEnd\":9.733,\"dnsStart\":0.606,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":662.88,\"receiveHeadersStart\":662.462,\"requestTime\":89687.402209,\"sendEnd\":445.416,\"sendStart\":445.222,\"sslEnd\":444.859,\"sslStart\":226.157,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://mc.yandex.ru/watch/3?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&page-ref=&charset=utf-8&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A2%3Adp%3A0%3Als%3A1114354726537%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A228443298%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Ast%3A1769427171&t=gdpr(14)clc(0-0-0)rqnt(1)hc(1)aw(1)rcm(1)cdl(na)eco(65536)ti(1)\"},\"request\":{\"headers\":{\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"High\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"no-referrer\",\"url\":\"https://mc.yandex.ru/watch/3/1?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&page-ref&charset=utf-8&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A2%3Adp%3A0%3Als%3A1114354726537%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A228443298%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Ast%3A1769427171&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29hc%281%29aw%281%29rcm%281%29cdl%28na%29eco%2865536%29ti%281%29&redirnss=1\"},\"requestId\":\"16848.53\",\"timestamp\":89688.066789,\"type\":\"Fetch\",\"wallTime\":1769427172.011512}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"mc.yandex.ru\",\"expires\":-1,\"httpOnly\":false,\"name\":\"yabs-sid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":true,\"size\":27,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"1838780141769427172\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1803987172.009944,\"httpOnly\":true,\"name\":\"i\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":93,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"hKIPt+Ey/UkgAo2C04JICpaZ0mnALUBFw27mi7QW/DsYyjN34YkqWkj5GksoIsnCJ29F407d+KY8sGmYWq3RMioJ65U=\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1803987172.010077,\"httpOnly\":false,\"name\":\"yandexuid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":28,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4791669101769427172\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1803987172.010144,\"httpOnly\":false,\"name\":\"yuidss\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":25,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4791669101769427172\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1800963172,\"httpOnly\":false,\"name\":\"ymex\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":58,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"2084787172.yrts.1769427172#2084787172.yrtsi.1769427172\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1803987172,\"httpOnly\":false,\"name\":\"bh\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":162,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"EkAiTm90KEE6QnJhbmQiO3Y9IjgiLCAiQ2hyb21pdW0iO3Y9IjE0NCIsICJHb29nbGUgQ2hyb21lIjt2PSIxNDQiKgI/MDoJIldpbmRvd3MiYOSh3csGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYP6YPMhwg=\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89688.06715},\"headers\":{\":authority\":\"mc.yandex.ru\",\":method\":\"GET\",\":path\":\"/watch/3/1?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&page-ref&charset=utf-8&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A2%3Adp%3A0%3Als%3A1114354726537%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A228443298%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Ast%3A1769427171&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29hc%281%29aw%281%29rcm%281%29cdl%28na%29eco%2865536%29ti%281%29&redirnss=1\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"yabs-sid=1838780141769427172; i=hKIPt+Ey/UkgAo2C04JICpaZ0mnALUBFw27mi7QW/DsYyjN34YkqWkj5GksoIsnCJ29F407d+KY8sGmYWq3RMioJ65U=; yandexuid=4791669101769427172; yuidss=4791669101769427172; ymex=2084787172.yrts.1769427172#2084787172.yrtsi.1769427172; bh=EkAiTm90KEE6QnJhbmQiO3Y9IjgiLCAiQ2hyb21pdW0iO3Y9IjE0NCIsICJHb29nbGUgQ2hyb21lIjt2PSIxNDQiKgI/MDoJIldpbmRvd3MiYOSh3csGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYP6YPMhwg=\",\"origin\":\"https://browsermine.com\",\"priority\":\"u=1, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"empty\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.53\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[{\"blockedReasons\":[\"SameSiteUnspecifiedTreatedAsLax\"],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1803987172.014662,\"httpOnly\":false,\"name\":\"_yasc\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"secure\":true,\"session\":false,\"size\":69,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"ixotV0CRGdXnltj30oNRtbztH63QExrwyBjJcUui/5NiE6tONcsk52x5hj8q2LcZ\"},\"cookieLine\":\"_yasc=ixotV0CRGdXnltj30oNRtbztH63QExrwyBjJcUui/5NiE6tONcsk52x5hj8q2LcZ; domain=.yandex.ru; path=/; expires=Thu, 24 Jan 2036 11:32:52 GMT; secure\"}],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://browsermine.com\",\"cache-control\":\"private, no-cache, no-store, must-revalidate, max-age=0\",\"expires\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"last-modified\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"location\":\"/watch/46054206/1?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&charset=utf-8&uah=chu%0A%22Not%28A%3ABrand%22%3Bv%3D%228%22%2C%22Chromium%22%3Bv%3D%22144%22%2C%22Google%20Chrome%22%3Bv%3D%22144%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A144.0.7559.97%0Achl%0A%22Not%28A%3ABrand%22%3Bv%3D%228.0.0.0%22%2C%22Chromium%22%3Bv%3D%22144.0.7559.97%22%2C%22Google%20Chrome%22%3Bv%3D%22144.0.7559.97%22%0Achm%0A%3F0%0Achp%0AWindows%0Achv%0A19.0.0&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1024377724909%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A828613546%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Arqnl%3A1%3Ast%3A1769427171%3At%3ABrowserMine.com&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29hc%281%29aw%281%29rcm%281%29cdl%28na%29eco%2883952128%29ti%281%29&redirnss=1\",\"pragma\":\"no-cache\",\"set-cookie\":\"yabs-sid=1461729291769427172; Path=/; SameSite=None; Secure\\ni=gjVfx+yCcv3olvKlyN/Sf8Oj2vV1HYaMTo8u4dnV5HWJfIuHlDCthLSPSpgfS1GQsfhpscey+cIJ5wBpwr2aRgpGKA4=; Expires=Thu, 24-Jan-2036 11:32:52 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly; SameSite=None\\nyandexuid=3056937971769427172; Expires=Thu, 24-Jan-2036 11:32:52 GMT; Domain=.yandex.ru; Path=/; Secure; SameSite=None\\nyuidss=3056937971769427172; Expires=Thu, 24-Jan-2036 11:32:52 GMT; Domain=.yandex.ru; Path=/; SameSite=None; Secure\\nymex=2084787172.yrts.1769427172#2084787172.yrtsi.1769427172; Expires=Tue, 26-Jan-2027 11:32:52 GMT; Domain=.yandex.ru; Path=/; SameSite=None; Secure\\nbh=Ej4iTm90KEE6QnJhbmQiO3Y9IjgiLCJDaHJvbWl1bSI7dj0iMTQ0IiwiR29vZ2xlIENocm9tZSI7dj0iMTQ0IhoDeDg2Ig0xNDQuMC43NTU5Ljk3KgI/MDoHV2luZG93c0IGMTkuMC4wSgI2NFJYIk5vdChBOkJyYW5kIjt2PSI4LjAuMC4wIiwiQ2hyb21pdW0iO3Y9IjE0NC4wLjc1NTkuOTciLCJHb29nbGUgQ2hyb21lIjt2PSIxNDQuMC43NTU5Ljk3ImDkod3LBmoe3Mrh/wiS2KGxA5/P4eoD+/rw5w3r//32D+mDzIcI; Path=/; Domain=.yandex.ru; Expires=Tue, 02 Mar 2027 11:32:52 GMT; SameSite=None; Secure\\n_yasc=ixotV0CRGdXnltj30oNRtbztH63QExrwyBjJcUui/5NiE6tONcsk52x5hj8q2LcZ; domain=.yandex.ru; path=/; expires=Thu, 24 Jan 2036 11:32:52 GMT; secure\\nbh=EkAiTm90KEE6QnJhbmQiO3Y9IjgiLCAiQ2hyb21pdW0iO3Y9IjE0NCIsICJHb29nbGUgQ2hyb21lIjt2PSIxNDQiKgI/MDoJIldpbmRvd3MiYOSh3csGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYP6YPMhwg=; Path=/; Domain=.yandex.ru; Expires=Tue, 02 Mar 2027 11:32:52 GMT; SameSite=None; Secure\",\"strict-transport-security\":\"max-age=31536000\",\"x-xss-protection\":\"1; mode=block\"},\"requestId\":\"16848.55\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":302}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://browsermine.com/?lang=en\",\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"redirectHasExtraInfo\":true,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":205,\"connectionReused\":true,\"encodedDataLength\":1627,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://browsermine.com\",\"cache-control\":\"private, no-cache, no-store, must-revalidate, max-age=0\",\"expires\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"last-modified\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"location\":\"/watch/46054206/1?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&charset=utf-8&uah=chu%0A%22Not%28A%3ABrand%22%3Bv%3D%228%22%2C%22Chromium%22%3Bv%3D%22144%22%2C%22Google%20Chrome%22%3Bv%3D%22144%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A144.0.7559.97%0Achl%0A%22Not%28A%3ABrand%22%3Bv%3D%228.0.0.0%22%2C%22Chromium%22%3Bv%3D%22144.0.7559.97%22%2C%22Google%20Chrome%22%3Bv%3D%22144.0.7559.97%22%0Achm%0A%3F0%0Achp%0AWindows%0Achv%0A19.0.0&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1024377724909%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A828613546%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Arqnl%3A1%3Ast%3A1769427171%3At%3ABrowserMine.com&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29hc%281%29aw%281%29rcm%281%29cdl%28na%29eco%2883952128%29ti%281%29&redirnss=1\",\"pragma\":\"no-cache\",\"strict-transport-security\":\"max-age=31536000\",\"x-xss-protection\":\"1; mode=block\"},\"mimeType\":\"\",\"protocol\":\"h2\",\"remoteIPAddress\":\"87.250.251.119\",\"remotePort\":443,\"responseTime\":1.769427172014284e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"GlobalSign ECC OV SSL CA 2018\",\"keyExchange\":\"ECDHE_ECDSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"mc.yandex.ru\",\"informer.yandex.ru\",\"mc.yandex.com\",\"mc.yandex.by\",\"mc.yandex.com.tr\",\"mc.yandex.kz\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30450220042539AF12BCC30703CF0C9FE27DCEFF6609E18CEE97D594FC6F6B5EA30E6412022100FDDE3936EE8AC27794F84CBB30C9C9DD2FE2E9FD338F2A6B8FCC4BE399B2C981\",\"status\":\"Verified\",\"timestamp\":1.768338910964e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100D78005CA8F982BB6799D11AA7FD1E44582015FB4596868E070B8A3E646961A0B0220518266E7A498D2CFEDC204CE0FD95DF21877418E6F2703EE958424898D8507BE\",\"status\":\"Verified\",\"timestamp\":1.768338910559e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022072D1974F24683933B85B89FCF366CD6CC35B0FCD40E2698087921AB4CDE9F36D022100A3011F34CDE133FA7A75AB52410C22EF5B4E6C3568232CEAFD0EC77ABB31CF63\",\"status\":\"Verified\",\"timestamp\":1.768338911029e+12}],\"subjectName\":\"mc.yandex.ru\",\"validFrom\":1768338907,\"validTo\":1782421199},\"securityState\":\"secure\",\"status\":302,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":658.901,\"receiveHeadersStart\":658.815,\"requestTime\":89687.410804,\"sendEnd\":436.822,\"sendStart\":436.688,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://mc.yandex.ru/watch/46054206?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&charset=utf-8&uah=chu%0A%22Not(A%3ABrand%22%3Bv%3D%228%22%2C%22Chromium%22%3Bv%3D%22144%22%2C%22Google%20Chrome%22%3Bv%3D%22144%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A144.0.7559.97%0Achl%0A%22Not(A%3ABrand%22%3Bv%3D%228.0.0.0%22%2C%22Chromium%22%3Bv%3D%22144.0.7559.97%22%2C%22Google%20Chrome%22%3Bv%3D%22144.0.7559.97%22%0Achm%0A%3F0%0Achp%0AWindows%0Achv%0A19.0.0&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1024377724909%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A828613546%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Arqnl%3A1%3Ast%3A1769427171%3At%3ABrowserMine.com&t=gdpr(14)clc(0-0-0)rqnt(1)hc(1)aw(1)rcm(1)cdl(na)eco(83952128)ti(1)\"},\"request\":{\"headers\":{\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"High\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"no-referrer\",\"url\":\"https://mc.yandex.ru/watch/46054206/1?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&charset=utf-8&uah=chu%0A%22Not%28A%3ABrand%22%3Bv%3D%228%22%2C%22Chromium%22%3Bv%3D%22144%22%2C%22Google%20Chrome%22%3Bv%3D%22144%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A144.0.7559.97%0Achl%0A%22Not%28A%3ABrand%22%3Bv%3D%228.0.0.0%22%2C%22Chromium%22%3Bv%3D%22144.0.7559.97%22%2C%22Google%20Chrome%22%3Bv%3D%22144.0.7559.97%22%0Achm%0A%3F0%0Achp%0AWindows%0Achv%0A19.0.0&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1024377724909%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A828613546%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Arqnl%3A1%3Ast%3A1769427171%3At%3ABrowserMine.com&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29hc%281%29aw%281%29rcm%281%29cdl%28na%29eco%2883952128%29ti%281%29&redirnss=1\"},\"requestId\":\"16848.55\",\"timestamp\":89688.070584,\"type\":\"Fetch\",\"wallTime\":1769427172.015279}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1800963172,\"httpOnly\":false,\"name\":\"ymex\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":58,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"2084787172.yrts.1769427172#2084787172.yrtsi.1769427172\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\"mc.yandex.ru\",\"expires\":-1,\"httpOnly\":false,\"name\":\"yabs-sid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":true,\"size\":27,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"1461729291769427172\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1803987172.014473,\"httpOnly\":true,\"name\":\"i\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":93,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"gjVfx+yCcv3olvKlyN/Sf8Oj2vV1HYaMTo8u4dnV5HWJfIuHlDCthLSPSpgfS1GQsfhpscey+cIJ5wBpwr2aRgpGKA4=\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1803987172.014521,\"httpOnly\":false,\"name\":\"yandexuid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":28,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"3056937971769427172\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1803987172.014577,\"httpOnly\":false,\"name\":\"yuidss\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":25,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"3056937971769427172\"},\"exemptionReason\":\"None\"},{\"blockedReasons\":[],\"cookie\":{\"domain\":\".yandex.ru\",\"expires\":1803987172,\"httpOnly\":false,\"name\":\"bh\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":162,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"EkAiTm90KEE6QnJhbmQiO3Y9IjgiLCAiQ2hyb21pdW0iO3Y9IjE0NCIsICJHb29nbGUgQ2hyb21lIjt2PSIxNDQiKgI/MDoJIldpbmRvd3MiYOSh3csGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYP6YPMhwg=\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":89688.070844},\"headers\":{\":authority\":\"mc.yandex.ru\",\":method\":\"GET\",\":path\":\"/watch/46054206/1?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&charset=utf-8&uah=chu%0A%22Not%28A%3ABrand%22%3Bv%3D%228%22%2C%22Chromium%22%3Bv%3D%22144%22%2C%22Google%20Chrome%22%3Bv%3D%22144%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A144.0.7559.97%0Achl%0A%22Not%28A%3ABrand%22%3Bv%3D%228.0.0.0%22%2C%22Chromium%22%3Bv%3D%22144.0.7559.97%22%2C%22Google%20Chrome%22%3Bv%3D%22144.0.7559.97%22%0Achm%0A%3F0%0Achp%0AWindows%0Achv%0A19.0.0&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1024377724909%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A828613546%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Arqnl%3A1%3Ast%3A1769427171%3At%3ABrowserMine.com&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29hc%281%29aw%281%29rcm%281%29cdl%28na%29eco%2883952128%29ti%281%29&redirnss=1\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"ymex=2084787172.yrts.1769427172#2084787172.yrtsi.1769427172; yabs-sid=1461729291769427172; i=gjVfx+yCcv3olvKlyN/Sf8Oj2vV1HYaMTo8u4dnV5HWJfIuHlDCthLSPSpgfS1GQsfhpscey+cIJ5wBpwr2aRgpGKA4=; yandexuid=3056937971769427172; yuidss=3056937971769427172; bh=EkAiTm90KEE6QnJhbmQiO3Y9IjgiLCAiQ2hyb21pdW0iO3Y9IjE0NCIsICJHb29nbGUgQ2hyb21lIjt2PSIxNDQiKgI/MDoJIldpbmRvd3MiYOSh3csGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYP6YPMhwg=\",\"origin\":\"https://browsermine.com\",\"priority\":\"u=1, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"empty\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16848.55\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://browsermine.com\",\"cache-control\":\"private, no-cache, no-store, must-revalidate, max-age=0\",\"content-length\":\"435\",\"content-type\":\"application/json; charset=utf-8\",\"expires\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"last-modified\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"pragma\":\"no-cache\",\"strict-transport-security\":\"max-age=31536000\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"1; mode=block\"},\"requestId\":\"16848.53\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.53\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":205,\"connectionReused\":true,\"encodedDataLength\":335,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://browsermine.com\",\"cache-control\":\"private, no-cache, no-store, must-revalidate, max-age=0\",\"content-length\":\"435\",\"content-type\":\"application/json; charset=utf-8\",\"expires\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"last-modified\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"pragma\":\"no-cache\",\"strict-transport-security\":\"max-age=31536000\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"1; mode=block\"},\"mimeType\":\"application/json\",\"protocol\":\"h2\",\"remoteIPAddress\":\"87.250.251.119\",\"remotePort\":443,\"responseTime\":1.769427172233485e+12,\"securityState\":\"unknown\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":221.747,\"receiveHeadersStart\":221.683,\"requestTime\":89688.06715,\"sendEnd\":0.753,\"sendStart\":0.616,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://mc.yandex.ru/watch/3/1?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&page-ref&charset=utf-8&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A2%3Adp%3A0%3Als%3A1114354726537%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A228443298%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Ast%3A1769427171&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29hc%281%29aw%281%29rcm%281%29cdl%28na%29eco%2865536%29ti%281%29&redirnss=1\"},\"timestamp\":89688.289861,\"type\":\"Fetch\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":435,\"encodedDataLength\":444,\"requestId\":\"16848.53\",\"timestamp\":89688.290219}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":779,\"requestId\":\"16848.53\",\"timestamp\":89688.289237}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://browsermine.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://browsermine.com\",\"cache-control\":\"private, no-cache, no-store, must-revalidate, max-age=0\",\"content-length\":\"625\",\"content-type\":\"application/json; charset=utf-8\",\"expires\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"last-modified\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"pragma\":\"no-cache\",\"strict-transport-security\":\"max-age=31536000\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"1; mode=block\"},\"requestId\":\"16848.55\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\",\"hasExtraInfo\":true,\"loaderId\":\"29BD4FC2A8B9AEC546C65E091688568C\",\"requestId\":\"16848.55\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":205,\"connectionReused\":true,\"encodedDataLength\":115,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"access-control-allow-credentials\":\"true\",\"access-control-allow-origin\":\"https://browsermine.com\",\"cache-control\":\"private, no-cache, no-store, must-revalidate, max-age=0\",\"content-length\":\"625\",\"content-type\":\"application/json; charset=utf-8\",\"expires\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"last-modified\":\"Mon, 26-Jan-2026 11:32:52 GMT\",\"pragma\":\"no-cache\",\"strict-transport-security\":\"max-age=31536000\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"1; mode=block\"},\"mimeType\":\"application/json\",\"protocol\":\"h2\",\"remoteIPAddress\":\"87.250.251.119\",\"remotePort\":443,\"responseTime\":1.769427172236451e+12,\"securityState\":\"unknown\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":221.031,\"receiveHeadersStart\":220.958,\"requestTime\":89688.070844,\"sendEnd\":0.475,\"sendStart\":0.375,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://mc.yandex.ru/watch/46054206/1?wmode=7&page-url=https%3A%2F%2Fbrowsermine.com%2F%3Flang%3Den&charset=utf-8&uah=chu%0A%22Not%28A%3ABrand%22%3Bv%3D%228%22%2C%22Chromium%22%3Bv%3D%22144%22%2C%22Google%20Chrome%22%3Bv%3D%22144%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A144.0.7559.97%0Achl%0A%22Not%28A%3ABrand%22%3Bv%3D%228.0.0.0%22%2C%22Chromium%22%3Bv%3D%22144.0.7559.97%22%2C%22Google%20Chrome%22%3Bv%3D%22144.0.7559.97%22%0Achm%0A%3F0%0Achp%0AWindows%0Achv%0A19.0.0&browser-info=pv%3A1%3Avf%3A6dxo56vtzxzyyc4emdpvks38xllgf%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A2292%3Acn%3A1%3Adp%3A0%3Als%3A1024377724909%3Ahid%3A64033600%3Az%3A330%3Ai%3A20260126170251%3Aet%3A1769427171%3Ac%3A1%3Arn%3A828613546%3Arqn%3A1%3Au%3A1769427171530374319%3Aw%3A747x432%3As%3A800x600x24%3Ask%3A1%3Afp%3A928%3Awv%3A2%3Ads%3A111%2C87%2C620%2C2%2C2%2C0%2C%2C105%2C0%2C%2C%2C%2C944%3Aco%3A0%3Ahdl%3A1%3Acpf%3A1%3Ans%3A1769427170166%3Arqnl%3A1%3Ast%3A1769427171%3At%3ABrowserMine.com&t=gdpr%2814%29clc%280-0-0%29rqnt%281%29hc%281%29aw%281%29rcm%281%29cdl%28na%29eco%2883952128%29ti%281%29&redirnss=1\"},\"timestamp\":89688.292833,\"type\":\"Fetch\"}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":625,\"encodedDataLength\":0,\"requestId\":\"16848.55\",\"timestamp\":89688.293042}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":634,\"requestId\":\"16848.55\",\"timestamp\":89688.293266}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":749,\"requestId\":\"16848.55\",\"timestamp\":89688.292253}},\"webview\":\"2DFB5B1BF4C37EE6887B11B08226E8AB\"}",
+    "timestamp": 1769427176368
+  }
+]
