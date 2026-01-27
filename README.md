@@ -1,175 +1,184 @@
-# Cryptojacking Detection for Browser
-
-## PROBLEM STATEMENT
-
-Design and evaluate a hybrid classical - quantum machine learning framework for browser-based cryptojacking detection that:
-
-(a) combines static (URL / HTML / JS / Wasm) and dynamic (CPU, network, DNS, timing) signals
-
-(b) is resilient to WebAssembly obfuscation and code diversification 
-
-(c) demonstrates whether and how QML components improve detection, early-warning latency, and robustness compared to state-of-the-art classical baselines.
-
-## Authors
-
-1) Aryan Jain ([aryan802](https://github.com/aryan802))
-2) Mridul Yadav ([mridul2493](https://github.com/mridul2493))
-
-under guidance of Dr. Adrija Bhattacharya
-
-## Overview
-
-This project develops an intelligent detection mechanism for cryptojacking—malicious code that hijacks browser resources to mine cryptocurrencies without user consent. Unlike traditional signature-based approaches, our system uses fine-grained browser execution metrics and behavioral analysis to detect cryptojacking attacks early, making it resilient against obfuscation and code variations.
-
-## Key Features
-
-- **Dynamic Behavior Capture**: Monitors CPU usage, network traffic, and memory heap growth in real-time
-- **Static Code Analysis**: Detects WebAssembly (WASM) files and suspicious JavaScript patterns
-- **Evasion-Resistant Detection**: Works independently of static code features, making it robust against obfuscation
-- **Isolated Browser Instances**: Each website is crawled in a separate browser to eliminate caching bias and cross-site artifacts
-- **Dual Crawling Modes**: Fast screening mode for initial candidate identification and deep crawl mode for detailed analysis
-- **Comprehensive Data Pipeline**: Automated collection, validation, and labeling of benign and cryptojacking datasets
-
-## Technical Architecture
-
-### Components
-
-1. **Web Crawler**: Opens URLs, captures page source, network requests, and extracts WASM URLs
-2. **Asset Extractor**: Downloads and locally loads JavaScript and WASM files for analysis
-3. **Metrics Collector**: Gathers fine-grained browser execution metrics via Chrome DevTools
-4. **Candidate Generator**: Identifies cryptojacking candidates based on multiple indicators
-5. **Dataset Pipeline**: Standardizes, validates, and labels data for model training
-
-### Detection Indicators
-
-**Indicator 1: WebAssembly Presence**
-- WASM detection as a primary screening indicator
-- Based on observation that normal page loads rarely require WASM
-- Robust against obfuscation (WASM presence isn't removed by code transformation)
-
-**Indicator 2: Runtime Behavior Anomalies**
-Monitored metrics collected over multiple time windows (5s, 10s, 30s):
-- `JSHeapUsedSize`: Memory heap usage patterns
-- `TaskDuration`: Browser task execution duration
-- `ScriptDuration`: JavaScript execution time
-- `ProcessTime`: Overall process runtime
-
-A site is flagged as a cryptojacking candidate if it exhibits:
-```
-WASM_present OR suspicious_runtime_behavior
-```
-
-## Dataset Strategy
-
-### Target Scale
-- **Benign websites**: 300-500 initial, ~100-150 validated
-- **Cryptojacking websites**: 150-300 initial, ~60-100 validated
-
-### Data Sources
-- **Cryptojacking URLs**: URLhaus, GitHub repositories
-- **Benign URLs**: Tranco top sites list
-- **Data Validation**: Fault-tolerant pipeline to handle dead domains and false positives
-
-### Crawling Modes
-
-| Aspect | Fast Crawl | Deep Crawl |
-|--------|-----------|-----------|
-| Wait Time | 5 seconds | 15 seconds |
-| Metric Duration | 10 seconds | 30 seconds |
-| HTML Capture | ❌ No | ✅ Yes |
-| Scope | Many sites (screening) | Validated candidates only |
-| Purpose | Initial screening | Final dataset preparation |
-
-### Data Collection Workflow
-1. **Fast Crawl**: Rapid screening on candidate list using WASM and runtime indicators
-2. **Indicator Analysis**: Filter by WASM presence and suspicious behavior
-3. **Deep Crawl**: Detailed analysis on high-confidence candidates with full HTML and metrics
-4. **Validation**: Manual verification to eliminate false positives and dead domains
-
-## Project Timeline
-
-### January 23-24
-- Project structure and library setup
-- Web crawler development (URL opening, page source capture, network request logging)
-- JavaScript and WASM file extraction and local loading
-- Dynamic behavior capture pipeline implementation
-- Browser metrics collection via Chrome DevTools (CPU, network, timing windows)
-
-### January 25-26
-- Dataset standardization and labeling
-- Data collection pipeline completion
-- Fast and deep crawling mode implementation
-- Isolated browser instance architecture (per-site isolation)
-- WebAssembly detector development
-- Runtime behavior analysis (CPU + heap growth detection)
-- Cryptojacking candidate generation and filtering
-- Validation pipeline for false positive reduction
-- Final labeled dataset preparation in progress
-
-### January 27
-- 89 crypto samples, now fast crawling over 160 benign samples
-- Currently have 89 crypto and 177 benign with fast crawl
-- Now we have runtime metrics (time series), network logs, and early execution behaviour
-- Its perfect for early detection, anomaly detection, and qml(which prefers small samples)
-- Next steps for today will be
-     -  Dataset finalization & labelling
-     -  Feature extraction (from FAST data crawl)
-
-
-## Requirements
-
-- Python 3.12+
-- Chrome/Chromium browser
-- ChromeDriver
-- Chrome DevTools Protocol support
-
-## Usage
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run fast crawl on candidate list
-python crawler.py --mode fast --input candidates.txt
-
-# Run deep crawl for validation
-python crawler.py --mode deep --input validated_candidates.txt
-
-# Analyze and label dataset
-python dataset_processor.py --input raw_data/ --output labeled_data/
-```
-
-## Data Storage
-
-All collected data is organized in a structured format:
-```
-data/
-├── raw/
-│   ├── page_sources/
-│   ├── network_requests/
-│   ├── javascript_files/
-│   ├── wasm_files/
-│   └── metrics/
-└── labeled/
-    ├── benign/
-    └── cryptojacking/
-```
-
-## Notes
-
-- False negatives are not acceptable in cryptojacking detection
-- The system prioritizes precision to minimize false positives in the dataset
-- Each website is analyzed in isolation to ensure data integrity
-- WASM presence combined with runtime anomalies provides high-confidence detection signals
-
-
-## References
-
-- URLhaus: https://urlhaus.abuse.ch/
-- Tranco Top Sites: https://tranco-list.eu/
-- Chrome DevTools Protocol Documentation
+# Cryptojacking Detection for Browsers
+### Early Detection using Classical ML and Quantum Machine Learning (QML)
 
 ---
 
-**Status**: Active Development - Currently doing Data collection and validation pipeline, next will move towards classical baselines models
+## 📌 Problem Statement
+
+Design and evaluate an early-stage browser-based cryptojacking detection framework that:
+
+1. Leverages **dynamic browser execution behavior** (runtime and network signals) rather than static signatures  
+2. Is **resilient to JavaScript and WebAssembly obfuscation and code diversification**  
+3. Evaluates whether **Quantum Machine Learning (QML)** provides advantages over classical ML in **small-sample, early-detection scenarios**
+
+---
+
+## 👥 Authors
+
+- **Aryan Jain** — [@aryan802](https://github.com/aryan802)  
+- **Mridul Yadav** — [@mridul2493](https://github.com/mridul2493)  
+
+**Under the guidance of:**  
+Dr. Adrija Bhattacharya
+
+---
+
+## 🧠 Overview
+
+Cryptojacking is a stealthy browser-based attack in which malicious JavaScript or WebAssembly code exploits user devices to mine cryptocurrency without consent. Signature-based and static approaches are increasingly ineffective due to obfuscation, rapid infrastructure churn, and short-lived campaigns.
+
+This project proposes a **behavior-first detection pipeline** that analyzes **early browser execution traces**—including memory usage, task execution behavior, and network activity—to detect cryptojacking within the **first few seconds of page load**.
+
+The framework is explicitly designed for:
+- early detection
+- evasion resistance
+- small, high-quality datasets  
+making it particularly suitable for **QML experimentation**.
+
+---
+
+## ✨ Key Features
+
+- **Early Detection Focus** using short execution windows (FAST crawl)
+- **Dynamic Runtime Analysis** via Chrome DevTools metrics
+- **Network-Aware Detection** (request patterns, scripts, WASM activity)
+- **Obfuscation-Resilient Design** independent of code signatures
+- **Fault-Tolerant Crawling** for dead and sinkholed domains
+- **QML-Compatible Feature Space** (≤ 12 numeric features)
+
+---
+
+## 🏗️ Technical Architecture
+
+### Core Components
+
+1. **FAST Web Crawler**
+   - Headless Chrome-based crawler
+   - Collects runtime metrics and network logs
+   - Designed for large-scale screening
+
+2. **Runtime Metrics Collector**
+   - Extracts fine-grained execution metrics
+   - Focus on early behavioral signals
+
+3. **Network Log Analyzer**
+   - Parses request counts, script loads, WASM activity, and host diversity
+
+4. **Indicator-Based Screening**
+   - Lightweight heuristics for candidate selection
+   - Used only for dataset curation, not final labeling
+
+5. **Dataset Builder**
+   - Ensures strict separation of benign and cryptojacking data
+   - Prevents cross-contamination and overwriting
+
+---
+
+## 🚩 Detection Indicators (Screening Stage)
+
+> Indicators are used **only for candidate identification**, not for final labels.
+
+### Indicator 1 — WebAssembly Presence
+- WASM usage as a high-recall screening signal
+- Robust against code obfuscation
+
+### Indicator 2 — Runtime Behavioral Anomalies
+Collected over short windows (~10 seconds):
+- `JSHeapUsedSize`
+- `TaskDuration`
+- Overall execution dynamics
+
+A site is flagged as a candidate if:
+WASM present OR suspicious runtime behavior
+
+
+---
+
+## 📊 Dataset Summary (Current)
+
+| Class | Count | Crawl Mode |
+|-----|------|-----------|
+| Cryptojacking | 89 | FAST |
+| Benign | 177 | FAST |
+| **Total** | **266** | |
+
+### Data Sources
+- **Cryptojacking candidates**: Public threat intelligence feeds, academic datasets, blocklists
+- **Benign websites**: Tranco Top Sites list
+
+Due to the ephemeral nature of cryptojacking infrastructure, many candidate domains are unreachable at crawl time. Only successfully crawled sites are retained.
+
+---
+
+## ⚡ Crawling Modes
+
+| Feature | FAST Crawl |
+|------|-----------|
+| Wait time | ~5 seconds |
+| Metric window | ~10 seconds |
+| HTML capture | No |
+| Scale | Hundreds of sites |
+| Purpose | Early detection & screening |
+
+This project intentionally focuses on **FAST crawl data** for early detection analysis.
+
+---
+
+## 🧪 Feature Extraction (FAST Data)
+
+### Runtime Features
+1. `task_mean` — mean TaskDuration  
+2. `task_std` — standard deviation of TaskDuration  
+3. `heap_delta` — last − first JSHeapUsedSize  
+4. `heap_mean`  
+5. `heap_std`
+
+### Network Features
+6. `total_requests`  
+7. `script_requests`  
+8. `wasm_requests`  
+9. `unique_hosts`
+
+**Total features: 9**  
+Optimized for anomaly detection and QML models.
+
+---
+
+## 🧬 Project Status
+
+- ✅ Crawling and data collection pipeline completed
+- ✅ Robust handling of dead cryptojacking domains
+- ✅ Final labeled dataset prepared
+- ✅ FAST runtime and network features extracted
+- 🔜 Classical ML baselines
+- 🔜 Quantum Machine Learning models and evaluation
+
+---
+
+## ⚙️ Requirements
+
+- Python 3.12+
+- Chrome / Chromium
+- ChromeDriver
+- Selenium
+- NumPy, Pandas, Scikit-learn  
+(QML libraries will be added in later phases)
+
+---
+
+
+## 📝 Notes
+
+- The system prioritizes **early detection and robustness**
+- Screening-stage false positives are expected and documented
+- Dataset design is aligned with **small-sample learning**
+- QML evaluation focuses on feasibility and comparative benefit
+
+---
+
+## 📚 References
+
+- URLhaus: https://urlhaus.abuse.ch/  
+- Tranco Top Sites: https://tranco-list.eu/  
+- Chrome DevTools Protocol: https://chromedevtools.github.io/devtools-protocol/
 
