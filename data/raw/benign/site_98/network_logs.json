@@ -1,0 +1,147 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\",\"loaderId\":\"2C95A7DC0C09CD70DC71D1850588D3B1\",\"navigationType\":\"differentDocument\",\"url\":\"data:,\"}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867342
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\",\"hasExtraInfo\":false,\"loaderId\":\"2C95A7DC0C09CD70DC71D1850588D3B1\",\"requestId\":\"2C95A7DC0C09CD70DC71D1850588D3B1\",\"response\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"US-ASCII\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":-1,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Content-Type\":\"text/plain;charset=US-ASCII\"},\"mimeType\":\"text/plain\",\"protocol\":\"data\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"url\":\"data:,\"},\"timestamp\":172385.103881,\"type\":\"Document\"}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867402
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"\",\"gatedAPIFeatures\":[],\"id\":\"318CFB91FC0F750E226FCCE1FC89DB6B\",\"loaderId\":\"2C95A7DC0C09CD70DC71D1850588D3B1\",\"mimeType\":\"text/plain\",\"secureContextType\":\"InsecureScheme\",\"securityOrigin\":\"://\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"data:,\"},\"type\":\"Navigation\"}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867402
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867402
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":0,\"requestId\":\"2C95A7DC0C09CD70DC71D1850588D3B1\",\"timestamp\":172384.748751}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":172385.119742}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":172385.121281}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867406
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867407
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameResized\",\"params\":{}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867407
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\",\"loaderId\":\"18C1D1917236540726A25B416416C18A\",\"navigationType\":\"differentDocument\",\"url\":\"http://unity3d.com/\"}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867431
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867431
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://unity3d.com/\",\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"18C1D1917236540726A25B416416C18A\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://unity3d.com/\"},\"requestId\":\"18C1D1917236540726A25B416416C18A\",\"timestamp\":172385.155079,\"type\":\"Document\",\"wallTime\":1769509867.429061}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867431
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://unity3d.com/\",\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"18C1D1917236540726A25B416416C18A\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://unity3d.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://unity3d.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://unity3d.com/\"},\"requestId\":\"18C1D1917236540726A25B416416C18A\",\"timestamp\":172385.16749,\"type\":\"Document\",\"wallTime\":1769509867.441508}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867442
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":172385.169836},\"headers\":{\":authority\":\"unity3d.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"18C1D1917236540726A25B416416C18A\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867795
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://unity3d.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"content-length\":\"359\",\"content-type\":\"text/html\",\"date\":\"Tue, 27 Jan 2026 10:31:07 GMT\",\"expires\":\"Tue, 27 Jan 2026 10:31:07 GMT\",\"mime-version\":\"1.0\",\"server\":\"AkamaiGHost\"},\"requestId\":\"18C1D1917236540726A25B416416C18A\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":403}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867813
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\",\"hasExtraInfo\":true,\"loaderId\":\"18C1D1917236540726A25B416416C18A\",\"requestId\":\"18C1D1917236540726A25B416416C18A\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":99,\"connectionReused\":false,\"encodedDataLength\":473,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"content-length\":\"359\",\"content-type\":\"text/html\",\"date\":\"Tue, 27 Jan 2026 10:31:07 GMT\",\"expires\":\"Tue, 27 Jan 2026 10:31:07 GMT\",\"mime-version\":\"1.0\",\"server\":\"AkamaiGHost\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"23.220.234.9\",\"remotePort\":443,\"responseTime\":1.769509867808028e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"DigiCert Global G2 TLS RSA SHA256 2020 CA1\",\"keyExchange\":\"ECDHE_RSA\",\"keyExchangeGroup\":\"P-256\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"*.unity3d.com\",\"unity3d.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h2' log\",\"logId\":\"D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100D982E56362455655A59BD99E10ABF4D1B227BE4E3F39E1CA7019CA88200E9E0202210081AF0E602174BA6C2031D379FFF2408AC02FB5E9E434923BC2EB3BC14819AD22\",\"status\":\"Verified\",\"timestamp\":1.764304650207e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Tiger2026h2'\",\"logId\":\"C8A3C47FC7B3ADB9356B013F6A7A126DE33A4E43A5C646F997AD3975991DCF9A\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502210092702344BFADA0092CA1D4CEC29CDC3FAC15EC3136BDF14009F33A79BD92B60F022008E1FEBCBB60681CEE7B2F74FAA24475022A5C4AEBF0F14096856C65BE93BB33\",\"status\":\"Verified\",\"timestamp\":1.764304650249e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022046BE65595CDAE70C6151F44E52CB815958161D1E325DB9AB39C8A4E582F9706902207C2EEF35D1524D8A6DAFAEB9E4DDCE1807733518B0DEA212EB26CC2D5194A4B3\",\"status\":\"Verified\",\"timestamp\":1.76430465024e+12}],\"subjectName\":\"*.unity3d.com\",\"validFrom\":1764288000,\"validTo\":1796169599},\"securityState\":\"secure\",\"status\":403,\"statusText\":\"\",\"timing\":{\"connectEnd\":349.522,\"connectStart\":323.87,\"dnsEnd\":323.649,\"dnsStart\":312.695,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":367.938,\"receiveHeadersStart\":364.152,\"requestTime\":172385.169836,\"sendEnd\":350.873,\"sendStart\":349.898,\"sslEnd\":349.452,\"sslStart\":334.104,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://unity3d.com/\"},\"timestamp\":172385.550819,\"type\":\"Document\"}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867826
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"unity3d.com\",\"gatedAPIFeatures\":[],\"id\":\"318CFB91FC0F750E226FCCE1FC89DB6B\",\"loaderId\":\"18C1D1917236540726A25B416416C18A\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://unity3d.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://unity3d.com/\"},\"type\":\"Navigation\"}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867850
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867859
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":359,\"encodedDataLength\":0,\"requestId\":\"18C1D1917236540726A25B416416C18A\",\"timestamp\":172385.578859}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867890
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":473,\"requestId\":\"18C1D1917236540726A25B416416C18A\",\"timestamp\":172385.540485}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867890
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":172385.604084}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867919
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":172385.60575}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867919
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509867921
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://unity3d.com/\",\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"18C1D1917236540726A25B416416C18A\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://unity3d.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://unity3d.com/favicon.ico\"},\"requestId\":\"24492.2\",\"timestamp\":172385.650357,\"type\":\"Other\",\"wallTime\":1769509867.924459}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509872928
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172385.652277},\"headers\":{\":authority\":\"unity3d.com\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1, i\",\"referer\":\"https://unity3d.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"24492.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509872928
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://unity3d.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"content-length\":\"374\",\"content-type\":\"text/html\",\"date\":\"Tue, 27 Jan 2026 10:31:07 GMT\",\"expires\":\"Tue, 27 Jan 2026 10:31:07 GMT\",\"mime-version\":\"1.0\",\"server\":\"AkamaiGHost\"},\"requestId\":\"24492.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":403}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509872928
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"318CFB91FC0F750E226FCCE1FC89DB6B\",\"hasExtraInfo\":true,\"loaderId\":\"18C1D1917236540726A25B416416C18A\",\"requestId\":\"24492.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":99,\"connectionReused\":true,\"encodedDataLength\":488,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"content-length\":\"374\",\"content-type\":\"text/html\",\"date\":\"Tue, 27 Jan 2026 10:31:07 GMT\",\"expires\":\"Tue, 27 Jan 2026 10:31:07 GMT\",\"mime-version\":\"1.0\",\"server\":\"AkamaiGHost\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"23.220.234.9\",\"remotePort\":443,\"responseTime\":1.769509867946298e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"DigiCert Global G2 TLS RSA SHA256 2020 CA1\",\"keyExchange\":\"ECDHE_RSA\",\"keyExchangeGroup\":\"P-256\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"*.unity3d.com\",\"unity3d.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h2' log\",\"logId\":\"D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100D982E56362455655A59BD99E10ABF4D1B227BE4E3F39E1CA7019CA88200E9E0202210081AF0E602174BA6C2031D379FFF2408AC02FB5E9E434923BC2EB3BC14819AD22\",\"status\":\"Verified\",\"timestamp\":1.764304650207e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Sectigo 'Tiger2026h2'\",\"logId\":\"C8A3C47FC7B3ADB9356B013F6A7A126DE33A4E43A5C646F997AD3975991DCF9A\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502210092702344BFADA0092CA1D4CEC29CDC3FAC15EC3136BDF14009F33A79BD92B60F022008E1FEBCBB60681CEE7B2F74FAA24475022A5C4AEBF0F14096856C65BE93BB33\",\"status\":\"Verified\",\"timestamp\":1.764304650249e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022046BE65595CDAE70C6151F44E52CB815958161D1E325DB9AB39C8A4E582F9706902207C2EEF35D1524D8A6DAFAEB9E4DDCE1807733518B0DEA212EB26CC2D5194A4B3\",\"status\":\"Verified\",\"timestamp\":1.76430465024e+12}],\"subjectName\":\"*.unity3d.com\",\"validFrom\":1764288000,\"validTo\":1796169599},\"securityState\":\"secure\",\"status\":403,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":20.326,\"receiveHeadersStart\":20.033,\"requestTime\":172385.652277,\"sendEnd\":9.006,\"sendStart\":8.794,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://unity3d.com/favicon.ico\"},\"timestamp\":172385.674066,\"type\":\"Other\"}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509872929
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":374,\"encodedDataLength\":0,\"requestId\":\"24492.2\",\"timestamp\":172385.676179}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509872929
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":488,\"requestId\":\"24492.2\",\"timestamp\":172385.673337}},\"webview\":\"318CFB91FC0F750E226FCCE1FC89DB6B\"}",
+    "timestamp": 1769509872929
+  }
+]

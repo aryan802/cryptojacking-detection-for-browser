@@ -1,0 +1,102 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"C4E4F65990449AF9CC33318639D2A2B8\",\"loaderId\":\"EC911690A4FD08064828B23A457E5D24\",\"navigationType\":\"differentDocument\",\"url\":\"http://googletagmanager.com/\"}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059006
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"C4E4F65990449AF9CC33318639D2A2B8\"}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059006
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://googletagmanager.com/\",\"frameId\":\"C4E4F65990449AF9CC33318639D2A2B8\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"EC911690A4FD08064828B23A457E5D24\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://googletagmanager.com/\"},\"requestId\":\"EC911690A4FD08064828B23A457E5D24\",\"timestamp\":170576.728821,\"type\":\"Document\",\"wallTime\":1769508059.002825}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059023
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://googletagmanager.com/\",\"frameId\":\"C4E4F65990449AF9CC33318639D2A2B8\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"EC911690A4FD08064828B23A457E5D24\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://googletagmanager.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://googletagmanager.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://googletagmanager.com/\"},\"requestId\":\"EC911690A4FD08064828B23A457E5D24\",\"timestamp\":170576.73766,\"type\":\"Document\",\"wallTime\":1769508059.011707}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059023
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":170577.053037},\"headers\":{\":authority\":\"googletagmanager.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\",\"sec-ch-ua-wow64\":\"?0\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"EC911690A4FD08064828B23A457E5D24\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059331
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://googletagmanager.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"content-length\":\"1561\",\"content-type\":\"text/html; charset=UTF-8\",\"date\":\"Tue, 27 Jan 2026 10:00:59 GMT\",\"server\":\"Google Tag Manager\",\"x-xss-protection\":\"0\"},\"requestId\":\"EC911690A4FD08064828B23A457E5D24\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059375
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"C4E4F65990449AF9CC33318639D2A2B8\",\"hasExtraInfo\":true,\"loaderId\":\"EC911690A4FD08064828B23A457E5D24\",\"requestId\":\"EC911690A4FD08064828B23A457E5D24\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":99,\"connectionReused\":false,\"encodedDataLength\":1717,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"content-length\":\"1561\",\"content-type\":\"text/html; charset=UTF-8\",\"date\":\"Tue, 27 Jan 2026 10:00:59 GMT\",\"server\":\"Google Tag Manager\",\"x-xss-protection\":\"0\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"142.250.66.8\",\"remotePort\":443,\"responseTime\":1.769508059373923e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.google-analytics.com\",\"region1.app-measurement.com\",\"app-measurement.com\",\"region1.att.app-measurement.com\",\"att.app-measurement.com\",\"region1.analytics.app-measurement.com\",\"analytics.app-measurement.com\",\"region1.app-analytics-services-att.com\",\"app-analytics-services-att.com\",\"region1.app-analytics-services.com\",\"app-analytics-services.com\",\"google-analytics.com\",\"region1.google-analytics.com\",\"ssl.google-analytics.com\",\"www.google-analytics.com\",\"region1.analytics.google.com\",\"googletagmanager.com\",\"www.googletagmanager.com\",\"urchin.com\",\"service.urchin.com\",\"fps.goog\",\"*.fps.goog\",\"googleoptimize.com\",\"www.googleoptimize.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100A1A3D05BACA270D1EB431C02E89F3DA58C1F4FF9660C5BC130D406695733D317022042E21316C4A4AF6E60355754905BF27979C757DCE1E092B290597DB4AC01AE65\",\"status\":\"Verified\",\"timestamp\":1.767041475361e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200EA9C8158D2628BFDA3B3CAA3D1B6BA1B6683805DC1D75CC4FF9C1FBCFD05446022100FAC9D278D7896B84763AFE651869CCA5FA7E4660C2C70FE2A775E407FA7E3D47\",\"status\":\"Verified\",\"timestamp\":1.767041475331e+12}],\"subjectName\":\"*.google-analytics.com\",\"validFrom\":1767037874,\"validTo\":1774295473},\"securityState\":\"secure\",\"status\":404,\"statusText\":\"\",\"timing\":{\"connectEnd\":0,\"connectStart\":0,\"dnsEnd\":0,\"dnsStart\":0,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":47.619,\"receiveHeadersStart\":46.841,\"requestTime\":170577.053037,\"sendEnd\":2.531,\"sendStart\":1.079,\"sslEnd\":0,\"sslStart\":0,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://googletagmanager.com/\"},\"timestamp\":170577.114305,\"type\":\"Document\"}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059389
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"googletagmanager.com\",\"gatedAPIFeatures\":[],\"id\":\"C4E4F65990449AF9CC33318639D2A2B8\",\"loaderId\":\"EC911690A4FD08064828B23A457E5D24\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://googletagmanager.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://googletagmanager.com/\"},\"type\":\"Navigation\"}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059413
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059420
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1561,\"encodedDataLength\":0,\"requestId\":\"EC911690A4FD08064828B23A457E5D24\",\"timestamp\":170577.142819}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059450
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1717,\"requestId\":\"EC911690A4FD08064828B23A457E5D24\",\"timestamp\":170577.101603}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059450
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":170577.163432}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059452
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":170577.167473}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059475
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"C4E4F65990449AF9CC33318639D2A2B8\"}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508059477
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://googletagmanager.com/\",\"frameId\":\"C4E4F65990449AF9CC33318639D2A2B8\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"EC911690A4FD08064828B23A457E5D24\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://googletagmanager.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://googletagmanager.com/favicon.ico\"},\"requestId\":\"16932.3\",\"timestamp\":170577.20708,\"type\":\"Other\",\"wallTime\":1769508059.481229}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508064486
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":170577.209525},\"headers\":{\":authority\":\"googletagmanager.com\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1, i\",\"referer\":\"https://googletagmanager.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"16932.3\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508064486
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://googletagmanager.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"content-length\":\"1572\",\"content-type\":\"text/html; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Tue, 27 Jan 2026 10:00:59 GMT\",\"server\":\"sffe\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"0\"},\"requestId\":\"16932.3\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508064486
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"C4E4F65990449AF9CC33318639D2A2B8\",\"hasExtraInfo\":true,\"loaderId\":\"EC911690A4FD08064828B23A457E5D24\",\"requestId\":\"16932.3\",\"response\":{\"alternateProtocolUsage\":\"mainJobWonRace\",\"charset\":\"utf-8\",\"connectionId\":99,\"connectionReused\":true,\"encodedDataLength\":1694,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"content-length\":\"1572\",\"content-type\":\"text/html; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Tue, 27 Jan 2026 10:00:59 GMT\",\"server\":\"sffe\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"0\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"142.250.66.8\",\"remotePort\":443,\"responseTime\":1.7695080595462e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.google-analytics.com\",\"region1.app-measurement.com\",\"app-measurement.com\",\"region1.att.app-measurement.com\",\"att.app-measurement.com\",\"region1.analytics.app-measurement.com\",\"analytics.app-measurement.com\",\"region1.app-analytics-services-att.com\",\"app-analytics-services-att.com\",\"region1.app-analytics-services.com\",\"app-analytics-services.com\",\"google-analytics.com\",\"region1.google-analytics.com\",\"ssl.google-analytics.com\",\"www.google-analytics.com\",\"region1.analytics.google.com\",\"googletagmanager.com\",\"www.googletagmanager.com\",\"urchin.com\",\"service.urchin.com\",\"fps.goog\",\"*.fps.goog\",\"googleoptimize.com\",\"www.googleoptimize.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100A1A3D05BACA270D1EB431C02E89F3DA58C1F4FF9660C5BC130D406695733D317022042E21316C4A4AF6E60355754905BF27979C757DCE1E092B290597DB4AC01AE65\",\"status\":\"Verified\",\"timestamp\":1.767041475361e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200EA9C8158D2628BFDA3B3CAA3D1B6BA1B6683805DC1D75CC4FF9C1FBCFD05446022100FAC9D278D7896B84763AFE651869CCA5FA7E4660C2C70FE2A775E407FA7E3D47\",\"status\":\"Verified\",\"timestamp\":1.767041475331e+12}],\"subjectName\":\"*.google-analytics.com\",\"validFrom\":1767037874,\"validTo\":1774295473},\"securityState\":\"secure\",\"status\":404,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":63.128,\"receiveHeadersStart\":62.67,\"requestTime\":170577.209525,\"sendEnd\":4.209,\"sendStart\":3.849,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://googletagmanager.com/favicon.ico\"},\"timestamp\":170577.276123,\"type\":\"Other\"}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508064486
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1572,\"encodedDataLength\":0,\"requestId\":\"16932.3\",\"timestamp\":170577.276514}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508064487
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1694,\"requestId\":\"16932.3\",\"timestamp\":170577.274427}},\"webview\":\"C4E4F65990449AF9CC33318639D2A2B8\"}",
+    "timestamp": 1769508064487
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"navigationType\":\"differentDocument\",\"url\":\"http://registrar-servers.com/\"}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510837859
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\"}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510837860
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://registrar-servers.com/\",\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://registrar-servers.com/\"},\"requestId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"timestamp\":173355.587059,\"type\":\"Document\",\"wallTime\":1769510837.861037}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510837863
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://registrar-servers.com/\",\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://registrar-servers.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://registrar-servers.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://registrar-servers.com/\"},\"requestId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"timestamp\":173355.589783,\"type\":\"Document\",\"wallTime\":1769510837.863772}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510837864
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://registrar-servers.com/\",\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"http://registrar-servers.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"secure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"https://registrar-servers.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://registrar-servers.com/\"},\"requestId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"timestamp\":173358.600311,\"type\":\"Document\",\"wallTime\":1769510840.874289}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510840874
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":173358.600904},\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"registrar-servers.com\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510840876
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"http://registrar-servers.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Type\":\"text/html\",\"Date\":\"Tue, 27 Jan 2026 10:47:21 GMT\",\"Server\":\"namecheap-web\",\"Transfer-Encoding\":\"chunked\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nDate: Tue, 27 Jan 2026 10:47:21 GMT\\r\\nContent-Type: text/html\\r\\nTransfer-Encoding: chunked\\r\\nConnection: keep-alive\\r\\nServer: namecheap-web\\r\\nContent-Encoding: gzip\\r\\n\\r\\n\",\"requestId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841093
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasExtraInfo\":true,\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"requestId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":104,\"connectionReused\":true,\"encodedDataLength\":180,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Type\":\"text/html\",\"Date\":\"Tue, 27 Jan 2026 10:47:21 GMT\",\"Server\":\"namecheap-web\",\"Transfer-Encoding\":\"chunked\"},\"mimeType\":\"text/html\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"198.54.117.206\",\"remotePort\":80,\"responseTime\":1.76951084109247e+12,\"securityState\":\"insecure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":217.724,\"receiveHeadersStart\":217.6,\"requestTime\":173358.600904,\"sendEnd\":0.662,\"sendStart\":0.555,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://registrar-servers.com/\"},\"timestamp\":173358.819296,\"type\":\"Document\"}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841093
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"registrar-servers.com\",\"gatedAPIFeatures\":[],\"id\":\"E76E7BDD4AD518E832047152DF03915C\",\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"mimeType\":\"text/html\",\"secureContextType\":\"InsecureScheme\",\"securityOrigin\":\"http://registrar-servers.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"http://registrar-servers.com/\"},\"type\":\"Navigation\"}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841095
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841099
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2031,\"encodedDataLength\":0,\"requestId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"timestamp\":173358.822664}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841106
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://registrar-servers.com/\",\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":51,\"lineNumber\":8,\"type\":\"parser\",\"url\":\"http://registrar-servers.com/\"},\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"http://registrar-servers.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://registrar-servers.com/assets/css/style.css\"},\"requestId\":\"26332.2\",\"timestamp\":173358.82321,\"type\":\"Stylesheet\",\"wallTime\":1769510841.097238}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841106
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":895,\"requestId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"timestamp\":173358.819028}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841108
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":173358.829298}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841108
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":false,\"privateNetworkRequestPolicy\":\"BlockFromInsecureToMorePrivate\"},\"connectTiming\":{\"requestTime\":173358.824116},\"headers\":{\"Accept\":\"text/css,*/*;q=0.1\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"registrar-servers.com\",\"Referer\":\"http://registrar-servers.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"26332.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841108
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"http://registrar-servers.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"10157\",\"Content-Type\":\"text/css\",\"Date\":\"Tue, 27 Jan 2026 10:47:21 GMT\",\"ETag\":\"\\\"68a86a0d-27ad\\\"\",\"Last-Modified\":\"Fri, 22 Aug 2025 13:01:01 GMT\",\"Server\":\"namecheap-web\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nDate: Tue, 27 Jan 2026 10:47:21 GMT\\r\\nContent-Type: text/css\\r\\nContent-Length: 10157\\r\\nLast-Modified: Fri, 22 Aug 2025 13:01:01 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"68a86a0d-27ad\\\"\\r\\nServer: namecheap-web\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"26332.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841317
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasExtraInfo\":true,\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"requestId\":\"26332.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":104,\"connectionReused\":true,\"encodedDataLength\":241,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"10157\",\"Content-Type\":\"text/css\",\"Date\":\"Tue, 27 Jan 2026 10:47:21 GMT\",\"ETag\":\"\\\"68a86a0d-27ad\\\"\",\"Last-Modified\":\"Fri, 22 Aug 2025 13:01:01 GMT\",\"Server\":\"namecheap-web\"},\"mimeType\":\"text/css\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"198.54.117.206\",\"remotePort\":80,\"responseTime\":1.769510841317008e+12,\"securityState\":\"insecure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":219.276,\"receiveHeadersStart\":218.926,\"requestTime\":173358.824116,\"sendEnd\":0.475,\"sendStart\":0.372,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://registrar-servers.com/assets/css/style.css\"},\"timestamp\":173359.044102,\"type\":\"Stylesheet\"}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841318
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":7059,\"encodedDataLength\":0,\"requestId\":\"26332.2\",\"timestamp\":173359.044157}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841318
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3098,\"encodedDataLength\":10157,\"requestId\":\"26332.2\",\"timestamp\":173359.050148}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841324
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":10398,\"requestId\":\"26332.2\",\"timestamp\":173359.049908}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841324
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":173359.050804}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841333
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://registrar-servers.com/\",\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"parser\",\"url\":\"http://registrar-servers.com/assets/css/style.css\"},\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"http://registrar-servers.com\",\"Referer\":\"http://registrar-servers.com/assets/css/style.css\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://registrar-servers.com/assets/fonts/museo-sans-300-webfont.woff\"},\"requestId\":\"26332.10\",\"timestamp\":173359.051747,\"type\":\"Font\",\"wallTime\":1769510841.325735}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841334
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://registrar-servers.com/\",\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"parser\",\"url\":\"http://registrar-servers.com/assets/css/style.css\"},\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"http://registrar-servers.com\",\"Referer\":\"http://registrar-servers.com/assets/css/style.css\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://registrar-servers.com/assets/fonts/museo-sans-700-webfont.woff\"},\"requestId\":\"26332.14\",\"timestamp\":173359.051811,\"type\":\"Font\",\"wallTime\":1769510841.325792}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841334
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\"}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841334
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":false,\"privateNetworkRequestPolicy\":\"BlockFromInsecureToMorePrivate\"},\"connectTiming\":{\"requestTime\":173359.059344},\"headers\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"registrar-servers.com\",\"Origin\":\"http://registrar-servers.com\",\"Referer\":\"http://registrar-servers.com/assets/css/style.css\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"26332.10\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841335
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":false,\"privateNetworkRequestPolicy\":\"BlockFromInsecureToMorePrivate\"},\"connectTiming\":{\"requestTime\":173359.059531},\"headers\":{\"Accept\":\"*/*\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"registrar-servers.com\",\"Origin\":\"http://registrar-servers.com\",\"Referer\":\"http://registrar-servers.com/assets/css/style.css\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"26332.14\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510841335
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://registrar-servers.com/\",\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"http://registrar-servers.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://registrar-servers.com/assets/img/nc-icon/favicon.ico\"},\"requestId\":\"26332.18\",\"timestamp\":173359.060952,\"type\":\"Other\",\"wallTime\":1769510841.334943}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"http://registrar-servers.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"35241\",\"Content-Type\":\"font/woff\",\"Date\":\"Tue, 27 Jan 2026 10:47:21 GMT\",\"ETag\":\"\\\"68a86a0d-89a9\\\"\",\"Last-Modified\":\"Fri, 22 Aug 2025 13:01:01 GMT\",\"Server\":\"namecheap-web\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nDate: Tue, 27 Jan 2026 10:47:21 GMT\\r\\nContent-Type: font/woff\\r\\nContent-Length: 35241\\r\\nLast-Modified: Fri, 22 Aug 2025 13:01:01 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"68a86a0d-89a9\\\"\\r\\nServer: namecheap-web\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"26332.10\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":false,\"privateNetworkRequestPolicy\":\"BlockFromInsecureToMorePrivate\"},\"connectTiming\":{\"requestTime\":173359.061269},\"headers\":{\"Accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"registrar-servers.com\",\"Referer\":\"http://registrar-servers.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"26332.18\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"http://registrar-servers.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"33342\",\"Content-Type\":\"font/woff\",\"Date\":\"Tue, 27 Jan 2026 10:47:21 GMT\",\"ETag\":\"\\\"68a86a0d-823e\\\"\",\"Last-Modified\":\"Fri, 22 Aug 2025 13:01:01 GMT\",\"Server\":\"namecheap-web\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nDate: Tue, 27 Jan 2026 10:47:21 GMT\\r\\nContent-Type: font/woff\\r\\nContent-Length: 33342\\r\\nLast-Modified: Fri, 22 Aug 2025 13:01:01 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"68a86a0d-823e\\\"\\r\\nServer: namecheap-web\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"26332.14\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasExtraInfo\":true,\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"requestId\":\"26332.10\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":104,\"connectionReused\":true,\"encodedDataLength\":242,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"35241\",\"Content-Type\":\"font/woff\",\"Date\":\"Tue, 27 Jan 2026 10:47:21 GMT\",\"ETag\":\"\\\"68a86a0d-89a9\\\"\",\"Last-Modified\":\"Fri, 22 Aug 2025 13:01:01 GMT\",\"Server\":\"namecheap-web\"},\"mimeType\":\"font/woff\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"198.54.117.206\",\"remotePort\":80,\"responseTime\":1.769510841550402e+12,\"securityState\":\"insecure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":217.25,\"receiveHeadersStart\":217.092,\"requestTime\":173359.059344,\"sendEnd\":0.514,\"sendStart\":0.428,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://registrar-servers.com/assets/fonts/museo-sans-300-webfont.woff\"},\"timestamp\":173359.571985,\"type\":\"Font\"}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1218,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572009}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1460,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572011}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1460,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572011}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1460,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572012}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4380,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572013}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1460,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572016}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4380,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572017}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1460,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572018}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1460,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572019}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4380,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572021}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1460,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572021}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1460,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572022}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":9203,\"encodedDataLength\":0,\"requestId\":\"26332.10\",\"timestamp\":173359.572023}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":35241,\"requestId\":\"26332.10\",\"timestamp\":173359.572177}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":35483,\"requestId\":\"26332.10\",\"timestamp\":173359.568616}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"http://registrar-servers.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"8348\",\"Content-Type\":\"image/x-icon\",\"Date\":\"Tue, 27 Jan 2026 10:47:21 GMT\",\"ETag\":\"\\\"68a869a7-209c\\\"\",\"Last-Modified\":\"Fri, 22 Aug 2025 12:59:19 GMT\",\"Server\":\"namecheap-web\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nDate: Tue, 27 Jan 2026 10:47:21 GMT\\r\\nContent-Type: image/x-icon\\r\\nContent-Length: 8348\\r\\nLast-Modified: Fri, 22 Aug 2025 12:59:19 GMT\\r\\nConnection: keep-alive\\r\\nETag: \\\"68a869a7-209c\\\"\\r\\nServer: namecheap-web\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"26332.18\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasExtraInfo\":true,\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"requestId\":\"26332.18\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":136,\"connectionReused\":false,\"encodedDataLength\":244,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"8348\",\"Content-Type\":\"image/x-icon\",\"Date\":\"Tue, 27 Jan 2026 10:47:21 GMT\",\"ETag\":\"\\\"68a869a7-209c\\\"\",\"Last-Modified\":\"Fri, 22 Aug 2025 12:59:19 GMT\",\"Server\":\"namecheap-web\"},\"mimeType\":\"image/x-icon\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"198.54.117.206\",\"remotePort\":80,\"responseTime\":1.769510841842186e+12,\"securityState\":\"insecure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":234.31,\"connectStart\":0.299,\"dnsEnd\":0.299,\"dnsStart\":0.287,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":517.883,\"receiveHeadersStart\":506.951,\"requestTime\":173359.061269,\"sendEnd\":234.488,\"sendStart\":234.37,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://registrar-servers.com/assets/img/nc-icon/favicon.ico\"},\"timestamp\":173359.580076,\"type\":\"Other\"}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":8348,\"encodedDataLength\":0,\"requestId\":\"26332.18\",\"timestamp\":173359.580123}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":8348,\"requestId\":\"26332.18\",\"timestamp\":173359.580341}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":8592,\"requestId\":\"26332.18\",\"timestamp\":173359.579698}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E76E7BDD4AD518E832047152DF03915C\",\"hasExtraInfo\":true,\"loaderId\":\"B380E3D9F5EC9DBF8C579D5D76336E82\",\"requestId\":\"26332.14\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":108,\"connectionReused\":true,\"encodedDataLength\":242,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"33342\",\"Content-Type\":\"font/woff\",\"Date\":\"Tue, 27 Jan 2026 10:47:21 GMT\",\"ETag\":\"\\\"68a86a0d-823e\\\"\",\"Last-Modified\":\"Fri, 22 Aug 2025 13:01:01 GMT\",\"Server\":\"namecheap-web\"},\"mimeType\":\"font/woff\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"198.54.117.206\",\"remotePort\":80,\"responseTime\":1.769510841571678e+12,\"securityState\":\"insecure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":238.295,\"receiveHeadersStart\":238.181,\"requestTime\":173359.059531,\"sendEnd\":0.492,\"sendStart\":0.404,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"http://registrar-servers.com/assets/fonts/museo-sans-700-webfont.woff\"},\"timestamp\":173359.581399,\"type\":\"Font\"}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1218,\"encodedDataLength\":0,\"requestId\":\"26332.14\",\"timestamp\":173359.581412}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4380,\"encodedDataLength\":0,\"requestId\":\"26332.14\",\"timestamp\":173359.581413}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4380,\"encodedDataLength\":0,\"requestId\":\"26332.14\",\"timestamp\":173359.581414}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1460,\"encodedDataLength\":0,\"requestId\":\"26332.14\",\"timestamp\":173359.581415}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2920,\"encodedDataLength\":0,\"requestId\":\"26332.14\",\"timestamp\":173359.581416}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":5840,\"encodedDataLength\":0,\"requestId\":\"26332.14\",\"timestamp\":173359.581417}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":13144,\"encodedDataLength\":0,\"requestId\":\"26332.14\",\"timestamp\":173359.581418}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":33342,\"requestId\":\"26332.14\",\"timestamp\":173359.581534}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":33584,\"requestId\":\"26332.14\",\"timestamp\":173359.57954}},\"webview\":\"E76E7BDD4AD518E832047152DF03915C\"}",
+    "timestamp": 1769510846337
+  }
+]

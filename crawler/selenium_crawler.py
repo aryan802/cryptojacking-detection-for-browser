@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 # -----------------------------
 # Configuration
 # -----------------------------
-DATASET_TYPE = "crypto"  # or "benign"
+DATASET_TYPE = "benign"  # or "benign"
 OUTPUT_DIR = f"../data/raw/{DATASET_TYPE}"
 CRAWL_MODE = "FAST"   # FAST or DEEP
 
@@ -81,7 +81,7 @@ def collect_runtime_metrics(driver, duration, interval):
 # -----------------------------
 def crawl_site(url, site_id):
     print(f"[+] Crawling: {url}")
-    site_id = site_id + 299   # temp arangement ****** ******
+    site_id = site_id + 180
     site_dir = os.path.join(OUTPUT_DIR, f"site_{site_id}")
     os.makedirs(site_dir, exist_ok=True)
 
@@ -127,7 +127,7 @@ def crawl_site(url, site_id):
 # Entry point
 # -----------------------------
 if __name__ == "__main__":
-    benign_urls = load_urls_from_file("../data/urls/crypto_external_web_2.txt")
+    benign_urls = load_urls_from_file("../data/urls/benign_160.txt")
 
     for idx, url in enumerate(benign_urls):
         crawl_site(url, idx)

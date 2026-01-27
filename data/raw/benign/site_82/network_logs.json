@@ -1,0 +1,142 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"F4DBD813B1C04E93B502943730FE20E1\",\"loaderId\":\"D340C91DF4C011AC629303D68FF9043F\",\"navigationType\":\"differentDocument\",\"url\":\"http://nginx.org/\"}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509477986
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"F4DBD813B1C04E93B502943730FE20E1\"}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509477986
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://nginx.org/\",\"frameId\":\"F4DBD813B1C04E93B502943730FE20E1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"D340C91DF4C011AC629303D68FF9043F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://nginx.org/\"},\"requestId\":\"D340C91DF4C011AC629303D68FF9043F\",\"timestamp\":171995.709622,\"type\":\"Document\",\"wallTime\":1769509477.983628}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509477987
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://nginx.org/\",\"frameId\":\"F4DBD813B1C04E93B502943730FE20E1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"D340C91DF4C011AC629303D68FF9043F\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://nginx.org/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://nginx.org/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://nginx.org/\"},\"requestId\":\"D340C91DF4C011AC629303D68FF9043F\",\"timestamp\":171995.717049,\"type\":\"Document\",\"wallTime\":1769509477.991097}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509477996
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":171995.719579},\"headers\":{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"nginx.org\",\"Sec-Fetch-Dest\":\"document\",\"Sec-Fetch-Mode\":\"navigate\",\"Sec-Fetch-Site\":\"none\",\"Sec-Fetch-User\":\"?1\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"D340C91DF4C011AC629303D68FF9043F\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478458
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://nginx.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Length\":\"2105\",\"Content-Type\":\"text/html; charset=utf-8\",\"Date\":\"Tue, 27 Jan 2026 10:24:44 GMT\",\"ETag\":\"\\\"6968e2a7-839\\\"\",\"Keep-Alive\":\"timeout=15\",\"Last-Modified\":\"Thu, 15 Jan 2026 12:50:47 GMT\",\"Server\":\"nginx/1.29.0\",\"Strict-Transport-Security\":\"max-age=31536000\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.29.0\\r\\nDate: Tue, 27 Jan 2026 10:24:44 GMT\\r\\nContent-Type: text/html; charset=utf-8\\r\\nContent-Length: 2105\\r\\nLast-Modified: Thu, 15 Jan 2026 12:50:47 GMT\\r\\nConnection: keep-alive\\r\\nKeep-Alive: timeout=15\\r\\nETag: \\\"6968e2a7-839\\\"\\r\\nContent-Encoding: gzip\\r\\nStrict-Transport-Security: max-age=31536000\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"D340C91DF4C011AC629303D68FF9043F\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478640
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"F4DBD813B1C04E93B502943730FE20E1\",\"hasExtraInfo\":true,\"loaderId\":\"D340C91DF4C011AC629303D68FF9043F\",\"requestId\":\"D340C91DF4C011AC629303D68FF9043F\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":98,\"connectionReused\":false,\"encodedDataLength\":347,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Length\":\"2105\",\"Content-Type\":\"text/html; charset=utf-8\",\"Date\":\"Tue, 27 Jan 2026 10:24:44 GMT\",\"ETag\":\"\\\"6968e2a7-839\\\"\",\"Keep-Alive\":\"timeout=15\",\"Last-Modified\":\"Thu, 15 Jan 2026 12:50:47 GMT\",\"Server\":\"nginx/1.29.0\",\"Strict-Transport-Security\":\"max-age=31536000\"},\"mimeType\":\"text/html\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"3.125.197.172\",\"remotePort\":443,\"responseTime\":1.769509478638166e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"E7\",\"keyExchange\":\"ECDHE_ECDSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"agent-benchmarks.nginx.com\",\"docs-dev.nginx.com\",\"docs-staging.nginx.com\",\"docs.nginx.com\",\"forum.nginx.org\",\"hg.nginx.org\",\"internal-beta-docs.nginx.com\",\"lxr.nginx.org\",\"mailman.nginx.org\",\"nginx.org\",\"nginx.ru\",\"packages.nginx.org\",\"quic.nginx.org\",\"revamp.nginx.org\",\"sources.nginx.org\",\"staging.nginx.org\",\"trac.nginx.org\",\"unit.nginx.org\",\"version.nginx.com\",\"www.nginx.org\",\"www.nginx.ru\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100BFE411752367F3527306187E1512CD70552FDE824C5DD54FB1F9BA8010D6F94D02203722339CA564F16622147D989B8F68ABBAB67A495C917FB433B2CC25AF46ECBD\",\"status\":\"Verified\",\"timestamp\":1.769075693337e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Sycamore2026h1'\",\"logId\":\"A5C978925D57461782870DD889660B5C55648B7D0040F2EC076851D1886919F7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100EA3A916B1E6B5BB6ABEDBE42388EB4E13B73B6CB3370FF9336CE9BA1B9E9436302207A7653815FB48FCD0CF61FC211746A934BA70D4E30453C7935B33757B54E2071\",\"status\":\"Verified\",\"timestamp\":1.76907569383e+12}],\"subjectName\":\"nginx.org\",\"validFrom\":1769072183,\"validTo\":1776848182},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":463.458,\"connectStart\":94.687,\"dnsEnd\":94.485,\"dnsStart\":83.658,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":645.45,\"receiveHeadersStart\":644.621,\"requestTime\":171995.719579,\"sendEnd\":463.945,\"sendStart\":463.69,\"sslEnd\":463.439,\"sslStart\":275.16,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://nginx.org/\"},\"timestamp\":171996.378678,\"type\":\"Document\"}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478654
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"nginx.org\",\"gatedAPIFeatures\":[],\"id\":\"F4DBD813B1C04E93B502943730FE20E1\",\"loaderId\":\"D340C91DF4C011AC629303D68FF9043F\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://nginx.org\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://nginx.org/\"},\"type\":\"Navigation\"}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478678
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478686
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":6023,\"encodedDataLength\":0,\"requestId\":\"D340C91DF4C011AC629303D68FF9043F\",\"timestamp\":171996.407272}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478721
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://nginx.org/\",\"frameId\":\"F4DBD813B1C04E93B502943730FE20E1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":213,\"lineNumber\":1,\"type\":\"parser\",\"url\":\"https://nginx.org/\"},\"loaderId\":\"D340C91DF4C011AC629303D68FF9043F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://nginx.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://nginx.org/css/style_en.css\"},\"requestId\":\"20620.2\",\"timestamp\":171996.409265,\"type\":\"Stylesheet\",\"wallTime\":1769509478.683396}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478721
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":2452,\"requestId\":\"D340C91DF4C011AC629303D68FF9043F\",\"timestamp\":171996.366791}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478722
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":171996.412151},\"headers\":{\"Accept\":\"text/css,*/*;q=0.1\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"nginx.org\",\"Referer\":\"https://nginx.org/\",\"Sec-Fetch-Dest\":\"style\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"20620.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478724
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":171996.432784}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478789
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://nginx.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Length\":\"2151\",\"Content-Type\":\"text/css\",\"Date\":\"Tue, 27 Jan 2026 10:24:44 GMT\",\"ETag\":\"\\\"6968e2a2-867\\\"\",\"Keep-Alive\":\"timeout=15\",\"Last-Modified\":\"Thu, 15 Jan 2026 12:50:42 GMT\",\"Server\":\"nginx/1.29.0\",\"Strict-Transport-Security\":\"max-age=31536000\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.29.0\\r\\nDate: Tue, 27 Jan 2026 10:24:44 GMT\\r\\nContent-Type: text/css\\r\\nContent-Length: 2151\\r\\nLast-Modified: Thu, 15 Jan 2026 12:50:42 GMT\\r\\nConnection: keep-alive\\r\\nKeep-Alive: timeout=15\\r\\nETag: \\\"6968e2a2-867\\\"\\r\\nContent-Encoding: gzip\\r\\nStrict-Transport-Security: max-age=31536000\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"20620.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478871
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"F4DBD813B1C04E93B502943730FE20E1\",\"hasExtraInfo\":true,\"loaderId\":\"D340C91DF4C011AC629303D68FF9043F\",\"requestId\":\"20620.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":98,\"connectionReused\":true,\"encodedDataLength\":331,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Encoding\":\"gzip\",\"Content-Length\":\"2151\",\"Content-Type\":\"text/css\",\"Date\":\"Tue, 27 Jan 2026 10:24:44 GMT\",\"ETag\":\"\\\"6968e2a2-867\\\"\",\"Keep-Alive\":\"timeout=15\",\"Last-Modified\":\"Thu, 15 Jan 2026 12:50:42 GMT\",\"Server\":\"nginx/1.29.0\",\"Strict-Transport-Security\":\"max-age=31536000\"},\"mimeType\":\"text/css\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"3.125.197.172\",\"remotePort\":443,\"responseTime\":1.769509478869603e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"E7\",\"keyExchange\":\"ECDHE_ECDSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"agent-benchmarks.nginx.com\",\"docs-dev.nginx.com\",\"docs-staging.nginx.com\",\"docs.nginx.com\",\"forum.nginx.org\",\"hg.nginx.org\",\"internal-beta-docs.nginx.com\",\"lxr.nginx.org\",\"mailman.nginx.org\",\"nginx.org\",\"nginx.ru\",\"packages.nginx.org\",\"quic.nginx.org\",\"revamp.nginx.org\",\"sources.nginx.org\",\"staging.nginx.org\",\"trac.nginx.org\",\"unit.nginx.org\",\"version.nginx.com\",\"www.nginx.org\",\"www.nginx.ru\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100BFE411752367F3527306187E1512CD70552FDE824C5DD54FB1F9BA8010D6F94D02203722339CA564F16622147D989B8F68ABBAB67A495C917FB433B2CC25AF46ECBD\",\"status\":\"Verified\",\"timestamp\":1.769075693337e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Sycamore2026h1'\",\"logId\":\"A5C978925D57461782870DD889660B5C55648B7D0040F2EC076851D1886919F7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100EA3A916B1E6B5BB6ABEDBE42388EB4E13B73B6CB3370FF9336CE9BA1B9E9436302207A7653815FB48FCD0CF61FC211746A934BA70D4E30453C7935B33757B54E2071\",\"status\":\"Verified\",\"timestamp\":1.76907569383e+12}],\"subjectName\":\"nginx.org\",\"validFrom\":1769072183,\"validTo\":1776848182},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":183.896,\"receiveHeadersStart\":183.486,\"requestTime\":171996.412151,\"sendEnd\":2.551,\"sendStart\":2.244,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://nginx.org/css/style_en.css\"},\"timestamp\":171996.598769,\"type\":\"Stylesheet\"}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478875
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":7928,\"encodedDataLength\":0,\"requestId\":\"20620.2\",\"timestamp\":171996.598925}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478875
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":2151,\"requestId\":\"20620.2\",\"timestamp\":171996.600289}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478875
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":2482,\"requestId\":\"20620.2\",\"timestamp\":171996.597172}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509478875
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":171996.732855}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509479013
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"F4DBD813B1C04E93B502943730FE20E1\"}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509479013
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://nginx.org/\",\"frameId\":\"F4DBD813B1C04E93B502943730FE20E1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"D340C91DF4C011AC629303D68FF9043F\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://nginx.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://nginx.org/favicon.ico\"},\"requestId\":\"20620.14\",\"timestamp\":171996.73711,\"type\":\"Other\",\"wallTime\":1769509479.011173}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509479014
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":171996.738322},\"headers\":{\"Accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"en-US,en;q=0.9\",\"Connection\":\"keep-alive\",\"Host\":\"nginx.org\",\"Referer\":\"https://nginx.org/\",\"Sec-Fetch-Dest\":\"image\",\"Sec-Fetch-Mode\":\"no-cors\",\"Sec-Fetch-Site\":\"same-origin\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"requestId\":\"20620.14\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509484022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://nginx.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"15406\",\"Content-Type\":\"image/x-icon\",\"Date\":\"Tue, 27 Jan 2026 10:24:44 GMT\",\"ETag\":\"\\\"6968e2a7-3c2e\\\"\",\"Keep-Alive\":\"timeout=15\",\"Last-Modified\":\"Thu, 15 Jan 2026 12:50:47 GMT\",\"Server\":\"nginx/1.29.0\",\"Strict-Transport-Security\":\"max-age=31536000\"},\"headersText\":\"HTTP/1.1 200 OK\\r\\nServer: nginx/1.29.0\\r\\nDate: Tue, 27 Jan 2026 10:24:44 GMT\\r\\nContent-Type: image/x-icon\\r\\nContent-Length: 15406\\r\\nLast-Modified: Thu, 15 Jan 2026 12:50:47 GMT\\r\\nConnection: keep-alive\\r\\nKeep-Alive: timeout=15\\r\\nETag: \\\"6968e2a7-3c2e\\\"\\r\\nStrict-Transport-Security: max-age=31536000\\r\\nAccept-Ranges: bytes\\r\\n\\r\\n\",\"requestId\":\"20620.14\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509484022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"F4DBD813B1C04E93B502943730FE20E1\",\"hasExtraInfo\":true,\"loaderId\":\"D340C91DF4C011AC629303D68FF9043F\",\"requestId\":\"20620.14\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":98,\"connectionReused\":true,\"encodedDataLength\":313,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Accept-Ranges\":\"bytes\",\"Connection\":\"keep-alive\",\"Content-Length\":\"15406\",\"Content-Type\":\"image/x-icon\",\"Date\":\"Tue, 27 Jan 2026 10:24:44 GMT\",\"ETag\":\"\\\"6968e2a7-3c2e\\\"\",\"Keep-Alive\":\"timeout=15\",\"Last-Modified\":\"Thu, 15 Jan 2026 12:50:47 GMT\",\"Server\":\"nginx/1.29.0\",\"Strict-Transport-Security\":\"max-age=31536000\"},\"mimeType\":\"image/x-icon\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"3.125.197.172\",\"remotePort\":443,\"responseTime\":1.769509479378622e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"E7\",\"keyExchange\":\"ECDHE_ECDSA\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.2\",\"sanList\":[\"agent-benchmarks.nginx.com\",\"docs-dev.nginx.com\",\"docs-staging.nginx.com\",\"docs.nginx.com\",\"forum.nginx.org\",\"hg.nginx.org\",\"internal-beta-docs.nginx.com\",\"lxr.nginx.org\",\"mailman.nginx.org\",\"nginx.org\",\"nginx.ru\",\"packages.nginx.org\",\"quic.nginx.org\",\"revamp.nginx.org\",\"sources.nginx.org\",\"staging.nginx.org\",\"trac.nginx.org\",\"unit.nginx.org\",\"version.nginx.com\",\"www.nginx.org\",\"www.nginx.ru\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100BFE411752367F3527306187E1512CD70552FDE824C5DD54FB1F9BA8010D6F94D02203722339CA564F16622147D989B8F68ABBAB67A495C917FB433B2CC25AF46ECBD\",\"status\":\"Verified\",\"timestamp\":1.769075693337e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Let's Encrypt 'Sycamore2026h1'\",\"logId\":\"A5C978925D57461782870DD889660B5C55648B7D0040F2EC076851D1886919F7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100EA3A916B1E6B5BB6ABEDBE42388EB4E13B73B6CB3370FF9336CE9BA1B9E9436302207A7653815FB48FCD0CF61FC211746A934BA70D4E30453C7935B33757B54E2071\",\"status\":\"Verified\",\"timestamp\":1.76907569383e+12}],\"subjectName\":\"nginx.org\",\"validFrom\":1769072183,\"validTo\":1776848182},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"OK\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":366.679,\"receiveHeadersStart\":366.335,\"requestTime\":171996.738322,\"sendEnd\":3.697,\"sendStart\":3.403,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://nginx.org/favicon.ico\"},\"timestamp\":171997.106987,\"type\":\"Other\"}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509484022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":15406,\"encodedDataLength\":0,\"requestId\":\"20620.14\",\"timestamp\":171997.107181}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509484022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":15406,\"requestId\":\"20620.14\",\"timestamp\":171997.108041}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509484022
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":15719,\"requestId\":\"20620.14\",\"timestamp\":171997.106183}},\"webview\":\"F4DBD813B1C04E93B502943730FE20E1\"}",
+    "timestamp": 1769509484023
+  }
+]

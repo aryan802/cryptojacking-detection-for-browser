@@ -1,0 +1,102 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\",\"loaderId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"navigationType\":\"differentDocument\",\"url\":\"http://app-measurement.com/\"}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331126
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331126
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://app-measurement.com/\",\"frameId\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://app-measurement.com/\"},\"requestId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"timestamp\":172848.853444,\"type\":\"Document\",\"wallTime\":1769510331.127422}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331127
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://app-measurement.com/\",\"frameId\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://app-measurement.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://app-measurement.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://app-measurement.com/\"},\"requestId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"timestamp\":172848.856244,\"type\":\"Document\",\"wallTime\":1769510331.130233}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331130
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":172848.918534},\"headers\":{\":authority\":\"app-measurement.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\",\"sec-ch-ua-wow64\":\"?0\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331193
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://app-measurement.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"content-length\":\"1561\",\"content-type\":\"text/html; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Tue, 27 Jan 2026 10:38:51 GMT\",\"server\":\"sffe\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"0\"},\"requestId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331234
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\",\"hasExtraInfo\":true,\"loaderId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"requestId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":107,\"connectionReused\":false,\"encodedDataLength\":184,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"content-length\":\"1561\",\"content-type\":\"text/html; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Tue, 27 Jan 2026 10:38:51 GMT\",\"server\":\"sffe\",\"x-content-type-options\":\"nosniff\",\"x-xss-protection\":\"0\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"142.251.223.14\",\"remotePort\":443,\"responseTime\":1.769510331233727e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.google-analytics.com\",\"region1.app-measurement.com\",\"app-measurement.com\",\"region1.att.app-measurement.com\",\"att.app-measurement.com\",\"region1.analytics.app-measurement.com\",\"analytics.app-measurement.com\",\"region1.app-analytics-services-att.com\",\"app-analytics-services-att.com\",\"region1.app-analytics-services.com\",\"app-analytics-services.com\",\"google-analytics.com\",\"region1.google-analytics.com\",\"ssl.google-analytics.com\",\"www.google-analytics.com\",\"region1.analytics.google.com\",\"googletagmanager.com\",\"www.googletagmanager.com\",\"urchin.com\",\"service.urchin.com\",\"fps.goog\",\"*.fps.goog\",\"googleoptimize.com\",\"www.googleoptimize.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100A1A3D05BACA270D1EB431C02E89F3DA58C1F4FF9660C5BC130D406695733D317022042E21316C4A4AF6E60355754905BF27979C757DCE1E092B290597DB4AC01AE65\",\"status\":\"Verified\",\"timestamp\":1.767041475361e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200EA9C8158D2628BFDA3B3CAA3D1B6BA1B6683805DC1D75CC4FF9C1FBCFD05446022100FAC9D278D7896B84763AFE651869CCA5FA7E4660C2C70FE2A775E407FA7E3D47\",\"status\":\"Verified\",\"timestamp\":1.767041475331e+12}],\"subjectName\":\"*.google-analytics.com\",\"validFrom\":1767037874,\"validTo\":1774295473},\"securityState\":\"secure\",\"status\":404,\"statusText\":\"\",\"timing\":{\"connectEnd\":0,\"connectStart\":0,\"dnsEnd\":0,\"dnsStart\":0,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":41.638,\"receiveHeadersStart\":41.213,\"requestTime\":172848.918534,\"sendEnd\":0.538,\"sendStart\":0.409,\"sslEnd\":0,\"sslStart\":0,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://app-measurement.com/\"},\"timestamp\":172848.965068,\"type\":\"Document\"}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331239
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"app-measurement.com\",\"gatedAPIFeatures\":[],\"id\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\",\"loaderId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://app-measurement.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://app-measurement.com/\"},\"type\":\"Navigation\"}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331246
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331248
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1561,\"encodedDataLength\":0,\"requestId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"timestamp\":172848.973121}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331258
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1763,\"requestId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"timestamp\":172848.960659}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331259
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":172848.978957}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331263
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":172848.980279}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331263
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510331264
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://app-measurement.com/\",\"frameId\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://app-measurement.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://app-measurement.com/favicon.ico\"},\"requestId\":\"26420.3\",\"timestamp\":172848.991507,\"type\":\"Other\",\"wallTime\":1769510331.265545}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510336267
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172848.992292},\"headers\":{\":authority\":\"app-measurement.com\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1, i\",\"referer\":\"https://app-measurement.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"26420.3\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510336267
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://app-measurement.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"content-length\":\"1572\",\"content-type\":\"text/html; charset=UTF-8\",\"date\":\"Tue, 27 Jan 2026 10:38:51 GMT\",\"referrer-policy\":\"no-referrer\"},\"requestId\":\"26420.3\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":404}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510336267
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\",\"hasExtraInfo\":true,\"loaderId\":\"7F86FA92762BB8D12A1E6618F02C2074\",\"requestId\":\"26420.3\",\"response\":{\"alternateProtocolUsage\":\"mainJobWonRace\",\"charset\":\"utf-8\",\"connectionId\":107,\"connectionReused\":true,\"encodedDataLength\":1645,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=2592000,h3-29=\\\":443\\\"; ma=2592000\",\"content-length\":\"1572\",\"content-type\":\"text/html; charset=UTF-8\",\"date\":\"Tue, 27 Jan 2026 10:38:51 GMT\",\"referrer-policy\":\"no-referrer\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"142.251.223.14\",\"remotePort\":443,\"responseTime\":1.769510331375582e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.google-analytics.com\",\"region1.app-measurement.com\",\"app-measurement.com\",\"region1.att.app-measurement.com\",\"att.app-measurement.com\",\"region1.analytics.app-measurement.com\",\"analytics.app-measurement.com\",\"region1.app-analytics-services-att.com\",\"app-analytics-services-att.com\",\"region1.app-analytics-services.com\",\"app-analytics-services.com\",\"google-analytics.com\",\"region1.google-analytics.com\",\"ssl.google-analytics.com\",\"www.google-analytics.com\",\"region1.analytics.google.com\",\"googletagmanager.com\",\"www.googletagmanager.com\",\"urchin.com\",\"service.urchin.com\",\"fps.goog\",\"*.fps.goog\",\"googleoptimize.com\",\"www.googleoptimize.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100A1A3D05BACA270D1EB431C02E89F3DA58C1F4FF9660C5BC130D406695733D317022042E21316C4A4AF6E60355754905BF27979C757DCE1E092B290597DB4AC01AE65\",\"status\":\"Verified\",\"timestamp\":1.767041475361e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304502200EA9C8158D2628BFDA3B3CAA3D1B6BA1B6683805DC1D75CC4FF9C1FBCFD05446022100FAC9D278D7896B84763AFE651869CCA5FA7E4660C2C70FE2A775E407FA7E3D47\",\"status\":\"Verified\",\"timestamp\":1.767041475331e+12}],\"subjectName\":\"*.google-analytics.com\",\"validFrom\":1767037874,\"validTo\":1774295473},\"securityState\":\"secure\",\"status\":404,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":109.567,\"receiveHeadersStart\":109.312,\"requestTime\":172848.992292,\"sendEnd\":1.585,\"sendStart\":1.475,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://app-measurement.com/favicon.ico\"},\"timestamp\":172849.102912,\"type\":\"Other\"}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510336267
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1572,\"encodedDataLength\":0,\"requestId\":\"26420.3\",\"timestamp\":172849.103075}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510336267
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":1645,\"requestId\":\"26420.3\",\"timestamp\":172849.102313}},\"webview\":\"F7BBD0EFB542E04DDE3DF6379F8A0904\"}",
+    "timestamp": 1769510336267
+  }
+]

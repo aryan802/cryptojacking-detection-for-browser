@@ -1,0 +1,102 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"FBFC9712102BE8D38D496D3B4D7AE86A\",\"loaderId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"navigationType\":\"differentDocument\",\"url\":\"http://appsflyersdk.com/\"}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552489
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552491
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://appsflyersdk.com/\",\"frameId\":\"FBFC9712102BE8D38D496D3B4D7AE86A\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://appsflyersdk.com/\"},\"requestId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"timestamp\":171070.218005,\"type\":\"Document\",\"wallTime\":1769508552.492021}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552497
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://appsflyersdk.com/\",\"frameId\":\"FBFC9712102BE8D38D496D3B4D7AE86A\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://appsflyersdk.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://appsflyersdk.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://appsflyersdk.com/\"},\"requestId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"timestamp\":171070.231897,\"type\":\"Document\",\"wallTime\":1769508552.505944}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552507
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":171070.234181},\"headers\":{\":authority\":\"appsflyersdk.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552565
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://appsflyersdk.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"content-length\":\"146\",\"content-type\":\"text/xml\",\"date\":\"Tue, 27 Jan 2026 10:09:12 GMT\",\"server\":\"CloudFront\",\"via\":\"1.1 b54ed05222d6420c578fc810016a0a96.cloudfront.net (CloudFront)\",\"x-amz-cf-id\":\"ewn_CPd05jY__iHQPnU47aeqNPhcjwDEOXpUAUcuPFwRSgUQqYnXPQ==\",\"x-amz-cf-pop\":\"MAA51-P3\",\"x-cache\":\"Error from cloudfront\"},\"requestId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":403}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552574
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"FBFC9712102BE8D38D496D3B4D7AE86A\",\"hasExtraInfo\":true,\"loaderId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"requestId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":100,\"connectionReused\":false,\"encodedDataLength\":370,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"content-length\":\"146\",\"content-type\":\"text/xml\",\"date\":\"Tue, 27 Jan 2026 10:09:12 GMT\",\"server\":\"CloudFront\",\"via\":\"1.1 b54ed05222d6420c578fc810016a0a96.cloudfront.net (CloudFront)\",\"x-amz-cf-id\":\"ewn_CPd05jY__iHQPnU47aeqNPhcjwDEOXpUAUcuPFwRSgUQqYnXPQ==\",\"x-amz-cf-pop\":\"MAA51-P3\",\"x-cache\":\"Error from cloudfront\"},\"mimeType\":\"text/xml\",\"protocol\":\"h2\",\"remoteIPAddress\":\"108.159.15.5\",\"remotePort\":443,\"responseTime\":1.769508552572469e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Amazon RSA 2048 M02\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"appsflyersdk.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h2' log\",\"logId\":\"D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100A7DD50886B183A7C258BD7B8362B2C0D3F8BC5F9E4CEDD1EC936C1E3C1322055022100BA0477785F6B3BE4D4B6E8AC7017DA457272075926AE71C80C1FA5820F98E0B4\",\"status\":\"Verified\",\"timestamp\":1.757301399849e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100920141B64BD064055E1E3D88D88C99BEF785C87F7CFAA24860EC37D318A2DC6A022050A8AAAC65551DA90DFC152AE8F1741E28C519D909D0423A5D155A2BECD63041\",\"status\":\"Verified\",\"timestamp\":1.757301399834e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100D45AF8E23B539AD29529AB445832AFBABD81B8695F3F33D817698C2A67C71EA0022059644674AF54C426D96EF90DAF1C14B1DA29C38CC3A09F84D6A9EFF096B77951\",\"status\":\"Verified\",\"timestamp\":1.757301399855e+12}],\"subjectName\":\"appsflyersdk.com\",\"validFrom\":1757289600,\"validTo\":1791417599},\"securityState\":\"secure\",\"status\":403,\"statusText\":\"\",\"timing\":{\"connectEnd\":56.049,\"connectStart\":25.557,\"dnsEnd\":25.39,\"dnsStart\":2.53,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":65.061,\"receiveHeadersStart\":64.26,\"requestTime\":171070.234181,\"sendEnd\":56.943,\"sendStart\":56.389,\"sslEnd\":56.027,\"sslStart\":32.986,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://appsflyersdk.com/\"},\"timestamp\":171070.3127,\"type\":\"Document\"}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552588
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"appsflyersdk.com\",\"gatedAPIFeatures\":[],\"id\":\"FBFC9712102BE8D38D496D3B4D7AE86A\",\"loaderId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"mimeType\":\"text/xml\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://appsflyersdk.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://appsflyersdk.com/\"},\"type\":\"Navigation\"}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552644
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552650
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":146,\"encodedDataLength\":0,\"requestId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"timestamp\":171070.385449}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552679
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":370,\"requestId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"timestamp\":171070.300503}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552695
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":171070.41762}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552695
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":171070.430822}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552726
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552729
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://appsflyersdk.com/\",\"frameId\":\"FBFC9712102BE8D38D496D3B4D7AE86A\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://appsflyersdk.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://appsflyersdk.com/favicon.ico\"},\"requestId\":\"24424.3\",\"timestamp\":171070.456162,\"type\":\"Other\",\"wallTime\":1769508552.730308}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508552732
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":171070.458501},\"headers\":{\":authority\":\"appsflyersdk.com\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=1, i\",\"referer\":\"https://appsflyersdk.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"24424.3\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508557738
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://appsflyersdk.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"content-length\":\"146\",\"content-type\":\"text/xml\",\"date\":\"Tue, 27 Jan 2026 10:09:12 GMT\",\"server\":\"CloudFront\",\"via\":\"1.1 b54ed05222d6420c578fc810016a0a96.cloudfront.net (CloudFront)\",\"x-amz-cf-id\":\"YEd86lviy87OjVysyxbO2lhYkeyzv-K7CP5EoA7vgDPNAC0SkWd6oA==\",\"x-amz-cf-pop\":\"MAA51-P3\",\"x-cache\":\"Error from cloudfront\"},\"requestId\":\"24424.3\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":403}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508557738
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"FBFC9712102BE8D38D496D3B4D7AE86A\",\"hasExtraInfo\":true,\"loaderId\":\"85BC8A8C8D41A81720885B5930A8638C\",\"requestId\":\"24424.3\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":100,\"connectionReused\":true,\"encodedDataLength\":368,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"content-length\":\"146\",\"content-type\":\"text/xml\",\"date\":\"Tue, 27 Jan 2026 10:09:12 GMT\",\"server\":\"CloudFront\",\"via\":\"1.1 b54ed05222d6420c578fc810016a0a96.cloudfront.net (CloudFront)\",\"x-amz-cf-id\":\"YEd86lviy87OjVysyxbO2lhYkeyzv-K7CP5EoA7vgDPNAC0SkWd6oA==\",\"x-amz-cf-pop\":\"MAA51-P3\",\"x-cache\":\"Error from cloudfront\"},\"mimeType\":\"text/xml\",\"protocol\":\"h2\",\"remoteIPAddress\":\"108.159.15.5\",\"remotePort\":443,\"responseTime\":1.769508552740746e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Amazon RSA 2048 M02\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"appsflyersdk.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h2' log\",\"logId\":\"D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100A7DD50886B183A7C258BD7B8362B2C0D3F8BC5F9E4CEDD1EC936C1E3C1322055022100BA0477785F6B3BE4D4B6E8AC7017DA457272075926AE71C80C1FA5820F98E0B4\",\"status\":\"Verified\",\"timestamp\":1.757301399849e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100920141B64BD064055E1E3D88D88C99BEF785C87F7CFAA24860EC37D318A2DC6A022050A8AAAC65551DA90DFC152AE8F1741E28C519D909D0423A5D155A2BECD63041\",\"status\":\"Verified\",\"timestamp\":1.757301399834e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100D45AF8E23B539AD29529AB445832AFBABD81B8695F3F33D817698C2A67C71EA0022059644674AF54C426D96EF90DAF1C14B1DA29C38CC3A09F84D6A9EFF096B77951\",\"status\":\"Verified\",\"timestamp\":1.757301399855e+12}],\"subjectName\":\"appsflyersdk.com\",\"validFrom\":1757289600,\"validTo\":1791417599},\"securityState\":\"secure\",\"status\":403,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":8.751,\"receiveHeadersStart\":8.227,\"requestTime\":171070.458501,\"sendEnd\":1.941,\"sendStart\":1.59,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://appsflyersdk.com/favicon.ico\"},\"timestamp\":171070.469997,\"type\":\"Other\"}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508557739
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":146,\"encodedDataLength\":0,\"requestId\":\"24424.3\",\"timestamp\":171070.470485}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508557739
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":368,\"requestId\":\"24424.3\",\"timestamp\":171070.468367}},\"webview\":\"FBFC9712102BE8D38D496D3B4D7AE86A\"}",
+    "timestamp": 1769508557739
+  }
+]

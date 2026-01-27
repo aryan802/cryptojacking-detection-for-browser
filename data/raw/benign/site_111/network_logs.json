@@ -1,0 +1,617 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"navigationType\":\"differentDocument\",\"url\":\"http://t.me/\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510142364
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510142365
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://t.me/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://t.me/\"},\"requestId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"timestamp\":172660.091809,\"type\":\"Document\",\"wallTime\":1769510142.365788}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510142369
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://t.me/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://t.me/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://t.me/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://t.me/\"},\"requestId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"timestamp\":172660.093566,\"type\":\"Document\",\"wallTime\":1769510142.367566}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510142369
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":172660.094478},\"headers\":{\":authority\":\"t.me\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510142750
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":true,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":108,\"connectionReused\":false,\"encodedDataLength\":278,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"cache-control\":\"no-store\",\"content-encoding\":\"gzip\",\"content-length\":\"20\",\"content-type\":\"text/html; charset=UTF-8\",\"date\":\"Tue, 27 Jan 2026 10:35:42 GMT\",\"location\":\"//telegram.org/\",\"pragma\":\"no-cache\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=35768000\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510142941221e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.t.me\",\"t.me\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022046F2E4482B676F30E2FB9D36A7E43C137EA78525E1CBEF474911117DE1EB2CED022100A204C6BD162C51A8DEE0B003037C5C3283F712D989F818F066645DAF85FB126D\",\"status\":\"Verified\",\"timestamp\":1.761074249819e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100AD7D1CDD90D058368176B87185C0D4AB2A3A27CFD1BAD43EFAC38113F114AC83022100CB548B53F203E7BC9F0BC4789C8A86051201EEFFE620746B091564DE5C0A53BC\",\"status\":\"Verified\",\"timestamp\":1.761074250145e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100E9E25E6EDA1C14E825171E76CDEA4113AD8146D0FB17579E58DCAD18CBB787B4022100FC9F0511311A1FACFE6D037CE897B516BF431359047FB9A12069F80967A06020\",\"status\":\"Verified\",\"timestamp\":1.761074250379e+12}],\"subjectName\":\"*.t.me\",\"validFrom\":1761074248,\"validTo\":1795375048},\"securityState\":\"secure\",\"status\":302,\"statusText\":\"\",\"timing\":{\"connectEnd\":381.92,\"connectStart\":8.19,\"dnsEnd\":8.047,\"dnsStart\":1.935,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":572.84,\"receiveHeadersStart\":572.749,\"requestTime\":172660.094478,\"sendEnd\":382.119,\"sendStart\":382.011,\"sslEnd\":381.914,\"sslStart\":193.26,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://t.me/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/\"},\"requestId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"timestamp\":172660.668306,\"type\":\"Document\",\"wallTime\":1769510142.942314}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510142942
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://t.me\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"cache-control\":\"no-store\",\"content-encoding\":\"gzip\",\"content-length\":\"20\",\"content-type\":\"text/html; charset=UTF-8\",\"date\":\"Tue, 27 Jan 2026 10:35:42 GMT\",\"location\":\"//telegram.org/\",\"pragma\":\"no-cache\",\"server\":\"nginx/1.18.0\",\"set-cookie\":\"stel_ssid=5d0ec26e848010d5da_5498216393567556350; expires=Wed, 28 Jan 2026 10:35:42 GMT; path=/; samesite=None; secure; HttpOnly\",\"strict-transport-security\":\"max-age=35768000\"},\"requestId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":302}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510142942
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":172660.66871},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143426
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":124,\"connectionReused\":false,\"encodedDataLength\":300,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"cache-control\":\"no-store\",\"content-encoding\":\"gzip\",\"content-length\":\"6015\",\"content-type\":\"text/html; charset=utf-8\",\"date\":\"Tue, 27 Jan 2026 10:35:43 GMT\",\"pragma\":\"no-cache\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"x-frame-options\":\"SAMEORIGIN\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510143623407e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":483.32,\"connectStart\":6.973,\"dnsEnd\":6.858,\"dnsStart\":0.267,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":680.775,\"receiveHeadersStart\":680.719,\"requestTime\":172660.66871,\"sendEnd\":483.556,\"sendStart\":483.434,\"sslEnd\":483.313,\"sslStart\":258.872,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/\"},\"timestamp\":172661.3543,\"type\":\"Document\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143630
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"cache-control\":\"no-store\",\"content-encoding\":\"gzip\",\"content-length\":\"6015\",\"content-type\":\"text/html; charset=utf-8\",\"date\":\"Tue, 27 Jan 2026 10:35:43 GMT\",\"pragma\":\"no-cache\",\"server\":\"nginx/1.18.0\",\"set-cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827; expires=Tue, 27 Jan 2026 21:42:23 GMT; path=/; samesite=None; secure; HttpOnly\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\",\"x-frame-options\":\"SAMEORIGIN\"},\"requestId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143631
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"NotIsolated\",\"domainAndRegistry\":\"telegram.org\",\"gatedAPIFeatures\":[],\"id\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://telegram.org\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://telegram.org/\"},\"type\":\"Navigation\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143655
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143655
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":19590,\"encodedDataLength\":0,\"requestId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"timestamp\":172661.363756}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143656
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":59,\"lineNumber\":22,\"type\":\"parser\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/css/bootstrap.min.css?3\"},\"requestId\":\"21128.2\",\"timestamp\":172661.364414,\"type\":\"Stylesheet\",\"wallTime\":1769510143.638428}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143656
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":71,\"lineNumber\":24,\"type\":\"parser\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/css/telegram.css?249\"},\"requestId\":\"21128.3\",\"timestamp\":172661.364723,\"type\":\"Stylesheet\",\"wallTime\":1769510143.638707}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143656
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":33,\"lineNumber\":269,\"type\":\"parser\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Medium\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/js/main.js?47\"},\"requestId\":\"21128.15\",\"timestamp\":172661.365069,\"type\":\"Script\",\"wallTime\":1769510143.639056}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143656
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":38,\"lineNumber\":270,\"type\":\"parser\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Medium\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/js/tgsticker.js?31\"},\"requestId\":\"21128.16\",\"timestamp\":172661.365141,\"type\":\"Script\",\"wallTime\":1769510143.639114}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143656
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172661.366356},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/css/bootstrap.min.css?3\",\":scheme\":\"https\",\"accept\":\"text/css,*/*;q=0.1\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"priority\":\"u=0\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"style\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.2\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143656
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172661.367968},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/css/telegram.css?249\",\":scheme\":\"https\",\"accept\":\"text/css,*/*;q=0.1\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"priority\":\"u=0\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"style\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.3\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143656
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172661.368845},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/js/main.js?47\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"priority\":\"u=1\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.15\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143656
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172661.370152},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/js/tgsticker.js?31\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"priority\":\"u=2\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.16\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143656
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":6333,\"requestId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"timestamp\":172661.349876}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143697
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"cache-control\":\"max-age=345600\",\"content-encoding\":\"gzip\",\"content-type\":\"text/css\",\"date\":\"Tue, 27 Jan 2026 10:35:43 GMT\",\"etag\":\"W/\\\"5a05e7c6-a61b\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:43 GMT\",\"last-modified\":\"Fri, 10 Nov 2017 17:54:14 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"requestId\":\"21128.2\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143845
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.2\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":10370,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"cache-control\":\"max-age=345600\",\"content-encoding\":\"gzip\",\"content-type\":\"text/css\",\"date\":\"Tue, 27 Jan 2026 10:35:43 GMT\",\"etag\":\"W/\\\"5a05e7c6-a61b\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:43 GMT\",\"last-modified\":\"Fri, 10 Nov 2017 17:54:14 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"mimeType\":\"text/css\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510143844651e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":204.48,\"receiveHeadersStart\":204.315,\"requestTime\":172661.366356,\"sendEnd\":13.356,\"sendStart\":12.826,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/css/bootstrap.min.css?3\"},\"timestamp\":172661.571956,\"type\":\"Stylesheet\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143847
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":42523,\"encodedDataLength\":0,\"requestId\":\"21128.2\",\"timestamp\":172661.572018}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143847
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":10370,\"requestId\":\"21128.2\",\"timestamp\":172661.5713}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510143847
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"cache-control\":\"max-age=345600\",\"content-encoding\":\"gzip\",\"content-type\":\"text/css\",\"date\":\"Tue, 27 Jan 2026 10:35:43 GMT\",\"etag\":\"W/\\\"6935af04-1dac7\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:43 GMT\",\"last-modified\":\"Sun, 07 Dec 2025 16:44:52 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"requestId\":\"21128.3\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144028
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.3\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":16384,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"cache-control\":\"max-age=345600\",\"content-encoding\":\"gzip\",\"content-type\":\"text/css\",\"date\":\"Tue, 27 Jan 2026 10:35:43 GMT\",\"etag\":\"W/\\\"6935af04-1dac7\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:43 GMT\",\"last-modified\":\"Sun, 07 Dec 2025 16:44:52 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"mimeType\":\"text/css\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510144028096e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":386.309,\"receiveHeadersStart\":386.146,\"requestTime\":172661.367968,\"sendEnd\":11.745,\"sendStart\":11.325,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/css/telegram.css?249\"},\"timestamp\":172661.755043,\"type\":\"Stylesheet\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144029
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":63554,\"encodedDataLength\":0,\"requestId\":\"21128.3\",\"timestamp\":172661.755292}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144029
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":57989,\"encodedDataLength\":14633,\"requestId\":\"21128.3\",\"timestamp\":172661.76496}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144042
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":31017,\"requestId\":\"21128.3\",\"timestamp\":172661.764742}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144042
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"cache-control\":\"max-age=345600\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Tue, 27 Jan 2026 10:35:43 GMT\",\"etag\":\"W/\\\"63950fe2-53e6\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:43 GMT\",\"last-modified\":\"Sat, 10 Dec 2022 23:01:54 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"requestId\":\"21128.15\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144044
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"cache-control\":\"max-age=345600\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Tue, 27 Jan 2026 10:35:43 GMT\",\"etag\":\"W/\\\"64242194-601c\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:43 GMT\",\"last-modified\":\"Wed, 29 Mar 2023 11:31:32 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"requestId\":\"21128.16\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144049
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.15\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":7083,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"cache-control\":\"max-age=345600\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Tue, 27 Jan 2026 10:35:43 GMT\",\"etag\":\"W/\\\"63950fe2-53e6\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:43 GMT\",\"last-modified\":\"Sat, 10 Dec 2022 23:01:54 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510144043852e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":401.219,\"receiveHeadersStart\":401.027,\"requestTime\":172661.368845,\"sendEnd\":10.938,\"sendStart\":10.785,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/js/main.js?47\"},\"timestamp\":172661.801782,\"type\":\"Script\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144077
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":21478,\"encodedDataLength\":0,\"requestId\":\"21128.15\",\"timestamp\":172661.801826}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144077
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":7083,\"requestId\":\"21128.15\",\"timestamp\":172661.77069}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144077
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.16\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":7073,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"cache-control\":\"max-age=345600\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Tue, 27 Jan 2026 10:35:43 GMT\",\"etag\":\"W/\\\"64242194-601c\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:43 GMT\",\"last-modified\":\"Wed, 29 Mar 2023 11:31:32 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510144049154e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":405.197,\"receiveHeadersStart\":405.021,\"requestTime\":172661.370152,\"sendEnd\":9.632,\"sendStart\":9.532,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/js/tgsticker.js?31\"},\"timestamp\":172661.802604,\"type\":\"Script\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144078
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":24604,\"encodedDataLength\":0,\"requestId\":\"21128.16\",\"timestamp\":172661.80263}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144078
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":7073,\"requestId\":\"21128.16\",\"timestamp\":172661.775732}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144078
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/js/tgsticker-worker.js?14\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept\":\"*/*\"},\"initialPriority\":\"VeryLow\",\"method\":\"GET\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/js/tgsticker-worker.js?14\"},\"requestId\":\"F928E2578CBA92A295D43BC4B747A4E7\",\"timestamp\":172661.806346,\"type\":\"Script\",\"wallTime\":1769510144.08032}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144080
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":1,\"lineNumber\":281,\"type\":\"parser\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept-Encoding\":\"identity;q=1, *;q=0\",\"Range\":\"bytes=0-\",\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/img/t_main_Android_demo.mp4\"},\"requestId\":\"21128.48\",\"timestamp\":172661.806962,\"type\":\"Media\",\"wallTime\":1769510144.080953}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144081
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":1,\"lineNumber\":281,\"type\":\"parser\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept-Encoding\":\"identity;q=1, *;q=0\",\"Range\":\"bytes=0-\",\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/img/t_main_iOS_demo.mp4\"},\"requestId\":\"21128.49\",\"timestamp\":172661.807343,\"type\":\"Media\",\"wallTime\":1769510144.081327}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144081
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172661.806835},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/js/tgsticker-worker.js?14\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"priority\":\"u=4, i\",\"referer\":\"https://telegram.org/\",\"sec-fetch-dest\":\"worker\",\"sec-fetch-mode\":\"same-origin\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"F928E2578CBA92A295D43BC4B747A4E7\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144081
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172661.807561},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/img/t_main_Android_demo.mp4\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"identity;q=1, *;q=0\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"priority\":\"i\",\"range\":\"bytes=0-\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"video\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.48\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144082
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172661.807732},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/img/t_main_iOS_demo.mp4\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"identity;q=1, *;q=0\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"priority\":\"i\",\"range\":\"bytes=0-\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"video\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.49\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144082
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":172661.8075}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144082
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"cache-control\":\"max-age=345600\",\"content-encoding\":\"gzip\",\"content-type\":\"application/javascript\",\"date\":\"Tue, 27 Jan 2026 10:35:44 GMT\",\"etag\":\"W/\\\"62bcc9ac-1731\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:44 GMT\",\"last-modified\":\"Wed, 29 Jun 2022 21:52:44 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"requestId\":\"F928E2578CBA92A295D43BC4B747A4E7\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144268
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Content-Length\":\"250838\",\"Content-Range\":\"bytes 0-250837/250838\",\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:44 GMT\",\"etag\":\"\\\"5eb6fd6e-3d3d6\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:44 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"requestId\":\"21128.48\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":206}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144283
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.48\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":16384,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Content-Length\":\"250838\",\"Content-Range\":\"bytes 0-250837/250838\",\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:44 GMT\",\"etag\":\"\\\"5eb6fd6e-3d3d6\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:44 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"mimeType\":\"video/mp4\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510144282819e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":206,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":201.534,\"receiveHeadersStart\":201.28,\"requestTime\":172661.807561,\"sendEnd\":0.494,\"sendStart\":0.335,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/img/t_main_Android_demo.mp4\"},\"timestamp\":172662.009682,\"type\":\"Media\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144284
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16159,\"encodedDataLength\":0,\"requestId\":\"21128.48\",\"timestamp\":172662.009788}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144284
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16609,\"encodedDataLength\":0,\"requestId\":\"21128.48\",\"timestamp\":172662.028197}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144303
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":1,\"lineNumber\":281,\"type\":\"parser\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept-Encoding\":\"identity;q=1, *;q=0\",\"Range\":\"bytes=229376-\",\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/img/t_main_Android_demo.mp4\"},\"requestId\":\"21128.52\",\"timestamp\":172662.029053,\"type\":\"Media\",\"wallTime\":1769510144.303053}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144304
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFailed\",\"params\":{\"canceled\":true,\"errorText\":\"net::ERR_ABORTED\",\"requestId\":\"21128.48\",\"timestamp\":172662.02935,\"type\":\"Media\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144304
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172662.029968},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/img/t_main_Android_demo.mp4\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"identity;q=1, *;q=0\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"if-range\":\"\\\"5eb6fd6e-3d3d6\\\"\",\"priority\":\"i\",\"range\":\"bytes=229376-250837\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"video\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.52\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144306
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"Content-Length\":\"244748\",\"Content-Range\":\"bytes 0-244747/244748\",\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:44 GMT\",\"etag\":\"\\\"5eb6fd6e-3bc0c\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:44 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"requestId\":\"21128.49\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":206}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144827
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.49\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":16384,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Content-Length\":\"244748\",\"Content-Range\":\"bytes 0-244747/244748\",\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:44 GMT\",\"etag\":\"\\\"5eb6fd6e-3bc0c\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:44 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"mimeType\":\"video/mp4\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510144826466e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":206,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":745.076,\"receiveHeadersStart\":744.739,\"requestTime\":172661.807732,\"sendEnd\":0.447,\"sendStart\":0.381,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/img/t_main_iOS_demo.mp4\"},\"timestamp\":172662.553422,\"type\":\"Media\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144827
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16158,\"encodedDataLength\":0,\"requestId\":\"21128.49\",\"timestamp\":172662.553661}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144828
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":0,\"requestId\":\"21128.49\",\"timestamp\":172662.604717}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144879
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-length\":\"21462\",\"content-range\":\"bytes 229376-250837/250838\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:44 GMT\",\"etag\":\"\\\"5eb6fd6e-3d3d6\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:44 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"requestId\":\"21128.52\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":206}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144892
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.52\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":210,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Content-Length\":\"21462\",\"Content-Range\":\"bytes 229376-250837/250838\",\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:44 GMT\",\"etag\":\"\\\"5eb6fd6e-3d3d6\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:44 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"mimeType\":\"video/mp4\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510144892178e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":206,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":588.41,\"receiveHeadersStart\":588.238,\"requestTime\":172662.029968,\"sendEnd\":1.9,\"sendStart\":1.756,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/img/t_main_Android_demo.mp4\"},\"timestamp\":172662.61909,\"type\":\"Media\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144893
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":244,\"encodedDataLength\":16384,\"requestId\":\"21128.49\",\"timestamp\":172662.619371}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144893
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":1,\"lineNumber\":281,\"type\":\"parser\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept-Encoding\":\"identity;q=1, *;q=0\",\"Range\":\"bytes=229376-\",\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/img/t_main_iOS_demo.mp4\"},\"requestId\":\"21128.53\",\"timestamp\":172662.619814,\"type\":\"Media\",\"wallTime\":1769510144.8938}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144894
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFailed\",\"params\":{\"canceled\":true,\"errorText\":\"net::ERR_ABORTED\",\"requestId\":\"21128.49\",\"timestamp\":172662.619984,\"type\":\"Media\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144894
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172662.620384},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/img/t_main_iOS_demo.mp4\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"identity;q=1, *;q=0\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"if-range\":\"\\\"5eb6fd6e-3bc0c\\\"\",\"priority\":\"i\",\"range\":\"bytes=229376-244747\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"video\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.53\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144896
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":687,\"encodedDataLength\":0,\"requestId\":\"21128.52\",\"timestamp\":172662.662498}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144936
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":20775,\"encodedDataLength\":21489,\"requestId\":\"21128.52\",\"timestamp\":172662.672277}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144946
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":21699,\"requestId\":\"21128.52\",\"timestamp\":172662.672057}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144946
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":1,\"lineNumber\":281,\"type\":\"parser\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept-Encoding\":\"identity;q=1, *;q=0\",\"Range\":\"bytes=32768-\",\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/img/t_main_Android_demo.mp4\"},\"requestId\":\"21128.56\",\"timestamp\":172662.672749,\"type\":\"Media\",\"wallTime\":1769510144.946747}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144947
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172662.673118},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/img/t_main_Android_demo.mp4\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"identity;q=1, *;q=0\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"if-range\":\"\\\"5eb6fd6e-3d3d6\\\"\",\"priority\":\"i\",\"range\":\"bytes=32768-229375\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"video\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.56\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510144948
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-length\":\"15372\",\"content-range\":\"bytes 229376-244747/244748\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:45 GMT\",\"etag\":\"\\\"5eb6fd6e-3bc0c\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:45 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"requestId\":\"21128.53\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":206}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145226
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-length\":\"196608\",\"content-range\":\"bytes 32768-229375/250838\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:45 GMT\",\"etag\":\"\\\"5eb6fd6e-3d3d6\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:45 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"requestId\":\"21128.56\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":206}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145227
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.53\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":210,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Content-Length\":\"15372\",\"Content-Range\":\"bytes 229376-244747/244748\",\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:45 GMT\",\"etag\":\"\\\"5eb6fd6e-3bc0c\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:45 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"mimeType\":\"video/mp4\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.76951014522615e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":206,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":332.016,\"receiveHeadersStart\":331.786,\"requestTime\":172662.620384,\"sendEnd\":1.741,\"sendStart\":1.634,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/img/t_main_iOS_demo.mp4\"},\"timestamp\":172662.953649,\"type\":\"Media\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145228
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.56\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":210,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Content-Length\":\"218070\",\"Content-Range\":\"bytes 32768-250837/250838\",\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:45 GMT\",\"etag\":\"\\\"5eb6fd6e-3d3d6\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:45 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"mimeType\":\"video/mp4\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510145226287e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":206,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":279.507,\"receiveHeadersStart\":279.198,\"requestTime\":172662.673118,\"sendEnd\":1.187,\"sendStart\":1.047,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/img/t_main_Android_demo.mp4\"},\"timestamp\":172662.953824,\"type\":\"Media\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145228
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":6601,\"encodedDataLength\":0,\"requestId\":\"21128.53\",\"timestamp\":172663.157833}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145432
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1591,\"encodedDataLength\":8201,\"requestId\":\"21128.53\",\"timestamp\":172663.17018}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145444
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":7180,\"encodedDataLength\":0,\"requestId\":\"21128.53\",\"timestamp\":172663.178944}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145455
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":7189,\"requestId\":\"21128.53\",\"timestamp\":172663.1791}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145455
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":15600,\"requestId\":\"21128.53\",\"timestamp\":172663.17871}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145455
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"columnNumber\":1,\"lineNumber\":281,\"type\":\"parser\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept-Encoding\":\"identity;q=1, *;q=0\",\"Range\":\"bytes=32768-\",\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/img/t_main_iOS_demo.mp4\"},\"requestId\":\"21128.57\",\"timestamp\":172663.179329,\"type\":\"Media\",\"wallTime\":1769510145.453318}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145455
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/js/tgsticker-worker.js?14\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept\":\"*/*\"},\"initialPriority\":\"VeryLow\",\"method\":\"GET\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/js/tgsticker-worker.js?14\"},\"requestId\":\"619450C93F0DAFC387FB1F559BDFD0F1\",\"timestamp\":172663.18424,\"type\":\"Script\",\"wallTime\":1769510145.458216}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145458
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/js/tgsticker-worker.js?14\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept\":\"*/*\"},\"initialPriority\":\"VeryLow\",\"method\":\"GET\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/js/tgsticker-worker.js?14\"},\"requestId\":\"8D300C2DF895B5206176BF230CDC1A5C\",\"timestamp\":172663.185075,\"type\":\"Script\",\"wallTime\":1769510145.459046}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145459
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":172663.184088}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145460
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145460
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/js/tgsticker-worker.js?14\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\",\"url\":\"https://telegram.org/\"},\"loaderId\":\"\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept\":\"*/*\"},\"initialPriority\":\"VeryLow\",\"method\":\"GET\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/js/tgsticker-worker.js?14\"},\"requestId\":\"F43502814DBE5CE5DD40F352F96C8273\",\"timestamp\":172663.186744,\"type\":\"Script\",\"wallTime\":1769510145.460717}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510145461
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://telegram.org/\",\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://telegram.org/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://telegram.org/img/favicon.ico\"},\"requestId\":\"21128.58\",\"timestamp\":172663.18755,\"type\":\"Other\",\"wallTime\":1769510145.461544}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150463
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":201,\"encodedDataLength\":210,\"requestId\":\"21128.56\",\"timestamp\":172663.188865}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150463
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172663.17966},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/img/t_main_iOS_demo.mp4\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"identity;q=1, *;q=0\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"if-range\":\"\\\"5eb6fd6e-3bc0c\\\"\",\"priority\":\"i\",\"range\":\"bytes=32768-229375\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"video\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.57\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150463
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\"telegram.org\",\"expires\":1769550143.623462,\"httpOnly\":true,\"name\":\"stel_ssid\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":48,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"4b402c7fb556f526a3_15793457966780819827\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172663.189026},\"headers\":{\":authority\":\"telegram.org\",\":method\":\"GET\",\":path\":\"/img/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"stel_ssid=4b402c7fb556f526a3_15793457966780819827\",\"priority\":\"u=1, i\",\"referer\":\"https://telegram.org/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"21128.58\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150463
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16384,\"requestId\":\"21128.56\",\"timestamp\":172663.19516}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":0,\"requestId\":\"21128.56\",\"timestamp\":172663.208031}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16384,\"requestId\":\"21128.56\",\"timestamp\":172663.223598}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16237,\"encodedDataLength\":16384,\"requestId\":\"21128.56\",\"timestamp\":172663.232922}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16246,\"requestId\":\"21128.56\",\"timestamp\":172663.243468}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16384,\"requestId\":\"21128.56\",\"timestamp\":172663.273731}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16384,\"requestId\":\"21128.56\",\"timestamp\":172663.420402}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16384,\"requestId\":\"21128.56\",\"timestamp\":172663.433684}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16384,\"requestId\":\"21128.56\",\"timestamp\":172663.448848}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16474,\"encodedDataLength\":16384,\"requestId\":\"21128.56\",\"timestamp\":172663.45407}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16492,\"requestId\":\"21128.56\",\"timestamp\":172663.473042}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16402,\"encodedDataLength\":32804,\"requestId\":\"21128.56\",\"timestamp\":172663.478855}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFailed\",\"params\":{\"canceled\":true,\"errorText\":\"net::ERR_ABORTED\",\"requestId\":\"21128.56\",\"timestamp\":172663.479043,\"type\":\"Media\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-length\":\"196608\",\"content-range\":\"bytes 32768-229375/244748\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:45 GMT\",\"etag\":\"\\\"5eb6fd6e-3bc0c\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:45 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"requestId\":\"21128.57\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":206}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.57\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":16384,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Content-Length\":\"211980\",\"Content-Range\":\"bytes 32768-244747/244748\",\"access-control-allow-origin\":\"*\",\"cache-control\":\"max-age=345600\",\"content-type\":\"video/mp4\",\"date\":\"Tue, 27 Jan 2026 10:35:45 GMT\",\"etag\":\"\\\"5eb6fd6e-3bc0c\\\"\",\"expires\":\"Sat, 31 Jan 2026 10:35:45 GMT\",\"last-modified\":\"Sat, 09 May 2020 18:58:54 GMT\",\"server\":\"nginx/1.18.0\"},\"mimeType\":\"video/mp4\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510145780844e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":206,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":327.447,\"receiveHeadersStart\":327.203,\"requestTime\":172663.17966,\"sendEnd\":8.963,\"sendStart\":8.471,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/img/t_main_iOS_demo.mp4\"},\"timestamp\":172663.507883,\"type\":\"Media\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16156,\"encodedDataLength\":0,\"requestId\":\"21128.57\",\"timestamp\":172663.507941}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16612,\"encodedDataLength\":0,\"requestId\":\"21128.57\",\"timestamp\":172663.521416}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16630,\"requestId\":\"21128.57\",\"timestamp\":172663.533253}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16402,\"encodedDataLength\":16384,\"requestId\":\"21128.57\",\"timestamp\":172663.545947}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16420,\"requestId\":\"21128.57\",\"timestamp\":172663.559864}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":16384,\"requestId\":\"21128.57\",\"timestamp\":172663.687966}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://telegram.org\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ranges\":\"bytes\",\"cache-control\":\"max-age=604800\",\"content-length\":\"15086\",\"content-type\":\"image/x-icon\",\"date\":\"Tue, 27 Jan 2026 10:35:45 GMT\",\"etag\":\"\\\"62616083-3aee\\\"\",\"expires\":\"Tue, 03 Feb 2026 10:35:45 GMT\",\"last-modified\":\"Thu, 21 Apr 2022 13:47:47 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"requestId\":\"21128.58\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":36,\"encodedDataLength\":16384,\"requestId\":\"21128.57\",\"timestamp\":172663.704867}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"E94D67145AAFF33FB92CA8991E2060A1\",\"hasExtraInfo\":true,\"loaderId\":\"1FD1BF45B116BBDE4069E2F5C8E101D5\",\"requestId\":\"21128.58\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":124,\"connectionReused\":true,\"encodedDataLength\":14213,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ranges\":\"bytes\",\"cache-control\":\"max-age=604800\",\"content-length\":\"15086\",\"content-type\":\"image/x-icon\",\"date\":\"Tue, 27 Jan 2026 10:35:45 GMT\",\"etag\":\"\\\"62616083-3aee\\\"\",\"expires\":\"Tue, 03 Feb 2026 10:35:45 GMT\",\"last-modified\":\"Thu, 21 Apr 2022 13:47:47 GMT\",\"server\":\"nginx/1.18.0\",\"strict-transport-security\":\"max-age=31536000; includeSubDomains; preload\"},\"mimeType\":\"image/x-icon\",\"protocol\":\"h2\",\"remoteIPAddress\":\"149.154.167.99\",\"remotePort\":443,\"responseTime\":1.769510145977535e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_256_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Go Daddy Secure Certificate Authority - G2\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"*.telegram.org\",\"telegram.org\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h2' log\",\"logId\":\"D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100B902FD2AFE80050F1BCBE3E7637B8A7B2542AA7033E1BB7E5D82644B7453BCC0022100BC95596A957FF03498C3182AF471F363BD4699672FC710E87E7A197E2391D42F\",\"status\":\"Verified\",\"timestamp\":1.754919409208e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h2'\",\"logId\":\"944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"304402202F68DF38FC2F8AC8B3734E23527A905919239C7436715621F26913555B9941A002207BCCFB78D32D00D7CFD9BA7A5488CD285F3B4EB47A3B3EF4A6AE7AD4093510F9\",\"status\":\"Verified\",\"timestamp\":1.754919409519e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h2'\",\"logId\":\"C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100FA65B18130A21D7D94F43E6805B29716D3F6B06FD5A248CEEEE0616D42C44DC0022100D2828432370614BFB3E4E6B92421B013E036E6959371354142F2AA44E478A5F2\",\"status\":\"Verified\",\"timestamp\":1.754919409655e+12}],\"subjectName\":\"*.telegram.org\",\"validFrom\":1754919408,\"validTo\":1789220208},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":514.873,\"receiveHeadersStart\":514.529,\"requestTime\":172663.189026,\"sendEnd\":0.763,\"sendStart\":0.653,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://telegram.org/img/favicon.ico\"},\"timestamp\":172663.705024,\"type\":\"Other\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":13970,\"encodedDataLength\":0,\"requestId\":\"21128.58\",\"timestamp\":172663.705068}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1116,\"encodedDataLength\":1116,\"requestId\":\"21128.58\",\"timestamp\":172663.716921}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":15329,\"requestId\":\"21128.58\",\"timestamp\":172663.716747}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1677,\"encodedDataLength\":36,\"requestId\":\"21128.57\",\"timestamp\":172663.808757}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":1686,\"requestId\":\"21128.57\",\"timestamp\":172663.923495}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":32732,\"encodedDataLength\":16384,\"requestId\":\"21128.57\",\"timestamp\":172663.940153}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":14761,\"encodedDataLength\":32768,\"requestId\":\"21128.57\",\"timestamp\":172663.95269}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16366,\"encodedDataLength\":31154,\"requestId\":\"21128.57\",\"timestamp\":172663.959784}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":16402,\"encodedDataLength\":0,\"requestId\":\"21128.57\",\"timestamp\":172663.967798}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":15360,\"encodedDataLength\":16420,\"requestId\":\"21128.57\",\"timestamp\":172663.968002}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFailed\",\"params\":{\"canceled\":true,\"errorText\":\"net::ERR_ABORTED\",\"requestId\":\"21128.57\",\"timestamp\":172663.968152,\"type\":\"Media\"}},\"webview\":\"E94D67145AAFF33FB92CA8991E2060A1\"}",
+    "timestamp": 1769510150464
+  }
+]

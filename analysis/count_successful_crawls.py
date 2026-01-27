@@ -1,6 +1,6 @@
 import os
 
-RAW_DIR = "../data/raw/crypto"
+RAW_DIR = "../data/raw/crypto" # crypto or benign
 
 success = 0
 dead = 0

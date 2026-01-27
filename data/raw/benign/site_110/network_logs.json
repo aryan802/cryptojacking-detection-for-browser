@@ -1,0 +1,557 @@
+[
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"navigationType\":\"differentDocument\",\"url\":\"http://epicgames.com/\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510123379
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510123380
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"http://epicgames.com/\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"http://epicgames.com/\"},\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"timestamp\":172641.107117,\"type\":\"Document\",\"wallTime\":1769510123.381095}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510123382
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://epicgames.com/\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://epicgames.com/\",\"Non-Authoritative-Reason\":\"HttpsUpgrades\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"insecure\",\"status\":307,\"statusText\":\"Temporary Redirect\",\"url\":\"http://epicgames.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://epicgames.com/\"},\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"timestamp\":172641.108849,\"type\":\"Document\",\"wallTime\":1769510123.382832}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510123384
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":172641.109463},\"headers\":{\":authority\":\"epicgames.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510123876
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://epicgames.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"content-length\":\"134\",\"content-type\":\"text/html\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"location\":\"https://www.epicgames.com:443/\",\"server\":\"awselb/2.0\"},\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":301}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124109
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.epicgames.com/\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"redirectHasExtraInfo\":true,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":103,\"connectionReused\":false,\"encodedDataLength\":229,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"content-length\":\"134\",\"content-type\":\"text/html\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"location\":\"https://www.epicgames.com:443/\",\"server\":\"awselb/2.0\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"34.239.78.29\",\"remotePort\":443,\"responseTime\":1.769510124108457e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Amazon RSA 2048 M02\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"epicgames.com\",\"*.epicgames.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100C4533EDC1FD34D06DE50C5BBDD2C08DC09E958CADE322D2F6B114FB3DF086DF202203216E1229AFCE1FC6DBE1FA07BF5EB3946CFE3C00F9A2DD61CDCA16A8948C44E\",\"status\":\"Verified\",\"timestamp\":1.747155830785e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Wyvern2026h1'\",\"logId\":\"6411C46CA412ECA7891CA2022E00BCAB4F2807D41E3527ABEAFED503C97DCDF0\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3044022031DB3C0062EDE743D091EA4719040740A82F198133C7168615B495536725599002206DEE3F471722827902A1A24AFA6BCD9207723A01238D130571200945DB252565\",\"status\":\"Verified\",\"timestamp\":1.747155830834e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100EDC2BB9D94ADD0E6D12FC31C4D0FE33C544C8039F24E1B99260451BB03854F610221008A07F8096D14439D10F68BCB853D6C7B950B968FDB6B9E0C8698529BE2EBBC18\",\"status\":\"Verified\",\"timestamp\":1.747155830846e+12}],\"subjectName\":\"epicgames.com\",\"validFrom\":1747094400,\"validTo\":1781222399},\"securityState\":\"secure\",\"status\":301,\"statusText\":\"\",\"timing\":{\"connectEnd\":492.796,\"connectStart\":17.799,\"dnsEnd\":17.661,\"dnsStart\":1.59,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":725.137,\"receiveHeadersStart\":725.008,\"requestTime\":172641.109463,\"sendEnd\":493.086,\"sendStart\":492.915,\"sslEnd\":492.787,\"sslStart\":257.764,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://epicgames.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.epicgames.com/\"},\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"timestamp\":172641.835321,\"type\":\"Document\",\"wallTime\":1769510124.109329}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124109
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"connectTiming\":{\"requestTime\":172641.835615},\"headers\":{\":authority\":\"www.epicgames.com\",\":method\":\"GET\",\":path\":\"/\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"document\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"none\",\"sec-fetch-user\":\"?1\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124205
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://epicgames.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-mitigated\":\"challenge\",\"cf-ray\":\"9c479a647b576ce0-MAA\",\"content-encoding\":\"br\",\"content-type\":\"text/html; charset=UTF-8\",\"critical-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy\":\"same-origin\",\"cross-origin-resource-policy\":\"same-origin\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"expires\":\"Thu, 01 Jan 1970 00:00:01 GMT\",\"origin-agent-cluster\":\"?1\",\"permissions-policy\":\"accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\",\"referrer-policy\":\"same-origin\",\"server\":\"cloudflare\",\"server-timing\":\"chlray;desc=\\\"9c479a647b576ce0\\\"\",\"set-cookie\":\"__cf_bm=xXmZVqvUyqjc6jjUjeVyKlUxmoB1tqwUu0H3lZu4tfM-1769510124-1.0.1.1-7jxa1wGRF8oxDhQ3h4KEam__UL_NZLD2O6dayp0zLs06Bb469A3G4MbjZhRym5UU3N1svBoxyIpqNY1wAL6oQxNKoJjrgxmKry.IazcuyYg; path=/; expires=Tue, 27-Jan-26 11:05:24 GMT; domain=.www.epicgames.com; HttpOnly; Secure; SameSite=None\",\"strict-transport-security\":\"max-age=15552000; includeSubDomains; preload\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\"},\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":403}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124230
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://epicgames.com/\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":63,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"Location\":\"https://epicgames.com/\"},\"mimeType\":\"\",\"protocol\":\"http/1.1\",\"remoteIPAddress\":\"\",\"remotePort\":0,\"securityState\":\"secure\",\"status\":307,\"statusText\":\"Internal Redirect\",\"url\":\"https://www.epicgames.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://epicgames.com/\"},\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"timestamp\":172641.95717,\"type\":\"Document\",\"wallTime\":1769510124.231163}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124231
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.epicgames.com/\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"redirectHasExtraInfo\":false,\"redirectResponse\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"\",\"connectionId\":0,\"connectionReused\":false,\"encodedDataLength\":0,\"fromDiskCache\":true,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"content-length\":\"134\",\"content-type\":\"text/html\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"location\":\"https://www.epicgames.com:443/\",\"server\":\"awselb/2.0\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"34.239.78.29\",\"remotePort\":443,\"responseTime\":1.769510124108457e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"unknown\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"Amazon RSA 2048 M02\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"epicgames.com\",\"*.epicgames.com\"],\"serverSignatureAlgorithm\":2052,\"signedCertificateTimestampList\":[],\"subjectName\":\"epicgames.com\",\"validFrom\":1747094400,\"validTo\":1781222399},\"securityState\":\"secure\",\"status\":301,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":0.468,\"receiveHeadersStart\":0.433,\"requestTime\":172641.957487,\"sendEnd\":0.072,\"sendStart\":0.072,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://epicgames.com/\"},\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"strict-origin-when-cross-origin\",\"url\":\"https://www.epicgames.com/\"},\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"timestamp\":172641.958569,\"type\":\"Document\",\"wallTime\":1769510124.232571}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124232
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasExtraInfo\":false,\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"response\":{\"alternateProtocolUsage\":\"mainJobWonRace\",\"charset\":\"utf-8\",\"connectionId\":126,\"connectionReused\":true,\"encodedDataLength\":74,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-mitigated\":\"challenge\",\"cf-ray\":\"9c479a64abcc6ce0-MAA\",\"content-encoding\":\"br\",\"content-type\":\"text/html; charset=UTF-8\",\"critical-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy\":\"same-origin\",\"cross-origin-resource-policy\":\"same-origin\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"expires\":\"Thu, 01 Jan 1970 00:00:01 GMT\",\"origin-agent-cluster\":\"?1\",\"permissions-policy\":\"accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\",\"referrer-policy\":\"same-origin\",\"server\":\"cloudflare\",\"server-timing\":\"chlray;desc=\\\"9c479a64abcc6ce0\\\"\",\"strict-transport-security\":\"max-age=15552000; includeSubDomains; preload\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\"},\"mimeType\":\"text/html\",\"protocol\":\"h2\",\"remoteIPAddress\":\"104.18.21.94\",\"remotePort\":443,\"responseTime\":1.769510124248671e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"www.epicgames.com\",\"*.www.epicgames.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100EB0CE6F1F301DD50FC12197C8538D5C4BE7691B1E07193616C8F8F7118D550BC022011795F6D9E27E710E85AE6464A06E952989E5941AF5DCA4F02870C98B00A0CEC\",\"status\":\"Verified\",\"timestamp\":1.769043434918e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100C48992FFB4548428C5DDCCEB8DBE64162DDD35FEB1879EA31FB3918420C219B6022100CF05CD8F8B818E9D3D46613FA10C58C4064F188620491A04F84B4FA30D92610C\",\"status\":\"Verified\",\"timestamp\":1.769043434939e+12}],\"subjectName\":\"www.epicgames.com\",\"validFrom\":1769039834,\"validTo\":1776819431},\"securityState\":\"secure\",\"status\":403,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":15.894,\"receiveHeadersStart\":15.817,\"requestTime\":172641.958874,\"sendEnd\":1.02,\"sendStart\":0.928,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.epicgames.com/\"},\"timestamp\":172641.979861,\"type\":\"Document\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124254
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\"},\"crossOriginIsolatedContextType\":\"Isolated\",\"domainAndRegistry\":\"epicgames.com\",\"gatedAPIFeatures\":[\"SharedArrayBuffers\",\"SharedArrayBuffersTransferAllowed\"],\"id\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"mimeType\":\"text/html\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"https://www.epicgames.com\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"https://www.epicgames.com/\"},\"type\":\"Navigation\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124265
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124281
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":27748,\"encodedDataLength\":0,\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"timestamp\":172641.991725}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124281
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.navigatedWithinDocument\",\"params\":{\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"navigationType\":\"historyApi\",\"url\":\"https://www.epicgames.com/?__cf_chl_rt_tk=8Y9kCEIOttW3LSii.W3OJIRq_c4T0TK6ICZWm7g5A70-1769510124-1.0.1.1-APbBe9i6JgMLAf5EDN_kKnLaG9BdN0LompJKY3uSbCI\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124282
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.epicgames.com/?__cf_chl_rt_tk=8Y9kCEIOttW3LSii.W3OJIRq_c4T0TK6ICZWm7g5A70-1769510124-1.0.1.1-APbBe9i6JgMLAf5EDN_kKnLaG9BdN0LompJKY3uSbCI\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":5691,\"functionName\":\"\",\"lineNumber\":291,\"scriptId\":\"7\",\"url\":\"https://www.epicgames.com/\"},{\"columnNumber\":5707,\"functionName\":\"\",\"lineNumber\":291,\"scriptId\":\"7\",\"url\":\"https://www.epicgames.com/\"}]},\"type\":\"script\"},\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://www.epicgames.com/?__cf_chl_rt_tk=8Y9kCEIOttW3LSii.W3OJIRq_c4T0TK6ICZWm7g5A70-1769510124-1.0.1.1-APbBe9i6JgMLAf5EDN_kKnLaG9BdN0LompJKY3uSbCI\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"same-origin\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},\"requestId\":\"7864.3\",\"timestamp\":172641.999735,\"type\":\"Script\",\"wallTime\":1769510124.273954}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124282
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":11306,\"requestId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"timestamp\":172641.983018}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124282
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":172642.001618}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124285
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\".www.epicgames.com\",\"expires\":1769511924.229392,\"httpOnly\":true,\"name\":\"__cf_bm\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":177,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"xXmZVqvUyqjc6jjUjeVyKlUxmoB1tqwUu0H3lZu4tfM-1769510124-1.0.1.1-7jxa1wGRF8oxDhQ3h4KEam__UL_NZLD2O6dayp0zLs06Bb469A3G4MbjZhRym5UU3N1svBoxyIpqNY1wAL6oQxNKoJjrgxmKry.IazcuyYg\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172642.002425},\"headers\":{\":authority\":\"www.epicgames.com\",\":method\":\"GET\",\":path\":\"/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"__cf_bm=xXmZVqvUyqjc6jjUjeVyKlUxmoB1tqwUu0H3lZu4tfM-1769510124-1.0.1.1-7jxa1wGRF8oxDhQ3h4KEam__UL_NZLD2O6dayp0zLs06Bb469A3G4MbjZhRym5UU3N1svBoxyIpqNY1wAL6oQxNKoJjrgxmKry.IazcuyYg\",\"referer\":\"https://www.epicgames.com/?__cf_chl_rt_tk=8Y9kCEIOttW3LSii.W3OJIRq_c4T0TK6ICZWm7g5A70-1769510124-1.0.1.1-APbBe9i6JgMLAf5EDN_kKnLaG9BdN0LompJKY3uSbCI\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"7864.3\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124285
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://epicgames.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-ray\":\"9c479a64ed7e8826-MAA\",\"content-encoding\":\"br\",\"content-type\":\"application/javascript; charset=UTF-8\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"priority\":\"u=3,i=?0\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=15552000; includeSubDomains; preload\"},\"requestId\":\"7864.3\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124297
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasExtraInfo\":true,\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"requestId\":\"7864.3\",\"response\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"utf-8\",\"connectionId\":139,\"connectionReused\":false,\"encodedDataLength\":279,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-ray\":\"9c479a64ed7e8826-MAA\",\"content-encoding\":\"br\",\"content-type\":\"application/javascript; charset=UTF-8\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"priority\":\"u=3,i=?0\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=15552000; includeSubDomains; preload\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.18.21.94\",\"remotePort\":443,\"responseTime\":1.769510124297452e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"www.epicgames.com\",\"*.www.epicgames.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100EB0CE6F1F301DD50FC12197C8538D5C4BE7691B1E07193616C8F8F7118D550BC022011795F6D9E27E710E85AE6464A06E952989E5941AF5DCA4F02870C98B00A0CEC\",\"status\":\"Verified\",\"timestamp\":1.769043434918e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100C48992FFB4548428C5DDCCEB8DBE64162DDD35FEB1879EA31FB3918420C219B6022100CF05CD8F8B818E9D3D46613FA10C58C4064F188620491A04F84B4FA30D92610C\",\"status\":\"Verified\",\"timestamp\":1.769043434939e+12}],\"subjectName\":\"www.epicgames.com\",\"validFrom\":1769039834,\"validTo\":1776819431},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":0,\"connectStart\":0,\"dnsEnd\":0,\"dnsStart\":0,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":21.102,\"receiveHeadersStart\":21.039,\"requestTime\":172642.002425,\"sendEnd\":2.343,\"sendStart\":1.806,\"sslEnd\":0,\"sslStart\":0,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},\"timestamp\":172642.064216,\"type\":\"Script\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124338
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1561,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064265}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124338
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3954,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064266}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124338
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":10098,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064267}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124338
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2849,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064268}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2816,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064268}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":6327,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064271}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":7445,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064277}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":161,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064277}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3085,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064278}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3723,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064279}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1066,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064279}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2665,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.06428}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4048,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.06428}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4021,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064281}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4890,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064282}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1626,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064282}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3366,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064283}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":9877,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064283}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4204,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064284}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":645,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064285}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1897,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064285}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1222,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064286}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2992,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064286}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3073,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064289}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1744,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.06429}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3330,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.06429}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3853,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064291}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3745,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064292}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3434,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064292}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1128,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064295}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":4391,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064296}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2470,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064297}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":5936,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064297}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3050,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064298}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":162,\"encodedDataLength\":0,\"requestId\":\"7864.3\",\"timestamp\":172642.064315}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":46942,\"requestId\":\"7864.3\",\"timestamp\":172642.064399}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":47221,\"requestId\":\"7864.3\",\"timestamp\":172642.063089}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124339
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.navigatedWithinDocument\",\"params\":{\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"navigationType\":\"historyApi\",\"url\":\"https://www.epicgames.com/\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124344
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"blob:https://www.epicgames.com/d530e54b-41eb-4e8c-bf03-460d17ae9034\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\",\"url\":\"https://www.epicgames.com/\"},\"loaderId\":\"\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept\":\"*/*\"},\"initialPriority\":\"VeryLow\",\"method\":\"GET\",\"referrerPolicy\":\"same-origin\",\"url\":\"blob:https://www.epicgames.com/d530e54b-41eb-4e8c-bf03-460d17ae9034\"},\"requestId\":\"2D138FD88927DCA8F8A49FBF5591C6F8\",\"timestamp\":172642.073362,\"type\":\"Script\",\"wallTime\":1769510124.347336}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124347
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124353
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.epicgames.com/\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":103695,\"functionName\":\"Ff\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":118050,\"functionName\":\"rSSwe\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":119776,\"functionName\":\"FE\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":23881,\"functionName\":\"FW\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"}]},\"type\":\"script\"},\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Origin\":\"https://www.epicgames.com\",\"Referer\":\"\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"Low\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"same-origin\",\"url\":\"https://challenges.cloudflare.com/turnstile/v0/b/d251aa49a8a3/api.js?onload=cAdz2&render=explicit\"},\"requestId\":\"7864.4\",\"timestamp\":172642.073415,\"type\":\"Script\",\"wallTime\":1769510124.348046}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124353
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameAttached\",\"params\":{\"frameId\":\"8A4FDA9154F7E5EF905A9D05F2692DA2\",\"parentFrameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"stack\":{\"callFrames\":[{\"columnNumber\":55690,\"functionName\":\"Fh\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":82368,\"functionName\":\"FM\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":55667,\"functionName\":\"Fh\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":82368,\"functionName\":\"FM\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":119977,\"functionName\":\"FE\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":23881,\"functionName\":\"FW\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"}]}}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124353
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameRequestedNavigation\",\"params\":{\"disposition\":\"currentTab\",\"frameId\":\"8A4FDA9154F7E5EF905A9D05F2692DA2\",\"reason\":\"initialFrameNavigation\",\"url\":\"about:blank\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124353
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"adFrameStatus\":{\"adFrameType\":\"none\",\"explanations\":[]},\"crossOriginIsolatedContextType\":\"Isolated\",\"domainAndRegistry\":\"\",\"gatedAPIFeatures\":[\"SharedArrayBuffers\",\"SharedArrayBuffersTransferAllowed\"],\"id\":\"8A4FDA9154F7E5EF905A9D05F2692DA2\",\"loaderId\":\"8714A098035CBE0DA4D4861B76D687BA\",\"mimeType\":\"text/html\",\"name\":\"\",\"parentId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"secureContextType\":\"Secure\",\"securityOrigin\":\"://\",\"securityOriginDetails\":{\"isLocalhost\":false},\"url\":\"about:blank\"},\"type\":\"Navigation\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124354
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"8A4FDA9154F7E5EF905A9D05F2692DA2\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124354
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"8A4FDA9154F7E5EF905A9D05F2692DA2\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124355
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameSubtreeWillBeDetached\",\"params\":{\"frameId\":\"8A4FDA9154F7E5EF905A9D05F2692DA2\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124355
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameDetached\",\"params\":{\"frameId\":\"8A4FDA9154F7E5EF905A9D05F2692DA2\",\"reason\":\"remove\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124360
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172642.074459},\"headers\":{\":authority\":\"challenges.cloudflare.com\",\":method\":\"GET\",\":path\":\"/turnstile/v0/b/d251aa49a8a3/api.js?onload=cAdz2&render=explicit\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"origin\":\"https://www.epicgames.com\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"script\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"cross-site\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"7864.4\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124375
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://epicgames.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"access-control-allow-origin\":\"*\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=31536000, stale-if-error=10800, stale-while-revalidate=31536000, public\",\"cf-ray\":\"9c479a65793206b8-MAA\",\"content-encoding\":\"br\",\"content-type\":\"application/javascript; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"last-modified\":\"Wed, 14 Jan 2026 16:37:41 GMT\",\"server\":\"cloudflare\",\"set-cookie\":\"_cfuvid=6ezfBAv45L2AVZw0pKhK94iezXA23C7uK59blNowOv4-1769510124402-0.0.1.1-604800000; path=/; domain=.challenges.cloudflare.com; HttpOnly; Secure; SameSite=None\",\"timing-allow-origin\":\"https://www.epicgames.com\",\"vary\":\"Accept-Encoding\"},\"requestId\":\"7864.4\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124394
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasExtraInfo\":true,\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"requestId\":\"7864.4\",\"response\":{\"alternateProtocolUsage\":\"unspecifiedReason\",\"charset\":\"utf-8\",\"connectionId\":161,\"connectionReused\":false,\"encodedDataLength\":421,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"access-control-allow-origin\":\"*\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"max-age=31536000, stale-if-error=10800, stale-while-revalidate=31536000, public\",\"cf-ray\":\"9c479a65793206b8-MAA\",\"content-encoding\":\"br\",\"content-type\":\"application/javascript; charset=UTF-8\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"last-modified\":\"Wed, 14 Jan 2026 16:37:41 GMT\",\"server\":\"cloudflare\",\"timing-allow-origin\":\"https://www.epicgames.com\",\"vary\":\"Accept-Encoding\"},\"mimeType\":\"application/javascript\",\"protocol\":\"h2\",\"remoteIPAddress\":\"104.18.95.41\",\"remotePort\":443,\"responseTime\":1.769510124393611e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"TLS 1.3\",\"sanList\":[\"challenges.cloudflare.com\",\"*.challenges.cloudflare.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30440220160FA8D73E3DC888F82BA755F8DF170234A738C2AE7805980B205406830E4FD802206242F46AD2347D73452716597E62A588837370296B1FBD03E000E34B2D295577\",\"status\":\"Verified\",\"timestamp\":1.766347979157e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30450220541ED9B63EF91F8C679E1B9A288783EFCAC414AB497AF771DBA2FCCA1EDEC8FD02210082994D10EC1C054FB8B46BAF81059C7B4F087809EC1BBFED1F696F67B927033F\",\"status\":\"Verified\",\"timestamp\":1.766347979146e+12}],\"subjectName\":\"challenges.cloudflare.com\",\"validFrom\":1766344378,\"validTo\":1774123974},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":26.487,\"connectStart\":7.961,\"dnsEnd\":7.823,\"dnsStart\":0.249,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":45.326,\"receiveHeadersStart\":45.167,\"requestTime\":172642.074459,\"sendEnd\":26.677,\"sendStart\":26.616,\"sslEnd\":26.48,\"sslStart\":13.823,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://challenges.cloudflare.com/turnstile/v0/b/d251aa49a8a3/api.js?onload=cAdz2&render=explicit\"},\"timestamp\":172642.133503,\"type\":\"Script\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124408
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":50453,\"encodedDataLength\":0,\"requestId\":\"7864.4\",\"timestamp\":172642.133535}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124408
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":0,\"encodedDataLength\":16839,\"requestId\":\"7864.4\",\"timestamp\":172642.133587}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124408
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":17260,\"requestId\":\"7864.4\",\"timestamp\":172642.13205}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124408
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":172642.134944}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124409
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameScheduledNavigation\",\"params\":{\"delay\":360,\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"reason\":\"metaTagRefresh\",\"url\":\"https://www.epicgames.com/\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124409
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124410
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.epicgames.com/\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Referer\":\"https://www.epicgames.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"same-origin\",\"url\":\"https://www.epicgames.com/favicon.ico\"},\"requestId\":\"7864.5\",\"timestamp\":172642.137826,\"type\":\"Other\",\"wallTime\":1769510124.411834}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510124412
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\".www.epicgames.com\",\"expires\":1769511924.229392,\"httpOnly\":true,\"name\":\"__cf_bm\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":177,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"xXmZVqvUyqjc6jjUjeVyKlUxmoB1tqwUu0H3lZu4tfM-1769510124-1.0.1.1-7jxa1wGRF8oxDhQ3h4KEam__UL_NZLD2O6dayp0zLs06Bb469A3G4MbjZhRym5UU3N1svBoxyIpqNY1wAL6oQxNKoJjrgxmKry.IazcuyYg\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172642.138183},\"headers\":{\":authority\":\"www.epicgames.com\",\":method\":\"GET\",\":path\":\"/favicon.ico\",\":scheme\":\"https\",\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cookie\":\"__cf_bm=xXmZVqvUyqjc6jjUjeVyKlUxmoB1tqwUu0H3lZu4tfM-1769510124-1.0.1.1-7jxa1wGRF8oxDhQ3h4KEam__UL_NZLD2O6dayp0zLs06Bb469A3G4MbjZhRym5UU3N1svBoxyIpqNY1wAL6oQxNKoJjrgxmKry.IazcuyYg\",\"priority\":\"u=1, i\",\"referer\":\"https://www.epicgames.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\",\"sec-fetch-dest\":\"image\",\"sec-fetch-mode\":\"no-cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"7864.5\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://epicgames.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-mitigated\":\"challenge\",\"cf-ray\":\"9c479a65cfb98826-MAA\",\"content-encoding\":\"br\",\"content-type\":\"text/html; charset=UTF-8\",\"critical-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy\":\"same-origin\",\"cross-origin-resource-policy\":\"same-origin\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"expires\":\"Thu, 01 Jan 1970 00:00:01 GMT\",\"origin-agent-cluster\":\"?1\",\"permissions-policy\":\"accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\",\"priority\":\"u=1,i\",\"referrer-policy\":\"same-origin\",\"server\":\"cloudflare\",\"server-timing\":\"chlray;desc=\\\"9c479a65cfb98826\\\"\\ncfExtPri\",\"strict-transport-security\":\"max-age=15552000; includeSubDomains; preload\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\"},\"requestId\":\"7864.5\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":403}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasExtraInfo\":true,\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"requestId\":\"7864.5\",\"response\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"utf-8\",\"connectionId\":139,\"connectionReused\":true,\"encodedDataLength\":1138,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-mitigated\":\"challenge\",\"cf-ray\":\"9c479a65cfb98826-MAA\",\"content-encoding\":\"br\",\"content-type\":\"text/html; charset=UTF-8\",\"critical-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy\":\"same-origin\",\"cross-origin-resource-policy\":\"same-origin\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"expires\":\"Thu, 01 Jan 1970 00:00:01 GMT\",\"origin-agent-cluster\":\"?1\",\"permissions-policy\":\"accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\",\"priority\":\"u=1,i\",\"referrer-policy\":\"same-origin\",\"server\":\"cloudflare\",\"server-timing\":\"chlray;desc=\\\"9c479a65cfb98826\\\", cfExtPri\",\"strict-transport-security\":\"max-age=15552000; includeSubDomains; preload\",\"vary\":\"Accept-Encoding\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"SAMEORIGIN\"},\"mimeType\":\"text/html\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.18.21.94\",\"remotePort\":443,\"responseTime\":1.769510124443767e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"www.epicgames.com\",\"*.www.epicgames.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100EB0CE6F1F301DD50FC12197C8538D5C4BE7691B1E07193616C8F8F7118D550BC022011795F6D9E27E710E85AE6464A06E952989E5941AF5DCA4F02870C98B00A0CEC\",\"status\":\"Verified\",\"timestamp\":1.769043434918e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100C48992FFB4548428C5DDCCEB8DBE64162DDD35FEB1879EA31FB3918420C219B6022100CF05CD8F8B818E9D3D46613FA10C58C4064F188620491A04F84B4FA30D92610C\",\"status\":\"Verified\",\"timestamp\":1.769043434939e+12}],\"subjectName\":\"www.epicgames.com\",\"validFrom\":1769039834,\"validTo\":1776819431},\"securityState\":\"secure\",\"status\":403,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":31.664,\"receiveHeadersStart\":31.596,\"requestTime\":172642.138183,\"sendEnd\":4.247,\"sendStart\":4.006,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.epicgames.com/favicon.ico\"},\"timestamp\":172642.170567,\"type\":\"Other\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":17410,\"encodedDataLength\":0,\"requestId\":\"7864.5\",\"timestamp\":172642.173389}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":3699,\"encodedDataLength\":5880,\"requestId\":\"7864.5\",\"timestamp\":172642.174052}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1931,\"encodedDataLength\":1176,\"requestId\":\"7864.5\",\"timestamp\":172642.174878}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2748,\"encodedDataLength\":1133,\"requestId\":\"7864.5\",\"timestamp\":172642.176484}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1780,\"encodedDataLength\":2879,\"requestId\":\"7864.5\",\"timestamp\":172642.177551}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":12206,\"requestId\":\"7864.5\",\"timestamp\":172642.17736}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.epicgames.com/\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":42955,\"functionName\":\"S3\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"}]},\"type\":\"script\"},\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"redirectHasExtraInfo\":false,\"request\":{\"hasPostData\":true,\"headers\":{\"Content-Type\":\"text/plain;charset=UTF-8\",\"Referer\":\"https://www.epicgames.com/\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"cf-chl\":\"Ya1g_ZB0hqbBFzkBbMIyzJp4_Ui4R44l6UNVoEjXZmk-1769510124-1.2.1.1-9AfVS1bJNG_7YcmfV4B1qdzrSubAs4gfiHDc6SvuPYkPrDNCS_PohHZD54IDnbJh\",\"cf-chl-ra\":\"0\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\"},\"initialPriority\":\"High\",\"isSameSite\":true,\"method\":\"POST\",\"mixedContentType\":\"none\",\"postData\":\"cTO5YgYFO1hBNT7jbabbf99d1e3ybR15CtMBb8yUXL7+tkfi7Kdw3XjPPscwREonki5T8-7cRr1F+AXy7ZaLPpNr77N6gkjWrnl-wVyEWafEoI2IboYYrUTF1hyqcik8iLZQvQLnna7SHIQY3B8BDOzOMWn1zWpnO7vdjd6nqysYnLVBMIoW4sh0k02pe+bZZATBgLkTEIQpIC71L-rd-+5DMMqPcc7V5dcpPsYEQHhUzotpOHA3lsY1d+6Z+Ued1ARVjqQBw$eia9ajuq8PuOCGr5VMDtwwD775UqNn6DsBkw3GrUbmAJRklvlSa$LBHygSSr7Jvn6l76RE7TCphG2MMpsD-eeI6Am94585YCA$h6BGcT$8t4i3sn6zv23Car4H9fDb4LVaCS80KEE7o9s7TVm$oNH4dy9LlOututDB1-RG7OaOsT5WIwAUP7-urqWgUGi7-OwGNlbTYUzo6HPIMmlH9egenfRWKajr8FLzL7g4D$E+V2DM3DQPOzL0lsymq23l+bAiBzE7z6Ot$-4S9XmqS5zIspHmk0BZAW+S1Mql$EJ-ZCreDyOH0RLNssFZpmqjLABaLGuLPc1QwcEyLuOa6qwT47oEirmi0OLW5nlDIb4-b+VGOmVS0NTotZyztrKbiU8bAF13GWXv$jPu7tZ4C+HtgbmikhN5o9m-ZZWTJXy8ck8mmHcCDEVOoveXNnyvCL-beVGNtNsVH74paYryyynnq$WokDTp4sXDQk6OV1PWzCqTYlDcM2gIGG7SlwJPBp+Ht6kuW1uJAbR4IOfil5nyT-brSED6+Nbvhu-i86qeu59UZYN0TgISes69mthrbLZ0dYXI1HTJ2bHtglAjZkOhDhUF2K$7i0MlCFK+1HO33at8Mw9H5dtKDrViL+M7+nZEEbrp8Syjcmqzb4T4L61sSBIl$rczTkrIW3A5wsA7cQW4m3I4hO-JZz+EBB1-LZBzF7rJALb3l4KSkirwitBUvkL-e9Q056lu-GUJPmydDHEDhOzs0Pbaaz-TG3e2Tg90uQYaCCh0AVzKbdgavKaIXc8gXMyemR2Vmav7B8ljqQNW7q4ypZi02PLGsKYDovw1zsob668TzWlSBHZ9eTQr65pVDOdC73uSOA8ZkBJTy5XVgiQn2slrtO8ggrHIntGLGGoqGo-jFoe8r8bq-6BFQUDsOOhza8AaGUd-1YO331hfJjIp5jlcBd6bi5Wy7-7XF4nK2TvlkVzR2s-gsE-s1+79DYfp0-tjfvsNCJrtg0NbFrrTG-C7rVz0PVujYpgZn5eEyoufGR7OFDY1HnM+7-22j1c25TBqA7IbT-B$7KRTO9LFgPHnChgnL5Hp4XvMfz9DWrAPnGIn5kNgKgzDMLfyak2bhGiEt$2cHmYQrylA6lQTnscu8tRPHUFTndgo0SnGBraoO48Sb+8DvUMika9wDYj$QFL76gGebaNugjiLA8k8Zlm$S8BjP-CU2PyZmUyIiCOtX11s9GIQz6XFjHB-b5g4UHs6XwBR6ncysqsH6OuCHAgOzeUXtCfwj3Z+NfdOunEmDKuTrChpObBmL4Lv8MuhC9iodsZqrVYd9CazbEjmC01kgvD9sJgR-Q48Oa5FhdXVJaObv19pjU2ZqStsPf8l7ZofshQl8D5nRCEynZ3MvTv3dyUsgrSJ5$Krwaa9$2JJTuXmVQ$BscDFmzs+cyE32fbFiDgjFVrD3qlHKhjbfX2aU0NU-DJFVly2tV0g5iEVjakhztXzDSmU6nBCnEiDoHdWo5dFDCo2J2k7w2mE6NEvVB+aqQB-hcaCzf$vFdgVClu3B5k3L7XXoLJFJY9tuSBLVcwC9-qL$CWViQ5oJYIBMNIKdEphNHI$eWt4byvpX$shmLkL$rXOz93VL1kaEZbR+tqzdbFA-uPruhb+K+Z$2hDu1A4PFkH5h0IyVvrEnnvk64elwn32i+DLZs5QCYogvryK6Cb1hURZsreDYuzchtw5eD5O-8lcrTbKtIlW2AVPVPS5Wg5$HGpOw8iJDV7uUMl5gM2HCgZu9Bip1dfb1I8Uw4s7v9KSRVnck5OtkLpsdU7veBNrQfSiGnSkCR-TM5B5jJZOuVlIyunNIasEtUWh29k2Hjb+HmVZPbGo9F4aahTewmQ4QWIo1+CzfzZkHBH+8VVy5DRLTs8JRHO4-0TIBFSWY2usQPZGvtGKJDO-7C1D0jD3auX+sGSvIbRgfDmYSf10SETGQt4y0Zhg2u\",\"postDataEntries\":[{\"bytes\":\"Y1RPNVlnWUZPMWhCTlQ3amJhYmJmOTlkMWUzeWJSMTVDdE1CYjh5VVhMNyt0a2ZpN0tkdzNYalBQc2N3UkVvbmtpNVQ4LTdjUnIxRitBWHk3WmFMUHBOcjc3TjZna2pXcm5sLXdWeUVXYWZFb0kySWJvWVlyVVRGMWh5cWNpazhpTFpRdlFMbm5hN1NISVFZM0I4QkRPek9NV24xeldwbk83dmRqZDZucXlzWW5MVkJNSW9XNHNoMGswMnBlK2JaWkFUQmdMa1RFSVFwSUM3MUwtcmQtKzVETU1xUGNjN1Y1ZGNwUHNZRVFIaFV6b3RwT0hBM2xzWTFkKzZaK1VlZDFBUlZqcVFCdyRlaWE5YWp1cThQdU9DR3I1Vk1EdHd3RDc3NVVxTm42RHNCa3czR3JVYm1BSlJrbHZsU2EkTEJIeWdTU3I3SnZuNmw3NlJFN1RDcGhHMk1NcHNELWVlSTZBbTk0NTg1WUNBJGg2QkdjVCQ4dDRpM3NuNnp2MjNDYXI0SDlmRGI0TFZhQ1M4MEtFRTdvOXM3VFZtJG9OSDRkeTlMbE91dHV0REIxLVJHN09hT3NUNVdJd0FVUDctdXJxV2dVR2k3LU93R05sYlRZVXpvNkhQSU1tbEg5ZWdlbmZSV0thanI4Rkx6TDdnNEQkRStWMkRNM0RRUE96TDBsc3ltcTIzbCtiQWlCekU3ejZPdCQtNFM5WG1xUzV6SXNwSG1rMEJaQVcrUzFNcWwkRUotWkNyZUR5T0gwUkxOc3NGWnBtcWpMQUJhTEd1TFBjMVF3Y0V5THVPYTZxd1Q0N29FaXJtaTBPTFc1bmxESWI0LWIrVkdPbVZTME5Ub3RaeXp0cktiaVU4YkFGMTNHV1h2JGpQdTd0WjRDK0h0Z2JtaWtoTjVvOW0tWlpXVEpYeThjazhtbUhjQ0RFVk9vdmVYTm55dkNMLWJlVkdOdE5zVkg3NHBhWXJ5eXlubnEkV29rRFRwNHNYRFFrNk9WMVBXekNxVFlsRGNNMmdJR0c3U2x3SlBCcCtIdDZrdVcxdUpBYlI0SU9maWw1bnlULWJyU0VENitOYnZodS1pODZxZXU1OVVaWU4wVGdJU2VzNjltdGhyYkxaMGRZWEkxSFRKMmJIdGdsQWpaa09oRGhVRjJLJDdpME1sQ0ZLKzFITzMzYXQ4TXc5SDVkdEtEclZpTCtNNytuWkVFYnJwOFN5amNtcXpiNFQ0TDYxc1NCSWwkcmN6VGtySVczQTV3c0E3Y1FXNG0zSTRoTy1KWnorRUJCMS1MWkJ6RjdySkFMYjNsNEtTa2lyd2l0QlV2a0wtZTlRMDU2bHUtR1VKUG15ZERIRURoT3pzMFBiYWF6LVRHM2UyVGc5MHVRWWFDQ2gwQVZ6S2JkZ2F2S2FJWGM4Z1hNeWVtUjJWbWF2N0I4bGpxUU5XN3E0eXBaaTAyUExHc0tZRG92dzF6c29iNjY4VHpXbFNCSFo5ZVRRcjY1cFZET2RDNzN1U09BOFprQkpUeTVYVmdpUW4yc2xydE84Z2dySEludEdMR0dvcUdvLWpGb2U4cjhicS02QkZRVURzT09oemE4QWFHVWQtMVlPMzMxaGZKaklwNWpsY0JkNmJpNVd5Ny03WEY0bksyVHZsa1Z6UjJzLWdzRS1zMSs3OURZZnAwLXRqZnZzTkNKcnRnME5iRnJyVEctQzdyVnowUFZ1allwZ1puNWVFeW91ZkdSN09GRFkxSG5NKzctMjJqMWMyNVRCcUE3SWJULUIkN0tSVE85TEZnUEhuQ2hnbkw1SHA0WHZNZno5RFdyQVBuR0luNWtOZ0tnekRNTGZ5YWsyYmhHaUV0JDJjSG1ZUXJ5bEE2bFFUbnNjdTh0UlBIVUZUbmRnbzBTbkdCcmFvTzQ4U2IrOER2VU1pa2E5d0RZaiRRRkw3NmdHZWJhTnVnamlMQThrOFpsbSRTOEJqUC1DVTJQeVptVXlJaUNPdFgxMXM5R0lRejZYRmpIQi1iNWc0VUhzNlh3QlI2bmN5c3FzSDZPdUNIQWdPemVVWHRDZndqM1orTmZkT3VuRW1ES3VUckNocE9iQm1MNEx2OE11aEM5aW9kc1pxclZZZDlDYXpiRWptQzAxa2d2RDlzSmdSLVE0OE9hNUZoZFhWSmFPYnYxOXBqVTJacVN0c1BmOGw3Wm9mc2hRbDhENW5SQ0V5blozTXZUdjNkeVVzZ3JTSjUkS3J3YWE5JDJKSlR1WG1WUSRCc2NERm16cytjeUUzMmZiRmlEZ2pGVnJEM3FsSEtoamJmWDJhVTBOVS1ESkZWbHkydFYwZzVpRVZqYWtoenRYekRTbVU2bkJDbkVpRG9IZFdvNWRGRENvMkoyazd3Mm1FNk5FdlZCK2FxUUItaGNhQ3pmJHZGZGdWQ2x1M0I1azNMN1hYb0xKRkpZOXR1U0JMVmN3QzktcUwkQ1dWaVE1b0pZSUJNTklLZEVwaE5ISSRlV3Q0Ynl2cFgkc2htTGtMJHJYT3o5M1ZMMWthRVpiUit0cXpkYkZBLXVQcnVoYitLK1okMmhEdTFBNFBGa0g1aDBJeVZ2ckVubnZrNjRlbHduMzJpK0RMWnM1UUNZb2d2cnlLNkNiMWhVUlpzcmVEWXV6Y2h0dzVlRDVPLThsY3JUYkt0SWxXMkFWUFZQUzVXZzUkSEdwT3c4aUpEVjd1VU1sNWdNMkhDZ1p1OUJpcDFkZmIxSThVdzRzN3Y5S1NSVm5jazVPdGtMcHNkVTd2ZUJOclFmU2lHblNrQ1ItVE01QjVqSlpPdVZsSXl1bk5JYXNFdFVXaDI5azJIamIrSG1WWlBiR285RjRhYWhUZXdtUTRRV0lvMStDemZ6WmtIQkgrOFZWeTVEUkxUczhKUkhPNC0wVElCRlNXWTJ1c1FQWkd2dEdLSkRPLTdDMUQwakQzYXVYK3NHU3ZJYlJnZkRtWVNmMTBTRVRHUXQ0eTBaaGcydQ==\"}],\"referrerPolicy\":\"same-origin\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/flow/ov1/737093045:1769506103:Kx8nZQnlyjS0l8CSeQTST7FJJYOKTdmT-18s2F8ea-8/9c479a64abcc6ce0/Ya1g_ZB0hqbBFzkBbMIyzJp4_Ui4R44l6UNVoEjXZmk-1769510124-1.2.1.1-9AfVS1bJNG_7YcmfV4B1qdzrSubAs4gfiHDc6SvuPYkPrDNCS_PohHZD54IDnbJh\"},\"requestId\":\"7864.6\",\"timestamp\":172642.214007,\"type\":\"XHR\",\"wallTime\":1769510124.488277}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[{\"blockedReasons\":[],\"cookie\":{\"domain\":\".www.epicgames.com\",\"expires\":1769511924.229392,\"httpOnly\":true,\"name\":\"__cf_bm\",\"path\":\"/\",\"priority\":\"Medium\",\"sameParty\":false,\"sameSite\":\"None\",\"secure\":true,\"session\":false,\"size\":177,\"sourcePort\":443,\"sourceScheme\":\"Secure\",\"value\":\"xXmZVqvUyqjc6jjUjeVyKlUxmoB1tqwUu0H3lZu4tfM-1769510124-1.0.1.1-7jxa1wGRF8oxDhQ3h4KEam__UL_NZLD2O6dayp0zLs06Bb469A3G4MbjZhRym5UU3N1svBoxyIpqNY1wAL6oQxNKoJjrgxmKry.IazcuyYg\"},\"exemptionReason\":\"None\"}],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172642.214769},\"headers\":{\":authority\":\"www.epicgames.com\",\":method\":\"POST\",\":path\":\"/cdn-cgi/challenge-platform/h/b/flow/ov1/737093045:1769506103:Kx8nZQnlyjS0l8CSeQTST7FJJYOKTdmT-18s2F8ea-8/9c479a64abcc6ce0/Ya1g_ZB0hqbBFzkBbMIyzJp4_Ui4R44l6UNVoEjXZmk-1769510124-1.2.1.1-9AfVS1bJNG_7YcmfV4B1qdzrSubAs4gfiHDc6SvuPYkPrDNCS_PohHZD54IDnbJh\",\":scheme\":\"https\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"cf-chl\":\"Ya1g_ZB0hqbBFzkBbMIyzJp4_Ui4R44l6UNVoEjXZmk-1769510124-1.2.1.1-9AfVS1bJNG_7YcmfV4B1qdzrSubAs4gfiHDc6SvuPYkPrDNCS_PohHZD54IDnbJh\",\"cf-chl-ra\":\"0\",\"content-length\":\"2242\",\"content-type\":\"text/plain;charset=UTF-8\",\"cookie\":\"__cf_bm=xXmZVqvUyqjc6jjUjeVyKlUxmoB1tqwUu0H3lZu4tfM-1769510124-1.0.1.1-7jxa1wGRF8oxDhQ3h4KEam__UL_NZLD2O6dayp0zLs06Bb469A3G4MbjZhRym5UU3N1svBoxyIpqNY1wAL6oQxNKoJjrgxmKry.IazcuyYg\",\"origin\":\"https://www.epicgames.com\",\"priority\":\"u=1, i\",\"referer\":\"https://www.epicgames.com/\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-arch\":\"\\\"x86\\\"\",\"sec-ch-ua-bitness\":\"\\\"64\\\"\",\"sec-ch-ua-full-version\":\"\\\"144.0.7559.97\\\"\",\"sec-ch-ua-full-version-list\":\"\\\"Not(A:Brand\\\";v=\\\"8.0.0.0\\\", \\\"Chromium\\\";v=\\\"144.0.7559.97\\\", \\\"Google Chrome\\\";v=\\\"144.0.7559.97\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-model\":\"\\\"\\\"\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-ch-ua-platform-version\":\"\\\"19.0.0\\\"\",\"sec-fetch-dest\":\"empty\",\"sec-fetch-mode\":\"cors\",\"sec-fetch-site\":\"same-origin\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"7864.6\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://epicgames.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-chl-gen\":\"QBFupKPoRXL9prM2NI5kUllOdIQJ0Uu6ykdUegUDO4w=$kJQzB3kKrBTREOIlGxuM5A==\",\"cf-ray\":\"9c479a6638f28826-MAA\",\"content-encoding\":\"br\",\"content-type\":\"text/plain; charset=UTF-8\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"priority\":\"u=1,i\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=15552000; includeSubDomains; preload\",\"timing-allow-origin\":\"https://www.epicgames.com\"},\"requestId\":\"7864.6\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasExtraInfo\":true,\"loaderId\":\"2FFCFD5646A66A7D4E05CFD3846FC198\",\"requestId\":\"7864.6\",\"response\":{\"alternateProtocolUsage\":\"alternativeJobWonWithoutRace\",\"charset\":\"utf-8\",\"connectionId\":139,\"connectionReused\":true,\"encodedDataLength\":260,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cf-chl-gen\":\"QBFupKPoRXL9prM2NI5kUllOdIQJ0Uu6ykdUegUDO4w=$kJQzB3kKrBTREOIlGxuM5A==\",\"cf-ray\":\"9c479a6638f28826-MAA\",\"content-encoding\":\"br\",\"content-type\":\"text/plain; charset=UTF-8\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"priority\":\"u=1,i\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\",\"strict-transport-security\":\"max-age=15552000; includeSubDomains; preload\",\"timing-allow-origin\":\"https://www.epicgames.com\"},\"mimeType\":\"text/plain\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.18.21.94\",\"remotePort\":443,\"responseTime\":1.769510124515614e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"www.epicgames.com\",\"*.www.epicgames.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Xenon2026h1' log\",\"logId\":\"969764BF555897ADF743876837084277E9F03AD5F6A4F3366E46A43F0FCAA9C6\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3045022100EB0CE6F1F301DD50FC12197C8538D5C4BE7691B1E07193616C8F8F7118D550BC022011795F6D9E27E710E85AE6464A06E952989E5941AF5DCA4F02870C98B00A0CEC\",\"status\":\"Verified\",\"timestamp\":1.769043434918e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Cloudflare 'Nimbus2026'\",\"logId\":\"CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"3046022100C48992FFB4548428C5DDCCEB8DBE64162DDD35FEB1879EA31FB3918420C219B6022100CF05CD8F8B818E9D3D46613FA10C58C4064F188620491A04F84B4FA30D92610C\",\"status\":\"Verified\",\"timestamp\":1.769043434939e+12}],\"subjectName\":\"www.epicgames.com\",\"validFrom\":1769039834,\"validTo\":1776819431},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":-1,\"connectStart\":-1,\"dnsEnd\":-1,\"dnsStart\":-1,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":26.93,\"receiveHeadersStart\":26.859,\"requestTime\":172642.214769,\"sendEnd\":0.748,\"sendStart\":0.34,\"sslEnd\":-1,\"sslStart\":-1,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/flow/ov1/737093045:1769506103:Kx8nZQnlyjS0l8CSeQTST7FJJYOKTdmT-18s2F8ea-8/9c479a64abcc6ce0/Ya1g_ZB0hqbBFzkBbMIyzJp4_Ui4R44l6UNVoEjXZmk-1769510124-1.2.1.1-9AfVS1bJNG_7YcmfV4B1qdzrSubAs4gfiHDc6SvuPYkPrDNCS_PohHZD54IDnbJh\"},\"timestamp\":172642.246658,\"type\":\"XHR\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1531,\"encodedDataLength\":0,\"requestId\":\"7864.6\",\"timestamp\":172642.246701}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":9329,\"encodedDataLength\":8189,\"requestId\":\"7864.6\",\"timestamp\":172642.249592}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":2813,\"encodedDataLength\":2117,\"requestId\":\"7864.6\",\"timestamp\":172642.25136}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1451,\"encodedDataLength\":1094,\"requestId\":\"7864.6\",\"timestamp\":172642.252268}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":1560,\"encodedDataLength\":1176,\"requestId\":\"7864.6\",\"timestamp\":172642.253258}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":828,\"encodedDataLength\":632,\"requestId\":\"7864.6\",\"timestamp\":172642.253914}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"blob:https://www.epicgames.com/c58d0dbe-8385-4aae-8de8-0d60e2791755\",\"frameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\",\"url\":\"https://www.epicgames.com/\"},\"loaderId\":\"\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Accept\":\"*/*\"},\"initialPriority\":\"VeryLow\",\"method\":\"GET\",\"referrerPolicy\":\"same-origin\",\"url\":\"blob:https://www.epicgames.com/c58d0dbe-8385-4aae-8de8-0d60e2791755\"},\"requestId\":\"015B726BCA11804D8D7E0F86AF8F2786\",\"timestamp\":172642.270012,\"type\":\"Script\",\"wallTime\":1769510124.543985}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.policyUpdated\",\"params\":{}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameAttached\",\"params\":{\"frameId\":\"0986CEB503475EB9B5D03008B49990DC\",\"parentFrameId\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\",\"stack\":{\"callFrames\":[{\"columnNumber\":34490,\"functionName\":\"C\",\"lineNumber\":0,\"scriptId\":\"12\",\"url\":\"https://challenges.cloudflare.com/turnstile/v0/b/d251aa49a8a3/api.js?onload=cAdz2&render=explicit\"},{\"columnNumber\":55690,\"functionName\":\"Fh\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":82368,\"functionName\":\"FM\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":55690,\"functionName\":\"Fh\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":82368,\"functionName\":\"FM\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":55667,\"functionName\":\"Fh\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":82368,\"functionName\":\"FM\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":55667,\"functionName\":\"Fh\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":82368,\"functionName\":\"FM\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":41847,\"functionName\":\"fyypD\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":42881,\"functionName\":\"S3.H.\\u003Ccomputed>\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"}]}}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameRequestedNavigation\",\"params\":{\"disposition\":\"currentTab\",\"frameId\":\"0986CEB503475EB9B5D03008B49990DC\",\"reason\":\"initialFrameNavigation\",\"url\":\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/41jsx/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedNavigating\",\"params\":{\"frameId\":\"0986CEB503475EB9B5D03008B49990DC\",\"loaderId\":\"ACDD62366FD5D729FAD9CEDC8010C733\",\"navigationType\":\"differentDocument\",\"url\":\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/41jsx/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"0986CEB503475EB9B5D03008B49990DC\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/41jsx/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto\",\"frameId\":\"0986CEB503475EB9B5D03008B49990DC\",\"hasUserGesture\":false,\"initiator\":{\"stack\":{\"callFrames\":[{\"columnNumber\":34490,\"functionName\":\"C\",\"lineNumber\":0,\"scriptId\":\"12\",\"url\":\"https://challenges.cloudflare.com/turnstile/v0/b/d251aa49a8a3/api.js?onload=cAdz2&render=explicit\"},{\"columnNumber\":55690,\"functionName\":\"Fh\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":82368,\"functionName\":\"FM\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":55690,\"functionName\":\"Fh\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":82368,\"functionName\":\"FM\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":55667,\"functionName\":\"Fh\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":82368,\"functionName\":\"FM\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":55667,\"functionName\":\"Fh\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":82368,\"functionName\":\"FM\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":41847,\"functionName\":\"fyypD\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"},{\"columnNumber\":42881,\"functionName\":\"S3.H.\\u003Ccomputed>\",\"lineNumber\":0,\"scriptId\":\"9\",\"url\":\"https://www.epicgames.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c479a64abcc6ce0\"}]},\"type\":\"script\"},\"loaderId\":\"ACDD62366FD5D729FAD9CEDC8010C733\",\"redirectHasExtraInfo\":false,\"request\":{\"headers\":{\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\"},\"initialPriority\":\"VeryHigh\",\"isSameSite\":false,\"method\":\"GET\",\"mixedContentType\":\"none\",\"referrerPolicy\":\"same-origin\",\"url\":\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/41jsx/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto\"},\"requestId\":\"ACDD62366FD5D729FAD9CEDC8010C733\",\"timestamp\":172642.281688,\"type\":\"Document\",\"wallTime\":1769510124.555709}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":13468,\"requestId\":\"7864.6\",\"timestamp\":172642.253744}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.requestWillBeSentExtraInfo\",\"params\":{\"associatedCookies\":[],\"clientSecurityState\":{\"initiatorIPAddressSpace\":\"Public\",\"initiatorIsSecureContext\":true,\"privateNetworkRequestPolicy\":\"PermissionBlock\"},\"connectTiming\":{\"requestTime\":172642.282458},\"headers\":{\":authority\":\"challenges.cloudflare.com\",\":method\":\"GET\",\":path\":\"/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/41jsx/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto\",\":scheme\":\"https\",\"accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"accept-encoding\":\"gzip, deflate, br, zstd\",\"accept-language\":\"en-US,en;q=0.9\",\"priority\":\"u=0, i\",\"sec-ch-ua\":\"\\\"Not(A:Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"144\\\", \\\"Google Chrome\\\";v=\\\"144\\\"\",\"sec-ch-ua-mobile\":\"?0\",\"sec-ch-ua-platform\":\"\\\"Windows\\\"\",\"sec-fetch-dest\":\"iframe\",\"sec-fetch-mode\":\"navigate\",\"sec-fetch-site\":\"cross-site\",\"sec-fetch-storage-access\":\"active\",\"upgrade-insecure-requests\":\"1\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36\"},\"requestId\":\"ACDD62366FD5D729FAD9CEDC8010C733\",\"siteHasCookieInOtherPartition\":false}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129414
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceivedExtraInfo\",\"params\":{\"blockedCookies\":[],\"cookiePartitionKey\":{\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://epicgames.com\"},\"cookiePartitionKeyOpaque\":false,\"exemptedCookies\":[],\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-ray\":\"9c479a66a8a93989-MAA\",\"content-encoding\":\"br\",\"content-security-policy\":\"default-src 'none'; script-src 'nonce-mWOJZeQbJnDxcfQZ' 'unsafe-eval'; script-src-attr 'none'; worker-src blob:; style-src 'unsafe-inline'; img-src 'self'; connect-src 'self'; frame-src 'self' blob:; child-src 'self' blob:; form-action 'none'; base-uri 'self'; sandbox allow-same-origin allow-scripts allow-popups allow-forms\",\"content-type\":\"text/html; charset=UTF-8\",\"critical-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy\":\"same-origin\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"document-policy\":\"js-profiling\",\"origin-agent-cluster\":\"?1\",\"permissions-policy\":\"accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\",\"priority\":\"u=0,i\",\"referrer-policy\":\"same-origin\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\"},\"requestId\":\"ACDD62366FD5D729FAD9CEDC8010C733\",\"resourceIPAddressSpace\":\"Public\",\"statusCode\":200}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129415
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"0986CEB503475EB9B5D03008B49990DC\",\"hasExtraInfo\":true,\"loaderId\":\"ACDD62366FD5D729FAD9CEDC8010C733\",\"requestId\":\"ACDD62366FD5D729FAD9CEDC8010C733\",\"response\":{\"alternateProtocolUsage\":\"dnsAlpnH3JobWonRace\",\"charset\":\"utf-8\",\"connectionId\":193,\"connectionReused\":false,\"encodedDataLength\":1266,\"fromDiskCache\":false,\"fromPrefetchCache\":false,\"fromServiceWorker\":false,\"headers\":{\"accept-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"alt-svc\":\"h3=\\\":443\\\"; ma=86400\",\"cache-control\":\"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"cf-ray\":\"9c479a66a8a93989-MAA\",\"content-encoding\":\"br\",\"content-security-policy\":\"default-src 'none'; script-src 'nonce-mWOJZeQbJnDxcfQZ' 'unsafe-eval'; script-src-attr 'none'; worker-src blob:; style-src 'unsafe-inline'; img-src 'self'; connect-src 'self'; frame-src 'self' blob:; child-src 'self' blob:; form-action 'none'; base-uri 'self'; sandbox allow-same-origin allow-scripts allow-popups allow-forms\",\"content-type\":\"text/html; charset=UTF-8\",\"critical-ch\":\"Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA\",\"cross-origin-embedder-policy\":\"require-corp\",\"cross-origin-opener-policy\":\"same-origin\",\"cross-origin-resource-policy\":\"cross-origin\",\"date\":\"Tue, 27 Jan 2026 10:35:24 GMT\",\"document-policy\":\"js-profiling\",\"origin-agent-cluster\":\"?1\",\"permissions-policy\":\"accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\",\"priority\":\"u=0,i\",\"referrer-policy\":\"same-origin\",\"server\":\"cloudflare\",\"server-timing\":\"cfExtPri\"},\"mimeType\":\"text/html\",\"protocol\":\"h3\",\"remoteIPAddress\":\"104.18.94.41\",\"remotePort\":443,\"responseTime\":1.769510124586191e+12,\"securityDetails\":{\"certificateId\":0,\"certificateTransparencyCompliance\":\"compliant\",\"cipher\":\"AES_128_GCM\",\"encryptedClientHello\":false,\"issuer\":\"WE1\",\"keyExchange\":\"\",\"keyExchangeGroup\":\"X25519MLKEM768\",\"protocol\":\"QUIC\",\"sanList\":[\"challenges.cloudflare.com\",\"*.challenges.cloudflare.com\"],\"serverSignatureAlgorithm\":1027,\"signedCertificateTimestampList\":[{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"DigiCert 'Sphinx2026h1'\",\"logId\":\"499C9B69DE1D7CECFC36DECD8764A6B85BAF0A878019D15552FBE9EB29DDF8C3\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30440220160FA8D73E3DC888F82BA755F8DF170234A738C2AE7805980B205406830E4FD802206242F46AD2347D73452716597E62A588837370296B1FBD03E000E34B2D295577\",\"status\":\"Verified\",\"timestamp\":1.766347979157e+12},{\"hashAlgorithm\":\"SHA-256\",\"logDescription\":\"Google 'Argon2026h1' log\",\"logId\":\"0E5794BCF3AEA93E331B2C9907B3F790DF9BC23D713225DD21A925AC61C54E21\",\"origin\":\"Embedded in certificate\",\"signatureAlgorithm\":\"ECDSA\",\"signatureData\":\"30450220541ED9B63EF91F8C679E1B9A288783EFCAC414AB497AF771DBA2FCCA1EDEC8FD02210082994D10EC1C054FB8B46BAF81059C7B4F087809EC1BBFED1F696F67B927033F\",\"status\":\"Verified\",\"timestamp\":1.766347979146e+12}],\"subjectName\":\"challenges.cloudflare.com\",\"validFrom\":1766344378,\"validTo\":1774123974},\"securityState\":\"secure\",\"status\":200,\"statusText\":\"\",\"timing\":{\"connectEnd\":12.869,\"connectStart\":1.172,\"dnsEnd\":0.756,\"dnsStart\":0,\"proxyEnd\":-1,\"proxyStart\":-1,\"pushEnd\":0,\"pushStart\":0,\"receiveHeadersEnd\":29.821,\"receiveHeadersStart\":29.734,\"requestTime\":172642.282458,\"sendEnd\":13.123,\"sendStart\":12.975,\"sslEnd\":12.869,\"sslStart\":1.172,\"workerFetchStart\":-1,\"workerReady\":-1,\"workerRespondWithSettled\":-1,\"workerStart\":-1},\"url\":\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/41jsx/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto\"},\"timestamp\":172642.315344,\"type\":\"Document\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129415
+  },
+  {
+    "level": "INFO",
+    "message": "{\"message\":{\"method\":\"Page.frameDetached\",\"params\":{\"frameId\":\"0986CEB503475EB9B5D03008B49990DC\",\"reason\":\"swap\"}},\"webview\":\"2BEDFBE0B10CC09F1C538D9AB9D03D97\"}",
+    "timestamp": 1769510129415
+  }
+]
