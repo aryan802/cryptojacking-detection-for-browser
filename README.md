@@ -1,6 +1,6 @@
 # Cryptojacking Detection for Browser
 
-PROBLEM STATEMENT
+## PROBLEM STATEMENT
 
 Design and evaluate a hybrid classical - quantum machine learning framework for browser-based cryptojacking detection that:
 
