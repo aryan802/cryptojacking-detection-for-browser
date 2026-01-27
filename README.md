@@ -12,8 +12,8 @@ Design and evaluate a hybrid classical - quantum machine learning framework for 
 
 ## Authors
 
-1) Aryan Jain (aryan802)
-2) Mridul Yadav (mridul2493)
+1) Aryan Jain ([aryan802](https://github.com/aryan802))
+2) Mridul Yadav ([mridul2493](https://github.com/mridul2493))
 
 under guidance of Dr. Adrija Bhattacharya
 
